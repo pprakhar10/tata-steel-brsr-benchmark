@@ -1,12 +1,10 @@
 import { useState, useEffect, useRef } from 'react'
-import { ESG_MAP, ORDERED_TAGS, SUB_COMPONENT_TAGS } from '../constants/esgMap'
+import { ESG_MAP, ORDERED_TAGS } from '../constants/esgMap'
 import { INDICATOR_ANALYSIS } from '../data/loader'
 import { type FY } from '../types/data'
 import IndicatorResultCard from './IndicatorResultCard'
 
-const SEARCHABLE_TAGS = ORDERED_TAGS.filter(
-  tag => !SUB_COMPONENT_TAGS.has(tag) && !!INDICATOR_ANALYSIS[tag]
-)
+const SEARCHABLE_TAGS = ORDERED_TAGS.filter(tag => !!INDICATOR_ANALYSIS[tag])
 
 interface Props {
   onNavigate: (tag: string) => void

@@ -5,9 +5,10 @@ interface Props {
   topic: string
   entries: { subtopic: string | null; tag: string }[]
   highlightedTag: string | null
+  activateSubTag: string | null
 }
 
-export default function TopicGroup({ topic, entries, highlightedTag }: Props) {
+export default function TopicGroup({ topic, entries, highlightedTag, activateSubTag }: Props) {
   const [open, setOpen] = useState(true)
 
   const subtopicGroups = useMemo(() => {
@@ -40,6 +41,7 @@ export default function TopicGroup({ topic, entries, highlightedTag }: Props) {
               subtopic={subtopic}
               tags={tags}
               highlightedTag={highlightedTag}
+              activateSubTag={activateSubTag}
             />
           ))}
         </div>

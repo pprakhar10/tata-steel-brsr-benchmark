@@ -3,25 +3,25 @@
   "label": "Total Number Board Of Directors",
   "principle": "Section A",
   "topic": "workforce-diversity",
-  "direction": "DIRECTION_UNCLEAR: Board size is a governance design choice; larger is not inherently better than smaller.",
+  "direction": "neutral",
   "peerRank": {
     "FY2023": {
-      "tata": 3,
-      "jsw": 2,
-      "sail": 1,
-      "jindal": 3
+      "tata": null,
+      "jsw": null,
+      "sail": null,
+      "jindal": null
     },
     "FY2024": {
-      "tata": 3,
-      "jsw": 3,
-      "sail": 1,
-      "jindal": 2
+      "tata": null,
+      "jsw": null,
+      "sail": null,
+      "jindal": null
     },
     "FY2025": {
-      "tata": 3,
-      "jsw": 1,
-      "sail": 3,
-      "jindal": 2
+      "tata": null,
+      "jsw": null,
+      "sail": null,
+      "jindal": null
     }
   },
   "trendDirection": {
@@ -30,31 +30,31 @@
       "FY2024-25": "Stable"
     },
     "jsw": {
-      "FY2023-24": "Worsened",
-      "FY2024-25": "Improved"
+      "FY2023-24": "Stable",
+      "FY2024-25": "Stable"
     },
     "sail": {
-      "FY2023-24": "Worsened",
-      "FY2024-25": "Worsened"
+      "FY2023-24": "Stable",
+      "FY2024-25": "Stable"
     },
     "jindal": {
-      "FY2023-24": "Improved",
-      "FY2024-25": "Worsened"
+      "FY2023-24": "Stable",
+      "FY2024-25": "Stable"
     }
   },
   "sections": {
-    "about": "This metric measures the total number of directors on the Board. It falls under BRSR Section A — General Disclosures, Participation/Inclusion/Representation of women; it is not an Essential or Leadership Indicator. Direction is unclear: board effectiveness depends on independence, skills, diversity, committee structure and oversight quality, not simply size.",
-    "performanceAndDrivers": "SAIL had the largest Board in FY2022-23 and FY2023-24 at 17 and 16 directors respectively, before reducing to 10 in FY2024-25. JSW moved 12 → 10 → 12, Jindal moved 10 → 12 → 11, and Tata remained stable at 10 across all three years. For a steel major, board size can reflect government ownership structure, independent director appointments, promoter representation, executive director mix and committee load; it is not tied to production route or BF-BOF/EAF configuration. SEBI’s BRSR format asks companies to disclose Board and KMP totals with female counts under Section A, which supports transparency but does not define an optimal board size.",
-    "tataPositioning": "In FY2024-25, Tata ranks 3rd on board size, 16.7% below JSW’s 12 directors. Tata’s position has held steady in absolute terms at 10 directors, with rank movement driven by peer changes rather than Tata changes. For Tata management, the more material signal is not total Board size but the fall in female Board representation in FY2024-25.",
+    "about": "This metric measures the total number of directors on the Board. It falls under BRSR Section A — General Disclosures, Participation/Inclusion/Representation of women; it is not an Essential or Leadership Indicator. Board size is a governance design choice and no direction is assigned: effectiveness depends on independence, skills, diversity, committee structure and oversight quality, not simply size.",
+    "performanceAndDrivers": "SAIL had the largest Board in FY2022-23 and FY2023-24 at 17 and 16 directors respectively, before reducing to 10 in FY2024-25. JSW moved 12 → 10 → 12, Jindal moved 10 → 12 → 11, and Tata remained stable at 10 across all three years. For a steel major, board size can reflect government ownership structure, independent director appointments, promoter representation, executive director mix and committee load; it is not tied to production route or BF-BOF/EAF configuration. SEBI's BRSR format asks companies to disclose Board and KMP totals with female counts under Section A, which supports transparency but does not define an optimal board size.",
+    "tataPositioning": "In FY2024-25, Tata has 10 directors, the same as SAIL. JSW has 12 and Jindal has 11. Tata's board size has held steady in absolute terms at 10 directors, with peer variation driven by appointment and retirement cycles. For Tata management, the more material governance signal is the composition — independence, diversity, and committee coverage — not the total count.",
     "targets": "No targets identified for this metric.",
     "comparabilityNotes": null
   },
   "flags": {
-    "directionUnclear": true,
+    "directionUnclear": false,
     "contextInsufficient": false,
     "externalSourceUsed": false,
     "trendAmbiguity": false,
-    "flagNote": "Direction is unclear because optimal Board size is context-specific."
+    "flagNote": null
   },
   "source": "CustomGPT",
   "userCorrection": null,

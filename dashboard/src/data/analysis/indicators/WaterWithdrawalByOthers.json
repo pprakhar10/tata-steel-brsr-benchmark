@@ -3,7 +3,7 @@
   "label": "Water Withdrawal From Others",
   "principle": "P6",
   "topic": "water",
-  "direction": "DIRECTION_UNCLEAR: “Other sources” is not sufficiently specific; it may include harvested rainwater, mine water, recovered water or reclassified freshwater sources.",
+  "direction": "lower_is_better",
   "peerRank": {
     "FY2023": {
       "tata": 3,
@@ -26,7 +26,7 @@
   },
   "trendDirection": {
     "tata": {
-      "FY2023-24": "AMBIGUOUS: Tata FY2022-23 is consolidated and “other sources” is undefined",
+      "FY2023-24": "AMBIGUOUS: Tata FY2022-23 is consolidated and 'other sources' is undefined",
       "FY2024-25": "AMBIGUOUS: undefined source mix"
     },
     "jsw": {
@@ -43,18 +43,18 @@
     }
   },
   "sections": {
-    "about": "This metric captures withdrawal from sources not classified as groundwater, surface water, seawater/desalinated or third-party under BRSR Principle 6 Essential Indicator water withdrawal by source. The category is heterogeneous and can represent either lower-impact recovery or less transparent sourcing. Direction is unclear: the sustainability interpretation depends on what “other” contains.",
-    "performanceAndDrivers": "JSW and Jindal report zero throughout. SAIL reports 55.29 million kL in FY2023 and zero thereafter, while its surface-water figure rises from zero in FY2023 to 57.40 million kL in FY2024 and 129.58 million kL in FY2025, suggesting classification effects. Tata reports 17.66 million kL in FY2024 and 18.80 million kL in FY2025. Without source breakdown, Tata’s increase could represent beneficial recovered/storm/run-off water or a less comparable site-specific source category.",
-    "tataPositioning": "In FY2025, Tata ranks 4th on a conservative lower-volume basis. The best reported value is zero for JSW, SAIL and Jindal, so percentage gap is not meaningful; Tata’s absolute difference is 18.80 million kL. Tata’s rank worsens from 3rd in FY2023 to 4th in FY2024/FY2025, but interpretation is limited because the metric is undefined.",
-    "targets": "Tata’s 4R framework includes water harvesting and recovery from storm run-off streams, which may appear in “other sources” depending on classification. No quantitative target specific to “other sources” was identified.",
-    "comparabilityNotes": "This is one of the weakest comparability fields because “other sources” is not standardized by source type in the table. SAIL’s FY2023 to FY2024 movement appears classification-driven."
+    "about": "This metric captures withdrawal from sources not classified as groundwater, surface water, seawater/desalinated or third-party under BRSR Principle 6 Essential Indicator water withdrawal by source. The category is heterogeneous and can represent either lower-impact recovery or less transparent sourcing. A lower value is treated as better given the conservative interpretation that less use of undefined sources reduces comparability risk.",
+    "performanceAndDrivers": "JSW and Jindal report zero throughout. SAIL reports 55.29 million kL in FY2023 and zero thereafter, while its surface-water figure rises from zero in FY2023 to 57.40 million kL in FY2024 and 129.58 million kL in FY2025, suggesting classification effects. Tata reports 17.66 million kL in FY2024 and 18.80 million kL in FY2025. Without source breakdown, Tata's increase could represent beneficial recovered/storm/run-off water or a less comparable site-specific source category.",
+    "tataPositioning": "In FY2025, Tata ranks 4th with 18.80 million kL. The best reported value is zero for JSW, SAIL and Jindal, so percentage gap is not meaningful; Tata's absolute difference is 18.80 million kL. Tata's rank worsens from 3rd in FY2023 to 4th in FY2024/FY2025, but interpretation is limited because the source category is undefined.",
+    "targets": "Tata's 4R framework includes water harvesting and recovery from storm run-off streams, which may appear in 'other sources' depending on classification. No quantitative target specific to 'other sources' was identified.",
+    "comparabilityNotes": "This is one of the weakest comparability fields because 'other sources' is not standardized by source type in the table. SAIL's FY2023 to FY2024 movement appears classification-driven."
   },
   "flags": {
-    "directionUnclear": true,
+    "directionUnclear": false,
     "contextInsufficient": false,
     "externalSourceUsed": false,
     "trendAmbiguity": true,
-    "flagNote": "Direction and trend are ambiguous because “other sources” is undefined and may include beneficial recovered water."
+    "flagNote": "Trend is ambiguous because 'other sources' is undefined and may include beneficial recovered water."
   },
   "source": "CustomGPT",
   "userCorrection": null,

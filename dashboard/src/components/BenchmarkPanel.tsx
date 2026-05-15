@@ -1,12 +1,10 @@
 import { useState } from 'react'
-import { ORDERED_TAGS, SUB_COMPONENT_TAGS } from '../constants/esgMap'
+import { ORDERED_TAGS } from '../constants/esgMap'
 import { INDICATOR_ANALYSIS } from '../data/loader'
 import { type FY } from '../types/data'
 import IndicatorResultCard from './IndicatorResultCard'
 
-const BENCHMARKABLE_TAGS = ORDERED_TAGS.filter(
-  tag => !SUB_COMPONENT_TAGS.has(tag) && !!INDICATOR_ANALYSIS[tag]
-)
+const BENCHMARKABLE_TAGS = ORDERED_TAGS.filter(tag => !!INDICATOR_ANALYSIS[tag])
 
 const FY_OPTIONS: { fy: FY; label: string; sublabel: string }[] = [
   { fy: 'FY2023', label: 'FY2022-23', sublabel: 'Base year' },

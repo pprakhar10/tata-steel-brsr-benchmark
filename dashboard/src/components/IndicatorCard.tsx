@@ -10,6 +10,7 @@ import InsightsPanel from './InsightsPanel'
 interface Props {
   tag: string
   highlight?: boolean
+  activeSubTag?: string | null
 }
 
 const FY_OPTIONS: FY[] = ['FY2023', 'FY2024', 'FY2025']
@@ -19,7 +20,7 @@ const FY_DISPLAY: Record<FY, string> = {
   FY2025: 'FY2024-25',
 }
 
-export default function IndicatorCard({ tag, highlight }: Props) {
+export default function IndicatorCard({ tag, highlight, activeSubTag }: Props) {
   const entry = ESG_MAP[tag]
   const analysis = INDICATOR_ANALYSIS[tag]
   const cardRef = useRef<HTMLDivElement>(null)
@@ -36,6 +37,10 @@ export default function IndicatorCard({ tag, highlight }: Props) {
       return () => clearTimeout(t)
     }
   }, [highlight])
+
+  useEffect(() => {
+    if (activeSubTag && isStacked) setSelectedView(activeSubTag)
+  }, [activeSubTag, isStacked])
 
   if (!entry || !analysis) return null
 

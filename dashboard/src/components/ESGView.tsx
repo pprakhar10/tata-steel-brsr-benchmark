@@ -5,9 +5,10 @@ import TopicGroup from './TopicGroup'
 interface Props {
   bucket: 'E' | 'S' | 'G'
   highlightedTag: string | null
+  activateSubTag: string | null
 }
 
-export default function ESGView({ bucket, highlightedTag }: Props) {
+export default function ESGView({ bucket, highlightedTag, activateSubTag }: Props) {
   const topicGroups = useMemo(() => {
     const tags = ORDERED_TAGS.filter(tag => {
       const entry = ESG_MAP[tag]
@@ -32,6 +33,7 @@ export default function ESGView({ bucket, highlightedTag }: Props) {
           topic={topic}
           entries={entries}
           highlightedTag={highlightedTag}
+          activateSubTag={activateSubTag}
         />
       ))}
     </div>

@@ -17,6 +17,6 @@ export function detectTies(ranks: Partial<Record<CompanyKey, number | null>>): S
 
 export function isAllSameRank(ranks: Partial<Record<CompanyKey, number | null>>): boolean {
   const values = (Object.values(ranks) as (number | null)[]).filter((v): v is number => v != null)
-  if (values.length === 0) return false
+  if (values.length === 0) return true
   return values.every(v => v === values[0])
 }

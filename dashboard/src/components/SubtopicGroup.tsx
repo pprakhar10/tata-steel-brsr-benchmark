@@ -5,16 +5,17 @@ interface Props {
   subtopic: string | null
   tags: string[]
   highlightedTag: string | null
+  activateSubTag: string | null
 }
 
-export default function SubtopicGroup({ subtopic, tags, highlightedTag }: Props) {
+export default function SubtopicGroup({ subtopic, tags, highlightedTag, activateSubTag }: Props) {
   const [open, setOpen] = useState(true)
 
   if (!subtopic) {
     return (
       <div className="flex flex-col gap-4">
         {tags.map(tag => (
-          <IndicatorCard key={tag} tag={tag} highlight={highlightedTag === tag} />
+          <IndicatorCard key={tag} tag={tag} highlight={highlightedTag === tag} activeSubTag={activateSubTag} />
         ))}
       </div>
     )
@@ -32,7 +33,7 @@ export default function SubtopicGroup({ subtopic, tags, highlightedTag }: Props)
       {open && (
         <div className="flex flex-col gap-4">
           {tags.map(tag => (
-            <IndicatorCard key={tag} tag={tag} highlight={highlightedTag === tag} />
+            <IndicatorCard key={tag} tag={tag} highlight={highlightedTag === tag} activeSubTag={activateSubTag} />
           ))}
         </div>
       )}

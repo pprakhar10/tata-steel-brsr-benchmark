@@ -94,19 +94,25 @@ export const ESG_MAP: Record<string, ESGMapEntry> = {
   WasteIntensityInTermOfPhysicalOutput: { esg: 'E', topic: 'Waste', subtopic: 'Waste Intensity', label: 'Waste Intensity (physical)', unit: 'MT/tcs', chartPattern: 'line' },
   WasteIntensityPerRupeeOfTurnover: { esg: 'E', topic: 'Waste', subtopic: 'Waste Intensity', label: 'Waste Intensity (per ₹ Cr)', unit: 'MT/₹ Cr', chartPattern: 'line' },
 
-  // ── S: Health & Safety — Employees ───────────────────────────────────────
-  LTIFR_Employees: { esg: 'S', topic: 'Health & Safety', subtopic: 'Employees', label: 'LTIFR (employees)', unit: 'per mn hrs', chartPattern: 'line' },
-  TRIFR_Employees: { esg: 'S', topic: 'Health & Safety', subtopic: 'Employees', label: 'TRIFR (employees)', unit: 'per mn hrs', chartPattern: 'line' },
-  Fatalities_Employees: { esg: 'S', topic: 'Health & Safety', subtopic: 'Employees', label: 'Fatalities (employees)', unit: 'no.', chartPattern: 'bar' },
-  TotalNumberOfAffectedEmployees: { esg: 'S', topic: 'Health & Safety', subtopic: 'Employees', label: 'Affected Employees (injury)', unit: 'no.', chartPattern: 'bar' },
-  NumberOfEmployeesOrWhoseFamilyMembersRehabilitatedAndPlacedInSuitableEmployment: { esg: 'S', topic: 'Health & Safety', subtopic: 'Employees', label: 'Employees Rehabilitated', unit: 'no.', chartPattern: 'bar' },
+  // ── S: Health & Safety — TRIFR ───────────────────────────────────────────
+  TRIFR_Employees: { esg: 'S', topic: 'Health & Safety', subtopic: 'TRIFR', label: 'Employee TRIFR', unit: 'per mn hrs', chartPattern: 'line' },
+  TRIFR_Workers: { esg: 'S', topic: 'Health & Safety', subtopic: 'TRIFR', label: 'Worker TRIFR', unit: 'per mn hrs', chartPattern: 'line' },
 
-  // ── S: Health & Safety — Workers ─────────────────────────────────────────
-  LTIFR_Workers: { esg: 'S', topic: 'Health & Safety', subtopic: 'Workers', label: 'LTIFR (workers)', unit: 'per mn hrs', chartPattern: 'line' },
-  TRIFR_Workers: { esg: 'S', topic: 'Health & Safety', subtopic: 'Workers', label: 'TRIFR (workers)', unit: 'per mn hrs', chartPattern: 'line' },
-  Fatalities_Workers: { esg: 'S', topic: 'Health & Safety', subtopic: 'Workers', label: 'Fatalities (workers)', unit: 'no.', chartPattern: 'bar' },
-  TotalNumberOfAffectedWorkers: { esg: 'S', topic: 'Health & Safety', subtopic: 'Workers', label: 'Affected Workers (injury)', unit: 'no.', chartPattern: 'bar' },
-  NumberOfWorkersOrWhoseFamilyMembersRehabilitatedAndPlacedInSuitableEmployment: { esg: 'S', topic: 'Health & Safety', subtopic: 'Workers', label: 'Workers Rehabilitated', unit: 'no.', chartPattern: 'bar' },
+  // ── S: Health & Safety — LTIFR ───────────────────────────────────────────
+  LTIFR_Employees: { esg: 'S', topic: 'Health & Safety', subtopic: 'LTIFR', label: 'Employee LTIFR', unit: 'per mn hrs', chartPattern: 'line' },
+  LTIFR_Workers: { esg: 'S', topic: 'Health & Safety', subtopic: 'LTIFR', label: 'Worker LTIFR', unit: 'per mn hrs', chartPattern: 'line' },
+
+  // ── S: Health & Safety — Fatalities ──────────────────────────────────────
+  Fatalities_Employees: { esg: 'S', topic: 'Health & Safety', subtopic: 'Fatalities', label: 'Employee Fatalities', unit: 'no.', chartPattern: 'bar' },
+  Fatalities_Workers: { esg: 'S', topic: 'Health & Safety', subtopic: 'Fatalities', label: 'Worker Fatalities', unit: 'no.', chartPattern: 'bar' },
+
+  // ── S: Health & Safety — Work-Related Injuries ───────────────────────────
+  TotalNumberOfAffectedEmployees: { esg: 'S', topic: 'Health & Safety', subtopic: 'Work-Related Injuries', label: 'Affected Employees (injury)', unit: 'no.', chartPattern: 'bar' },
+  TotalNumberOfAffectedWorkers: { esg: 'S', topic: 'Health & Safety', subtopic: 'Work-Related Injuries', label: 'Affected Workers (injury)', unit: 'no.', chartPattern: 'bar' },
+
+  // ── S: Health & Safety — Rehabilitation ──────────────────────────────────
+  NumberOfEmployeesOrWhoseFamilyMembersRehabilitatedAndPlacedInSuitableEmployment: { esg: 'S', topic: 'Health & Safety', subtopic: 'Rehabilitation', label: 'Employees Rehabilitated', unit: 'no.', chartPattern: 'bar' },
+  NumberOfWorkersOrWhoseFamilyMembersRehabilitatedAndPlacedInSuitableEmployment: { esg: 'S', topic: 'Health & Safety', subtopic: 'Rehabilitation', label: 'Workers Rehabilitated', unit: 'no.', chartPattern: 'bar' },
 
   // ── S: Workforce & Diversity — Headcount ─────────────────────────────────
   TotalNumberOfEmployees: { esg: 'S', topic: 'Workforce & Diversity', subtopic: 'Headcount', label: 'Total Employees', unit: 'no.', chartPattern: 'bar' },
@@ -206,13 +212,16 @@ export const ORDERED_TAGS: string[] = [
   'OtherHazardousWaste', 'OtherNonHazardousWasteGenerated', 'PlasticWaste', 'RadioactiveWaste',
   // E — Waste Intensity
   'WasteIntensityInTermOfPhysicalOutput', 'WasteIntensityPerRupeeOfTurnover',
-  // S — Health & Safety — Employees
-  'LTIFR_Employees', 'TRIFR_Employees', 'Fatalities_Employees',
-  'TotalNumberOfAffectedEmployees',
+  // S — Health & Safety — TRIFR
+  'TRIFR_Employees', 'TRIFR_Workers',
+  // S — Health & Safety — LTIFR
+  'LTIFR_Employees', 'LTIFR_Workers',
+  // S — Health & Safety — Fatalities
+  'Fatalities_Employees', 'Fatalities_Workers',
+  // S — Health & Safety — Work-Related Injuries
+  'TotalNumberOfAffectedEmployees', 'TotalNumberOfAffectedWorkers',
+  // S — Health & Safety — Rehabilitation
   'NumberOfEmployeesOrWhoseFamilyMembersRehabilitatedAndPlacedInSuitableEmployment',
-  // S — Health & Safety — Workers
-  'LTIFR_Workers', 'TRIFR_Workers', 'Fatalities_Workers',
-  'TotalNumberOfAffectedWorkers',
   'NumberOfWorkersOrWhoseFamilyMembersRehabilitatedAndPlacedInSuitableEmployment',
   // S — Workforce & Diversity — Headcount
   'TotalNumberOfEmployees', 'PercentageOfFemaleEmployees',
@@ -316,3 +325,9 @@ export const COMPOSITE_INDICATORS: Record<string, string[]> = {
     'WasteDisposedByOtherDisposalOperations',
   ],
 }
+
+export const SUB_COMPONENT_PARENT: Record<string, string> = Object.fromEntries(
+  Object.entries(COMPOSITE_INDICATORS).flatMap(([parent, children]) =>
+    children.map(child => [child, parent])
+  )
+)

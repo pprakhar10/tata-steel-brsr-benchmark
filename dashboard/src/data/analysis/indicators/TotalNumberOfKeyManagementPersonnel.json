@@ -3,25 +3,25 @@
   "label": "Total Number Key Management Personnel",
   "principle": "Section A",
   "topic": "workforce-diversity",
-  "direction": "DIRECTION_UNCLEAR: KMP count reflects legal designation and organisational structure; larger is not inherently better.",
+  "direction": "neutral",
   "peerRank": {
     "FY2023": {
-      "tata": 4,
-      "jsw": 2,
-      "sail": 1,
-      "jindal": 2
+      "tata": null,
+      "jsw": null,
+      "sail": null,
+      "jindal": null
     },
     "FY2024": {
-      "tata": 4,
-      "jsw": 3,
-      "sail": 1,
-      "jindal": 2
+      "tata": null,
+      "jsw": null,
+      "sail": null,
+      "jindal": null
     },
     "FY2025": {
-      "tata": 4,
-      "jsw": 2,
-      "sail": 1,
-      "jindal": 2
+      "tata": null,
+      "jsw": null,
+      "sail": null,
+      "jindal": null
     }
   },
   "trendDirection": {
@@ -31,30 +31,30 @@
     },
     "jsw": {
       "FY2023-24": "Stable",
-      "FY2024-25": "Improved"
+      "FY2024-25": "Stable"
     },
     "sail": {
-      "FY2023-24": "Worsened",
-      "FY2024-25": "Worsened"
+      "FY2023-24": "Stable",
+      "FY2024-25": "Stable"
     },
     "jindal": {
-      "FY2023-24": "Improved",
+      "FY2023-24": "Stable",
       "FY2024-25": "Stable"
     }
   },
   "sections": {
-    "about": "This metric measures the total number of Key Management Personnel disclosed in BRSR. It falls under BRSR Section A — General Disclosures, Participation/Inclusion/Representation of women; it is not an Essential or Leadership Indicator. Direction is unclear: KMP count is driven by Companies Act classification, executive structure and disclosure practice.",
-    "performanceAndDrivers": "SAIL discloses the largest KMP base, reducing from 20 to 14 to 11 over the three years. Tata remains constant at 3, while JSW moves 5 → 5 → 6 and Jindal Stainless moves 5 → 6 → 6. Jindal’s FY2024-25 BRSR clarifies that KMP includes Chairman & Managing Director, Managing Director, CEO & Wholetime Director, Wholetime Director & COO, Executive Director & Group CFO, and Head Legal/Company Secretary, showing how company-specific designation drives this metric.",
-    "tataPositioning": "In FY2024-25, Tata ranks 4th with 3 KMPs, 72.7% below SAIL’s 11. Tata’s rank has remained 4th across the period because its disclosed KMP structure stayed constant while peers disclose a wider KMP set. This does not indicate weaker governance by itself; the more material diversity issue is that Tata reports no women KMPs.",
+    "about": "This metric measures the total number of Key Management Personnel disclosed in BRSR. It falls under BRSR Section A — General Disclosures, Participation/Inclusion/Representation of women; it is not an Essential or Leadership Indicator. No direction is assigned: KMP count is driven by Companies Act classification, executive structure and disclosure practice.",
+    "performanceAndDrivers": "SAIL discloses the largest KMP base, reducing from 20 to 14 to 11 over the three years. Tata remains constant at 3, while JSW moves 5 → 5 → 6 and Jindal Stainless moves 5 → 6 → 6. Jindal's FY2024-25 BRSR clarifies that KMP includes Chairman & Managing Director, Managing Director, CEO & Wholetime Director, Wholetime Director & COO, Executive Director & Group CFO, and Head Legal/Company Secretary, showing how company-specific designation drives this metric.",
+    "tataPositioning": "In FY2024-25, Tata discloses 3 KMPs, the lowest in the peer set. This does not indicate weaker governance by itself; the disclosed KMP structure reflects Tata's classification choices. The more material governance diversity issue is that Tata reports no women KMPs.",
     "targets": "No targets identified for this metric.",
     "comparabilityNotes": null
   },
   "flags": {
-    "directionUnclear": true,
+    "directionUnclear": false,
     "contextInsufficient": false,
     "externalSourceUsed": false,
     "trendAmbiguity": false,
-    "flagNote": "Direction is unclear because KMP count is a disclosure-structure metric, not a direct performance metric."
+    "flagNote": null
   },
   "source": "CustomGPT",
   "userCorrection": null,

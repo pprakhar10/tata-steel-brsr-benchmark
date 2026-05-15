@@ -3,7 +3,7 @@
   "label": "Water Withdrawal Seawater Desalinated",
   "principle": "P6",
   "topic": "water",
-  "direction": "DIRECTION_UNCLEAR: Seawater or desalinated water can reduce freshwater stress, but desalination may carry energy and brine-disposal impacts; all companies report zero, so performance differentiation is not meaningful.",
+  "direction": "lower_is_better",
   "peerRank": {
     "FY2023": {
       "tata": 1,
@@ -50,11 +50,11 @@
     "comparabilityNotes": "Because all values are zero, this metric does not distinguish water stewardship performance."
   },
   "flags": {
-    "directionUnclear": true,
+    "directionUnclear": false,
     "contextInsufficient": false,
     "externalSourceUsed": false,
     "trendAmbiguity": false,
-    "flagNote": "Direction is unclear because seawater/desalinated water has both substitution benefits and environmental/energy trade-offs."
+    "flagNote": null
   },
   "source": "CustomGPT",
   "userCorrection": null,
