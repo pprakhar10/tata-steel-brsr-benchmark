@@ -1,0 +1,62 @@
+{
+  "tag": "TotalWasteDisposed",
+  "label": "Total Waste Disposed Volume",
+  "principle": "P6",
+  "topic": "waste",
+  "direction": "lower_is_better",
+  "peerRank": {
+    "FY2023": {
+      "tata": 2,
+      "jsw": 3,
+      "sail": 1,
+      "jindal": 4
+    },
+    "FY2024": {
+      "tata": 4,
+      "jsw": 2,
+      "sail": 1,
+      "jindal": 3
+    },
+    "FY2025": {
+      "tata": 2,
+      "jsw": 1,
+      "sail": 4,
+      "jindal": 3
+    }
+  },
+  "trendDirection": {
+    "tata": {
+      "FY2023-24": "AMBIGUOUS: FY2023 is consolidated while FY2024 is standalone",
+      "FY2024-25": "Improved"
+    },
+    "jsw": {
+      "FY2023-24": "Improved",
+      "FY2024-25": "Worsened"
+    },
+    "sail": {
+      "FY2023-24": "Improved",
+      "FY2024-25": "Worsened"
+    },
+    "jindal": {
+      "FY2023-24": "Improved",
+      "FY2024-25": "Worsened"
+    }
+  },
+  "sections": {
+    "about": "This metric measures total waste disposed through incineration, landfilling and other disposal operations under BRSR Principle 6, Essential Indicator on waste disposal. Disposal represents the residual stream not recovered through circular uses. A lower value indicates better performance.",
+    "performanceAndDrivers": "FY2025 shows a major divergence: JSW reported the lowest disposal at 3,375.9 MT, Tata improved sharply to 20,100 MT, Jindal was at 42,852.3 MT, and SAIL rose to 969,314 MT. Tata’s improvement from 307,577 MT in FY2024 to 20,100 MT in FY2025 aligns with its stated systems for recycling/reuse and use of authorised recyclers for plastic, e-waste and hazardous waste. SAIL’s FY2025 disposal spike is explained by disclosed old-stock effects, with its BRSR noting that surplus disposed/recovered quantities can originate from old stock.",
+    "tataPositioning": "Tata ranked 2nd in FY2025 and disposed about 495% more waste than JSW, the best performer. Tata’s rank deteriorated in FY2024 because of high landfill disposal, but recovered to 2nd in FY2025 after disposal fell by more than 90%.",
+    "targets": "JSL’s Zero-Waste-to-Landfill by 2030 target is directly relevant to disposal reduction, and SAIL’s 100% utilisation aspiration is also relevant. Tata Steel has no separate total-disposal target identified in the retrieved BRSR extracts.",
+    "comparabilityNotes": "SAIL FY2025 includes old-stock disposal; Tata FY2023 is consolidated."
+  },
+  "flags": {
+    "directionUnclear": false,
+    "contextInsufficient": false,
+    "externalSourceUsed": false,
+    "trendAmbiguity": true,
+    "flagNote": "Tata FY2023-to-FY2024 trend is ambiguous; SAIL FY2025 includes old-stock effects."
+  },
+  "source": "CustomGPT",
+  "userCorrection": null,
+  "status": "pending_review"
+}

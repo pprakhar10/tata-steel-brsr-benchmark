@@ -1,0 +1,62 @@
+{
+  "tag": "TrainingCoverage_Workers_HealthSafety",
+  "label": "TrainingCoverage_Workers_HealthSafety",
+  "principle": "",
+  "topic": "training-development",
+  "direction": "higher_is_better",
+  "peerRank": {
+    "FY2023": {
+      "tata": 1,
+      "jsw": 1,
+      "sail": 1,
+      "jindal": 1
+    },
+    "FY2024": {
+      "tata": 1,
+      "jsw": 1,
+      "sail": 1,
+      "jindal": 4
+    },
+    "FY2025": {
+      "tata": 1,
+      "jsw": 1,
+      "sail": 1,
+      "jindal": 1
+    }
+  },
+  "trendDirection": {
+    "tata": {
+      "FY2023-24": "Stable",
+      "FY2024-25": "Stable"
+    },
+    "jsw": {
+      "FY2023-24": "Stable",
+      "FY2024-25": "Stable"
+    },
+    "sail": {
+      "FY2023-24": "Stable",
+      "FY2024-25": "Stable"
+    },
+    "jindal": {
+      "FY2023-24": "Worsened",
+      "FY2024-25": "Improved"
+    }
+  },
+  "sections": {
+    "about": "This metric measures the percentage of workers trained on health and safety measures under BRSR Principle 3, Essential Indicator 8. In steel operations, this is a critical coverage indicator because contractors and workers are exposed to high-risk activities across hot metal handling, cranes, rolling mills, confined spaces, maintenance shutdowns, material movement and mobile equipment. A higher value indicates better performance.",
+    "performanceAndDrivers": "Worker H&S coverage is the strongest metric in the set: Tata, JSW and SAIL reported 100% in all three years, while Jindal reported 100% in FY2022-23, dropped to 19.27% in FY2023-24, and recovered to 100% in FY2024-25. SAIL’s 100% worker H&S coverage is notable because its own FY2023-24 BRSR reports 72,141 workers trained on H&S, with worker skill upgradation marked NA; it also links worker competence to Recognition of Prior Learning for safety management and contractor safety. Tata’s FY2024-25 BRSR reports 197,585 total workers, all at 100% H&S and skill-upgradation coverage, showing scale as well as breadth. Jindal’s recovery is supported by mandatory worker sessions covering wellness, safety management, firefighting, waste management, material handling, emergency preparedness, work permits, 5S, communication, HIRA, ethics, TPM and POSH.",
+    "tataPositioning": "In FY2024-25, Tata Steel is Rank 1 with 100% worker H&S coverage, tied with JSW, SAIL and Jindal. The gap from best performer is 0 percentage points because the peer set is fully tied. Tata’s position has remained stable across the three years, but the strategic differentiator is scale: Tata delivered full worker coverage despite a very large worker base, indicating system depth rather than selective programme coverage.",
+    "targets": null,
+    "comparabilityNotes": "Tata Steel FY2022-23 is consolidated. Jindal’s FY2023-24 drop to 19.27% is a material year-on-year reporting or execution break, followed by recovery to 100% in FY2024-25."
+  },
+  "flags": {
+    "directionUnclear": false,
+    "contextInsufficient": false,
+    "externalSourceUsed": false,
+    "trendAmbiguity": false,
+    "flagNote": null
+  },
+  "source": "CustomGPT",
+  "userCorrection": null,
+  "status": "pending_review"
+}

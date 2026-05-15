@@ -1,0 +1,62 @@
+{
+  "tag": "LTIFR_Workers",
+  "label": "LTIFR — Workers",
+  "principle": "",
+  "topic": "health-safety",
+  "direction": "lower_is_better",
+  "peerRank": {
+    "FY2023": {
+      "tata": 3,
+      "jsw": 2,
+      "sail": 1,
+      "jindal": 4
+    },
+    "FY2024": {
+      "tata": 4,
+      "jsw": 1,
+      "sail": 2,
+      "jindal": 3
+    },
+    "FY2025": {
+      "tata": 4,
+      "jsw": 2,
+      "sail": 3,
+      "jindal": 1
+    }
+  },
+  "trendDirection": {
+    "tata": {
+      "FY2023-24": "Improved",
+      "FY2024-25": "Improved"
+    },
+    "jsw": {
+      "FY2023-24": "Improved",
+      "FY2024-25": "Worsened"
+    },
+    "sail": {
+      "FY2023-24": "Improved",
+      "FY2024-25": "Worsened"
+    },
+    "jindal": {
+      "FY2023-24": "Improved",
+      "FY2024-25": "Improved"
+    }
+  },
+  "sections": {
+    "about": "This metric measures lost time injury frequency for workers, including contract/third-party workers where defined by the company. It falls under BRSR Principle 3, Essential Indicator 11. A lower value indicates better performance.",
+    "performanceAndDrivers": "Tata improved from 0.45 in FY23 to 0.36 in FY24 and 0.29 in FY25, but remained behind peers in FY24 and FY25. Jindal moved from the weakest FY23 value of 0.58 to 0.27 in FY24 and 0 in FY25, suggesting effective deployment of safety systems at shop-floor and contractor interfaces. JSW remained competitive at 0.19 in FY25, while SAIL moved from 0.12 in FY24 to 0.20 in FY25. Tata’s contractor-risk programme, vendor audits and Integrated Command Centre actions are directionally positive, but contractor-heavy steel operations remain exposed to material handling, rail/road movement, hot metal, height work and maintenance shutdown hazards.",
+    "tataPositioning": "In FY2024-25, Tata ranked 4th at 0.29 versus Jindal’s 0. Percentage gap is not meaningful because the benchmark is zero; the absolute gap is 0.29 per million person-hours. Tata improved numerically in both periods but its peer rank declined from 3rd in FY23 to 4th in FY24 and FY25 because Jindal and JSW improved faster.",
+    "targets": "Tata states zero harm as the safety ambition. Jindal also states Zero Harm and, in FY24, the objective of Zero LTI.",
+    "comparabilityNotes": "Tata FY2022-23 is consolidated."
+  },
+  "flags": {
+    "directionUnclear": false,
+    "contextInsufficient": false,
+    "externalSourceUsed": false,
+    "trendAmbiguity": false,
+    "flagNote": null
+  },
+  "source": "CustomGPT",
+  "userCorrection": null,
+  "status": "pending_review"
+}

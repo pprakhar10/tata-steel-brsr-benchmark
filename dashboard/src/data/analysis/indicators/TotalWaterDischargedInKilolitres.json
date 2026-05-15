@@ -1,0 +1,62 @@
+{
+  "tag": "TotalWaterDischargedInKilolitres",
+  "label": "Total Water Discharged Volume",
+  "principle": "P6",
+  "topic": "water",
+  "direction": "lower_is_better",
+  "peerRank": {
+    "FY2023": {
+      "tata": 4,
+      "jsw": 1,
+      "sail": 3,
+      "jindal": 2
+    },
+    "FY2024": {
+      "tata": 3,
+      "jsw": 1,
+      "sail": 4,
+      "jindal": 1
+    },
+    "FY2025": {
+      "tata": 3,
+      "jsw": 1,
+      "sail": 4,
+      "jindal": 1
+    }
+  },
+  "trendDirection": {
+    "tata": {
+      "FY2023-24": "AMBIGUOUS: Tata FY2022-23 is consolidated and includes major seawater discharge",
+      "FY2024-25": "Improved"
+    },
+    "jsw": {
+      "FY2023-24": "Stable",
+      "FY2024-25": "Stable"
+    },
+    "sail": {
+      "FY2023-24": "Worsened",
+      "FY2024-25": "Worsened"
+    },
+    "jindal": {
+      "FY2023-24": "Improved",
+      "FY2024-25": "Stable"
+    }
+  },
+  "sections": {
+    "about": "This metric measures total water discharged after use and treatment and is disclosed under BRSR Principle 6 Essential Indicator water discharge by destination and level of treatment. Lower discharge generally indicates higher recycling/reuse and movement toward ZLD, provided consumption is not simply increasing through evaporative losses. A lower value indicates better performance.",
+    "performanceAndDrivers": "JSW and Jindal report zero discharge in FY2024 and FY2025, making them leaders on ZLD-style reported performance. Tata improves from 14.01 million kL in FY2024 to 12.22 million kL in FY2025, but still ranks 3rd because discharge remains material. SAIL worsens from 22.99 million kL to 41.81 million kL, despite reporting ZLD initiatives and treatment/recirculation of approximately 128 million m³/year. Tata’s dramatic FY2023 discharge of 256.00 million kL is not comparable because FY2023 is consolidated and includes very large seawater discharge.",
+    "tataPositioning": "In FY2025, Tata ranks 3rd. JSW and Jindal are best at zero; percentage gap is not meaningful, and Tata’s absolute gap is 12.22 million kL. Tata’s rank improves from 4th in FY2023 to 3rd in FY2024/FY2025, and its FY2024-25 trend improves due to lower surface discharge.",
+    "targets": "Tata aims for ZED from Works premises in India and uses CETP, reverse osmosis, STPs and internal reuse for coke quenching, BF slag granulation, steel slag quenching, sinter/pellet mixing, GCP, horticulture and dust suppression. SAIL states all upcoming units are envisaged on ZLD concept.",
+    "comparabilityNotes": "Zero discharge should be validated with treatment and reuse boundary definitions. Very low discharge can coexist with high consumption where evaporation/cooling losses are high."
+  },
+  "flags": {
+    "directionUnclear": false,
+    "contextInsufficient": false,
+    "externalSourceUsed": false,
+    "trendAmbiguity": false,
+    "flagNote": null
+  },
+  "source": "CustomGPT",
+  "userCorrection": null,
+  "status": "pending_review"
+}

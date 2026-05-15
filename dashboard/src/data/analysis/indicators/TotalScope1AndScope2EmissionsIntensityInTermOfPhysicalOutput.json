@@ -1,0 +1,62 @@
+{
+  "tag": "TotalScope1AndScope2EmissionsIntensityInTermOfPhysicalOutput",
+  "label": "GHG Emissions Intensity Physical Output",
+  "principle": "P6",
+  "topic": "ghg-scope3",
+  "direction": "lower_is_better",
+  "peerRank": {
+    "FY2023": {
+      "tata": 2,
+      "jsw": 3,
+      "sail": 4,
+      "jindal": 1
+    },
+    "FY2024": {
+      "tata": 4,
+      "jsw": 2,
+      "sail": 3,
+      "jindal": 1
+    },
+    "FY2025": {
+      "tata": 4,
+      "jsw": 2,
+      "sail": 3,
+      "jindal": 1
+    }
+  },
+  "trendDirection": {
+    "tata": {
+      "FY2023-24": "Worsened",
+      "FY2024-25": "Worsened"
+    },
+    "jsw": {
+      "FY2023-24": "Worsened",
+      "FY2024-25": "Improved"
+    },
+    "sail": {
+      "FY2023-24": "Stable",
+      "FY2024-25": "Worsened"
+    },
+    "jindal": {
+      "FY2023-24": "Worsened",
+      "FY2024-25": "Improved"
+    }
+  },
+  "sections": {
+    "about": "This metric measures Scope 1 plus Scope 2 GHG emissions per tonne of crude steel or physical output, making it more process-comparable than absolute emissions. It falls under BRSR Principle 6, Essential Indicator 7, which asks for Scope 1 and Scope 2 emissions and intensity. A lower value indicates better performance.",
+    "performanceAndDrivers": "Jindal Stainless is the clear intensity leader, improving from 2.15 tCO2e/tcs in FY2024 to 1.85 tCO2e/tcs in FY2025, supported by EAF/scrap-based stainless production, renewable energy and heat/fuel-saving initiatives. JSW holds 2nd place in FY2025 at 2.436 tCO2e/tcs, while SAIL worsens to 3.01 tCO2e/tcs despite a stable 2.8 level across FY2023–FY2024. Tata’s physical-output intensity is highest at 3.2 tCO2e/tcs in FY2025; Tata’s FY2025 BRSR reports the same standalone physical-output intensity and identifies BF-based steelmaking as emission-intensive, while positioning EAF and low-emission steelmaking as transition levers.",
+    "tataPositioning": "In FY2025, Tata ranks 4th, with physical-output intensity 73% higher than Jindal Stainless. Tata’s rank fell from 2nd in FY2023 to 4th in FY2024 and stayed 4th in FY2025; however, FY2023 is distorted by the consolidated flag. On a FY2024–FY2025 basis, Tata’s intensity worsened from 3.1 to 3.2 tCO2e/tcs, showing that scale and process-route effects outweighed near-term renewable or efficiency gains.",
+    "targets": "Tata Steel targets Net Zero by 2045 and is pursuing decarbonisation of blast-furnace operations and EAF-based low-emission steelmaking. Jindal Stainless targets a 50% reduction in carbon emission intensity by 2035 from FY2022 baseline levels and Net Zero by 2050.",
+    "comparabilityNotes": "This is the most useful production-normalised metric, but it still mixes different product/process routes: carbon steel BF-BOF, stainless EAF, special steels and integrated mines/captive utilities. Tata Steel's physical-output intensity is reported for steel making plants only, which limits comparability with peers reporting on a broader operational boundary. Tata FY2022-23 is consolidated; Jindal FY2024 PDF reports a unit label inconsistency around TCS/USD, but the standardised table uses tCO2e/tcs for comparability."
+  },
+  "flags": {
+    "directionUnclear": false,
+    "contextInsufficient": false,
+    "externalSourceUsed": false,
+    "trendAmbiguity": false,
+    "flagNote": null
+  },
+  "source": "CustomGPT",
+  "userCorrection": null,
+  "status": "pending_review"
+}

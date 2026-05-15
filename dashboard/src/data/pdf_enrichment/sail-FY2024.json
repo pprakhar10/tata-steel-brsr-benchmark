@@ -1,0 +1,60 @@
+{
+  "companyId": "sail",
+  "year": "FY2024",
+  "source": "PDF",
+  "enrichment": {
+    "targets": [
+      {
+        "description": "Achieve Zero Liquid Discharge across all SAIL plants",
+        "metric": "Water Recycling %",
+        "baseline": null,
+        "targetValue": "100%",
+        "timeline": "Continuous"
+      }
+    ],
+    "initiatives": [
+      {
+        "name": "SAIL Green Tiles Plant",
+        "area": "waste",
+        "description": "Utilisation of slag for manufacturing green tiles at Bhilai.",
+        "outcome": "Utilised 5.3 MT of slag."
+      }
+    ],
+    "scope3Breakdown": {
+      "totalScope3": null,
+      "categories": [],
+      "note": "Scope 3 emission identification is ongoing; partially covered."
+    },
+    "managementCommentary": "Focused on smart steel and sustainable growth. The reporting boundary excludes subsidiaries and focuses on integrated and special steel plants on a standalone basis.",
+    "awardsAndRatings": [
+      {
+        "name": "Productivity Excellence Award",
+        "score": "5 Star Rating",
+        "year": "2023"
+      }
+    ],
+    "nonCompliance": [
+      {
+        "description": "Specific environmental non-compliances mentioned for integrated plants.",
+        "resolution": "Corrective actions underway via revamped pollution control equipment."
+      }
+    ],
+    "forwardLooking": [
+      {
+        "description": "Expansion of renewable energy footprint and decarbonization",
+        "timeline": "Next 3 years"
+      }
+    ],
+    "qualitativePolicies": {
+      "P1_ethics": "Policies cover NGRBC principles; ethics monitored by Board.",
+      "P3_ohs": "100% of plants and offices assessed for health and safety practices.",
+      "P6_environment": "Dedicated environmental management division oversees restoration and treatment."
+    },
+    "steelProduction": {
+      "value": 19240000,
+      "unit": "metric tonnes",
+      "note": "From plan config. Gemini derived ~19.67M t from emissions/intensity."
+    },
+    "reportingBoundary": "Standalone."
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "companyId": "sail",
+  "year": "FY2023",
+  "source": "PDF",
+  "enrichment": {
+    "targets": [
+      {
+        "description": "Eco-restoration of mined-out areas and waste dumps at Meghahatuburu Iron Ore Mines",
+        "metric": "Area restored / seedlings",
+        "baseline": null,
+        "targetValue": "30,000 seedlings raised",
+        "timeline": "2025–26"
+      }
+    ],
+    "initiatives": [
+      {
+        "name": "SAIL Sarathi (AI Chatbot)",
+        "area": "governance",
+        "description": "AI-based Chatbot launched on website to enhance customer engagement.",
+        "outcome": "One of the most advanced customer-facing bots in the steel industry."
+      },
+      {
+        "name": "Zero Liquid Discharge (ZLD)",
+        "area": "water",
+        "description": "Implementation of ZLD projects across Integrated Steel Plants including ISP, DSP, and RSP.",
+        "outcome": "Pioneering projects towards 100% water recycling."
+      },
+      {
+        "name": "CO2 Capture & Mineralisation (IIT Bombay)",
+        "area": "emissions",
+        "description": "R&D project with IIT Bombay for sustainable, low-energy consuming carbon capture technology.",
+        "outcome": "Part of decarbonization effort."
+      }
+    ],
+    "scope3Breakdown": {
+      "totalScope3": null,
+      "categories": [],
+      "note": "SAIL started a study to prepare a comprehensive GHG inventory including Scope 3. No Scope 3 figure disclosed."
+    },
+    "managementCommentary": "We made a decision to work on focus areas: maximise capacity utilisation and provide best value to customers. Strategic interventions were made in ramping up production and focusing on Decarbonisation and Sustainability. We achieved record Crude Steel capacity utilisation of about 94%.",
+    "awardsAndRatings": [
+      {
+        "name": "Greentech Environment Award",
+        "score": "Winner",
+        "year": "2022"
+      },
+      {
+        "name": "National Energy Conservation Award",
+        "score": "1st Prize (RSP)",
+        "year": "2022"
+      }
+    ],
+    "nonCompliance": [
+      {
+        "description": "Non-compliance of environmental standards at IISCO Steel Plant (ISP).",
+        "resolution": "Direction issued by WBPCB; corrective measures implemented with a time-bound action plan."
+      }
+    ],
+    "forwardLooking": [
+      {
+        "description": "Expansion of Capacity and Intensifying Digitisation",
+        "timeline": "Next decade"
+      },
+      {
+        "description": "Green fuel adoption and decarbonisation efforts",
+        "timeline": "Upcoming years"
+      }
+    ],
+    "qualitativePolicies": {
+      "P1_ethics": "Upholds highest ethical standards in business conduct through transparency and accountability.",
+      "P3_ohs": "ISO 45001 certified; Hazard Identification and Risk Assessment (HIRA) conducted for most activities.",
+      "P6_environment": "Corporate Environmental Policy emphasises going beyond compliance to preserve ecological balance."
+    },
+    "steelProduction": {
+      "value": 18289000,
+      "unit": "metric tonnes",
+      "note": "Reported as 18.289 MT crude steel production in BRSR PDF."
+    },
+    "reportingBoundary": "Standalone."
+  }
+}

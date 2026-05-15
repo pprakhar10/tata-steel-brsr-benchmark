@@ -1,0 +1,62 @@
+{
+  "tag": "TotalComplaintsReportedUnderSexualHarassmentOfWomenAtWorkplace",
+  "label": "Total Workplace Sexual Harassment Complaints",
+  "principle": "P3",
+  "topic": "ethics-compliance",
+  "direction": "lower_is_better",
+  "peerRank": {
+    "FY2023": {
+      "tata": 4,
+      "jsw": 1,
+      "sail": 3,
+      "jindal": 1
+    },
+    "FY2024": {
+      "tata": 4,
+      "jsw": 2,
+      "sail": 3,
+      "jindal": 1
+    },
+    "FY2025": {
+      "tata": 4,
+      "jsw": 3,
+      "sail": 1,
+      "jindal": 2
+    }
+  },
+  "trendDirection": {
+    "tata": {
+      "FY2023-24": "Improved",
+      "FY2024-25": "Worsened"
+    },
+    "jsw": {
+      "FY2023-24": "Worsened",
+      "FY2024-25": "Worsened"
+    },
+    "sail": {
+      "FY2023-24": "Improved",
+      "FY2024-25": "Stable"
+    },
+    "jindal": {
+      "FY2023-24": "Stable",
+      "FY2024-25": "Worsened"
+    }
+  },
+  "sections": {
+    "about": "This metric captures the number of complaints reported under the Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013. In the BRSR framework, this is reported under Principle 5, Essential Indicator 7, though it is relevant to the Ethics & Compliance theme because it tests workplace conduct, grievance access, investigation integrity, and non-retaliation systems. A lower value indicates better performance.",
+    "performanceAndDrivers": "Tata Steel reported the highest POSH complaint count in every year: 38 in FY2023, 20 in FY2024 and 43 in FY2025, versus JSW at 0, 1 and 7; SAIL at 8, 3 and 3; and Jindal Stainless at 0, 0 and 5. The apparent best performers on raw count are JSW/Jindal in FY2023, Jindal in FY2024 and SAIL in FY2025. However, raw complaint counts need cautious interpretation: for large integrated BF-BOF businesses with mines, downstream facilities, contract workforce interfaces and multi-site grievance systems, higher reported cases may reflect a larger workforce and stronger reporting access, not only higher incidence. Tata’s own FY2025 BRSR shows a mature reporting architecture: Speak Up, Ethics Department investigation, escalation to the Chief Ethics Counsellor or Audit Committee Chairperson, and regular Board/Audit Committee updates; Tata also reports POSH data under reasonable assurance for standalone FY2025. Jindal Stainless disclosed five FY2025 POSH complaints, two pending at year-end but resolved on April 30, 2025, and describes confidentiality, DEI policy coverage and POSH/whistle-blower mechanisms. SAIL moved from seven POSH complaints in FY2023 to three in FY2024, and disclosed confidentiality, counselling/legal support, fair investigation, training and whistle-blower protection mechanisms.",
+    "tataPositioning": "In FY2025, Tata ranks 4th with 43 reported POSH complaints, while the best performer on raw count is SAIL with 3; Tata’s count is 1,333% higher than the best performer. Tata’s trajectory is mixed: it improved from 38 in FY2023 to 20 in FY2024, then worsened sharply to 43 in FY2025. The FY2024 improvement coincided with Tata’s standalone reporting basis, while FY2023 was consolidated. The FY2025 deterioration is likely driven by a combination of scale, stronger grievance accessibility and a more active ethics/POSH reporting ecosystem, rather than necessarily a pure deterioration in workplace culture. For senior management, the more useful diagnostic is not only reducing total cases but reducing recurrence, improving closure timeliness, strengthening IC consistency across sites, and monitoring cases per female employee/worker.",
+    "targets": null,
+    "comparabilityNotes": "Tata Steel FY2022-23 is consolidated, while all other company-years are standalone; this weakens direct comparability for Tata’s FY2023 trend. Tata’s FY2024 reported complaint count varies between prior-year and current-year BRSR disclosures, creating some uncertainty in the exact FY2024 figure. Raw complaint counts are not normalised by female employee/worker base, site count, or maturity of reporting channels, so zero or low counts should not automatically be read as stronger culture."
+  },
+  "flags": {
+    "directionUnclear": false,
+    "contextInsufficient": false,
+    "externalSourceUsed": false,
+    "trendAmbiguity": false,
+    "flagNote": null
+  },
+  "source": "CustomGPT",
+  "userCorrection": null,
+  "status": "pending_review"
+}

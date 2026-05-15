@@ -1,0 +1,62 @@
+{
+  "tag": "PercentageOfContributionOfExportsInTheTotalTurnoverOfTheEntity",
+  "label": "Export Contribution To Turnover",
+  "principle": "Section A",
+  "topic": "financial-profile",
+  "direction": "higher_is_better",
+  "peerRank": {
+    "FY2023": {
+      "tata": 3,
+      "jsw": 2,
+      "sail": 4,
+      "jindal": 1
+    },
+    "FY2024": {
+      "tata": 3,
+      "jsw": 2,
+      "sail": 4,
+      "jindal": 1
+    },
+    "FY2025": {
+      "tata": 2,
+      "jsw": 3,
+      "sail": 4,
+      "jindal": 1
+    }
+  },
+  "trendDirection": {
+    "tata": {
+      "FY2023-24": "Worsened",
+      "FY2024-25": "Stable"
+    },
+    "jsw": {
+      "FY2023-24": "Improved",
+      "FY2024-25": "Worsened"
+    },
+    "sail": {
+      "FY2023-24": "Worsened",
+      "FY2024-25": "Worsened"
+    },
+    "jindal": {
+      "FY2023-24": "Improved",
+      "FY2024-25": "Worsened"
+    }
+  },
+  "sections": {
+    "about": "This metric measures export revenue as a percentage of total turnover and is disclosed in BRSR Section A — Operations, “Markets served by the entity.” It is disclosed under Section A, Operations, and is not a Principle 1–9 Essential or Leadership indicator. A higher value indicates better performance for this benchmarking lens because it signals broader geographic market access and lower dependence on only domestic offtake.",
+    "performanceAndDrivers": "Jindal Stainless led all three years, rising from 15.49% in FY2022-23 to 17.07% in FY2023-24, then moderating to 11.69% in FY2024-25; its FY2024-25 BRSR also states 49 international countries served and export contribution of ~11.69%, consistent with its stainless-steel product positioning and higher global tradability. JSW increased from 9% to 12% before falling to 5.5%, indicating a swing back toward domestic realisations or weaker export competitiveness in FY2024-25. Tata declined from 7% to 6% and stayed at 6%; Tata’s FY2024-25 BRSR explains that it serves international clients through subsidiaries but separately discloses direct India exports, with standalone export revenue of ₹7,700.45 crore against total revenue of ₹132,516.66 crore, or 6%. SAIL’s export share steadily reduced from 2.56% to 1.61% and 0.48%, consistent with its public-sector integrated carbon-steel profile and stronger domestic-market orientation.",
+    "tataPositioning": "In FY2024-25, Tata ranked 2nd at 6%, behind Jindal Stainless at 11.69%. Tata’s gap from the best performer is 5.69 percentage points, or about 48.7% below Jindal on a relative basis. Tata’s rank improved from 3rd in FY2022-23 and FY2023-24 to 2nd in FY2024-25 because JSW’s export contribution fell sharply to 5.5%, while Tata remained stable at 6%. Strategically, Tata’s low-to-moderate export share should not be read as weak market capability; the BRSR notes that Tata serves international customers through subsidiaries, so direct standalone export percentage captures only part of Tata Steel’s international market exposure.",
+    "targets": null,
+    "comparabilityNotes": "Tata Steel’s FY2024-25 BRSR distinguishes consolidated sales outside India from standalone exports from India; the benchmark uses the standalone export percentage for comparability. Tata FY2022-23 is consolidated, which limits strict comparability with standalone peers."
+  },
+  "flags": {
+    "directionUnclear": false,
+    "contextInsufficient": false,
+    "externalSourceUsed": false,
+    "trendAmbiguity": false,
+    "flagNote": null
+  },
+  "source": "CustomGPT",
+  "userCorrection": null,
+  "status": "pending_review"
+}

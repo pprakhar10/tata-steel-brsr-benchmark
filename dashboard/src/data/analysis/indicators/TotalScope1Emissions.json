@@ -1,0 +1,62 @@
+{
+  "tag": "TotalScope1Emissions",
+  "label": "Total Scope 1 GHG Emissions",
+  "principle": "P6",
+  "topic": "ghg-scope3",
+  "direction": "lower_is_better",
+  "peerRank": {
+    "FY2023": {
+      "tata": 4,
+      "jsw": 2,
+      "sail": 3,
+      "jindal": 1
+    },
+    "FY2024": {
+      "tata": 4,
+      "jsw": 2,
+      "sail": 3,
+      "jindal": 1
+    },
+    "FY2025": {
+      "tata": 4,
+      "jsw": 3,
+      "sail": 2,
+      "jindal": 1
+    }
+  },
+  "trendDirection": {
+    "tata": {
+      "FY2023-24": "Worsened",
+      "FY2024-25": "Worsened"
+    },
+    "jsw": {
+      "FY2023-24": "Worsened",
+      "FY2024-25": "Worsened"
+    },
+    "sail": {
+      "FY2023-24": "Worsened",
+      "FY2024-25": "Improved"
+    },
+    "jindal": {
+      "FY2023-24": "Worsened",
+      "FY2024-25": "Worsened"
+    }
+  },
+  "sections": {
+    "about": "This metric captures direct GHG emissions from owned or controlled sources, primarily combustion and process emissions from coke ovens, blast furnaces, DRI, captive power, reheating furnaces, ferroalloys and related facilities. It falls under BRSR Principle 6, Essential Indicator 7; A lower value indicates better performance.",
+    "performanceAndDrivers": "Jindal Stainless leads every year on absolute Scope 1 emissions: 2.58 MtCO2e in FY2023, 2.99 MtCO2e in FY2024 and 3.00 MtCO2e in FY2025, far below BF-BOF integrated steelmakers due to its stainless-steel EAF/scrap-heavy production route and smaller crude-steel scale. JSW and SAIL are clustered around 47–53 MtCO2e across the three years, with SAIL improving slightly in FY2025 to 52.18 MtCO2e while JSW rose to 53.10 MtCO2e. Tata Steel remains highest in the peer set at 61.00 MtCO2e in FY2025, reflecting blast-furnace intensity and scale; Tata’s FY2025 BRSR states that a substantial portion of production is blast-furnace based and emission-intensive, while it is moving toward EAF-based low-emission steelmaking.",
+    "tataPositioning": "In FY2025, Tata ranks 4th, with Scope 1 emissions 1,936% higher than the best performer, Jindal Stainless. On a standalone basis, Tata’s Scope 1 emissions increased from 49.6 MtCO2e in FY2022-23 to 56.0 MtCO2e in FY2023-24 and further to 61.0 MtCO2e in FY2024-25 — a consistent worsening trend driven by blast-furnace-led production and scale. The FY2022-23 value in the standardised table is on a consolidated boundary; standalone comparisons use the annual report figure. The company acknowledges its emission-intensive footprint and is transitioning toward EAF-based low-emission steelmaking.",
+    "targets": "Tata Steel has pledged Net Zero emissions by 2045 and is developing low-emission steelmaking, including an EAF plant in Ludhiana. Jindal Stainless targets a 50% reduction in carbon emission intensity by 2035 from FY2022 baseline levels and Net Zero by 2050.",
+    "comparabilityNotes": "Absolute Scope 1 emissions are strongly scale-dependent. Tata FY2022-23 is flagged as consolidated; all other company-years are standalone, so Tata’s FY2023-to-FY2024 movement should not be read as a clean operational reduction."
+  },
+  "flags": {
+    "directionUnclear": false,
+    "contextInsufficient": false,
+    "externalSourceUsed": false,
+    "trendAmbiguity": false,
+    "flagNote": null
+  },
+  "source": "CustomGPT",
+  "userCorrection": null,
+  "status": "pending_review"
+}

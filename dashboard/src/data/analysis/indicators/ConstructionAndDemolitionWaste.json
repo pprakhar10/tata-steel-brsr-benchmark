@@ -1,0 +1,62 @@
+{
+  "tag": "ConstructionAndDemolitionWaste",
+  "label": "Construction and Demolition Waste Generated",
+  "principle": "P6",
+  "topic": "waste",
+  "direction": "lower_is_better",
+  "peerRank": {
+    "FY2023": {
+      "tata": 4,
+      "jsw": 1,
+      "sail": 1,
+      "jindal": 1
+    },
+    "FY2024": {
+      "tata": 3,
+      "jsw": 1,
+      "sail": 4,
+      "jindal": 1
+    },
+    "FY2025": {
+      "tata": 4,
+      "jsw": 1,
+      "sail": 1,
+      "jindal": 1
+    }
+  },
+  "trendDirection": {
+    "tata": {
+      "FY2023-24": "AMBIGUOUS: FY2023 is consolidated while FY2024 is standalone",
+      "FY2024-25": "Improved"
+    },
+    "jsw": {
+      "FY2023-24": "Stable",
+      "FY2024-25": "Stable"
+    },
+    "sail": {
+      "FY2023-24": "Worsened",
+      "FY2024-25": "Improved"
+    },
+    "jindal": {
+      "FY2023-24": "Stable",
+      "FY2024-25": "Stable"
+    }
+  },
+  "sections": {
+    "about": "This metric measures construction and demolition waste generated under BRSR Principle 6, Essential Indicator on category-wise waste generation. It is typically linked to project activity, plant upgrades, civil works and demolition rather than routine steelmaking. A lower value indicates better performance.",
+    "performanceAndDrivers": "Tata reported 1,714 MT in FY2025, while JSW, SAIL and Jindal all reported zero. Tata improved from 3,061 MT in FY2024, but remained the only company with reported C&D waste in FY2025. SAIL’s one-year FY2024 spike of 9,063 MT reversed to zero in FY2025, indicating project timing rather than structural operating intensity.",
+    "tataPositioning": "Tata ranked 4th in FY2025. Because all peers reported zero, a percentage gap is not meaningful; Tata’s absolute gap is 1,714 MT. Tata’s absolute performance improved year-on-year, but rank worsened because peers reported zero.",
+    "targets": "No C&D-waste-specific target was identified in the retrieved extracts.",
+    "comparabilityNotes": "This metric is project-cycle sensitive and should not be interpreted as a pure process-efficiency metric."
+  },
+  "flags": {
+    "directionUnclear": false,
+    "contextInsufficient": false,
+    "externalSourceUsed": false,
+    "trendAmbiguity": true,
+    "flagNote": "Tata FY2023-to-FY2024 trend is ambiguous; zero-peer comparison prevents meaningful percentage gap."
+  },
+  "source": "CustomGPT",
+  "userCorrection": null,
+  "status": "pending_review"
+}

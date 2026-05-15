@@ -1,0 +1,62 @@
+{
+  "tag": "PercentageOfValueChainPartnersByValueOfBusinessDoneWithSuchPartnersThatWereAssessedForEnvironmentalImpacts",
+  "label": "Value Chain Environmental Assessment",
+  "principle": "P6",
+  "topic": "stakeholder-human-rights",
+  "direction": "higher_is_better",
+  "peerRank": {
+    "FY2023": {
+      "tata": 1,
+      "jsw": 2,
+      "sail": 2,
+      "jindal": 4
+    },
+    "FY2024": {
+      "tata": 1,
+      "jsw": 3,
+      "sail": 4,
+      "jindal": 2
+    },
+    "FY2025": {
+      "tata": 2,
+      "jsw": 3,
+      "sail": 4,
+      "jindal": 1
+    }
+  },
+  "trendDirection": {
+    "tata": {
+      "FY2023-24": "AMBIGUOUS: FY2022-23 is consolidated while later years are standalone",
+      "FY2024-25": "Improved"
+    },
+    "jsw": {
+      "FY2023-24": "Stable",
+      "FY2024-25": "Improved"
+    },
+    "sail": {
+      "FY2023-24": "Worsened",
+      "FY2024-25": "Improved"
+    },
+    "jindal": {
+      "FY2023-24": "Improved",
+      "FY2024-25": "Improved"
+    }
+  },
+  "sections": {
+    "about": "This metric measures the percentage of value chain partners, weighted by business value, assessed for environmental impacts. It is aligned to BRSR Principle 6 Leadership Indicators and also supports supply-chain risk management under Principles 4 and 5 because supplier assessment is a core stakeholder and due-diligence mechanism. A higher value indicates better performance.",
+    "performanceAndDrivers": "Jindal Stainless moved from non-reporting in FY2023 to 16% in FY2024 and 100% in FY2025, overtaking Tata, which moved from 78% consolidated in FY2023 to 74% in FY2024 and 80% in FY2025. JSW improved materially from 0% in FY2023 and FY2024 to 35% in FY2025, while SAIL remained weak at 0% in FY2023, non-reported in FY2024 and 0% in FY2025.\n\nJindal’s FY2025 leadership is supported by a formal Group-level Supplier Code of Conduct and Responsible Sourcing Policy covering environmental compliance, resource efficiency, emissions control and waste management; its disclosure states 100% of value chain partners by value were assessed for environmental impacts. Tata’s 80% is underpinned by its Responsible Supply Chain Policy, supplier maturity assessments and a 4-step Sustainable Procurement Framework covering planning, vendor selection, sustainability evaluation and contract management. SAIL’s lag appears to be a disclosure and assessment-coverage issue rather than absence of environmental management: its FY2025 BRSR describes ISO 14001/IMS-certified captive mines and ESG sourcing principles, but the value-chain environmental assessment metric remains 0%.",
+    "tataPositioning": "In FY2024-25, Tata ranked 2nd at 80%, 20 percentage points behind Jindal Stainless, meaning Tata is 20% below the leader on a relative basis. Tata led in FY2023 and FY2024 but lost leadership in FY2025 because Jindal moved to full 100% coverage. Tata’s own trajectory is positive from FY2024 to FY2025, increasing from 74% to 80%, supported by supply-chain responsibility sessions and continued deployment of responsible sourcing systems. Tata also conducted value-chain awareness sessions for 325 suppliers in FY2024-25.",
+    "targets": null,
+    "comparabilityNotes": "Tata Steel FY2022-23 is consolidated, while subsequent Tata values are standalone. Jindal Stainless FY2025 reports full 100% assessment coverage; this is a major methodology/coverage step-up versus FY2024."
+  },
+  "flags": {
+    "directionUnclear": false,
+    "contextInsufficient": false,
+    "externalSourceUsed": false,
+    "trendAmbiguity": false,
+    "flagNote": null
+  },
+  "source": "CustomGPT",
+  "userCorrection": null,
+  "status": "pending_review"
+}

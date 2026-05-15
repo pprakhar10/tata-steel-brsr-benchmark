@@ -1,0 +1,62 @@
+{
+  "tag": "TrainingCoverage_Employees_HealthSafety",
+  "label": "TrainingCoverage_Employees_HealthSafety",
+  "principle": "",
+  "topic": "training-development",
+  "direction": "higher_is_better",
+  "peerRank": {
+    "FY2023": {
+      "tata": 1,
+      "jsw": 1,
+      "sail": 4,
+      "jindal": 1
+    },
+    "FY2024": {
+      "tata": 1,
+      "jsw": 1,
+      "sail": 4,
+      "jindal": 3
+    },
+    "FY2025": {
+      "tata": 1,
+      "jsw": 1,
+      "sail": 4,
+      "jindal": 1
+    }
+  },
+  "trendDirection": {
+    "tata": {
+      "FY2023-24": "Stable",
+      "FY2024-25": "Stable"
+    },
+    "jsw": {
+      "FY2023-24": "Stable",
+      "FY2024-25": "Stable"
+    },
+    "sail": {
+      "FY2023-24": "Improved",
+      "FY2024-25": "Worsened"
+    },
+    "jindal": {
+      "FY2023-24": "Worsened",
+      "FY2024-25": "Improved"
+    }
+  },
+  "sections": {
+    "about": "This metric measures the percentage of employees trained on health and safety measures under BRSR Principle 3, Essential Indicator 8. Health and safety training can include general H&S training, work-related hazard training, hazardous activity/situation training, and mental health training. A higher value indicates better performance.",
+    "performanceAndDrivers": "Tata Steel, JSW Steel and Jindal Stainless reached 100% employee H&S training coverage in FY2024-25, while SAIL declined to 15%, making SAIL the clear laggard in latest-year coverage. Across the three-year period, Tata and JSW were consistently at 100%; Jindal moved from 100% in FY2022-23 to 50.04% in FY2023-24 and back to 100% in FY2024-25; SAIL moved from 30.4% to 32.21% and then down to 15%. Tata’s 100% coverage sits within a broader ISO 45001:2018-based EHS management system with risk identification, safety visits, line walks, fatality risk control, and job-cycle checks. Jindal’s FY2024-25 recovery is supported by a formal safety programme including HIRA, HAZOP, work permits, JSA, toolbox training, SOPs, PPE adherence and a Safety Training Centre. SAIL has ISO 45001:2018 across plants and treats employee training and development as an opportunity aligned to modernization and digital transformation, but coverage conversion into the BRSR training table remains materially weaker than peers.",
+    "tataPositioning": "In FY2024-25, Tata Steel is Rank 1 with 100% employee H&S training coverage. The gap from the best performer is 0 percentage points because Tata is tied with JSW and Jindal; SAIL is 85 percentage points behind Tata. Tata’s ranking has held steady at Rank 1 across FY2022-23, FY2023-24 and FY2024-25, indicating a mature and consistently captured safety training system rather than a one-year compliance spike.",
+    "targets": null,
+    "comparabilityNotes": "Tata Steel FY2022-23 is consolidated, while other company-years are standalone."
+  },
+  "flags": {
+    "directionUnclear": false,
+    "contextInsufficient": false,
+    "externalSourceUsed": false,
+    "trendAmbiguity": false,
+    "flagNote": null
+  },
+  "source": "CustomGPT",
+  "userCorrection": null,
+  "status": "pending_review"
+}

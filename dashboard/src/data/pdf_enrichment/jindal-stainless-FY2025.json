@@ -1,0 +1,34 @@
+{
+  "companyId": "jindal-stainless",
+  "year": "FY2025",
+  "source": "PDF",
+  "reportingBoundary": "Standalone",
+  "enrichment": {
+    "targets": [
+      { "description": "Carbon emission intensity reduction by 50%", "metric": "tCO2e/tcs", "baseline": "FY2022", "targetValue": "50% reduction", "timeline": "2035" },
+      { "description": "Zero-Waste-to-Landfill certification", "metric": "Waste to landfill", "baseline": null, "targetValue": "Zero", "timeline": "2030" },
+      { "description": "Female workforce representation", "metric": "% female employees", "baseline": null, "targetValue": "8%", "timeline": "2030" }
+    ],
+    "initiatives": [
+      { "name": "Smart cooling control (electrode temperature)", "area": "energy", "description": "Reduced blower runtime by 4.28 hours/day by modifying control logic.", "outcome": "Saved 1.66 lakh units of electricity annually (INR 10.8 lakhs)." },
+      { "name": "Optimum use of chemicals/water/energy at CPP-DM plant", "area": "water", "description": "Replaced faulty ejectors, rotameters, valves; optimized downflow rates and degasser levels.", "outcome": "12% reduction in HCl, 15% in NaOH; raw water reduced by 420 m3/year." },
+      { "name": "Boiler waste water reuse", "area": "water", "description": "Settling tank and pipeline extension to reuse DM water from boiler hydro-tests.", "outcome": "Saved 2,532 m3 of water annually." }
+    ],
+    "scope3Breakdown": { "totalScope3": "3,216,693 tCO2e", "categories": [], "note": "Intensity: 1.64 tCO2e/tcs — reduction from FY2024 (1.90)." },
+    "managementCommentary": "JSL remains steadfast in its commitment to building a greener and more sustainable future. Embracing scrap-based production through electric arc furnaces — one of the most environmentally friendly methods. Promoting waste-to-value creation and a closed-loop recycling system.",
+    "awardsAndRatings": [{ "name": "LEED v4.1 O+M", "score": "Platinum (Stainless Centre Gurgaon), Gold (JSL Jajpur clubhouse)", "year": "2025" }],
+    "nonCompliance": [],
+    "forwardLooking": [
+      { "description": "Develop science-based targets for Nature (SBTn)", "timeline": "Not stated" },
+      { "description": "Assess 100% of suppliers on ESG criteria", "timeline": "Ongoing" }
+    ],
+    "qualitativePolicies": {
+      "P1_ethics": "Implements Anti-Bribery and Anti-Corruption Policy and Supplier Code of Conduct evaluating partners across all 9 BRSR principles.",
+      "P3_ohs": "Occupational Health and Safety Policy under ISO 45001:2018. Achieved LTIFR of 0 for employees and contractors in FY2025.",
+      "P6_environment": "Climate Change, Water Management, and Biodiversity policies. Implements ZLD and sources 72.11% recycled scrap."
+    },
+    "steelProduction": { "value": 2430000, "unit": "metric tonnes", "note": "From plan config (2.43 MnT stainless steel)." },
+    "waterIntensityNote": "FY2025 PDF confirms 358.67 kL/Rs.Crore. XBRL filer switched denominator to per-rupee (0.0000359 = 358.67/10M). Patched to 358.67 kL/Crore for consistency with FY2023/FY2024.",
+    "ltiFRNote": "LTIFR = 0 for employees and contractors in FY2025. Flagged for AI analysis: plausible for EAF-based stainless with strong safety culture but should be noted."
+  }
+}

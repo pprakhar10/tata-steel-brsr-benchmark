@@ -1,0 +1,62 @@
+{
+  "tag": "TotalScope2Emissions",
+  "label": "Total Scope 2 GHG Emissions",
+  "principle": "P6",
+  "topic": "ghg-scope3",
+  "direction": "lower_is_better",
+  "peerRank": {
+    "FY2023": {
+      "tata": 4,
+      "jsw": 2,
+      "sail": 3,
+      "jindal": 1
+    },
+    "FY2024": {
+      "tata": 4,
+      "jsw": 2,
+      "sail": 3,
+      "jindal": 1
+    },
+    "FY2025": {
+      "tata": 4,
+      "jsw": 2,
+      "sail": 3,
+      "jindal": 1
+    }
+  },
+  "trendDirection": {
+    "tata": {
+      "FY2023-24": "Worsened",
+      "FY2024-25": "Improved"
+    },
+    "jsw": {
+      "FY2023-24": "Improved",
+      "FY2024-25": "Worsened"
+    },
+    "sail": {
+      "FY2023-24": "Improved",
+      "FY2024-25": "Worsened"
+    },
+    "jindal": {
+      "FY2023-24": "Worsened",
+      "FY2024-25": "Improved"
+    }
+  },
+  "sections": {
+    "about": "This metric captures energy-indirect GHG emissions from purchased or acquired electricity, steam, heat or cooling. It falls under BRSR Principle 6, Essential Indicator 7; A lower value indicates better performance.",
+    "performanceAndDrivers": "Jindal Stainless again leads in all three years, improving from 0.79 MtCO2e in FY2024 to 0.62 MtCO2e in FY2025, supported by renewable power purchase, rooftop solar, VFDs, auxiliary power reduction and other Scope 2 reduction measures disclosed in FY2025. JSW ranks 2nd in FY2025 at 1.65 MtCO2e, while SAIL worsened sharply from 2.45 MtCO2e to 4.80 MtCO2e; SAIL notes that FY2025 Scope 2 grid-power emissions were calculated based on the December 2024 BRSR industry standard. Tata improved from 7.00 MtCO2e in FY2024 to 5.00 MtCO2e in FY2025, consistent with its stated energy-efficiency and renewable-power levers, but remains last in absolute Scope 2 emissions.",
+    "tataPositioning": "In FY2025, Tata ranks 4th, with Scope 2 emissions 703% higher than Jindal Stainless. Tata’s ranking stayed 4th across the three-year period, but FY2025 shows a meaningful reduction from 7.00 MtCO2e to 5.00 MtCO2e. This is directionally positive and aligns with Tata’s renewable-power and energy-efficiency strategy, although the absolute level remains high because the company’s operational footprint and electricity demand are much larger than Jindal’s.",
+    "targets": "Tata Steel has a 379 MW captive renewable-power agreement with Tata Power, expected to reduce 50 million tonnes of carbon emissions over 25 years, and has commissioned floating solar capacity at Jamshedpur and Kalinganagar. Jindal Stainless has a Net Zero 2050 target and disclosed renewable power purchase, rooftop solar and power-efficiency initiatives in FY2025.",
+    "comparabilityNotes": "Scope 2 is sensitive to grid emission factors, renewable procurement treatment and captive-versus-purchased power structure. Tata notes that Scope 2 location-based emissions use respective-country electricity factors, while SAIL notes use of the December 2024 BRSR industry standard for grid-power Scope 2."
+  },
+  "flags": {
+    "directionUnclear": false,
+    "contextInsufficient": false,
+    "externalSourceUsed": false,
+    "trendAmbiguity": false,
+    "flagNote": null
+  },
+  "source": "CustomGPT",
+  "userCorrection": null,
+  "status": "pending_review"
+}

@@ -1,0 +1,70 @@
+{
+  "companyId": "jsw-steel",
+  "year": "FY2025",
+  "source": "PDF",
+  "enrichment": {
+    "targets": [
+      {
+        "description": "Climate change reduction target",
+        "metric": "CO2 Intensity",
+        "baseline": "2005",
+        "targetValue": "1.95 tCO2/tcs",
+        "timeline": "2030"
+      }
+    ],
+    "initiatives": [
+      {
+        "name": "ResponsibleSteel Certification",
+        "area": "governance",
+        "description": "Achieved certification for four manufacturing sites (Vijayanagar, Dolvi, Salem, Tarapur).",
+        "outcome": "Over 80% of primary steel production from certified sites."
+      },
+      {
+        "name": "Steel Scrap Recycling",
+        "area": "waste",
+        "description": "Recycled 2.30 million tonnes of scrap.",
+        "outcome": "Circularity enhancement in production."
+      }
+    ],
+    "scope3Breakdown": {
+      "totalScope3": "6,120,450 tCO2e",
+      "categories": [],
+      "note": "Total Scope 3 included in emission summary."
+    },
+    "managementCommentary": "We are committed to preventing, abating and mitigating our emissions to air. We have developed clear targets for decarbonisation and committed to be Net Neutral by 2050.",
+    "awardsAndRatings": [
+      {
+        "name": "ResponsibleSteel Certification",
+        "score": "Certified",
+        "year": "2025"
+      }
+    ],
+    "nonCompliance": [
+      {
+        "description": "Penalty from Chhattisgarh Environment Conservation Board for emission of smoke and improper tarpaulin covering.",
+        "resolution": "Fines of INR 360,000 and INR 570,000 remitted."
+      },
+      {
+        "description": "Penalty for belated remittance of Provident Fund (2016–2019).",
+        "resolution": "Damages and interest of INR 18,314,378 remitted."
+      }
+    ],
+    "forwardLooking": [
+      {
+        "description": "Strive to achieve 'No Net Loss' of biodiversity",
+        "timeline": "2030"
+      }
+    ],
+    "qualitativePolicies": {
+      "P1_ethics": "Policy covers ethics, anti-corruption, and eliminating all forms of bribery.",
+      "P3_ohs": "Strict safety systems leveraging real-time data and sensors in men-machine interfaces.",
+      "P6_environment": "Dedicated policies for air emissions, biodiversity, and resource conservation."
+    },
+    "steelProduction": {
+      "value": 27790000,
+      "unit": "metric tonnes",
+      "note": "From plan config (annual report)."
+    },
+    "reportingBoundary": "Standalone basis."
+  }
+}

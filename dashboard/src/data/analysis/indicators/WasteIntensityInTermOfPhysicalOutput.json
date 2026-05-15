@@ -1,0 +1,62 @@
+{
+  "tag": "WasteIntensityInTermOfPhysicalOutput",
+  "label": "Waste Intensity Physical Output",
+  "principle": "P6",
+  "topic": "waste",
+  "direction": "lower_is_better",
+  "peerRank": {
+    "FY2023": {
+      "tata": 4,
+      "jsw": 4,
+      "sail": 4,
+      "jindal": 4
+    },
+    "FY2024": {
+      "tata": 3,
+      "jsw": 1,
+      "sail": 2,
+      "jindal": 4
+    },
+    "FY2025": {
+      "tata": 2,
+      "jsw": 3,
+      "sail": 1,
+      "jindal": 4
+    }
+  },
+  "trendDirection": {
+    "tata": {
+      "FY2023-24": "AMBIGUOUS: FY2023 value not reported",
+      "FY2024-25": "Improved"
+    },
+    "jsw": {
+      "FY2023-24": "AMBIGUOUS: FY2023 value not reported",
+      "FY2024-25": "Worsened"
+    },
+    "sail": {
+      "FY2023-24": "AMBIGUOUS: FY2023 value not reported",
+      "FY2024-25": "Worsened"
+    },
+    "jindal": {
+      "FY2023-24": "AMBIGUOUS: FY2023 value not reported",
+      "FY2024-25": "Worsened"
+    }
+  },
+  "sections": {
+    "about": "This metric measures total waste generated per tonne of crude steel or physical output under BRSR Principle 6, Essential Indicator on waste intensity. It is more comparable than absolute waste for steel companies of different scale. A lower value indicates better performance.",
+    "performanceAndDrivers": "In FY2025, SAIL led with 0.75 MT/tcs, Tata followed at 0.8 MT/tcs, JSW reported 0.85 MT/tcs and Jindal 0.95 MT/tcs. Tata improved from 0.836589 in FY2024 to 0.8 in FY2025 despite higher absolute waste, indicating production-normalised efficiency improvement. Jindal’s higher intensity despite lower absolute waste reflects smaller denominator and stainless route/product-mix effects.",
+    "tataPositioning": "Tata ranked 2nd in FY2025 and was about 6.7% above SAIL, the best performer. Tata improved from rank 3 in FY2024 to rank 2 in FY2025, driven by lower waste intensity despite higher absolute waste generation.",
+    "targets": "Broader utilisation and landfill targets from SAIL and JSL are relevant but are not expressed as physical-output intensity targets.",
+    "comparabilityNotes": "FY2022-23 data is not available for any company."
+  },
+  "flags": {
+    "directionUnclear": false,
+    "contextInsufficient": false,
+    "externalSourceUsed": false,
+    "trendAmbiguity": true,
+    "flagNote": "FY2023 values are missing for all companies, so FY2023-to-FY2024 trends are ambiguous."
+  },
+  "source": "CustomGPT",
+  "userCorrection": null,
+  "status": "pending_review"
+}

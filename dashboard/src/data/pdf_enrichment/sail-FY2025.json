@@ -1,0 +1,54 @@
+{
+  "companyId": "sail",
+  "year": "FY2025",
+  "source": "PDF",
+  "enrichment": {
+    "targets": [
+      {
+        "description": "Reduction of Specific PM Emission Load",
+        "metric": "kg/tcs",
+        "baseline": "0.58 kg/tcs (FY2024)",
+        "targetValue": "0.56 kg/tcs",
+        "timeline": "FY2024–25 (achieved)"
+      }
+    ],
+    "initiatives": [
+      {
+        "name": "Green Power Import from DVC",
+        "area": "energy",
+        "description": "Arrangement for green power import from DVC at Durgapur (DSP) and IISCO (ISP) plants.",
+        "outcome": "Significant increase in renewable energy from 266 TJ to 1,400 TJ."
+      }
+    ],
+    "scope3Breakdown": {
+      "totalScope3": null,
+      "categories": [],
+      "note": "Entity is in the process of identifying all relevant Scope 3 categories."
+    },
+    "managementCommentary": "Reduced emissions align with global climate goals and enhance SAIL's competitiveness in green steel markets. Sustainability leads to carbon credits and green bond opportunities.",
+    "awardsAndRatings": [],
+    "nonCompliance": [
+      {
+        "description": "Bhilai Steel Plant: Inefficient operation of Sewage Treatment Plant (STP) in violation of Water Act 1974.",
+        "resolution": "Direction issued by CECB; corrective actions being taken."
+      }
+    ],
+    "forwardLooking": [
+      {
+        "description": "Implementation of Solid State Interlocking (SSI) and automation up-gradation",
+        "timeline": "2025–26"
+      }
+    ],
+    "qualitativePolicies": {
+      "P1_ethics": "Anti-corruption and ethics policies covered under NGRBC framework.",
+      "P3_ohs": "Occupational Health & Safety is critical for maintaining uninterrupted operations.",
+      "P6_environment": "Action plan in place for PM reduction and ZLD implementation."
+    },
+    "steelProduction": {
+      "value": 19170000,
+      "unit": "metric tonnes",
+      "note": "From plan config. Gemini derived ~18.93M t from emissions/intensity."
+    },
+    "reportingBoundary": "Standalone. FY2025 water withdrawal doubling (57M->129M kL) confirmed genuine — expanded operations and inclusion of new reporting units."
+  }
+}

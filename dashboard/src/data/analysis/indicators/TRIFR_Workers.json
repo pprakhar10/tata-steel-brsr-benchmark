@@ -1,0 +1,62 @@
+{
+  "tag": "TRIFR_Workers",
+  "label": "TRIFR — Workers",
+  "principle": "",
+  "topic": "health-safety",
+  "direction": "lower_is_better",
+  "peerRank": {
+    "FY2023": {
+      "tata": 4,
+      "jsw": 3,
+      "sail": 2,
+      "jindal": 1
+    },
+    "FY2024": {
+      "tata": 4,
+      "jsw": 3,
+      "sail": 2,
+      "jindal": 1
+    },
+    "FY2025": {
+      "tata": 4,
+      "jsw": 3,
+      "sail": 2,
+      "jindal": 1
+    }
+  },
+  "trendDirection": {
+    "tata": {
+      "FY2023-24": "Improved",
+      "FY2024-25": "Worsened"
+    },
+    "jsw": {
+      "FY2023-24": "Improved",
+      "FY2024-25": "Worsened"
+    },
+    "sail": {
+      "FY2023-24": "Worsened",
+      "FY2024-25": "Improved"
+    },
+    "jindal": {
+      "FY2023-24": "Worsened",
+      "FY2024-25": "Worsened"
+    }
+  },
+  "sections": {
+    "about": "This metric captures total recordable work-related injuries for workers. It is disclosed under BRSR Principle 3, Essential Indicator 11, and should be interpreted with workforce scale and contractor mix. A lower value indicates better performance.",
+    "performanceAndDrivers": "Tata moved from 643 in FY23 to 437 in FY24, but worsened to 481 in FY25. Jindal led across all three years despite a mild worsening from 7 to 9 to 10. SAIL was the second-best performer, improving from 42 in FY24 to 33 in FY25. JSW worsened from 75 to 132 in FY25. Tata’s high worker TRIFR is the most material safety gap in this theme: integrated BF-BOF operations, captive logistics, rail/road movement, shutdowns, confined spaces, material handling and contractor density create a larger exposure base. Tata’s six FY25 safety initiatives directly target these risk zones, especially contractor safety, road/rail incidents and process safety management.",
+    "tataPositioning": "In FY2024-25, Tata ranked 4th at 481. Jindal led at 10, so Tata’s percentage gap from best was 4,710%. Tata remained 4th in all three years; its FY24 improvement was not sustained, indicating that recordable worker injuries remain the key competitive weakness.",
+    "targets": "Tata states zero harm as the safety ambition. Jindal states Zero Harm and the objective of Zero LTI, supported by safety governance and corrective action systems.",
+    "comparabilityNotes": "Tata FY2022-23 is consolidated."
+  },
+  "flags": {
+    "directionUnclear": false,
+    "contextInsufficient": false,
+    "externalSourceUsed": false,
+    "trendAmbiguity": false,
+    "flagNote": null
+  },
+  "source": "CustomGPT",
+  "userCorrection": null,
+  "status": "pending_review"
+}

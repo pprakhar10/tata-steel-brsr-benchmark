@@ -1,0 +1,85 @@
+{
+  "companyId": "tata-steel",
+  "year": "FY2024",
+  "source": "PDF",
+  "enrichment": {
+    "targets": [
+      {
+        "description": "Net Zero emissions for the Tata Steel Group",
+        "metric": "Scope 1 and 2 emissions",
+        "baseline": null,
+        "targetValue": "Net Zero",
+        "timeline": "2045"
+      },
+      {
+        "description": "Achieve specific freshwater consumption of <1.5 m³ per tonne of crude steel across all India sites",
+        "metric": "Water intensity",
+        "baseline": null,
+        "targetValue": "<1.5 m3/tonne",
+        "timeline": "2030"
+      },
+      {
+        "description": "Achieve 20% diversity in workforce for Tata Steel Limited",
+        "metric": "Workforce diversity",
+        "baseline": null,
+        "targetValue": "20%",
+        "timeline": "2025"
+      }
+    ],
+    "initiatives": [
+      {
+        "name": "Zero Carbon Logistics programme",
+        "area": "emissions",
+        "description": "Aim to reduce CO2 footprint from product transport by 30% by 2030.",
+        "outcome": "Optimum Voyage resulted in savings of ~5% CO2 emissions."
+      },
+      {
+        "name": "Captive Renewable Power Sourcing",
+        "area": "energy",
+        "description": "Definitive agreement with Tata Power to source 379 MW of captive renewable power.",
+        "outcome": "Will reduce 50 million tonnes of carbon emissions over 25-year contract period."
+      },
+      {
+        "name": "Floating Solar Power Project",
+        "area": "energy",
+        "description": "Commissioned 10.8 MWp floating solar project on upper cooling pond in Jamshedpur.",
+        "outcome": "Brought total solar capacity to 20.34 MWp at Jamshedpur plant."
+      }
+    ],
+    "scope3Breakdown": {
+      "totalScope3": "15 million tCO2e (Standalone)",
+      "categories": [],
+      "note": "Measurement of end-to-end Scope 3 emissions for all modes of transportation is highly prioritized."
+    },
+    "managementCommentary": "We are proud to present the second edition of our BRSR, underscoring our unwavering commitment to ESG stewardship. As the global shift to a low-carbon economy gains momentum, Tata Steel has been at the forefront of advancing sustainable practices by reducing GHG emissions, increasing energy efficiency, improving water management, and promoting waste recycling initiatives through innovative R&D investments.",
+    "awardsAndRatings": [
+      {
+        "name": "TAAP Assessment",
+        "score": "700–725",
+        "year": "2023"
+      }
+    ],
+    "nonCompliance": [],
+    "forwardLooking": [
+      {
+        "description": "Net Zero emissions for the Tata Steel Group",
+        "timeline": "2045"
+      },
+      {
+        "description": "Achieve zero harm for Tata Steel Limited",
+        "timeline": "2030"
+      }
+    ],
+    "qualitativePolicies": {
+      "P1_ethics": "Tata Code of Conduct (TCoC) and Anti-Bribery and Anti-Corruption Policy guide fair practices and ethics, establishing a framework against fraud, bribery, and corruption.",
+      "P3_ohs": "The Safety Principles and Occupational Health Policy aim to secure zero harm, including continuous monitoring and hazard assessment through Safety Leadership Development Centres.",
+      "P6_environment": "The Responsible Supply Chain Policy (RSCP) and Environmental Policy enforce tracking and mitigation of scope emissions, environmental restoration, and material efficiency goals."
+    },
+    "steelProduction": {
+      "value": 20120000,
+      "unit": "metric tonnes",
+      "note": "Standalone (India only). From plan config — not explicitly stated in BRSR text block."
+    },
+    "reportingBoundary": "Standalone basis (Tata Steel Limited India operations). FY2024 BRSR also discloses consolidated figures separately."
+  }
+}

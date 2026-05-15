@@ -1,0 +1,72 @@
+{
+  "companyId": "tata-steel",
+  "year": "FY2025",
+  "source": "PDF",
+  "enrichment": {
+    "targets": [
+      {
+        "description": "Net Zero emissions for the Tata Steel Group",
+        "metric": "Scope 1 and 2 emissions",
+        "baseline": null,
+        "targetValue": "Net Zero",
+        "timeline": "2045"
+      }
+    ],
+    "initiatives": [
+      {
+        "name": "Green Mobility Fleet Expansion",
+        "area": "emissions",
+        "description": "Deployed 70% Electric Vehicles (EVs) in warehouse and delivery operations.",
+        "outcome": "Reduction of ~200 tonnes CO2 annually."
+      },
+      {
+        "name": "B24 Biofuel Shipments",
+        "area": "emissions",
+        "description": "First Indian steel company to conduct full laden leg shipments using B24 biofuel from Australia to India.",
+        "outcome": "Executed 39 biofuel vessels and 5 LNG vessels — ~18% of imported shipments."
+      },
+      {
+        "name": "Rooftop Solar Panel at Jamshedpur Warehouse",
+        "area": "energy",
+        "description": "Installation of 2.2 MW rooftop solar panel.",
+        "outcome": "Facility became energy-positive, generating 2,303 MWh against consumption of 1,582 MWh."
+      }
+    ],
+    "scope3Breakdown": {
+      "totalScope3": "23 million tCO2e (Standalone)",
+      "categories": [],
+      "note": "Emphasis on Scope 3 logistics tracking including global frameworks for emissions reporting in subsidiary hubs."
+    },
+    "managementCommentary": "We have embraced decarbonisation not as a compulsion but as a deliberate choice with shared enthusiasm. The report highlights how we are moving decisively from intent to impact, re-engineering and future proofing operations across the full arc of our value chain. We realise technological innovation is our bridge to the future and have accelerated efforts towards digitalisation, automation, AI-enabled systems and climate smart solutions.",
+    "awardsAndRatings": [
+      {
+        "name": "ResponsibleSteel™ Certification (Jamshedpur, Kalinganagar, Meramandali)",
+        "score": "Certified",
+        "year": "2024"
+      }
+    ],
+    "nonCompliance": [
+      {
+        "description": "Collector of Stamps, Enforcement I and II imposed penalties of Rs 1,46,14,380 and Rs 1,28,07,700 towards belated filing of stamp-duty application related to scheme of amalgamation.",
+        "resolution": "Penalty paid; no appeal preferred."
+      }
+    ],
+    "forwardLooking": [
+      {
+        "description": "Net Zero emissions",
+        "timeline": "2045"
+      }
+    ],
+    "qualitativePolicies": {
+      "P1_ethics": "The Tata Code of Conduct and related whistleblower/anti-bribery policies mandate transparent, accountable, and ethical behaviour from all stakeholders and employees.",
+      "P3_ohs": "The occupational health and safety systems aim for zero harm, relying on continuous internal reviews, 6-strategic initiative frameworks, and robust grievance redressing systems.",
+      "P6_environment": "Environmental and Biodiversity policies detail commitments toward habitat protection, nature-positive solutions, emission curbs, and integration of the 4R framework across plants."
+    },
+    "steelProduction": {
+      "value": 21710000,
+      "unit": "metric tonnes",
+      "note": "Standalone (India only). From plan config."
+    },
+    "reportingBoundary": "Standalone basis (Tata Steel Limited India operations)."
+  }
+}

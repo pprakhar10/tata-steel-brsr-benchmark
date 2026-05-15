@@ -1,0 +1,62 @@
+{
+  "tag": "WasteDisposedByIncineration",
+  "label": "Waste Disposed Incineration Volume",
+  "principle": "P6",
+  "topic": "waste",
+  "direction": "lower_is_better",
+  "peerRank": {
+    "FY2023": {
+      "tata": 4,
+      "jsw": 3,
+      "sail": 2,
+      "jindal": 1
+    },
+    "FY2024": {
+      "tata": 4,
+      "jsw": 3,
+      "sail": 1,
+      "jindal": 2
+    },
+    "FY2025": {
+      "tata": 4,
+      "jsw": 3,
+      "sail": 1,
+      "jindal": 2
+    }
+  },
+  "trendDirection": {
+    "tata": {
+      "FY2023-24": "AMBIGUOUS: FY2023 is consolidated while FY2024 is standalone",
+      "FY2024-25": "Worsened"
+    },
+    "jsw": {
+      "FY2023-24": "Improved",
+      "FY2024-25": "Worsened"
+    },
+    "sail": {
+      "FY2023-24": "Improved",
+      "FY2024-25": "Stable"
+    },
+    "jindal": {
+      "FY2023-24": "Improved",
+      "FY2024-25": "Improved"
+    }
+  },
+  "sections": {
+    "about": "This metric measures waste disposed by incineration under BRSR Principle 6, Essential Indicator on disposal method. SEBI describes incineration as controlled burning of waste at high temperatures. A lower value indicates better performance.",
+    "performanceAndDrivers": "Tata reported the highest FY2025 incineration volume at 4,113 MT, compared with JSW at 154.02 MT, Jindal at 0.35 MT and SAIL at zero. Tata’s FY2025 increase from 1,777 MT in FY2024 indicates a deterioration in disposal route mix, even though total disposal improved sharply. Jindal and SAIL show minimal or nil incineration, suggesting stronger routing to recycling, authorised recyclers or other non-incineration disposal channels.",
+    "tataPositioning": "Tata ranked 4th in FY2025. Because the best performer, SAIL, reported zero incineration, a percentage gap is not meaningful; the absolute gap is 4,113 MT. Tata’s ranking remained weak across all three years.",
+    "targets": "No incineration-specific target was identified for Tata Steel. JSL’s Zero-Waste-to-Landfill target is not directly an incineration target, but its broader zero-waste programme may reduce residual disposal streams.",
+    "comparabilityNotes": "Incineration volumes may include specialised waste streams and are not intensity-normalised."
+  },
+  "flags": {
+    "directionUnclear": false,
+    "contextInsufficient": false,
+    "externalSourceUsed": false,
+    "trendAmbiguity": true,
+    "flagNote": "Tata FY2023-to-FY2024 trend is ambiguous; FY2025 comparison to zero best performer cannot be expressed meaningfully as a percentage gap."
+  },
+  "source": "CustomGPT",
+  "userCorrection": null,
+  "status": "pending_review"
+}

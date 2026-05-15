@@ -1,0 +1,62 @@
+{
+  "tag": "EWaste",
+  "label": "E-Waste Generated",
+  "principle": "P6",
+  "topic": "waste",
+  "direction": "lower_is_better",
+  "peerRank": {
+    "FY2023": {
+      "tata": 4,
+      "jsw": 3,
+      "sail": 1,
+      "jindal": 2
+    },
+    "FY2024": {
+      "tata": 3,
+      "jsw": 4,
+      "sail": 2,
+      "jindal": 1
+    },
+    "FY2025": {
+      "tata": 4,
+      "jsw": 3,
+      "sail": 2,
+      "jindal": 1
+    }
+  },
+  "trendDirection": {
+    "tata": {
+      "FY2023-24": "AMBIGUOUS: FY2023 is consolidated while FY2024 is standalone",
+      "FY2024-25": "Improved"
+    },
+    "jsw": {
+      "FY2023-24": "Worsened",
+      "FY2024-25": "Improved"
+    },
+    "sail": {
+      "FY2023-24": "Worsened",
+      "FY2024-25": "Worsened"
+    },
+    "jindal": {
+      "FY2023-24": "Improved",
+      "FY2024-25": "Worsened"
+    }
+  },
+  "sections": {
+    "about": "This metric measures e-waste generated under BRSR Principle 6, Essential Indicator on category-wise waste generation. It reflects disposal or handling of obsolete electrical and electronic equipment through authorised channels. A lower value indicates better performance.",
+    "performanceAndDrivers": "Tata improved from 260 MT in FY2024 to 201 MT in FY2025, but still ranked last because Jindal reported 37.18 MT, SAIL 39 MT and JSW 155.02 MT. Tata states that e-waste is accounted for at disposal and is safely recycled through authorised recyclers. JSL similarly prioritises safe disposal through authorised recyclers and treats stainless scrap as a valuable input rather than waste.",
+    "tataPositioning": "Tata ranked 4th in FY2025 and reported about 441% more e-waste than Jindal. Tata’s absolute e-waste improved year-on-year, but relative position worsened because peers reported materially lower values.",
+    "targets": "No e-waste-specific reduction target was identified. Tata and JSL disclose authorised recycler-based management processes rather than numeric targets.",
+    "comparabilityNotes": "E-waste may be affected by replacement and disposal cycles rather than production intensity alone."
+  },
+  "flags": {
+    "directionUnclear": false,
+    "contextInsufficient": false,
+    "externalSourceUsed": false,
+    "trendAmbiguity": true,
+    "flagNote": "Tata FY2023-to-FY2024 trend is ambiguous; disposal timing may affect annual values."
+  },
+  "source": "CustomGPT",
+  "userCorrection": null,
+  "status": "pending_review"
+}

@@ -1,0 +1,62 @@
+{
+  "tag": "TotalScope1AndScope2EmissionsIntensityPerRupeeOfTurnover",
+  "label": "GHG Emissions Intensity Per Turnover",
+  "principle": "P6",
+  "topic": "ghg-scope3",
+  "direction": "lower_is_better",
+  "peerRank": {
+    "FY2023": {
+      "tata": 2,
+      "jsw": 3,
+      "sail": 4,
+      "jindal": 1
+    },
+    "FY2024": {
+      "tata": 3,
+      "jsw": 2,
+      "sail": 4,
+      "jindal": 1
+    },
+    "FY2025": {
+      "tata": 3,
+      "jsw": 2,
+      "sail": 4,
+      "jindal": 1
+    }
+  },
+  "trendDirection": {
+    "tata": {
+      "FY2023-24": "Worsened",
+      "FY2024-25": "Worsened"
+    },
+    "jsw": {
+      "FY2023-24": "Worsened",
+      "FY2024-25": "Worsened"
+    },
+    "sail": {
+      "FY2023-24": "Worsened",
+      "FY2024-25": "Worsened"
+    },
+    "jindal": {
+      "FY2023-24": "Worsened",
+      "FY2024-25": "Improved"
+    }
+  },
+  "sections": {
+    "about": "This metric measures Scope 1 plus Scope 2 GHG emissions divided by revenue from operations, linking operational carbon load to economic output. It falls under BRSR Principle 6, Essential Indicator 7, which requires intensity per rupee of turnover along with contextual methodology disclosure. A lower value indicates better performance.",
+    "performanceAndDrivers": "Jindal Stainless leads throughout, reaching 9.0048e-06 tCO2e/₹ in FY2025 after improving from 9.85367e-06 in FY2024. JSW is 2nd in FY2025 at 4.35667e-05, Tata is 3rd at 5.00000e-05, and SAIL is 4th at 5.78014e-05. SAIL’s deterioration reflects both higher Scope 2 emissions and turnover-normalisation effects, while Tata’s deterioration from 4.00000e-05 to 5.00000e-05 occurs despite lower Scope 2 because Scope 1 rose and turnover denominator effects likely weakened the ratio. Tata and SAIL both disclose PPP-related intensity calculations and methodology notes; SAIL also notes WSA methodology and BRSR industry standards for FY2025.",
+    "tataPositioning": "In FY2025, Tata ranks 3rd, with turnover intensity 455% higher than Jindal Stainless. Tata moved from 2nd in FY2023 to 3rd in FY2024 and stayed 3rd in FY2025; the FY2023 rank is not fully comparable due to the consolidated boundary. The FY2024–FY2025 worsening indicates that Tata’s emissions-per-rupee did not benefit enough from revenue scale or mix to offset higher Scope 1 emissions.",
+    "targets": "Tata’s Net Zero 2045 target and renewable/low-emission steelmaking initiatives are relevant but not framed in BRSR as a rupee-turnover intensity target. Jindal Stainless discloses a 50% carbon emission intensity reduction target by 2035 from FY2022 baseline levels and Net Zero by 2050.",
+    "comparabilityNotes": "This metric is affected by steel prices, product mix, export mix, inflation, downstream value addition and revenue recognition, not just operational decarbonisation."
+  },
+  "flags": {
+    "directionUnclear": false,
+    "contextInsufficient": false,
+    "externalSourceUsed": false,
+    "trendAmbiguity": false,
+    "flagNote": null
+  },
+  "source": "CustomGPT",
+  "userCorrection": null,
+  "status": "pending_review"
+}

@@ -1,0 +1,62 @@
+{
+  "tag": "EnergyIntensityInTermOfPhysicalOutput",
+  "label": "Energy Intensity by Physical Output",
+  "principle": "P6",
+  "topic": "energy",
+  "direction": "lower_is_better",
+  "peerRank": {
+    "FY2023": {
+      "tata": 3,
+      "jsw": 2,
+      "sail": 4,
+      "jindal": 1
+    },
+    "FY2024": {
+      "tata": 3,
+      "jsw": 2,
+      "sail": 4,
+      "jindal": 1
+    },
+    "FY2025": {
+      "tata": 4,
+      "jsw": 2,
+      "sail": 3,
+      "jindal": 1
+    }
+  },
+  "trendDirection": {
+    "tata": {
+      "FY2023-24": "Worsened",
+      "FY2024-25": "Stable"
+    },
+    "jsw": {
+      "FY2023-24": "Worsened",
+      "FY2024-25": "Improved"
+    },
+    "sail": {
+      "FY2023-24": "AMBIGUOUS: FY2023 value missing",
+      "FY2024-25": "Improved"
+    },
+    "jindal": {
+      "FY2023-24": "Worsened",
+      "FY2024-25": "Improved"
+    }
+  },
+  "sections": {
+    "about": "This metric measures energy consumed per tonne of crude steel or physical output under BRSR Principle 6, Essential Indicator 1. It is the most relevant energy-efficiency metric in this set because it adjusts for scale. A lower value indicates better performance.",
+    "performanceAndDrivers": "Jindal Stainless leads in every comparable year, improving from 19.97 GJ/tcs in FY2024 to 16.36 GJ/tcs in FY2025. JSW is second, improving to 23.547 GJ/tcs in FY2025. SAIL improved from 32 GJ/tcs in FY2024 to 27 GJ/tcs in FY2025. Tata worsened from 24.5 GJ/tcs in FY2023 consolidated to 28.3 GJ/tcs in FY2024 and stayed at 28.3 GJ/tcs in FY2025. Tata’s BRSR energy-efficiency initiatives, including BEE collaboration, waste heat recovery and process gas recovery, are directionally positive, but they have not yet translated into peer-leading intensity. Jindal’s EAF liquid chrome optimisation, VFDs, waste heat recovery boiler and hot charging initiatives directly target electricity and fuel intensity.",
+    "tataPositioning": "In FY2025, Tata ranks 4th, with energy intensity 73.0% above Jindal Stainless. Tata’s rank was 3rd in FY2023 and FY2024, then declined to 4th in FY2025 as SAIL improved to 27 GJ/tcs. This is the most concerning Tata energy metric because it removes the “large producer” explanation and points to a direct efficiency gap.",
+    "targets": "Tata discloses energy-efficiency programmes across geographies and BEE collaboration. SAIL has a phased decarbonisation and PAT-linked efficiency roadmap. Jindal Stainless has PAT overachievement at Jajpur and Hisar and disclosed multiple FY2025 energy-saving initiatives.",
+    "comparabilityNotes": "SAIL FY2022-23 data is not available. Tata FY2022-23 is consolidated, reducing like-for-like comparability with later standalone years."
+  },
+  "flags": {
+    "directionUnclear": false,
+    "contextInsufficient": false,
+    "externalSourceUsed": false,
+    "trendAmbiguity": true,
+    "flagNote": "SAIL FY2023 physical-output intensity is missing, so the FY2023-24 SAIL trend cannot be assessed."
+  },
+  "source": "CustomGPT",
+  "userCorrection": null,
+  "status": "pending_review"
+}

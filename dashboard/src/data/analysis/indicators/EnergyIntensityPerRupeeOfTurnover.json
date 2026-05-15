@@ -1,0 +1,62 @@
+{
+  "tag": "EnergyIntensityPerRupeeOfTurnover",
+  "label": "Energy Intensity per Rupee of Turnover",
+  "principle": "P6",
+  "topic": "energy",
+  "direction": "lower_is_better",
+  "peerRank": {
+    "FY2023": {
+      "tata": 1,
+      "jsw": 2,
+      "sail": 3,
+      "jindal": 4
+    },
+    "FY2024": {
+      "tata": 3,
+      "jsw": 2,
+      "sail": 4,
+      "jindal": 1
+    },
+    "FY2025": {
+      "tata": 3,
+      "jsw": 2,
+      "sail": 4,
+      "jindal": 1
+    }
+  },
+  "trendDirection": {
+    "tata": {
+      "FY2023-24": "Worsened",
+      "FY2024-25": "Worsened"
+    },
+    "jsw": {
+      "FY2023-24": "Worsened",
+      "FY2024-25": "Worsened"
+    },
+    "sail": {
+      "FY2023-24": "Improved",
+      "FY2024-25": "Improved"
+    },
+    "jindal": {
+      "FY2023-24": "AMBIGUOUS: apparent FY2023 unit inconsistency",
+      "FY2024-25": "Improved"
+    }
+  },
+  "sections": {
+    "about": "This metric measures total energy consumed per rupee of turnover under BRSR Principle 6, Essential Indicator 1. It links energy load with revenue productivity, but is affected by product mix, steel prices, downstream value addition and unit normalisation. A lower value indicates better performance.",
+    "performanceAndDrivers": "Tata worsened from 0.00032 GJ/₹ in FY2023 to 0.00044 GJ/₹ in FY2025. JSW also worsened from 0.00038 to 0.000421084 GJ/₹. SAIL improved sharply from 5.7 to 0.000526968 GJ/₹, though FY2023-FY2024 values appear affected by unit comparability. Jindal Stainless is best in FY2024 and FY2025 at 9.1625e-05 and 7.97546e-05 GJ/₹, supported by high-value stainless product mix and lower absolute energy base. The FY2023 Jindal value of 869 appears inconsistent with later GJ/₹ standardisation; its FY2024 BRSR reports energy intensity as GJ/Crore INR, which requires conversion for GJ/₹ comparison.",
+    "tataPositioning": "In FY2025, Tata ranks 3rd, with energy intensity per rupee 451.7% above Jindal Stainless. Tata’s rank declined from 1st in FY2023 to 3rd in FY2024 and stayed 3rd in FY2025. The decline reflects both higher total energy per unit revenue and the advantage Jindal gets from stainless value realisation combined with lower absolute energy demand.",
+    "targets": "No metric-specific energy-per-rupee target identified. Relevant targets are Tata’s energy efficiency and renewable procurement, SAIL’s decarbonisation and 384 MW renewable capacity plan, and Jindal’s 50% emissions reduction before FY2035 and net zero by 2050.",
+    "comparabilityNotes": "This metric is sensitive to steel price, product mix and currency/unit conversions. Jindal FY2023 appears to be on a different unit basis than FY2024-FY2025 and should not be over-interpreted."
+  },
+  "flags": {
+    "directionUnclear": false,
+    "contextInsufficient": false,
+    "externalSourceUsed": false,
+    "trendAmbiguity": true,
+    "flagNote": "Jindal FY2023 and SAIL FY2023-FY2024 appear affected by unit normalisation differences, so multi-year trend interpretation is limited."
+  },
+  "source": "CustomGPT",
+  "userCorrection": null,
+  "status": "pending_review"
+}

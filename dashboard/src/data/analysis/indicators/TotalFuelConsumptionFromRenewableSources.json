@@ -1,0 +1,62 @@
+{
+  "tag": "TotalFuelConsumptionFromRenewableSources",
+  "label": "Renewable Fuel Consumption Volume",
+  "principle": "P6",
+  "topic": "energy",
+  "direction": "higher_is_better",
+  "peerRank": {
+    "FY2023": {
+      "tata": 1,
+      "jsw": 2,
+      "sail": 2,
+      "jindal": 2
+    },
+    "FY2024": {
+      "tata": 3,
+      "jsw": 1,
+      "sail": 3,
+      "jindal": 2
+    },
+    "FY2025": {
+      "tata": 3,
+      "jsw": 2,
+      "sail": 3,
+      "jindal": 1
+    }
+  },
+  "trendDirection": {
+    "tata": {
+      "FY2023-24": "Worsened",
+      "FY2024-25": "Stable"
+    },
+    "jsw": {
+      "FY2023-24": "Improved",
+      "FY2024-25": "Improved"
+    },
+    "sail": {
+      "FY2023-24": "Stable",
+      "FY2024-25": "Stable"
+    },
+    "jindal": {
+      "FY2023-24": "Improved",
+      "FY2024-25": "Improved"
+    }
+  },
+  "sections": {
+    "about": "This metric measures renewable fuel consumption under BRSR Principle 6, Essential Indicator 1. In steel, renewable fuels may include biofuels or other non-fossil substitutes used in heating, preheating or auxiliary processes. A higher value indicates better performance.",
+    "performanceAndDrivers": "Tata reported 10,000 GJ in FY2023 but zero in FY2024 and FY2025. JSW increased from zero to 169,293 GJ by FY2025, while Jindal Stainless rose from zero in FY2023 to 245,769 GJ in FY2025, becoming the leader. Jindal’s FY2025 BRSR explicitly cites biofuel replacing LSHS in preheating and WBF, alongside fuel-saving and thermal energy initiatives. SAIL reports zero renewable fuel across all three years, suggesting its renewable strategy is currently more electricity-capacity led than fuel-substitution led.",
+    "tataPositioning": "In FY2025, Tata ranks 3rd, tied with SAIL at zero, and is 100% below Jindal Stainless, the best performer. Tata moved from rank 1 in FY2023 to rank 3 in FY2024 and remained there in FY2025. The decline reflects non-reporting or non-use of renewable fuels after FY2023, even though Tata is progressing on renewable electricity.",
+    "targets": "No Tata metric-specific renewable-fuel target identified. Jindal Stainless has relevant fuel-substitution initiatives, including biofuel replacing LSHS, and a net-zero target by 2050. SAIL’s targets focus on renewable capacity, decarbonisation technologies and green hydrogen pilots rather than reported renewable fuel consumption.",
+    "comparabilityNotes": "Zero may mean no renewable fuel consumed, no applicable use, or no reported renewable fuel in this category."
+  },
+  "flags": {
+    "directionUnclear": false,
+    "contextInsufficient": false,
+    "externalSourceUsed": false,
+    "trendAmbiguity": false,
+    "flagNote": null
+  },
+  "source": "CustomGPT",
+  "userCorrection": null,
+  "status": "pending_review"
+}

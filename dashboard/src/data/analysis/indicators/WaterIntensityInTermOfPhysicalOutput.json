@@ -1,0 +1,62 @@
+{
+  "tag": "WaterIntensityInTermOfPhysicalOutput",
+  "label": "Water Intensity Physical Output",
+  "principle": "P6",
+  "topic": "water",
+  "direction": "lower_is_better",
+  "peerRank": {
+    "FY2023": {
+      "tata": 4,
+      "jsw": 4,
+      "sail": 4,
+      "jindal": 4
+    },
+    "FY2024": {
+      "tata": 3,
+      "jsw": 1,
+      "sail": 2,
+      "jindal": 4
+    },
+    "FY2025": {
+      "tata": 3,
+      "jsw": 1,
+      "sail": 2,
+      "jindal": 4
+    }
+  },
+  "trendDirection": {
+    "tata": {
+      "FY2023-24": "AMBIGUOUS: FY2023 not reported and Tata FY2022-23 is consolidated",
+      "FY2024-25": "Worsened"
+    },
+    "jsw": {
+      "FY2023-24": "AMBIGUOUS: FY2023 not reported",
+      "FY2024-25": "Improved"
+    },
+    "sail": {
+      "FY2023-24": "AMBIGUOUS: FY2023 not reported",
+      "FY2024-25": "Worsened"
+    },
+    "jindal": {
+      "FY2023-24": "AMBIGUOUS: FY2023 not reported",
+      "FY2024-25": "Worsened"
+    }
+  },
+  "sections": {
+    "about": "This metric measures water consumption per tonne of crude steel or comparable physical output and is disclosed under BRSR Principle 6 Essential Indicator water intensity in terms of physical output. It is the most operationally meaningful water metric for steel benchmarking because it normalises for production scale. A lower value indicates better performance.",
+    "performanceAndDrivers": "JSW leads in FY2024 and FY2025, improving from 2.39 to 2.369 kL/tcs. SAIL worsens from 3.02 to 4.64 kL/tcs, narrowing the gap with Tata. Tata worsens from 4.40 to 4.76 kL/tcs, while Jindal remains highest at 7.36 kL/tcs in FY2025. Jindal’s FY2025 BRSR table confirms 7.36 KL/TCS and water consumption of 14.41 million kL, implying low absolute scale but higher per-tonne water use.",
+    "tataPositioning": "In FY2025, Tata ranks 3rd. JSW is best at 2.369 kL/tcs, making Tata’s 4.76 kL/tcs approximately 101% higher. Tata’s rank holds at 3rd from FY2024 to FY2025, but its own intensity worsens, indicating that production growth and water-efficiency measures did not offset consumption growth.",
+    "targets": "Tata’s water strategy identifies minimising water usage and maximising recycling. SAIL’s ZLD initiatives are relevant but not expressed as a kL/tcs target.",
+    "comparabilityNotes": "FY2022-23 physical-output intensity was not available for any company. This is the preferred metric for peer benchmarking versus absolute withdrawal/consumption."
+  },
+  "flags": {
+    "directionUnclear": false,
+    "contextInsufficient": false,
+    "externalSourceUsed": false,
+    "trendAmbiguity": false,
+    "flagNote": null
+  },
+  "source": "CustomGPT",
+  "userCorrection": null,
+  "status": "pending_review"
+}

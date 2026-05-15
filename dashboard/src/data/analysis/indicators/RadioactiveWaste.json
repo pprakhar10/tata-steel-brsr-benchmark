@@ -1,0 +1,62 @@
+{
+  "tag": "RadioactiveWaste",
+  "label": "Radioactive Waste",
+  "principle": "P6",
+  "topic": "waste",
+  "direction": "lower_is_better",
+  "peerRank": {
+    "FY2023": {
+      "tata": 1,
+      "jsw": 1,
+      "sail": 1,
+      "jindal": 1
+    },
+    "FY2024": {
+      "tata": 1,
+      "jsw": 1,
+      "sail": 1,
+      "jindal": 1
+    },
+    "FY2025": {
+      "tata": 1,
+      "jsw": 1,
+      "sail": 1,
+      "jindal": 1
+    }
+  },
+  "trendDirection": {
+    "tata": {
+      "FY2023-24": "Stable",
+      "FY2024-25": "Stable"
+    },
+    "jsw": {
+      "FY2023-24": "Stable",
+      "FY2024-25": "Stable"
+    },
+    "sail": {
+      "FY2023-24": "Stable",
+      "FY2024-25": "Stable"
+    },
+    "jindal": {
+      "FY2023-24": "Stable",
+      "FY2024-25": "Stable"
+    }
+  },
+  "sections": {
+    "about": "This metric measures radioactive waste generated under BRSR Principle 6, Essential Indicator on category-wise waste generation. For steelmakers, it is generally expected to be nil except for trace regulated equipment-disposal cases. A lower value indicates better performance.",
+    "performanceAndDrivers": "All four companies reported zero radioactive waste across FY2023, FY2024 and FY2025. Tata notes that trace radioactive waste may arise from disposal of some equipment and is disposed of as per regulations with due precaution, but the reported standardised values remain zero across the period.",
+    "tataPositioning": "Tata ranked joint 1st in FY2025 with all peers, with a 0% gap. Tata’s ranking was stable across all three years because all companies reported zero.",
+    "targets": "No radioactive-waste-specific target was identified.",
+    "comparabilityNotes": null
+  },
+  "flags": {
+    "directionUnclear": false,
+    "contextInsufficient": false,
+    "externalSourceUsed": false,
+    "trendAmbiguity": false,
+    "flagNote": null
+  },
+  "source": "CustomGPT",
+  "userCorrection": null,
+  "status": "pending_review"
+}

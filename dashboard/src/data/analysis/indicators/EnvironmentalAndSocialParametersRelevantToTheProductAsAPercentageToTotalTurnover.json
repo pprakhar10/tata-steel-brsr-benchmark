@@ -1,0 +1,62 @@
+{
+  "tag": "EnvironmentalAndSocialParametersRelevantToTheProductAsAPercentageToTotalTurnover",
+  "label": "Product Sustainability Parameters as Percentage of Turnover",
+  "principle": "P2",
+  "topic": "csr-products-consumer",
+  "direction": "higher_is_better",
+  "peerRank": {
+    "FY2023": {
+      "tata": 3,
+      "jsw": 1,
+      "sail": 1,
+      "jindal": 4
+    },
+    "FY2024": {
+      "tata": 4,
+      "jsw": 1,
+      "sail": 1,
+      "jindal": 1
+    },
+    "FY2025": {
+      "tata": 3,
+      "jsw": 1,
+      "sail": 4,
+      "jindal": 1
+    }
+  },
+  "trendDirection": {
+    "tata": {
+      "FY2023-24": "Improved",
+      "FY2024-25": "Worsened"
+    },
+    "jsw": {
+      "FY2023-24": "Stable",
+      "FY2024-25": "Stable"
+    },
+    "sail": {
+      "FY2023-24": "Stable",
+      "FY2024-25": "Worsened"
+    },
+    "jindal": {
+      "FY2023-24": "Improved",
+      "FY2024-25": "Stable"
+    }
+  },
+  "sections": {
+    "about": "This metric measures the share of turnover from products/services that carry information on environmental and social parameters relevant to the product. It is a BRSR Principle 9 Essential Indicator under consumer responsibility, linked to product transparency and responsible consumption. A higher value indicates better performance.",
+    "performanceAndDrivers": "The benchmark shows a wide disclosure-coverage gap rather than a simple steelmaking-performance gap. JSW reported 100% across FY2023-FY2025, while SAIL reported 100% in FY2023 and FY2024 before falling to 0% in FY2025; Jindal Stainless moved from 0% in FY2023 to 100% in FY2024 and FY2025. Tata Steel remained partial at 50% in FY2023, 53% in FY2024, and 52% in FY2025. Jindal’s FY2025 position is supported by product-level disclosures, customer education, product brochures, technical visits, fabricator training, display vans, and labels carrying grade, batch, heat number, dimensions, certification logos, REACH/RoHS references and BIS/ISI marks for multiple stainless grades.",
+    "tataPositioning": "In FY2024-25, Tata ranks 3rd at 52%, behind JSW and Jindal at 100%; the gap to the best performer is 48 percentage points, or 48% below the 100% benchmark. Tata’s rank improved from 3rd in FY2023 to neither leading nor catching up in FY2024 despite a numeric rise to 53%, because Jindal moved to 100%; Tata then remained 3rd in FY2025 as SAIL fell to 0%. The underlying issue appears to be disclosure coverage and product-information mapping rather than absence of product responsibility systems, because Tata reports value-chain policy coverage, ResponsibleSteel, BIS, ISO and related certifications, and sustainable procurement practices, but these do not translate into 100% turnover coverage for this specific P9 product-information metric.",
+    "targets": "Related BRSR commitments include Tata Steel’s Net Zero by 2045 ambition, low-emission EAF transition, and scrap-use expansion, while Jindal Stainless discloses a 50% carbon-emission-intensity reduction target by 2035 versus FY2022 baseline, Net Zero by 2050, 100% supplier ESG assessment ambition, and ResponsibleSteel certification ambition.",
+    "comparabilityNotes": "Tata Steel FY2022-23 is consolidated, while later Tata figures include restatements and boundary changes linked to mergers. SAIL’s FY2025 fall from 100% to 0% should be read as a disclosure/classification movement unless corroborated by a detailed methodology note, not as proof of a sudden product-portfolio change."
+  },
+  "flags": {
+    "directionUnclear": false,
+    "contextInsufficient": false,
+    "externalSourceUsed": false,
+    "trendAmbiguity": false,
+    "flagNote": null
+  },
+  "source": "CustomGPT",
+  "userCorrection": null,
+  "status": "pending_review"
+}

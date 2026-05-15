@@ -1,0 +1,62 @@
+{
+  "tag": "PercentageOfRAndD",
+  "label": "Percentage Of R&D",
+  "principle": "P2",
+  "topic": "governance-related-party",
+  "direction": "higher_is_better",
+  "peerRank": {
+    "FY2023": {
+      "tata": 1,
+      "jsw": 1,
+      "sail": 3,
+      "jindal": 4
+    },
+    "FY2024": {
+      "tata": 1,
+      "jsw": 1,
+      "sail": 4,
+      "jindal": 3
+    },
+    "FY2025": {
+      "tata": 1,
+      "jsw": 1,
+      "sail": 4,
+      "jindal": 3
+    }
+  },
+  "trendDirection": {
+    "tata": {
+      "FY2023-24": "Stable",
+      "FY2024-25": "Stable"
+    },
+    "jsw": {
+      "FY2023-24": "Stable",
+      "FY2024-25": "Stable"
+    },
+    "sail": {
+      "FY2023-24": "Improved",
+      "FY2024-25": "Worsened"
+    },
+    "jindal": {
+      "FY2023-24": "Improved",
+      "FY2024-25": "Improved"
+    }
+  },
+  "sections": {
+    "about": "This metric measures R&D expenditure in specific technologies to improve environmental and social impacts as a percentage of total R&D expenditure. It falls under Principle 2, Essential Indicator 1 of the BRSR format. A higher value indicates better performance.",
+    "performanceAndDrivers": "Tata and JSW are tied at 100% across all three years, while SAIL remains around 9–11% and Jindal rises sharply from 0.02% in FY2023 to 34.8% in FY2024 and 51.98% in FY2025. Tata’s 100% reflects its disclosure approach: FY2025 BRSR states that R&D cost includes expenditure on environmental and sustainability initiatives such as low-emission transition, freshwater reduction, waste value maximisation, energy efficiency, circular economy, and use of low-grade raw materials. SAIL explicitly notes that although 100% of R&D may in some way improve environment or society, its reported 10.48% reflects only direct and specific R&D in relevant technologies. Jindal’s FY2025 R&D includes clad plates, stainless rebars, 415 grade stainless steel, corrosion investigation, and 20Cr5Al grade development for product longevity, localisation, import substitution, and lifecycle impact reduction.",
+    "tataPositioning": "In FY2025, Tata ranks joint 1st at 100%, tied with JSW. Jindal is closest at 51.98%, which is 48.02 percentage points behind Tata and JSW. Tata’s ranking held steady at rank 1 across all three years, but the figure should be framed carefully: it reflects Tata’s broad classification of R&D alignment with NGRBC principles, not necessarily that every rupee is a discrete decarbonisation R&D project. The real strength is Tata’s ability to connect R&D to BF-BOF efficiency, low-grade raw material use, circularity, waste valorisation, water stewardship, and low-emission transition.",
+    "targets": "No R&D-percentage target identified for this metric. Tata links the disclosure to its ESG goals and factsheet; Jindal’s net-zero 2050 and 50% emission-intensity reduction before FY35 provide the strategic target context for sustainability-oriented R&D, but not a specific R&D allocation target.",
+    "comparabilityNotes": "This metric has a major methodology issue: Tata reports 100% because all R&D is aligned with one or more NGRBC principles, while SAIL reports only direct and specific R&D expenditure for environmental/social technologies. Therefore, rank is directionally useful but not fully like-for-like."
+  },
+  "flags": {
+    "directionUnclear": false,
+    "contextInsufficient": false,
+    "externalSourceUsed": false,
+    "trendAmbiguity": true,
+    "flagNote": "Methodology differences materially affect comparability, especially Tata/JSW at 100% versus SAIL’s direct-specific R&D basis."
+  },
+  "source": "CustomGPT",
+  "userCorrection": null,
+  "status": "pending_review"
+}

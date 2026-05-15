@@ -1,0 +1,62 @@
+{
+  "tag": "NetWorth",
+  "label": "Net Worth",
+  "principle": "Section A",
+  "topic": "financial-profile",
+  "direction": "higher_is_better",
+  "peerRank": {
+    "FY2023": {
+      "tata": 1,
+      "jsw": 2,
+      "sail": 3,
+      "jindal": 4
+    },
+    "FY2024": {
+      "tata": 1,
+      "jsw": 2,
+      "sail": 3,
+      "jindal": 4
+    },
+    "FY2025": {
+      "tata": 1,
+      "jsw": 2,
+      "sail": 3,
+      "jindal": 4
+    }
+  },
+  "trendDirection": {
+    "tata": {
+      "FY2023-24": "Improved",
+      "FY2024-25": "Worsened"
+    },
+    "jsw": {
+      "FY2023-24": "Improved",
+      "FY2024-25": "Improved"
+    },
+    "sail": {
+      "FY2023-24": "Improved",
+      "FY2024-25": "Improved"
+    },
+    "jindal": {
+      "FY2023-24": "Improved",
+      "FY2024-25": "Improved"
+    }
+  },
+  "sections": {
+    "about": "Net worth measures the equity capital base available to absorb cyclicality, fund growth, and support balance-sheet resilience. It is disclosed in BRSR Section A through CSR financial details and is not a Principle 1–9 Essential or Leadership indicator. A higher value indicates better performance.",
+    "performanceAndDrivers": "Tata Steel leads the peer group across all three years on standalone net worth. Tata's standalone net worth increased marginally from ₹134,797.5 crore in FY2022-23 to ₹135,222.3 crore in FY2023-24, before declining to ₹123,543.9 crore in FY2024-25. JSW improved steadily from ₹64,307.0 crore to ₹67,903.0 crore and ₹72,049.7 crore, reflecting consistent retained earnings accumulation. SAIL also strengthened gradually from ₹52,435.0 crore to ₹54,130.5 crore and ₹55,656.0 crore; its FY2022-23 report states that net worth increased marginally while borrowings also increased due to the difficult operating environment. Jindal Stainless improved sharply from ₹11,351.0 crore to ₹13,700.0 crore and ₹16,196.9 crore, but remains far below the integrated carbon-steel peers in absolute capital base.",
+    "tataPositioning": "In FY2024-25, Tata Steel ranks 1st on net worth at ₹123,543.9 crore, well ahead of JSW at ₹72,049.7 crore. Tata has held the top rank across all three years. However, the FY2024-25 decline from ₹135,222.3 crore to ₹123,543.9 crore is worth noting — it reflects cyclical pressures on retained earnings and balance-sheet dynamics in a challenging steel-price environment, even as Tata maintains a significantly larger equity base than peers.",
+    "targets": "No targets identified for this metric.",
+    "comparabilityNotes": "Tata Steel FY2022-23 is flagged as consolidated in the original XBRL filing, while the standalone net worth values used in this benchmark are sourced from the annual report for comparability with other standalone peer companies."
+  },
+  "flags": {
+    "directionUnclear": false,
+    "contextInsufficient": false,
+    "externalSourceUsed": false,
+    "trendAmbiguity": false,
+    "flagNote": null
+  },
+  "source": "CustomGPT",
+  "userCorrection": "Standalone net worth values updated for all three years per manual review: FY2022-23 ₹134,797.51 crore, FY2023-24 ₹135,222.28 crore, FY2024-25 ₹123,543.94 crore.",
+  "status": "reviewed"
+}

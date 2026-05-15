@@ -1,0 +1,62 @@
+{
+  "tag": "TotalEnergyConsumedFromNonRenewableSources",
+  "label": "Total Non Renewable Energy Consumption",
+  "principle": "P6",
+  "topic": "energy",
+  "direction": "lower_is_better",
+  "peerRank": {
+    "FY2023": {
+      "tata": 4,
+      "jsw": 2,
+      "sail": 3,
+      "jindal": 1
+    },
+    "FY2024": {
+      "tata": 3,
+      "jsw": 2,
+      "sail": 4,
+      "jindal": 1
+    },
+    "FY2025": {
+      "tata": 4,
+      "jsw": 3,
+      "sail": 2,
+      "jindal": 1
+    }
+  },
+  "trendDirection": {
+    "tata": {
+      "FY2023-24": "Improved",
+      "FY2024-25": "Worsened"
+    },
+    "jsw": {
+      "FY2023-24": "Worsened",
+      "FY2024-25": "Worsened"
+    },
+    "sail": {
+      "FY2023-24": "Worsened",
+      "FY2024-25": "Improved"
+    },
+    "jindal": {
+      "FY2023-24": "Worsened",
+      "FY2024-25": "Improved"
+    }
+  },
+  "sections": {
+    "about": "This metric captures total non-renewable energy consumption under BRSR Principle 6, Essential Indicator 1. For steelmakers, it mainly reflects coal/coke, fossil fuels, grid/captive fossil electricity and process energy in BF-BOF or EAF operations. A lower value indicates better performance.",
+    "performanceAndDrivers": "Jindal Stainless leads on absolute non-renewable energy, reducing from 34.94 million GJ in FY2024 to 30.74 million GJ in FY2025. Tata remains highest in FY2025 at 587.18 million GJ, above JSW’s 525.98 million GJ and SAIL’s 518.03 million GJ. The steel-route logic is material: BF-BOF integrated plants rely heavily on metallurgical coal, coke oven gas, BF gas and captive thermal systems, while stainless EAF operations can show a lower absolute non-renewable base. Tata and SAIL both disclose energy-efficiency and decarbonisation measures, but the non-renewable base is still structurally dominated by carbon-intensive process energy.",
+    "tataPositioning": "In FY2025, Tata ranks 4th, with non-renewable energy 1,810% above the best performer, Jindal Stainless. Tata improved from rank 4 in FY2023 to rank 3 in FY2024, then declined to rank 4 in FY2025 as SAIL’s non-renewable energy dropped and Tata’s increased. Tata’s large BF-BOF footprint and captive energy model remain the main structural drivers.",
+    "targets": "Tata’s relevant targets are energy efficiency and renewable power procurement, including the 379 MW captive renewable power agreement. SAIL is targeting renewable capacity expansion and decarbonisation through CDQ, TRT, CDI, WHR, PAT and green hydrogen pilots. Jindal Stainless targets net zero by 2050 and 50% emissions reduction before FY2035.",
+    "comparabilityNotes": "This metric is highly scale-sensitive. Tata FY2023 is consolidated; FY2025 Tata is standardised/corrected."
+  },
+  "flags": {
+    "directionUnclear": false,
+    "contextInsufficient": false,
+    "externalSourceUsed": false,
+    "trendAmbiguity": false,
+    "flagNote": null
+  },
+  "source": "CustomGPT",
+  "userCorrection": null,
+  "status": "pending_review"
+}

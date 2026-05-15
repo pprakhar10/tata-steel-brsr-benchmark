@@ -1,0 +1,79 @@
+{
+  "companyId": "jindal-stainless",
+  "year": "FY2024",
+  "source": "PDF",
+  "enrichment": {
+    "targets": [
+      {
+        "description": "Achieve Net Zero emissions",
+        "metric": "GHG Emissions",
+        "baseline": null,
+        "targetValue": "Net Zero",
+        "timeline": "2050"
+      },
+      {
+        "description": "Reduce emission intensity by 50%",
+        "metric": "Emission Intensity (tCO2e/tcs)",
+        "baseline": "FY2022",
+        "targetValue": "50% reduction",
+        "timeline": "Medium-term (implied ~2035)"
+      }
+    ],
+    "initiatives": [
+      {
+        "name": "Floating & Rooftop Solar",
+        "area": "energy",
+        "description": "7.3 MWp floating solar installed and 23 MWp rooftop solar under commission in Jajpur.",
+        "outcome": "Generated 6,155,850 kWh from onsite solar generation."
+      },
+      {
+        "name": "Chrome Palletisation Plant",
+        "area": "emissions",
+        "description": "Installed chrome palletization plant instead of traditional briquetting — lower specific energy consumption.",
+        "outcome": "Reduction in overall emissions."
+      },
+      {
+        "name": "Waste Heat Recovery Boiler (WHRB)",
+        "area": "energy",
+        "description": "Captures and utilizes waste heat during steelmaking to generate steam.",
+        "outcome": "Abated 298.8 tonnes of propane equivalent."
+      }
+    ],
+    "scope3Breakdown": {
+      "totalScope3": "3,345,443 tCO2e",
+      "categories": [],
+      "note": "Scope 3 emission intensity is 1.90 tCO2e/tcs."
+    },
+    "managementCommentary": "The Company is unwavering in its dedication to creating a sustainable future, driven by ESG responsibility. Utilizing scrap in an electric arc furnace — the most eco-friendly steelmaking method — ensures 100% recyclability. Management is evaluating realistic targets for reducing waste landfilled.",
+    "awardsAndRatings": [
+      {
+        "name": "Responsible Steel certification (In Progress)",
+        "score": null,
+        "year": "2024"
+      }
+    ],
+    "nonCompliance": [
+      {
+        "description": "No fines, penalties, or non-compliances reported for the year.",
+        "resolution": "Nil"
+      }
+    ],
+    "forwardLooking": [
+      {
+        "description": "Develop science-based targets for near-term and Net Zero GHG emissions through SBTi",
+        "timeline": "Long-term (2050)"
+      }
+    ],
+    "qualitativePolicies": {
+      "P1_ethics": "The ABAC Policy ensures operations align with highest ethical standards to prevent fraud, bribery, and corruption.",
+      "P3_ohs": "Driven by a 'No Harm' philosophy. Implemented ISO 45001:2018. Safety culture relies on Engineering Control, Education, Encouragement, and Enforcement.",
+      "P6_environment": "Operations centred around Reduce, Reuse, Recycle, Recover, and Repurpose. ~72% of input material consists of recycled scrap and revert."
+    },
+    "steelProduction": {
+      "value": 2080000,
+      "unit": "metric tonnes",
+      "note": "From plan config. Gemini derived ~1.76M t from BRSR — difference may reflect saleable vs crude denominator."
+    },
+    "reportingBoundary": "Standalone."
+  }
+}

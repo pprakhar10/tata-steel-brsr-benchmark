@@ -1,0 +1,62 @@
+{
+  "tag": "NumberOfDealersOrDistributorsToWhomSalesAreMade",
+  "label": "Number Of Dealers Or Distributors",
+  "principle": "Section A",
+  "topic": "csr-products-consumer",
+  "direction": "higher_is_better",
+  "peerRank": {
+    "FY2023": {
+      "tata": 4,
+      "jsw": 4,
+      "sail": 4,
+      "jindal": 4
+    },
+    "FY2024": {
+      "tata": 1,
+      "jsw": 2,
+      "sail": 4,
+      "jindal": 3
+    },
+    "FY2025": {
+      "tata": 1,
+      "jsw": 3,
+      "sail": 4,
+      "jindal": 2
+    }
+  },
+  "trendDirection": {
+    "tata": {
+      "FY2023-24": "Improved",
+      "FY2024-25": "Improved"
+    },
+    "jsw": {
+      "FY2023-24": "Improved",
+      "FY2024-25": "Worsened"
+    },
+    "sail": {
+      "FY2023-24": "Improved",
+      "FY2024-25": "Worsened"
+    },
+    "jindal": {
+      "FY2023-24": "Improved",
+      "FY2024-25": "Improved"
+    }
+  },
+  "sections": {
+    "about": "This metric measures the number of dealers/distributors through whom sales are made under the BRSR “Open-ness of business” disclosure on concentration of sales. It is a transparency and concentration indicator, associated with governance and market-access disclosure rather than a Principle 9 product-information Essential Indicator. A higher value indicates better performance because it suggests broader channel reach and lower reliance on a narrow dealer/distributor base.",
+    "performanceAndDrivers": "All companies were missing this datapoint in FY2023 and therefore rank last under the stated rule. In FY2024, Tata led with 1,176 dealers/distributors, followed by JSW at 296, Jindal at 240, and SAIL at 194. In FY2025, Tata expanded further to 1,661, Jindal rose to 367, JSW declined to 270, and SAIL declined to 168. Tata’s scale and distributor architecture are visible in its FY2025 openness disclosure: standalone sales to dealers/distributors were 38% of total sales, with 1,661 dealers/distributors, and Tata clarifies that its channels are direct sales and distributor sales. Jindal’s FY2025 dealer/distributor base increased alongside dealer/distributor sales at 32% of total sales, while SAIL’s dealer/distributor sales were 15.91% with 168 dealers/distributors.",
+    "tataPositioning": "In FY2024-25, Tata ranks 1st with 1,661 dealers/distributors. The closest peer is Jindal Stainless at 367, which is 77.9% behind Tata on count; Tata’s network is about 4.5x Jindal’s, 6.2x JSW’s, and 9.9x SAIL’s. Tata’s trajectory is clearly positive: from missing disclosure in FY2023 to rank 1 in FY2024 and a further 41% increase in FY2025. This supports Tata’s market-access positioning, especially for distributor-led domestic reach, but it should be read together with sales concentration and top-10 distributor share rather than as a standalone quality metric.",
+    "targets": null,
+    "comparabilityNotes": "Absolute dealer/distributor count is affected by company scale, channel model, product mix, and whether the company defines distributors, dealers, and stockists similarly. FY2022-23 data is not available for any company and should not be used for substantive peer differentiation."
+  },
+  "flags": {
+    "directionUnclear": false,
+    "contextInsufficient": false,
+    "externalSourceUsed": false,
+    "trendAmbiguity": false,
+    "flagNote": null
+  },
+  "source": "CustomGPT",
+  "userCorrection": null,
+  "status": "pending_review"
+}

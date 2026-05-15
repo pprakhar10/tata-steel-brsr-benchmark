@@ -1,0 +1,62 @@
+{
+  "tag": "WasteRecoveredThroughReUsed",
+  "label": "Waste Recovered Through Reuse",
+  "principle": "P6",
+  "topic": "waste",
+  "direction": "higher_is_better",
+  "peerRank": {
+    "FY2023": {
+      "tata": 1,
+      "jsw": 3,
+      "sail": 3,
+      "jindal": 2
+    },
+    "FY2024": {
+      "tata": 1,
+      "jsw": 4,
+      "sail": 3,
+      "jindal": 2
+    },
+    "FY2025": {
+      "tata": 1,
+      "jsw": 4,
+      "sail": 2,
+      "jindal": 3
+    }
+  },
+  "trendDirection": {
+    "tata": {
+      "FY2023-24": "AMBIGUOUS: FY2023 is consolidated while FY2024 is standalone",
+      "FY2024-25": "Worsened"
+    },
+    "jsw": {
+      "FY2023-24": "Stable",
+      "FY2024-25": "Stable"
+    },
+    "sail": {
+      "FY2023-24": "Improved",
+      "FY2024-25": "Improved"
+    },
+    "jindal": {
+      "FY2023-24": "Worsened",
+      "FY2024-25": "Worsened"
+    }
+  },
+  "sections": {
+    "about": "This metric measures waste recovered through re-use under BRSR Principle 6, Essential Indicator on waste recovery. Preparation for re-use includes checking, cleaning or repairing products or components so they can be used again for the same purpose. A higher value indicates better performance.",
+    "performanceAndDrivers": "Tata remained the leader in FY2025 with 2,959,048 MT re-used, followed by SAIL at 2,245,648 MT, Jindal at 17,937 MT and JSW at zero. Tata’s value declined from 7,444,172 MT in FY2024, suggesting reclassification or operational shift toward recycling, because Tata’s recycled stream increased sharply over the same period. SAIL’s re-use rose from zero in FY2023 to 2.25 million MT in FY2025, consistent with internal use of BOF slag, mill scale, lime/dolo fines and other materials in blast furnace, SMS and sinter operations.",
+    "tataPositioning": "Tata ranked 1st in FY2025; SAIL was closest and was about 24.1% behind Tata. Tata held rank 1 across all years, but the lead narrowed as SAIL’s reported re-use accelerated.",
+    "targets": "No metric-specific Tata target for re-use was identified. SAIL’s 100% solid waste utilisation aspiration and 4R policy are directly relevant to re-use.",
+    "comparabilityNotes": "Company-level allocation between re-use and recycling can materially affect rank; Tata’s FY2025 fall in re-use coincided with a rise in recycling."
+  },
+  "flags": {
+    "directionUnclear": false,
+    "contextInsufficient": false,
+    "externalSourceUsed": false,
+    "trendAmbiguity": false,
+    "flagNote": null
+  },
+  "source": "CustomGPT",
+  "userCorrection": null,
+  "status": "pending_review"
+}

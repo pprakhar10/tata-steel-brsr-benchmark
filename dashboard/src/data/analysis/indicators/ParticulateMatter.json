@@ -1,0 +1,62 @@
+{
+  "tag": "ParticulateMatter",
+  "label": "Particulate Matter Emissions",
+  "principle": "P6",
+  "topic": "air-emissions",
+  "direction": "lower_is_better",
+  "peerRank": {
+    "FY2023": {
+      "tata": 3,
+      "jsw": 2,
+      "sail": 4,
+      "jindal": 1
+    },
+    "FY2024": {
+      "tata": 3,
+      "jsw": 2,
+      "sail": 4,
+      "jindal": 1
+    },
+    "FY2025": {
+      "tata": 2,
+      "jsw": 4,
+      "sail": 3,
+      "jindal": 1
+    }
+  },
+  "trendDirection": {
+    "tata": {
+      "FY2023-24": "Improved",
+      "FY2024-25": "Improved"
+    },
+    "jsw": {
+      "FY2023-24": "Improved",
+      "FY2024-25": "Worsened"
+    },
+    "sail": {
+      "FY2023-24": "AMBIGUOUS: FY2022-23 value not reported in standardised table",
+      "FY2024-25": "Improved"
+    },
+    "jindal": {
+      "FY2023-24": "Improved",
+      "FY2024-25": "Worsened"
+    }
+  },
+  "sections": {
+    "about": "Particulate Matter measures dust and fine particulate emissions from material handling, sintering, pelletising, coke making, BF/BOF/EAF operations, captive power and fugitive sources. This is disclosed under BRSR Principle 6, Essential Indicator for air emissions other than GHG emissions. A lower value indicates better performance.",
+    "performanceAndDrivers": "Jindal Stainless led every year on PM, with 2.0841 kt in FY2022-23, 1.3133 kt in FY2023-24 and 1.6015 kt in FY2024-25. Tata improved consistently from 11 kt consolidated in FY2022-23 to 9 kt in FY2023-24 and 8 kt in FY2024-25, becoming the second-best performer in the latest year. JSW improved from 10.143 kt to 8.62 kt but worsened to 10.84 kt in FY2024-25, while SAIL improved from 11.62 kt in FY2023-24 to 10.7352 kt in FY2024-25. Tata’s improvement aligns with the company’s stated modernisation, upgraded pollution-control equipment and significant reduction in stack dust emissions in India; Jindal also discloses APCDs, fugitive-emission management and continuous air-quality monitoring as mitigation measures.",
+    "tataPositioning": "In FY2024-25, Tata ranked 2nd on PM, behind Jindal Stainless. Tata’s 8 kt was 6.3985 kt higher than Jindal’s 1.6015 kt, or approximately 400% above the best performer. Tata’s ranking improved from 3rd in FY2022-23 and FY2023-24 to 2nd in FY2024-25. This is Tata’s strongest air-emissions signal in the set: despite integrated BF-BOF scale, dust performance improved year-on-year, likely reflecting the impact of stack-dust control, dedusting, maintenance discipline and modernised pollution-control assets.",
+    "targets": "Tata discloses dust-reduction investments and stack-dust mitigation.",
+    "comparabilityNotes": "Tata Steel FY2022-23 is consolidated. SAIL FY2022-23 is not reported. Jindal Stainless values are converted from MT to kilotonnes."
+  },
+  "flags": {
+    "directionUnclear": false,
+    "contextInsufficient": false,
+    "externalSourceUsed": false,
+    "trendAmbiguity": true,
+    "flagNote": "SAIL FY2022-23 is not reported, so FY2023-24 trend cannot be assessed on a like-for-like numeric basis."
+  },
+  "source": "CustomGPT",
+  "userCorrection": null,
+  "status": "pending_review"
+}

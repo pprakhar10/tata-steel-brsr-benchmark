@@ -1,0 +1,62 @@
+{
+  "tag": "NOx",
+  "label": "NOx Emissions",
+  "principle": "P6",
+  "topic": "air-emissions",
+  "direction": "lower_is_better",
+  "peerRank": {
+    "FY2023": {
+      "tata": 3,
+      "jsw": 2,
+      "sail": 4,
+      "jindal": 1
+    },
+    "FY2024": {
+      "tata": 3,
+      "jsw": 4,
+      "sail": 2,
+      "jindal": 1
+    },
+    "FY2025": {
+      "tata": 3,
+      "jsw": 4,
+      "sail": 1,
+      "jindal": 2
+    }
+  },
+  "trendDirection": {
+    "tata": {
+      "FY2023-24": "Improved",
+      "FY2024-25": "Worsened"
+    },
+    "jsw": {
+      "FY2023-24": "Improved",
+      "FY2024-25": "Improved"
+    },
+    "sail": {
+      "FY2023-24": "AMBIGUOUS: FY2022-23 value not reported in standardised table",
+      "FY2024-25": "Improved"
+    },
+    "jindal": {
+      "FY2023-24": "Improved",
+      "FY2024-25": "Worsened"
+    }
+  },
+  "sections": {
+    "about": "NOx emissions measure nitrogen oxides from high-temperature combustion, reheating, power generation, coke ovens, sinter/pellet operations and other thermal processes. This is disclosed under BRSR Principle 6, Essential Indicator for air emissions other than GHG emissions. A lower value indicates better performance.",
+    "performanceAndDrivers": "Jindal Stainless led in FY2022-23 and FY2023-24 with 1.9807 kt and 1.7826 kt respectively, while SAIL led in FY2024-25 at 0.8 kt. Tata reduced NOx from 30 kt in FY2022-23 consolidated to 21 kt in FY2023-24, but increased to 24 kt in FY2024-25; JSW improved steadily from 28.7385 kt to 27 kt and then 25.845 kt. Jindal worsened in FY2024-25 to 2.5275 kt, but remained structurally below integrated BF-BOF peers due to scale and route differences. Tata’s FY2025 BRSR highlights real-time monitoring, upgraded pollution-control equipment, new technologies and maintenance as the core air-quality controls, while the BRSR capex disclosure explicitly includes investments in NOx reduction.",
+    "tataPositioning": "In FY2024-25, Tata ranked 3rd on NOx. Tata’s 24 kt was 23.2 kt higher than SAIL’s best-in-peer value of 0.8 kt, or approximately 2,900% above the best performer. Tata’s rank held at 3rd across FY2022-23, FY2023-24 and FY2024-25, although the absolute trend improved first and then worsened. The key issue is not relative rank deterioration, but the wide absolute gap to SAIL and Jindal in FY2024-25, indicating that route, operating boundary, scale and combustion intensity dominate the peer comparison.",
+    "targets": "Tata discloses investments and mitigation initiatives for NOx reduction.",
+    "comparabilityNotes": "Tata Steel FY2022-23 is consolidated. SAIL FY2022-23 is not reported. Jindal Stainless BRSR reports NOx in MT; values are converted to kilotonnes."
+  },
+  "flags": {
+    "directionUnclear": false,
+    "contextInsufficient": false,
+    "externalSourceUsed": false,
+    "trendAmbiguity": true,
+    "flagNote": "SAIL FY2022-23 is not reported, so FY2023-24 trend cannot be assessed on a like-for-like numeric basis."
+  },
+  "source": "CustomGPT",
+  "userCorrection": null,
+  "status": "pending_review"
+}

@@ -1,0 +1,90 @@
+{
+  "companyId": "tata-steel",
+  "year": "FY2023",
+  "source": "PDF",
+  "enrichment": {
+    "targets": [
+      {
+        "description": "Net Zero emissions for the Tata Steel Group",
+        "metric": "Scope 1 and 2 emissions",
+        "baseline": null,
+        "targetValue": "Net Zero",
+        "timeline": "2045"
+      },
+      {
+        "description": "Achieve specific dust emission intensity of 0.43 kg per tonne of crude steel in India",
+        "metric": "Dust Emission Intensity",
+        "baseline": null,
+        "targetValue": "0.43 kg/tonne",
+        "timeline": "2025"
+      },
+      {
+        "description": "Achieve specific freshwater consumption of 2.0 m³ per tonne of crude steel across all steelmaking sites in India",
+        "metric": "Freshwater consumption intensity",
+        "baseline": null,
+        "targetValue": "2.0 m3/tonne",
+        "timeline": "2025"
+      }
+    ],
+    "initiatives": [
+      {
+        "name": "Zero Carbon Logistics programme",
+        "area": "emissions",
+        "description": "Reduce CO2 footprint from product transport by 30% by 2030. Uses Optimum Voyage to optimise fuel efficiency.",
+        "outcome": "Savings of ~5% CO2 emissions; replacing road with rail reduced >5,000 trucks/year."
+      },
+      {
+        "name": "Benchmarking Energy Efficiency IMPACT Centre",
+        "area": "energy",
+        "description": "Drive energy efficiency campaigns across the Company.",
+        "outcome": "Savings of more than Rs. 750 crore since 2015."
+      },
+      {
+        "name": "Tata Power Renewable Energy Agreement",
+        "area": "energy",
+        "description": "Set up 950 MW solar & wind hybrid renewable power capacity under captive arrangement.",
+        "outcome": "Will cater to 379 MW of power requirement and enable reduction of over 2 million tonnes CO2 per annum."
+      }
+    ],
+    "scope3Breakdown": {
+      "totalScope3": "13.1 million tCO2e",
+      "categories": [],
+      "note": "Tata Steel measures end-to-end Scope 3 emissions for all modes of transportation."
+    },
+    "managementCommentary": "In line with our vision of being the steel industry benchmark in Corporate Citizenship, Tata Steel has adopted ESG goals driving initiatives across the Company. We are committed to avoiding operational activities near sites containing globally or nationally important biodiversity. The Policy aspires to achieve no Net Loss of Biodiversity.",
+    "awardsAndRatings": [
+      {
+        "name": "JRDQV award (Benchmark Leader under TBEM Assessment)",
+        "score": null,
+        "year": "2021"
+      },
+      {
+        "name": "ResponsibleSteel™ Certification (Jamshedpur site)",
+        "score": "Certified",
+        "year": "2022"
+      }
+    ],
+    "nonCompliance": [],
+    "forwardLooking": [
+      {
+        "description": "Net Zero emissions for the Tata Steel Group",
+        "timeline": "2045"
+      },
+      {
+        "description": "Cover 100% sites under Biodiversity Management Plans across India, UK and the Netherlands",
+        "timeline": "2025"
+      }
+    ],
+    "qualitativePolicies": {
+      "P1_ethics": "The Anti-Bribery and Anti-Corruption (ABAC) Policy ensures operations are conducted with highest ethical standards, preventing fraud, bribery and corruption, applicable to all employees, contractors, and partners.",
+      "P3_ohs": "The Safety & Occupational Health Policy commits to 'Zero Harm' and becoming an industry leader in safety and health performance through robust management and reporting systems.",
+      "P6_environment": "The Biodiversity and Environmental policies integrate biodiversity into the business ecosystem, aiming for no Net Loss of Biodiversity and ensuring habitat conservation and restoration."
+    },
+    "steelProduction": {
+      "value": 28180000,
+      "unit": "metric tonnes",
+      "note": "Consolidated basis (as per plan config). PDF states capacity of 35 MTPA but production volume not explicitly stated in BRSR."
+    },
+    "reportingBoundary": "Consolidated basis — Tata Steel Limited and 13 key subsidiary companies."
+  }
+}

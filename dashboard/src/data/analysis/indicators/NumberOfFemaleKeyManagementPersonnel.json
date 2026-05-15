@@ -1,0 +1,62 @@
+{
+  "tag": "NumberOfFemaleKeyManagementPersonnel",
+  "label": "Female Key Management Personnel",
+  "principle": "Section A",
+  "topic": "workforce-diversity",
+  "direction": "higher_is_better",
+  "peerRank": {
+    "FY2023": {
+      "tata": 2,
+      "jsw": 2,
+      "sail": 1,
+      "jindal": 2
+    },
+    "FY2024": {
+      "tata": 1,
+      "jsw": 1,
+      "sail": 1,
+      "jindal": 1
+    },
+    "FY2025": {
+      "tata": 1,
+      "jsw": 1,
+      "sail": 1,
+      "jindal": 1
+    }
+  },
+  "trendDirection": {
+    "tata": {
+      "FY2023-24": "Stable",
+      "FY2024-25": "Stable"
+    },
+    "jsw": {
+      "FY2023-24": "Stable",
+      "FY2024-25": "Stable"
+    },
+    "sail": {
+      "FY2023-24": "Worsened",
+      "FY2024-25": "Stable"
+    },
+    "jindal": {
+      "FY2023-24": "Stable",
+      "FY2024-25": "Stable"
+    }
+  },
+  "sections": {
+    "about": "This metric measures the number of women among disclosed KMPs. It falls under BRSR Section A — General Disclosures, Participation/Inclusion/Representation of women; it is not an Essential or Leadership Indicator. A higher value indicates better performance.",
+    "performanceAndDrivers": "The peer set shows almost no female representation in KMP. SAIL was the only company with 1 female KMP in FY2022-23, but it fell to 0 in FY2023-24 and remained 0 in FY2024-25. Tata, JSW and Jindal report 0 women KMPs across all three years. This is a leadership pipeline issue rather than an operating-route issue: the BF-BOF, EAF or stainless process configuration does not determine KMP gender mix, but historically male-dominated technical, operations and finance leadership pipelines do.",
+    "tataPositioning": "In FY2024-25, Tata is tied at rank 1 because all companies report 0 women KMPs; there is no numerical gap to the “best” performer because the best value is also 0. This tied rank should not be interpreted as strong performance. Tata’s position moved from rank 2 in FY2022-23 to tied rank 1 in FY2023-24 and FY2024-25 only because SAIL lost its single female KMP.",
+    "targets": "No targets identified for this metric.",
+    "comparabilityNotes": null
+  },
+  "flags": {
+    "directionUnclear": false,
+    "contextInsufficient": false,
+    "externalSourceUsed": false,
+    "trendAmbiguity": false,
+    "flagNote": null
+  },
+  "source": "CustomGPT",
+  "userCorrection": null,
+  "status": "pending_review"
+}

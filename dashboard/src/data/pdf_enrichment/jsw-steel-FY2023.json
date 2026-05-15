@@ -1,0 +1,73 @@
+{
+  "companyId": "jsw-steel",
+  "year": "FY2023",
+  "source": "PDF",
+  "enrichment": {
+    "targets": [
+      {
+        "description": "Reduce specific CO2 emissions intensity",
+        "metric": "tCO2e/tcs",
+        "baseline": "2005",
+        "targetValue": "1.95 tCO2/tcs (42% reduction)",
+        "timeline": "2030"
+      },
+      {
+        "description": "Achieve carbon neutrality",
+        "metric": "Net Neutrality",
+        "baseline": null,
+        "targetValue": "Net Neutral",
+        "timeline": "2050"
+      }
+    ],
+    "initiatives": [
+      {
+        "name": "Energy Efficiency Interventions",
+        "area": "energy",
+        "description": "Implementation of environment sustainability interventions and optimisation of resource utilization.",
+        "outcome": "Capex investment of 3.13% of total capex for environmental sustainability."
+      }
+    ],
+    "scope3Breakdown": {
+      "totalScope3": "5,595,113 tCO2e",
+      "categories": [
+        {
+          "categoryNumber": 1,
+          "name": "Purchased goods and services",
+          "value": "Not explicitly itemized"
+        }
+      ],
+      "note": "Total Scope 3 emissions reported in BRSR."
+    },
+    "managementCommentary": "Today the variety of applications where steel is used necessitates producers to continuously improve quality and offer products with a lesser carbon footprint. JSW Steel is at the forefront of both these trends. We are doubling up on sustainability by controlling our emissions and ensuring multi-pronged digital focus.",
+    "awardsAndRatings": [
+      {
+        "name": "CDP Score",
+        "score": "A- (Climate Change)",
+        "year": "2023"
+      },
+      {
+        "name": "DJSI",
+        "score": "S&P Global Sustainability Yearbook member",
+        "year": "2023"
+      }
+    ],
+    "nonCompliance": [],
+    "forwardLooking": [
+      {
+        "description": "Achieve 'No Net Loss' of biodiversity at all operating sites",
+        "timeline": "2030"
+      }
+    ],
+    "qualitativePolicies": {
+      "P1_ethics": "Code of Conduct for Board & Senior Management and Policy on Business Conduct.",
+      "P3_ohs": "People Policy and Health & Safety Policy ensuring a zero-harm vision.",
+      "P6_environment": "Climate Change Policy, Energy Policy, and Water Resource Management Policy."
+    },
+    "steelProduction": {
+      "value": 24150000,
+      "unit": "metric tonnes",
+      "note": "From plan config (annual report). Gemini derived ~20.9M t from BRSR emissions/intensity — difference may be due to saleable vs crude steel denominator."
+    },
+    "reportingBoundary": "Standalone basis."
+  }
+}

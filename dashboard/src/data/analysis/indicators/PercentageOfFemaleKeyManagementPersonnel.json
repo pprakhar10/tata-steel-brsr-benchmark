@@ -1,0 +1,62 @@
+{
+  "tag": "PercentageOfFemaleKeyManagementPersonnel",
+  "label": "Percentage Female KMPs",
+  "principle": "Section A",
+  "topic": "workforce-diversity",
+  "direction": "higher_is_better",
+  "peerRank": {
+    "FY2023": {
+      "tata": 2,
+      "jsw": 2,
+      "sail": 1,
+      "jindal": 2
+    },
+    "FY2024": {
+      "tata": 1,
+      "jsw": 1,
+      "sail": 1,
+      "jindal": 1
+    },
+    "FY2025": {
+      "tata": 1,
+      "jsw": 1,
+      "sail": 1,
+      "jindal": 1
+    }
+  },
+  "trendDirection": {
+    "tata": {
+      "FY2023-24": "Stable",
+      "FY2024-25": "Stable"
+    },
+    "jsw": {
+      "FY2023-24": "Stable",
+      "FY2024-25": "Stable"
+    },
+    "sail": {
+      "FY2023-24": "Worsened",
+      "FY2024-25": "Stable"
+    },
+    "jindal": {
+      "FY2023-24": "Stable",
+      "FY2024-25": "Stable"
+    }
+  },
+  "sections": {
+    "about": "This metric measures women KMPs as a percentage of total KMPs. It falls under BRSR Section A — General Disclosures, Participation/Inclusion/Representation of women; it is not an Essential or Leadership Indicator. A higher value indicates better performance.",
+    "performanceAndDrivers": "SAIL led in FY2022-23 at 5.00% because it disclosed 1 female KMP out of 20. By FY2023-24 and FY2024-25, all four companies reported 0.00%, including Tata, JSW and Jindal across the full period. This indicates that Board-level diversity is not flowing into the statutory KMP layer; Jindal can sustain 27.28% female Board representation in FY2024-25 while still reporting 0 female KMPs.",
+    "tataPositioning": "In FY2024-25, Tata is tied at rank 1 at 0.00% because all peers are also at 0.00%; there is no numerical gap, but this is a weak absolute outcome. Tata’s rank improved only mechanically after SAIL’s decline from 5.00% to 0.00%. For internal management, the relevant action area is succession planning for statutory KMP roles, not peer-rank optics.",
+    "targets": "No targets identified for this metric.",
+    "comparabilityNotes": null
+  },
+  "flags": {
+    "directionUnclear": false,
+    "contextInsufficient": false,
+    "externalSourceUsed": false,
+    "trendAmbiguity": false,
+    "flagNote": null
+  },
+  "source": "CustomGPT",
+  "userCorrection": null,
+  "status": "pending_review"
+}

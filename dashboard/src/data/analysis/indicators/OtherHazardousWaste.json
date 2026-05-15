@@ -1,0 +1,62 @@
+{
+  "tag": "OtherHazardousWaste",
+  "label": "Other Hazardous Waste",
+  "principle": "P6",
+  "topic": "waste",
+  "direction": "lower_is_better",
+  "peerRank": {
+    "FY2023": {
+      "tata": 4,
+      "jsw": 1,
+      "sail": 3,
+      "jindal": 2
+    },
+    "FY2024": {
+      "tata": 4,
+      "jsw": 2,
+      "sail": 3,
+      "jindal": 1
+    },
+    "FY2025": {
+      "tata": 4,
+      "jsw": 2,
+      "sail": 3,
+      "jindal": 1
+    }
+  },
+  "trendDirection": {
+    "tata": {
+      "FY2023-24": "AMBIGUOUS: FY2023 is consolidated while FY2024 is standalone",
+      "FY2024-25": "Improved"
+    },
+    "jsw": {
+      "FY2023-24": "Worsened",
+      "FY2024-25": "Worsened"
+    },
+    "sail": {
+      "FY2023-24": "Improved",
+      "FY2024-25": "Worsened"
+    },
+    "jindal": {
+      "FY2023-24": "Worsened",
+      "FY2024-25": "Improved"
+    }
+  },
+  "sections": {
+    "about": "This metric measures hazardous waste other than specifically listed categories under BRSR Principle 6, Essential Indicator on waste generation. In steel, this can include sludges, oily wastes, spent chemicals, acid recovery residues and other regulated hazardous materials. A lower value indicates better performance.",
+    "performanceAndDrivers": "Tata had the highest FY2025 other hazardous waste at 1,227,314 MT, compared with SAIL at 302,410 MT, JSW at 158,148.2 MT and Jindal at 75,101.8 MT. Tata improved from 1,534,178 MT in FY2024, while JSL’s hazardous waste remained relatively stable and JSL disclosed capex such as an HPL Scanacon Acid Recovery System to recycle spent acids and reduce hazardous waste generation. SAIL manages hazardous waste under Hazardous and Other Wastes Rules through secured landfill facilities, authorised recyclers and co-processing.",
+    "tataPositioning": "Tata ranked 4th in FY2025 and reported about 1,534% more other hazardous waste than Jindal. Tata remained last across all three years, although FY2025 improved versus FY2024.",
+    "targets": "No Tata hazardous-waste reduction target was identified. JSL’s acid recovery capex and Zero-Waste-to-Landfill direction are relevant, but the retrieved extract frames them as initiatives rather than hazardous-waste numeric targets.",
+    "comparabilityNotes": "Hazardous waste depends on process route, acid pickling/rolling operations, captive facilities and classification practice."
+  },
+  "flags": {
+    "directionUnclear": false,
+    "contextInsufficient": false,
+    "externalSourceUsed": false,
+    "trendAmbiguity": false,
+    "flagNote": null
+  },
+  "source": "CustomGPT",
+  "userCorrection": null,
+  "status": "pending_review"
+}

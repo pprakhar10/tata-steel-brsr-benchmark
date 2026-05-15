@@ -1,0 +1,42 @@
+{
+  "tata-steel": {
+    "id": "tata-steel",
+    "name": "Tata Steel Limited",
+    "sector": "Integrated Steel",
+    "availableYears": [
+      "FY2023",
+      "FY2024",
+      "FY2025"
+    ]
+  },
+  "jsw-steel": {
+    "id": "jsw-steel",
+    "name": "JSW Steel Limited",
+    "sector": "Integrated Steel",
+    "availableYears": [
+      "FY2023",
+      "FY2024",
+      "FY2025"
+    ]
+  },
+  "sail": {
+    "id": "sail",
+    "name": "SAIL",
+    "sector": "Integrated Steel",
+    "availableYears": [
+      "FY2023",
+      "FY2024",
+      "FY2025"
+    ]
+  },
+  "jindal-stainless": {
+    "id": "jindal-stainless",
+    "name": "Jindal Stainless Limited",
+    "sector": "Stainless Steel",
+    "availableYears": [
+      "FY2023",
+      "FY2024",
+      "FY2025"
+    ]
+  }
+}

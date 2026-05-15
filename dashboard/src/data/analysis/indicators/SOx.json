@@ -1,0 +1,62 @@
+{
+  "tag": "SOx",
+  "label": "Sulphur Oxides Air Emissions",
+  "principle": "P6",
+  "topic": "air-emissions",
+  "direction": "lower_is_better",
+  "peerRank": {
+    "FY2023": {
+      "tata": 3,
+      "jsw": 2,
+      "sail": 4,
+      "jindal": 1
+    },
+    "FY2024": {
+      "tata": 4,
+      "jsw": 3,
+      "sail": 2,
+      "jindal": 1
+    },
+    "FY2025": {
+      "tata": 3,
+      "jsw": 4,
+      "sail": 1,
+      "jindal": 2
+    }
+  },
+  "trendDirection": {
+    "tata": {
+      "FY2023-24": "Improved",
+      "FY2024-25": "Worsened"
+    },
+    "jsw": {
+      "FY2023-24": "Improved",
+      "FY2024-25": "Worsened"
+    },
+    "sail": {
+      "FY2023-24": "AMBIGUOUS: FY2022-23 value not reported in standardised table",
+      "FY2024-25": "Improved"
+    },
+    "jindal": {
+      "FY2023-24": "Worsened",
+      "FY2024-25": "Worsened"
+    }
+  },
+  "sections": {
+    "about": "SOx emissions measure sulphur oxide emissions, primarily driven by sulphur in fuel, coke, coal and process gases. This is disclosed under BRSR Principle 6, Essential Indicator for air emissions other than GHG emissions. A lower value indicates better performance.",
+    "performanceAndDrivers": "Across the three-year series, Jindal Stainless was the lowest SOx emitter in FY2022-23 and FY2023-24, at 0.85189 kt and 3.0721 kt respectively, reflecting the smaller stainless-steel operating footprint and EAF-heavy process route versus larger BF-BOF integrated carbon-steel producers. In FY2024-25, SAIL became the lowest reported SOx emitter at 0.95 kt, while Jindal rose to 4.5807 kt, Tata Steel rose to 46 kt, and JSW was marginally higher at 46.1314 kt. Tata’s SOx moved from 51 kt in FY2022-23 consolidated to 38 kt in FY2023-24, then worsened to 46 kt in FY2024-25. Tata’s FY2025 BRSR notes that capex includes investments for SOx, NOx and dust reduction, while its air-quality mitigation relies on advanced pollution-control technologies, real-time emissions monitoring, upgraded equipment, new technologies and maintenance.",
+    "tataPositioning": "In FY2024-25, Tata ranked 3rd on SOx, behind SAIL and Jindal Stainless, and ahead of JSW by a very narrow margin. Tata’s 46 kt was 45.05 kt higher than SAIL’s 0.95 kt, or approximately 4,742% above the best performer. Tata’s rank moved from 3rd in FY2022-23 to 4th in FY2023-24 and back to 3rd in FY2024-25. The trajectory is therefore mixed: absolute SOx improved in FY2023-24, but worsened in FY2024-25, likely reflecting higher integrated steel operating intensity, BF-BOF route exposure, captive energy and process-gas combustion effects, partially offset by ongoing air-emission control investments.",
+    "targets": "Tata discloses investments and mitigation initiatives for SOx reduction.",
+    "comparabilityNotes": "Tata Steel FY2022-23 is consolidated, while later Tata values are standalone. SAIL FY2022-23 is not reported. Jindal Stainless reports in MT in the BRSR; values are converted to kilotonnes for peer comparability."
+  },
+  "flags": {
+    "directionUnclear": false,
+    "contextInsufficient": false,
+    "externalSourceUsed": false,
+    "trendAmbiguity": true,
+    "flagNote": "SAIL FY2022-23 is not reported, so FY2023-24 trend cannot be assessed on a like-for-like numeric basis."
+  },
+  "source": "CustomGPT",
+  "userCorrection": null,
+  "status": "pending_review"
+}

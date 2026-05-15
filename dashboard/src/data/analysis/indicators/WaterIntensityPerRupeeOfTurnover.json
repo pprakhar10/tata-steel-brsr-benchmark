@@ -1,0 +1,62 @@
+{
+  "tag": "WaterIntensityPerRupeeOfTurnover",
+  "label": "Water Intensity Per Turnover",
+  "principle": "P6",
+  "topic": "water",
+  "direction": "lower_is_better",
+  "peerRank": {
+    "FY2023": {
+      "tata": 3,
+      "jsw": 2,
+      "sail": 4,
+      "jindal": 1
+    },
+    "FY2024": {
+      "tata": 4,
+      "jsw": 2,
+      "sail": 3,
+      "jindal": 1
+    },
+    "FY2025": {
+      "tata": 3,
+      "jsw": 2,
+      "sail": 4,
+      "jindal": 1
+    }
+  },
+  "trendDirection": {
+    "tata": {
+      "FY2023-24": "AMBIGUOUS: Tata FY2022-23 is consolidated",
+      "FY2024-25": "Worsened"
+    },
+    "jsw": {
+      "FY2023-24": "Improved",
+      "FY2024-25": "Worsened"
+    },
+    "sail": {
+      "FY2023-24": "Improved",
+      "FY2024-25": "Worsened"
+    },
+    "jindal": {
+      "FY2023-24": "Improved",
+      "FY2024-25": "Worsened"
+    }
+  },
+  "sections": {
+    "about": "This metric measures water consumption per rupee of revenue from operations under BRSR Principle 6 Essential Indicator water intensity per rupee of turnover. It is useful for capital-market comparability but can be distorted by steel price cycles, product mix, alloy/stainless value addition and revenue recognition. A lower value indicates better performance.",
+    "performanceAndDrivers": "Jindal leads in all three years, at 0.03587 L/₹ in FY2025. JSW ranks 2nd at 0.0424 L/₹. Tata worsens from 0.063 in FY2024 to 0.074 in FY2025, but ranks ahead of SAIL, which deteriorates to 0.089. Jindal’s BRSR reports water intensity per turnover as 358.67 KL/Crore INR for FY2025, equivalent to the standardised 0.03587 L/₹, and notes PPP-adjusted disclosure based on IMF conversion factors.",
+    "tataPositioning": "In FY2025, Tata ranks 3rd. Jindal is best at 0.03587 L/₹, making Tata’s 0.074 L/₹ approximately 106% higher. Tata moves from 4th in FY2024 to 3rd in FY2025 because SAIL deteriorates more sharply, but Tata’s own performance worsens.",
+    "targets": "No turnover-intensity-specific targets identified. Tata’s water reduction and recycling framework is relevant but operational rather than revenue-normalised.",
+    "comparabilityNotes": "Revenue-normalised intensity is sensitive to steel prices, product mix, stainless versus carbon steel value, and rupee turnover effects. Physical-output intensity is more reliable for operational benchmarking."
+  },
+  "flags": {
+    "directionUnclear": false,
+    "contextInsufficient": false,
+    "externalSourceUsed": false,
+    "trendAmbiguity": false,
+    "flagNote": null
+  },
+  "source": "CustomGPT",
+  "userCorrection": null,
+  "status": "pending_review"
+}

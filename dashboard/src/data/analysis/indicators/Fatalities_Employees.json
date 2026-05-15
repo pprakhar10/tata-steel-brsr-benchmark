@@ -1,0 +1,62 @@
+{
+  "tag": "Fatalities_Employees",
+  "label": "Fatalities — Employees",
+  "principle": "",
+  "topic": "health-safety",
+  "direction": "lower_is_better",
+  "peerRank": {
+    "FY2023": {
+      "tata": 3,
+      "jsw": 1,
+      "sail": 3,
+      "jindal": 1
+    },
+    "FY2024": {
+      "tata": 1,
+      "jsw": 1,
+      "sail": 4,
+      "jindal": 1
+    },
+    "FY2025": {
+      "tata": 3,
+      "jsw": 1,
+      "sail": 3,
+      "jindal": 1
+    }
+  },
+  "trendDirection": {
+    "tata": {
+      "FY2023-24": "Improved",
+      "FY2024-25": "Worsened"
+    },
+    "jsw": {
+      "FY2023-24": "Stable",
+      "FY2024-25": "Stable"
+    },
+    "sail": {
+      "FY2023-24": "Stable",
+      "FY2024-25": "Stable"
+    },
+    "jindal": {
+      "FY2023-24": "Stable",
+      "FY2024-25": "Stable"
+    }
+  },
+  "sections": {
+    "about": "This metric reports employee fatalities from work-related injury during the reporting year. It falls under BRSR Principle 3, Essential Indicator 11. A lower value indicates better performance.",
+    "performanceAndDrivers": "Tata reported 1 employee fatality in FY23, 0 in FY24 and 1 in FY25. JSW and Jindal reported 0 in all three years, while SAIL reported 1 in each year. Employee fatalities are low-frequency but high-severity events, so annual ranking is sensitive to single incidents. Tata’s FY25 disclosure identifies fatality risk control, process safety management, PSSR strengthening and real-time equipment monitoring as part of the safety agenda, but the recurrence from 0 to 1 shows that fatality-risk controls still need deeper horizontal deployment.",
+    "tataPositioning": "In FY2024-25, Tata ranked 3rd at 1 fatality, behind JSW and Jindal at 0. Percentage gap is not meaningful because the best value is zero; the absolute gap is 1 fatality. Tata’s rank improved to joint 1st in FY24 but reverted in FY25.",
+    "targets": "Tata states zero harm as the safety ambition. Jindal states Zero Harm.",
+    "comparabilityNotes": "Tata FY2022-23 is consolidated."
+  },
+  "flags": {
+    "directionUnclear": false,
+    "contextInsufficient": false,
+    "externalSourceUsed": false,
+    "trendAmbiguity": false,
+    "flagNote": null
+  },
+  "source": "CustomGPT",
+  "userCorrection": null,
+  "status": "pending_review"
+}

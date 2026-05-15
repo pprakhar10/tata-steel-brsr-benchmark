@@ -1,0 +1,62 @@
+{
+  "tag": "WaterWithdrawalByThirdPartyWater",
+  "label": "Water Withdrawal Third Party",
+  "principle": "P6",
+  "topic": "water",
+  "direction": "lower_is_better",
+  "peerRank": {
+    "FY2023": {
+      "tata": 4,
+      "jsw": 1,
+      "sail": 1,
+      "jindal": 3
+    },
+    "FY2024": {
+      "tata": 4,
+      "jsw": 1,
+      "sail": 1,
+      "jindal": 3
+    },
+    "FY2025": {
+      "tata": 4,
+      "jsw": 3,
+      "sail": 1,
+      "jindal": 1
+    }
+  },
+  "trendDirection": {
+    "tata": {
+      "FY2023-24": "AMBIGUOUS: Tata FY2022-23 is consolidated",
+      "FY2024-25": "Worsened"
+    },
+    "jsw": {
+      "FY2023-24": "Stable",
+      "FY2024-25": "Worsened"
+    },
+    "sail": {
+      "FY2023-24": "Stable",
+      "FY2024-25": "Stable"
+    },
+    "jindal": {
+      "FY2023-24": "Improved",
+      "FY2024-25": "Improved"
+    }
+  },
+  "sections": {
+    "about": "This metric measures water procured from third-party suppliers such as municipal, industrial or utility providers under BRSR Principle 6 Essential Indicator water withdrawal by source. High third-party dependence may indicate pressure on shared infrastructure or purchased water reliance. A lower value indicates better performance.",
+    "performanceAndDrivers": "Tata remains the worst performer in FY2025 with 10.30 million kL of third-party water, up from 3.97 million kL in FY2024. Jindal improves to zero in FY2025 from 31,700 kL in FY2024; SAIL remains zero; JSW introduces 245,175 kL in FY2025 after zero in FY2023/FY2024. Tata’s higher value may reflect boundary-specific use of municipal wastewater, third-party utilities or site water supply arrangements; the BRSR context says Tata reuses treated municipal wastewater as part of its water strategy, which can be positive from a freshwater-substitution perspective even though the metric is directionally ranked lower-is-better.",
+    "tataPositioning": "In FY2025, Tata ranks 4th. SAIL and Jindal are best at zero, so percentage gap is not meaningful; Tata’s absolute gap is 10.30 million kL. Tata’s rank remains worst across the three years, and FY2024-25 worsens materially.",
+    "targets": "Tata’s BRSR identifies reuse of treated municipal wastewater and maximising internal recycling as part of water scarcity mitigation, but no third-party-water quantitative target was identified.",
+    "comparabilityNotes": "Third-party water can include treated municipal wastewater, which may be strategically beneficial if it substitutes freshwater. Ranking should therefore be read with source-quality context."
+  },
+  "flags": {
+    "directionUnclear": false,
+    "contextInsufficient": false,
+    "externalSourceUsed": false,
+    "trendAmbiguity": false,
+    "flagNote": null
+  },
+  "source": "CustomGPT",
+  "userCorrection": null,
+  "status": "pending_review"
+}

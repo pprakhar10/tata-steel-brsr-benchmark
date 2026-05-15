@@ -1,0 +1,62 @@
+{
+  "tag": "PercentageOfInvestmentsInRelatedPartiesInTotalInvestments",
+  "label": "Related Party Investments Percentage",
+  "principle": "BRSR Core",
+  "topic": "governance-related-party",
+  "direction": "lower_is_better",
+  "peerRank": {
+    "FY2023": {
+      "tata": 4,
+      "jsw": 4,
+      "sail": 4,
+      "jindal": 4
+    },
+    "FY2024": {
+      "tata": 3,
+      "jsw": 4,
+      "sail": 1,
+      "jindal": 2
+    },
+    "FY2025": {
+      "tata": 3,
+      "jsw": 4,
+      "sail": 1,
+      "jindal": 2
+    }
+  },
+  "trendDirection": {
+    "tata": {
+      "FY2023-24": "Improved",
+      "FY2024-25": "Worsened"
+    },
+    "jsw": {
+      "FY2023-24": "Improved",
+      "FY2024-25": "Worsened"
+    },
+    "sail": {
+      "FY2023-24": "Improved",
+      "FY2024-25": "Stable"
+    },
+    "jindal": {
+      "FY2023-24": "Improved",
+      "FY2024-25": "Stable"
+    }
+  },
+  "sections": {
+    "about": "This metric measures the share of investments made in related parties as a percentage of total investments. It is a Section A 'Openness of Business' / related-party governance disclosure, linked to Principle 1 governance and conflict-of-interest controls rather than a Principle 7 Essential or Leadership indicator. A lower value indicates better performance.",
+    "performanceAndDrivers": "FY2022-23 data is not available for any company. In FY2024 and FY2025, SAIL leads at 81.66%, followed by Jindal Stainless at 89%, Tata Steel at 96%/97.58%, and JSW at 99.95%/100%. The spread largely reflects group structure: companies with large subsidiary, joint venture, captive power, mining, downstream, or service ecosystems naturally show higher investment concentration in related entities. Tata Steel's FY2025 BRSR confirms that multiple Indian subsidiaries were merged into the standalone reporting boundary, while the company continues to disclose both standalone and consolidated ESG/governance information, which affects peer comparability. Tata also has a policy on dealing with related-party transactions mapped under its governance policies, while SAIL discloses a related-party transaction policy intended to ensure transparency, fairness, approval discipline, and conflict-of-interest management.",
+    "tataPositioning": "In FY2025, Tata ranks 3rd at 97.58%, 15.92 percentage points higher than best performer SAIL at 81.66%. Tata's position is not a direct indication of weak governance; it reflects the investment architecture of a large integrated steel group with merged and retained group entities, downstream companies, utilities, power, services, and international exposure. Tata improved from missing disclosure in FY2023 to reported disclosure in FY2024, but worsened marginally from 96% to 97.58% in FY2025. The main management implication is to maintain clear audit-committee oversight and arm's-length documentation rather than treat the ratio alone as an adverse governance signal.",
+    "targets": null,
+    "comparabilityNotes": "FY2022-23 values are not available for any company. This metric is highly sensitive to group structure, merger history, captive-entity architecture, and whether investments are housed in operating subsidiaries, associates, JVs, or external instruments."
+  },
+  "flags": {
+    "directionUnclear": false,
+    "contextInsufficient": false,
+    "externalSourceUsed": false,
+    "trendAmbiguity": true,
+    "flagNote": "FY2023-to-FY2024 trends reflect movement from missing to reported data, so the trend is partly a disclosure-improvement effect rather than pure economic change."
+  },
+  "source": "CustomGPT",
+  "userCorrection": null,
+  "status": "pending_review"
+}

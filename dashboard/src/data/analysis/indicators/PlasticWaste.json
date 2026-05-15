@@ -1,0 +1,62 @@
+{
+  "tag": "PlasticWaste",
+  "label": "Plastic Waste",
+  "principle": "P6",
+  "topic": "waste",
+  "direction": "lower_is_better",
+  "peerRank": {
+    "FY2023": {
+      "tata": 4,
+      "jsw": 1,
+      "sail": 3,
+      "jindal": 2
+    },
+    "FY2024": {
+      "tata": 4,
+      "jsw": 2,
+      "sail": 1,
+      "jindal": 3
+    },
+    "FY2025": {
+      "tata": 4,
+      "jsw": 2,
+      "sail": 1,
+      "jindal": 3
+    }
+  },
+  "trendDirection": {
+    "tata": {
+      "FY2023-24": "AMBIGUOUS: FY2023 is consolidated while FY2024 is standalone",
+      "FY2024-25": "Improved"
+    },
+    "jsw": {
+      "FY2023-24": "Worsened",
+      "FY2024-25": "Worsened"
+    },
+    "sail": {
+      "FY2023-24": "Improved",
+      "FY2024-25": "Worsened"
+    },
+    "jindal": {
+      "FY2023-24": "Worsened",
+      "FY2024-25": "Improved"
+    }
+  },
+  "sections": {
+    "about": "This metric measures plastic waste generated under BRSR Principle 6, Essential Indicator on category-wise waste generation. It is closely linked to packaging, logistics, offices and EPR compliance. A lower value indicates better performance.",
+    "performanceAndDrivers": "Tata reported 2,359 MT of plastic waste in FY2025, slightly better than 2,391 MT in FY2024 but still highest among peers. SAIL reported only 0.97 MT, JSW 591.05 MT and Jindal 1,485.7 MT. Tata’s FY2025 BRSR notes that plastic waste for offices and warehouses is estimated using OECD per-capita plastic data, which may affect comparability, and Tata also has Plastic Waste EPR registration as Brand Owner and Importer.",
+    "tataPositioning": "Tata ranked 4th in FY2025. The best performer was SAIL at 0.97 MT; the percentage gap is mathematically very large and not decision-useful due to the near-zero denominator, with Tata reporting about 2,358 MT more plastic waste. Tata remained rank 4 across all years despite a small FY2025 improvement.",
+    "targets": "No plastic-waste reduction target was identified for Tata. Tata and JSL disclose EPR compliance/registration; JSL states EPR obligations are being fulfilled at relevant units.",
+    "comparabilityNotes": "Tata estimates some office/warehouse plastic waste using per-capita data; peer methodologies may differ."
+  },
+  "flags": {
+    "directionUnclear": false,
+    "contextInsufficient": false,
+    "externalSourceUsed": false,
+    "trendAmbiguity": true,
+    "flagNote": "Tata FY2023-to-FY2024 trend is ambiguous; plastic waste methodology differences may affect comparison."
+  },
+  "source": "CustomGPT",
+  "userCorrection": null,
+  "status": "pending_review"
+}

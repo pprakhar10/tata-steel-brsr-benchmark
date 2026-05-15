@@ -1,0 +1,3080 @@
+<!DOCTYPE html>
+<html><head><meta charset='utf-8'>
+<style>
+  body { font-family: Segoe UI, Arial, sans-serif; max-width: 1300px;
+         margin: 40px auto; padding: 0 24px; font-size: 13.5px; color: #1a1a1a; }
+  h1   { font-size: 22px; border-bottom: 3px solid #333; padding-bottom: 6px; }
+  h2   { font-size: 17px; margin-top: 36px; border-bottom: 2px solid #ccc; padding-bottom: 4px; }
+  h3   { font-size: 14px; margin-top: 24px; color: #333; }
+  h4   { font-size: 13px; margin-top: 16px; color: #555; }
+  table { border-collapse: collapse; width: 100%; margin: 10px 0 18px; font-size: 13px; }
+  th   { background: #2c3e50; color: #fff; padding: 7px 10px; text-align: left; }
+  td   { border: 1px solid #ddd; padding: 6px 10px; }
+  tr:nth-child(even) td { background: #f7f7f7; }
+  blockquote { background: #fffbea; border-left: 4px solid #f0a500;
+               margin: 8px 0 18px; padding: 8px 14px; font-style: italic; color: #555; }
+  code { background: #eef; padding: 1px 5px; border-radius: 3px; font-size: 12px; }
+  hr   { border: none; border-top: 1px solid #ddd; margin: 28px 0; }
+  ul   { margin: 4px 0; padding-left: 20px; }
+  li   { margin-bottom: 3px; }
+</style>
+</head><body>
+<h1>BRSR Data Review — 2026-04-14</h1>
+<p><strong>Instructions:</strong> Read each section. Where you see <code>YOUR COMMENT</code>, type your note on that line.
+Leave blank if the data looks correct. Save the file when done, then tell Claude to read it.</p>
+<p><strong>Legend:</strong> ⚠️ = value null or not normalized &nbsp;|&nbsp; 📄 = overridden by PDF patch</p>
+<hr />
+<h2>1. Reporting Basis</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Company</th>
+<th style="text-align: center;">FY2023</th>
+<th style="text-align: center;">FY2024</th>
+<th style="text-align: center;">FY2025</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Tata Steel</td>
+<td style="text-align: center;">⚠️ Consolidated</td>
+<td style="text-align: center;">✓ Standalone</td>
+<td style="text-align: center;">✓ Standalone</td>
+</tr>
+<tr>
+<td style="text-align: left;">JSW Steel</td>
+<td style="text-align: center;">✓ Standalone</td>
+<td style="text-align: center;">✓ Standalone</td>
+<td style="text-align: center;">✓ Standalone</td>
+</tr>
+<tr>
+<td style="text-align: left;">SAIL</td>
+<td style="text-align: center;">✓ Standalone</td>
+<td style="text-align: center;">✓ Standalone</td>
+<td style="text-align: center;">✓ Standalone</td>
+</tr>
+<tr>
+<td style="text-align: left;">Jindal Stainless</td>
+<td style="text-align: center;">✓ Standalone</td>
+<td style="text-align: center;">✓ Standalone</td>
+<td style="text-align: center;">✓ Standalone</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Tata Steel FY2023:</strong> This year's data is reported on a Consolidated basis (includes subsidiaries and international operations). All other years of this company and all other companies in this benchmark are Standalone. Cross-company and cross-year comparisons for this year-company are not directly comparable.</li>
+</ul>
+<blockquote>
+<p><strong>YOUR COMMENT:</strong> <em>(type here — leave blank if no issues)</em></p>
+</blockquote>
+<hr />
+<h2>2. Validation Summary</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;"></th>
+<th style="text-align: left;">Count</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Blocking flags</td>
+<td style="text-align: left;"><strong>0</strong> (must be 0)</td>
+</tr>
+<tr>
+<td style="text-align: left;">Warning flags</td>
+<td style="text-align: left;">712</td>
+</tr>
+</tbody>
+</table>
+<h3>Peer outliers with ratio &gt; 50× &nbsp; (98 of 346 total)</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Company</th>
+<th style="text-align: left;">Year</th>
+<th style="text-align: left;">Metric</th>
+<th style="text-align: right;">Value</th>
+<th style="text-align: right;">Peer Median</th>
+<th style="text-align: right;">Ratio</th>
+<th style="text-align: left;">Likely cause</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">tata-steel</td>
+<td style="text-align: left;">FY2023</td>
+<td style="text-align: left;">WaterWithdrawalByGroundwater</td>
+<td style="text-align: right;">16,870,056</td>
+<td style="text-align: right;">12,778</td>
+<td style="text-align: right;">1320x</td>
+<td style="text-align: left;">possible unit mismatch: check kL vs ML or m³ vs kL</td>
+</tr>
+<tr>
+<td style="text-align: left;">tata-steel</td>
+<td style="text-align: left;">FY2023</td>
+<td style="text-align: left;">WaterWithdrawalByThirdPartyWater</td>
+<td style="text-align: right;">19,359,133</td>
+<td style="text-align: right;">54,000</td>
+<td style="text-align: right;">358x</td>
+<td style="text-align: left;">possible unit mismatch: check kL vs ML or m³ vs kL</td>
+</tr>
+<tr>
+<td style="text-align: left;">tata-steel</td>
+<td style="text-align: left;">FY2023</td>
+<td style="text-align: left;">BioMedicalWaste</td>
+<td style="text-align: right;">180</td>
+<td style="text-align: right;">0.7400</td>
+<td style="text-align: right;">243x</td>
+<td style="text-align: left;">check reporting basis: FY2023 = consolidated (includes overseas ops),</td>
+</tr>
+<tr>
+<td style="text-align: left;">sail</td>
+<td style="text-align: left;">FY2023</td>
+<td style="text-align: left;">BioMedicalWaste</td>
+<td style="text-align: right;">141</td>
+<td style="text-align: right;">0.7400</td>
+<td style="text-align: right;">191x</td>
+<td style="text-align: left;">investigate: may be genuine difference, unit error, or PSU reporting g</td>
+</tr>
+<tr>
+<td style="text-align: left;">tata-steel</td>
+<td style="text-align: left;">FY2023</td>
+<td style="text-align: left;">WasteRecoveredThroughReUsed</td>
+<td style="text-align: right;">8,534,853</td>
+<td style="text-align: right;">88,751</td>
+<td style="text-align: right;">96x</td>
+<td style="text-align: left;">check reporting basis: FY2023 = consolidated (includes overseas ops),</td>
+</tr>
+<tr>
+<td style="text-align: left;">tata-steel</td>
+<td style="text-align: left;">FY2023</td>
+<td style="text-align: left;">WasteDisposedByIncineration</td>
+<td style="text-align: right;">11,682</td>
+<td style="text-align: right;">35</td>
+<td style="text-align: right;">334x</td>
+<td style="text-align: left;">check reporting basis: FY2023 = consolidated (includes overseas ops),</td>
+</tr>
+<tr>
+<td style="text-align: left;">jsw-steel</td>
+<td style="text-align: left;">FY2023</td>
+<td style="text-align: left;">WasteDisposedByIncineration</td>
+<td style="text-align: right;">2,916</td>
+<td style="text-align: right;">35</td>
+<td style="text-align: right;">83x</td>
+<td style="text-align: left;">investigate: may be genuine difference, unit error, or PSU reporting g</td>
+</tr>
+<tr>
+<td style="text-align: left;">jindal-stainless</td>
+<td style="text-align: left;">FY2023</td>
+<td style="text-align: left;">WasteDisposedByOtherDisposalOperations</td>
+<td style="text-align: right;">766,298</td>
+<td style="text-align: right;">632</td>
+<td style="text-align: right;">1213x</td>
+<td style="text-align: left;">size difference (stainless steel, ~10× smaller scale) — verify absolut</td>
+</tr>
+<tr>
+<td style="text-align: left;">sail</td>
+<td style="text-align: left;">FY2023</td>
+<td style="text-align: left;">TotalScope3EmissionsPerRupeeOfTurnover</td>
+<td style="text-align: right;">54</td>
+<td style="text-align: right;">0.0005</td>
+<td style="text-align: right;">110006x</td>
+<td style="text-align: left;">likely unit mismatch: check if company reported in million tonnes vs t</td>
+</tr>
+<tr>
+<td style="text-align: left;">jindal-stainless</td>
+<td style="text-align: left;">FY2023</td>
+<td style="text-align: left;">EnergyIntensityPerRupeeOfTurnover</td>
+<td style="text-align: right;">869</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">305x</td>
+<td style="text-align: left;">likely unit mismatch: extreme ratio suggests PJ vs GJ or TJ vs GJ repo</td>
+</tr>
+<tr>
+<td style="text-align: left;">tata-steel</td>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">AmountOfAccountsPayableDuringTheYear</td>
+<td style="text-align: right;">77,625,344,509,898</td>
+<td style="text-align: right;">5,429,841</td>
+<td style="text-align: right;">14296063x</td>
+<td style="text-align: left;">check reporting basis: FY2023 = consolidated (includes overseas ops),</td>
+</tr>
+<tr>
+<td style="text-align: left;">jsw-steel</td>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">AmountOfAccountsPayableDuringTheYear</td>
+<td style="text-align: right;">105,680,275,000,000</td>
+<td style="text-align: right;">5,429,841</td>
+<td style="text-align: right;">19462869x</td>
+<td style="text-align: left;">investigate: may be genuine difference, unit error, or PSU reporting g</td>
+</tr>
+<tr>
+<td style="text-align: left;">tata-steel</td>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">CostOfGoodsOrServicesProcuredDuringTheYear</td>
+<td style="text-align: right;">1,023,407,934,241</td>
+<td style="text-align: right;">67,601</td>
+<td style="text-align: right;">15138983x</td>
+<td style="text-align: left;">check reporting basis: FY2023 = consolidated (includes overseas ops),</td>
+</tr>
+<tr>
+<td style="text-align: left;">jsw-steel</td>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">CostOfGoodsOrServicesProcuredDuringTheYear</td>
+<td style="text-align: right;">709,640,000,000</td>
+<td style="text-align: right;">67,601</td>
+<td style="text-align: right;">10497503x</td>
+<td style="text-align: left;">investigate: may be genuine difference, unit error, or PSU reporting g</td>
+</tr>
+<tr>
+<td style="text-align: left;">tata-steel</td>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">AmountOfSalesToDealersOrDistributors</td>
+<td style="text-align: right;">606,252,378,253</td>
+<td style="text-align: right;">229</td>
+<td style="text-align: right;">2647390298x</td>
+<td style="text-align: left;">check reporting basis: FY2023 = consolidated (includes overseas ops),</td>
+</tr>
+<tr>
+<td style="text-align: left;">jsw-steel</td>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">AmountOfSalesToDealersOrDistributors</td>
+<td style="text-align: right;">235,095,000,000</td>
+<td style="text-align: right;">229</td>
+<td style="text-align: right;">1026615721x</td>
+<td style="text-align: left;">investigate: may be genuine difference, unit error, or PSU reporting g</td>
+</tr>
+<tr>
+<td style="text-align: left;">tata-steel</td>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">AmountOfTotalSales</td>
+<td style="text-align: right;">1,372,843,287,397</td>
+<td style="text-align: right;">1,725</td>
+<td style="text-align: right;">795851181x</td>
+<td style="text-align: left;">check reporting basis: FY2023 = consolidated (includes overseas ops),</td>
+</tr>
+<tr>
+<td style="text-align: left;">jsw-steel</td>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">AmountOfTotalSales</td>
+<td style="text-align: right;">1,336,090,000,000</td>
+<td style="text-align: right;">1,725</td>
+<td style="text-align: right;">774544928x</td>
+<td style="text-align: left;">investigate: may be genuine difference, unit error, or PSU reporting g</td>
+</tr>
+<tr>
+<td style="text-align: left;">tata-steel</td>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">AmountOfSalesToTopTenDealersOrDistributors</td>
+<td style="text-align: right;">154,058,979,570</td>
+<td style="text-align: right;">656</td>
+<td style="text-align: right;">234667143x</td>
+<td style="text-align: left;">check reporting basis: FY2023 = consolidated (includes overseas ops),</td>
+</tr>
+<tr>
+<td style="text-align: left;">jsw-steel</td>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">AmountOfSalesToTopTenDealersOrDistributors</td>
+<td style="text-align: right;">69,127,800,000</td>
+<td style="text-align: right;">656</td>
+<td style="text-align: right;">105297487x</td>
+<td style="text-align: left;">investigate: may be genuine difference, unit error, or PSU reporting g</td>
+</tr>
+<tr>
+<td style="text-align: left;">tata-steel</td>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">AmountOfTotalSalesToDealersOrDistributors</td>
+<td style="text-align: right;">606,252,378,253</td>
+<td style="text-align: right;">2,290</td>
+<td style="text-align: right;">264739030x</td>
+<td style="text-align: left;">check reporting basis: FY2023 = consolidated (includes overseas ops),</td>
+</tr>
+<tr>
+<td style="text-align: left;">jsw-steel</td>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">AmountOfTotalSalesToDealersOrDistributors</td>
+<td style="text-align: right;">235,095,000,000</td>
+<td style="text-align: right;">2,290</td>
+<td style="text-align: right;">102661572x</td>
+<td style="text-align: left;">investigate: may be genuine difference, unit error, or PSU reporting g</td>
+</tr>
+<tr>
+<td style="text-align: left;">jsw-steel</td>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">AmountOfPurchasesFromRelatedParties</td>
+<td style="text-align: right;">376,914,000,000</td>
+<td style="text-align: right;">45,261</td>
+<td style="text-align: right;">8327624x</td>
+<td style="text-align: left;">investigate: may be genuine difference, unit error, or PSU reporting g</td>
+</tr>
+<tr>
+<td style="text-align: left;">jindal-stainless</td>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">AmountOfPurchasesFromRelatedParties</td>
+<td style="text-align: right;">17,833,442,081</td>
+<td style="text-align: right;">45,261</td>
+<td style="text-align: right;">394016x</td>
+<td style="text-align: left;">size difference (stainless steel, ~10× smaller scale) — verify absolut</td>
+</tr>
+<tr>
+<td style="text-align: left;">jsw-steel</td>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">AmountOfTotalPurchasesForShareOfRelatedPartyTransactions</td>
+<td style="text-align: right;">1,108,430,000,000</td>
+<td style="text-align: right;">114,052</td>
+<td style="text-align: right;">9718605x</td>
+<td style="text-align: left;">investigate: may be genuine difference, unit error, or PSU reporting g</td>
+</tr>
+<tr>
+<td style="text-align: left;">jindal-stainless</td>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">AmountOfTotalPurchasesForShareOfRelatedPartyTransactions</td>
+<td style="text-align: right;">265,984,300,000</td>
+<td style="text-align: right;">114,052</td>
+<td style="text-align: right;">2332124x</td>
+<td style="text-align: left;">size difference (stainless steel, ~10× smaller scale) — verify absolut</td>
+</tr>
+<tr>
+<td style="text-align: left;">jsw-steel</td>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">AmountOfSalesToRelatedParties</td>
+<td style="text-align: right;">410,246,400,000</td>
+<td style="text-align: right;">17,448</td>
+<td style="text-align: right;">23512881x</td>
+<td style="text-align: left;">investigate: may be genuine difference, unit error, or PSU reporting g</td>
+</tr>
+<tr>
+<td style="text-align: left;">jindal-stainless</td>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">AmountOfSalesToRelatedParties</td>
+<td style="text-align: right;">65,595,344,600</td>
+<td style="text-align: right;">17,448</td>
+<td style="text-align: right;">3759535x</td>
+<td style="text-align: left;">size difference (stainless steel, ~10× smaller scale) — verify absolut</td>
+</tr>
+<tr>
+<td style="text-align: left;">jsw-steel</td>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">AmountOfTotalSalesForShareOfRelatedPartyTransactions</td>
+<td style="text-align: right;">1,336,090,000,000</td>
+<td style="text-align: right;">140,987</td>
+<td style="text-align: right;">9476660x</td>
+<td style="text-align: left;">investigate: may be genuine difference, unit error, or PSU reporting g</td>
+</tr>
+<tr>
+<td style="text-align: left;">jindal-stainless</td>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">AmountOfTotalSalesForShareOfRelatedPartyTransactions</td>
+<td style="text-align: right;">380,813,879,210</td>
+<td style="text-align: right;">140,987</td>
+<td style="text-align: right;">2701048x</td>
+<td style="text-align: left;">size difference (stainless steel, ~10× smaller scale) — verify absolut</td>
+</tr>
+<tr>
+<td style="text-align: left;">jsw-steel</td>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">AmountOfLoansAndAdvancesGivenToRelatedParties</td>
+<td style="text-align: right;">142,578,500,000</td>
+<td style="text-align: right;">9,121</td>
+<td style="text-align: right;">15632116x</td>
+<td style="text-align: left;">investigate: may be genuine difference, unit error, or PSU reporting g</td>
+</tr>
+<tr>
+<td style="text-align: left;">jindal-stainless</td>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">AmountOfLoansAndAdvancesGivenToRelatedParties</td>
+<td style="text-align: right;">7,226,300,000</td>
+<td style="text-align: right;">9,121</td>
+<td style="text-align: right;">792282x</td>
+<td style="text-align: left;">size difference (stainless steel, ~10× smaller scale) — verify absolut</td>
+</tr>
+<tr>
+<td style="text-align: left;">jsw-steel</td>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">AmountOfTotalLoansAndAdvances</td>
+<td style="text-align: right;">142,669,400,000</td>
+<td style="text-align: right;">14,802</td>
+<td style="text-align: right;">9638600x</td>
+<td style="text-align: left;">investigate: may be genuine difference, unit error, or PSU reporting g</td>
+</tr>
+<tr>
+<td style="text-align: left;">jindal-stainless</td>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">AmountOfTotalLoansAndAdvances</td>
+<td style="text-align: right;">7,226,300,000</td>
+<td style="text-align: right;">14,802</td>
+<td style="text-align: right;">488202x</td>
+<td style="text-align: left;">size difference (stainless steel, ~10× smaller scale) — verify absolut</td>
+</tr>
+<tr>
+<td style="text-align: left;">jsw-steel</td>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">AmountOfInvestmentsInRelatedParties</td>
+<td style="text-align: right;">306,979,800,000</td>
+<td style="text-align: right;">63,634</td>
+<td style="text-align: right;">4824134x</td>
+<td style="text-align: left;">investigate: may be genuine difference, unit error, or PSU reporting g</td>
+</tr>
+<tr>
+<td style="text-align: left;">jindal-stainless</td>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">AmountOfInvestmentsInRelatedParties</td>
+<td style="text-align: right;">24,940,638,686</td>
+<td style="text-align: right;">63,634</td>
+<td style="text-align: right;">391938x</td>
+<td style="text-align: left;">size difference (stainless steel, ~10× smaller scale) — verify absolut</td>
+</tr>
+<tr>
+<td style="text-align: left;">jsw-steel</td>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">AmountOfTotalInvestments</td>
+<td style="text-align: right;">307,138,400,000</td>
+<td style="text-align: right;">65,999</td>
+<td style="text-align: right;">4653709x</td>
+<td style="text-align: left;">investigate: may be genuine difference, unit error, or PSU reporting g</td>
+</tr>
+<tr>
+<td style="text-align: left;">jindal-stainless</td>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">AmountOfTotalInvestments</td>
+<td style="text-align: right;">28,043,000,000</td>
+<td style="text-align: right;">65,999</td>
+<td style="text-align: right;">424903x</td>
+<td style="text-align: left;">size difference (stainless steel, ~10× smaller scale) — verify absolut</td>
+</tr>
+<tr>
+<td style="text-align: left;">tata-steel</td>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">AmountOfCostIncurredOnWellBeingMeasures</td>
+<td style="text-align: right;">1,648,410,373</td>
+<td style="text-align: right;">1,534</td>
+<td style="text-align: right;">1074254x</td>
+<td style="text-align: left;">check reporting basis: FY2023 = consolidated (includes overseas ops),</td>
+</tr>
+<tr>
+<td style="text-align: left;">jsw-steel</td>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">AmountOfCostIncurredOnWellBeingMeasures</td>
+<td style="text-align: right;">476,589,851</td>
+<td style="text-align: right;">1,534</td>
+<td style="text-align: right;">310589x</td>
+<td style="text-align: left;">investigate: may be genuine difference, unit error, or PSU reporting g</td>
+</tr>
+<tr>
+<td style="text-align: left;">tata-steel</td>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">TotalRevenueOfTheCompany</td>
+<td style="text-align: right;">1,409,874,287,724</td>
+<td style="text-align: right;">105,375</td>
+<td style="text-align: right;">13379642x</td>
+<td style="text-align: left;">check reporting basis: FY2023 = consolidated (includes overseas ops),</td>
+</tr>
+<tr>
+<td style="text-align: left;">jsw-steel</td>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">TotalRevenueOfTheCompany</td>
+<td style="text-align: right;">1,336,090,000,000</td>
+<td style="text-align: right;">105,375</td>
+<td style="text-align: right;">12679432x</td>
+<td style="text-align: left;">investigate: may be genuine difference, unit error, or PSU reporting g</td>
+</tr>
+<tr>
+<td style="text-align: left;">tata-steel</td>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">RevenueFromOperations</td>
+<td style="text-align: right;">1,409,874,287,726</td>
+<td style="text-align: right;">1,096,720</td>
+<td style="text-align: right;">1285537x</td>
+<td style="text-align: left;">check reporting basis: FY2023 = consolidated (includes overseas ops),</td>
+</tr>
+<tr>
+<td style="text-align: left;">jsw-steel</td>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">RevenueFromOperations</td>
+<td style="text-align: right;">1,336,090,000,000</td>
+<td style="text-align: right;">1,096,720</td>
+<td style="text-align: right;">1218260x</td>
+<td style="text-align: left;">investigate: may be genuine difference, unit error, or PSU reporting g</td>
+</tr>
+<tr>
+<td style="text-align: left;">sail</td>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">EnergyIntensityPerRupeeOfTurnover</td>
+<td style="text-align: right;">0.5600</td>
+<td style="text-align: right;">0.0004</td>
+<td style="text-align: right;">1445x</td>
+<td style="text-align: left;">likely unit mismatch: extreme ratio suggests PJ vs GJ or TJ vs GJ repo</td>
+</tr>
+<tr>
+<td style="text-align: left;">jindal-stainless</td>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">EnergyIntensityPerRupeeOfTurnover</td>
+<td style="text-align: right;">916</td>
+<td style="text-align: right;">0.0004</td>
+<td style="text-align: right;">2364719x</td>
+<td style="text-align: left;">likely unit mismatch: extreme ratio suggests PJ vs GJ or TJ vs GJ repo</td>
+</tr>
+<tr>
+<td style="text-align: left;">tata-steel</td>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">EnergyIntensityPerRupeeOfTurnoverAdjustingForPurchasingPowerParity</td>
+<td style="text-align: right;">8,861</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">783x</td>
+<td style="text-align: left;">likely unit mismatch: extreme ratio suggests PJ vs GJ or TJ vs GJ repo</td>
+</tr>
+<tr>
+<td style="text-align: left;">jindal-stainless</td>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">EnergyIntensityPerRupeeOfTurnoverAdjustingForPurchasingPowerParity</td>
+<td style="text-align: right;">20,524</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">1813x</td>
+<td style="text-align: left;">likely unit mismatch: extreme ratio suggests PJ vs GJ or TJ vs GJ repo</td>
+</tr>
+<tr>
+<td style="text-align: left;">tata-steel</td>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">WaterWithdrawalByGroundwater</td>
+<td style="text-align: right;">13,302,945</td>
+<td style="text-align: right;">20,710</td>
+<td style="text-align: right;">642x</td>
+<td style="text-align: left;">possible unit mismatch: check kL vs ML or m³ vs kL</td>
+</tr>
+<tr>
+<td style="text-align: left;">tata-steel</td>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">WaterWithdrawalByThirdPartyWater</td>
+<td style="text-align: right;">3,970,520</td>
+<td style="text-align: right;">31,700</td>
+<td style="text-align: right;">125x</td>
+<td style="text-align: left;">possible unit mismatch: check kL vs ML or m³ vs kL</td>
+</tr>
+<tr>
+<td style="text-align: left;">jindal-stainless</td>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">WaterIntensityPerRupeeOfTurnoverAdjustingForPurchasingPowerParity</td>
+<td style="text-align: right;">7,459</td>
+<td style="text-align: right;">0.8734</td>
+<td style="text-align: right;">8541x</td>
+<td style="text-align: left;">possible unit mismatch: check kL vs ML or m³ vs kL</td>
+</tr>
+<tr>
+<td style="text-align: left;">jindal-stainless</td>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">TotalScope1AndScope2EmissionsIntensityPerRupeeOfTurnoverAdjustedForPurchasingPowerParity</td>
+<td style="text-align: right;">2,207</td>
+<td style="text-align: right;">0.0010</td>
+<td style="text-align: right;">2207223x</td>
+<td style="text-align: left;">likely unit mismatch: check if company reported in million tonnes vs t</td>
+</tr>
+<tr>
+<td style="text-align: left;">tata-steel</td>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">BioMedicalWaste</td>
+<td style="text-align: right;">23</td>
+<td style="text-align: right;">0.1900</td>
+<td style="text-align: right;">121x</td>
+<td style="text-align: left;">check reporting basis: FY2023 = consolidated (includes overseas ops),</td>
+</tr>
+<tr>
+<td style="text-align: left;">sail</td>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">WasteIntensityPerRupeeOfTurnover</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">0.0000</td>
+<td style="text-align: right;">1069535x</td>
+<td style="text-align: left;">investigate: may be genuine difference, unit error, or PSU reporting g</td>
+</tr>
+<tr>
+<td style="text-align: left;">jindal-stainless</td>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">WasteIntensityPerRupeeOfTurnover</td>
+<td style="text-align: right;">41</td>
+<td style="text-align: right;">0.0000</td>
+<td style="text-align: right;">3460176x</td>
+<td style="text-align: left;">size difference (stainless steel, ~10× smaller scale) — verify absolut</td>
+</tr>
+<tr>
+<td style="text-align: left;">jindal-stainless</td>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">WasteIntensityPerRupeeOfTurnoverAdjustingForPurchasingPowerParity</td>
+<td style="text-align: right;">925</td>
+<td style="text-align: right;">0.0003</td>
+<td style="text-align: right;">3701687x</td>
+<td style="text-align: left;">size difference (stainless steel, ~10× smaller scale) — verify absolut</td>
+</tr>
+<tr>
+<td style="text-align: left;">tata-steel</td>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">WasteRecoveredThroughReUsed</td>
+<td style="text-align: right;">7,444,172</td>
+<td style="text-align: right;">46,423</td>
+<td style="text-align: right;">160x</td>
+<td style="text-align: left;">check reporting basis: FY2023 = consolidated (includes overseas ops),</td>
+</tr>
+<tr>
+<td style="text-align: left;">tata-steel</td>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">WasteDisposedByLandfilling</td>
+<td style="text-align: right;">303,496</td>
+<td style="text-align: right;">2,965</td>
+<td style="text-align: right;">102x</td>
+<td style="text-align: left;">check reporting basis: FY2023 = consolidated (includes overseas ops),</td>
+</tr>
+<tr>
+<td style="text-align: left;">tata-steel</td>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">TotalWasteDisposed</td>
+<td style="text-align: right;">307,577</td>
+<td style="text-align: right;">3,109</td>
+<td style="text-align: right;">99x</td>
+<td style="text-align: left;">check reporting basis: FY2023 = consolidated (includes overseas ops),</td>
+</tr>
+<tr>
+<td style="text-align: left;">sail</td>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">TotalScope3EmissionsPerRupeeOfTurnover</td>
+<td style="text-align: right;">48</td>
+<td style="text-align: right;">0.0000</td>
+<td style="text-align: right;">4830000x</td>
+<td style="text-align: left;">likely unit mismatch: check if company reported in million tonnes vs t</td>
+</tr>
+<tr>
+<td style="text-align: left;"><em>... 38 more in validation_report.json</em></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>YOUR COMMENT:</strong> <em>(type here — leave blank if no issues)</em></p>
+</blockquote>
+<h3>Year-over-year outliers &nbsp; (321 shown — 0 Tata FY23 suppressed as expected basis change)</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Company</th>
+<th style="text-align: left;">Metric</th>
+<th style="text-align: left;">Period</th>
+<th style="text-align: right;">Change</th>
+<th style="text-align: left;">Direction</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">tata-steel</td>
+<td style="text-align: left;">WasteIntensityPerRupeeOfTurnoverAdjustingForPurchasingPowerParity</td>
+<td style="text-align: left;">FY2024→FY2025</td>
+<td style="text-align: right;">893%</td>
+<td style="text-align: left;">increase</td>
+</tr>
+<tr>
+<td style="text-align: left;">tata-steel</td>
+<td style="text-align: left;">TotalScope3EmissionsPerRupeeOfTurnover</td>
+<td style="text-align: left;">FY2024→FY2025</td>
+<td style="text-align: right;">1900%</td>
+<td style="text-align: left;">increase</td>
+</tr>
+<tr>
+<td style="text-align: left;">tata-steel</td>
+<td style="text-align: left;">BatteryWaste</td>
+<td style="text-align: left;">FY2024→FY2025</td>
+<td style="text-align: right;">160%</td>
+<td style="text-align: left;">increase</td>
+</tr>
+<tr>
+<td style="text-align: left;">tata-steel</td>
+<td style="text-align: left;">CostOfGoodsOrServicesProcuredDuringTheYear</td>
+<td style="text-align: left;">FY2024→FY2025</td>
+<td style="text-align: right;">100%</td>
+<td style="text-align: left;">decrease</td>
+</tr>
+<tr>
+<td style="text-align: left;">tata-steel</td>
+<td style="text-align: left;">PercentageOfCapex</td>
+<td style="text-align: left;">FY2024→FY2025</td>
+<td style="text-align: right;">106%</td>
+<td style="text-align: left;">increase</td>
+</tr>
+<tr>
+<td style="text-align: left;">tata-steel</td>
+<td style="text-align: left;">AmountOfAccountsPayableDuringTheYear</td>
+<td style="text-align: left;">FY2024→FY2025</td>
+<td style="text-align: right;">100%</td>
+<td style="text-align: left;">decrease</td>
+</tr>
+<tr>
+<td style="text-align: left;">tata-steel</td>
+<td style="text-align: left;">TotalElectricityConsumptionFromRenewableSources</td>
+<td style="text-align: left;">FY2024→FY2025</td>
+<td style="text-align: right;">231%</td>
+<td style="text-align: left;">increase</td>
+</tr>
+<tr>
+<td style="text-align: left;">tata-steel</td>
+<td style="text-align: left;">WasteDisposedByOtherDisposalOperations</td>
+<td style="text-align: left;">FY2024→FY2025</td>
+<td style="text-align: right;">100%</td>
+<td style="text-align: left;">decrease</td>
+</tr>
+<tr>
+<td style="text-align: left;">tata-steel</td>
+<td style="text-align: left;">PercentageOfComplaintsInRespectOfNumberOfEmployeesOrWorker</td>
+<td style="text-align: left;">FY2024→FY2025</td>
+<td style="text-align: right;">100%</td>
+<td style="text-align: left;">increase</td>
+</tr>
+<tr>
+<td style="text-align: left;">tata-steel</td>
+<td style="text-align: left;">WhatPercentageOfTotalProcurementByValueDoesItConstitute</td>
+<td style="text-align: left;">FY2024→FY2025</td>
+<td style="text-align: right;">1167%</td>
+<td style="text-align: left;">increase</td>
+</tr>
+<tr>
+<td style="text-align: left;">tata-steel</td>
+<td style="text-align: left;">NumberOfEmployeesOrWhoseFamilyMembersRehabilitatedAndPlacedInSuitableEmployment</td>
+<td style="text-align: left;">FY2024→FY2025</td>
+<td style="text-align: right;">200%</td>
+<td style="text-align: left;">increase</td>
+</tr>
+<tr>
+<td style="text-align: left;">tata-steel</td>
+<td style="text-align: left;">BioMedicalWaste</td>
+<td style="text-align: left;">FY2024→FY2025</td>
+<td style="text-align: right;">1013%</td>
+<td style="text-align: left;">increase</td>
+</tr>
+<tr>
+<td style="text-align: left;">tata-steel</td>
+<td style="text-align: left;">TotalNumberOfAffectedEmployees</td>
+<td style="text-align: left;">FY2024→FY2025</td>
+<td style="text-align: right;">100%</td>
+<td style="text-align: left;">increase</td>
+</tr>
+<tr>
+<td style="text-align: left;">tata-steel</td>
+<td style="text-align: left;">TotalScope3Emissions</td>
+<td style="text-align: left;">FY2024→FY2025</td>
+<td style="text-align: right;">53%</td>
+<td style="text-align: left;">increase</td>
+</tr>
+<tr>
+<td style="text-align: left;">tata-steel</td>
+<td style="text-align: left;">WasteRecoveredThroughReUsed</td>
+<td style="text-align: left;">FY2024→FY2025</td>
+<td style="text-align: right;">60%</td>
+<td style="text-align: left;">decrease</td>
+</tr>
+<tr>
+<td style="text-align: left;">tata-steel</td>
+<td style="text-align: left;">WaterDischargeToGroundwaterWithTreatment</td>
+<td style="text-align: left;">FY2024→FY2025</td>
+<td style="text-align: right;">100%</td>
+<td style="text-align: left;">decrease</td>
+</tr>
+<tr>
+<td style="text-align: left;">tata-steel</td>
+<td style="text-align: left;">WaterDischargeToGroundwater</td>
+<td style="text-align: left;">FY2024→FY2025</td>
+<td style="text-align: right;">100%</td>
+<td style="text-align: left;">decrease</td>
+</tr>
+<tr>
+<td style="text-align: left;">tata-steel</td>
+<td style="text-align: left;">WaterWithdrawalByThirdPartyWater</td>
+<td style="text-align: left;">FY2024→FY2025</td>
+<td style="text-align: right;">160%</td>
+<td style="text-align: left;">increase</td>
+</tr>
+<tr>
+<td style="text-align: left;">tata-steel</td>
+<td style="text-align: left;">TotalWasteDisposed</td>
+<td style="text-align: left;">FY2024→FY2025</td>
+<td style="text-align: right;">94%</td>
+<td style="text-align: left;">decrease</td>
+</tr>
+<tr>
+<td style="text-align: left;">tata-steel</td>
+<td style="text-align: left;">TotalEnergyConsumedFromRenewableSources</td>
+<td style="text-align: left;">FY2024→FY2025</td>
+<td style="text-align: right;">231%</td>
+<td style="text-align: left;">increase</td>
+</tr>
+<tr>
+<td style="text-align: left;">tata-steel</td>
+<td style="text-align: left;">AmountOfTotalPurchases</td>
+<td style="text-align: left;">FY2024→FY2025</td>
+<td style="text-align: right;">100%</td>
+<td style="text-align: left;">decrease</td>
+</tr>
+<tr>
+<td style="text-align: left;">tata-steel</td>
+<td style="text-align: left;">NumberOfWorkersOrWhoseFamilyMembersRehabilitatedAndPlacedInSuitableEmployment</td>
+<td style="text-align: left;">FY2024→FY2025</td>
+<td style="text-align: right;">111%</td>
+<td style="text-align: left;">increase</td>
+</tr>
+<tr>
+<td style="text-align: left;">tata-steel</td>
+<td style="text-align: left;">TotalComplaintsReportedUnderSexualHarassmentOfWomenAtWorkplace</td>
+<td style="text-align: left;">FY2024→FY2025</td>
+<td style="text-align: right;">115%</td>
+<td style="text-align: left;">increase</td>
+</tr>
+<tr>
+<td style="text-align: left;">tata-steel</td>
+<td style="text-align: left;">WasteDisposedByLandfilling</td>
+<td style="text-align: left;">FY2024→FY2025</td>
+<td style="text-align: right;">95%</td>
+<td style="text-align: left;">decrease</td>
+</tr>
+<tr>
+<td style="text-align: left;">tata-steel</td>
+<td style="text-align: left;">WasteDisposedByIncineration</td>
+<td style="text-align: left;">FY2024→FY2025</td>
+<td style="text-align: right;">132%</td>
+<td style="text-align: left;">increase</td>
+</tr>
+<tr>
+<td style="text-align: left;">tata-steel</td>
+<td style="text-align: left;">NetWorth</td>
+<td style="text-align: left;">FY2024→FY2025</td>
+<td style="text-align: right;">840%</td>
+<td style="text-align: left;">increase</td>
+</tr>
+<tr>
+<td style="text-align: left;">tata-steel</td>
+<td style="text-align: left;">ComplaintsOnPOSHUpHeld</td>
+<td style="text-align: left;">FY2024→FY2025</td>
+<td style="text-align: right;">125%</td>
+<td style="text-align: left;">increase</td>
+</tr>
+<tr>
+<td style="text-align: left;">tata-steel</td>
+<td style="text-align: left;">TotalWagesPaid</td>
+<td style="text-align: left;">FY2024→FY2025</td>
+<td style="text-align: right;">60%</td>
+<td style="text-align: left;">increase</td>
+</tr>
+<tr>
+<td style="text-align: left;">jsw-steel</td>
+<td style="text-align: left;">TotalScope3EmissionsPerRupeeOfTurnover</td>
+<td style="text-align: left;">FY2023→FY2024</td>
+<td style="text-align: right;">100%</td>
+<td style="text-align: left;">decrease</td>
+</tr>
+<tr>
+<td style="text-align: left;">jsw-steel</td>
+<td style="text-align: left;">BatteryWaste</td>
+<td style="text-align: left;">FY2023→FY2024</td>
+<td style="text-align: right;">136%</td>
+<td style="text-align: left;">increase</td>
+</tr>
+<tr>
+<td style="text-align: left;">jsw-steel</td>
+<td style="text-align: left;">EWaste</td>
+<td style="text-align: left;">FY2023→FY2024</td>
+<td style="text-align: right;">481%</td>
+<td style="text-align: left;">increase</td>
+</tr>
+<tr>
+<td style="text-align: left;">jsw-steel</td>
+<td style="text-align: left;">WasteDisposedByLandfilling</td>
+<td style="text-align: left;">FY2023→FY2024</td>
+<td style="text-align: right;">98%</td>
+<td style="text-align: left;">decrease</td>
+</tr>
+<tr>
+<td style="text-align: left;">jsw-steel</td>
+<td style="text-align: left;">WasteDisposedByIncineration</td>
+<td style="text-align: left;">FY2023→FY2024</td>
+<td style="text-align: right;">95%</td>
+<td style="text-align: left;">decrease</td>
+</tr>
+<tr>
+<td style="text-align: left;">jsw-steel</td>
+<td style="text-align: left;">IsThereAMechanismAvailableToReceiveAndRedressGrievancesForPermanentWorkers</td>
+<td style="text-align: left;">FY2023→FY2024</td>
+<td style="text-align: right;">100%</td>
+<td style="text-align: left;">decrease</td>
+</tr>
+<tr>
+<td style="text-align: left;">jsw-steel</td>
+<td style="text-align: left;">PlasticWaste</td>
+<td style="text-align: left;">FY2023→FY2024</td>
+<td style="text-align: right;">674%</td>
+<td style="text-align: left;">increase</td>
+</tr>
+<tr>
+<td style="text-align: left;">jsw-steel</td>
+<td style="text-align: left;">Turnover</td>
+<td style="text-align: left;">FY2023→FY2024</td>
+<td style="text-align: right;">928%</td>
+<td style="text-align: left;">increase</td>
+</tr>
+<tr>
+<td style="text-align: left;">jsw-steel</td>
+<td style="text-align: left;">TotalWasteDisposed</td>
+<td style="text-align: left;">FY2023→FY2024</td>
+<td style="text-align: right;">98%</td>
+<td style="text-align: left;">decrease</td>
+</tr>
+<tr>
+<td style="text-align: left;">jsw-steel</td>
+<td style="text-align: left;">IsThereAMechanismAvailableToReceiveAndRedressGrievancesForOtherThanPermanentEmployees</td>
+<td style="text-align: left;">FY2023→FY2024</td>
+<td style="text-align: right;">100%</td>
+<td style="text-align: left;">decrease</td>
+</tr>
+<tr>
+<td style="text-align: left;">jsw-steel</td>
+<td style="text-align: left;">TotalScope2Emissions</td>
+<td style="text-align: left;">FY2023→FY2024</td>
+<td style="text-align: right;">56%</td>
+<td style="text-align: left;">decrease</td>
+</tr>
+<tr>
+<td style="text-align: left;">jsw-steel</td>
+<td style="text-align: left;">TotalNumberOfAffectedWorkers</td>
+<td style="text-align: left;">FY2023→FY2024</td>
+<td style="text-align: right;">67%</td>
+<td style="text-align: left;">decrease</td>
+</tr>
+<tr>
+<td style="text-align: left;">jsw-steel</td>
+<td style="text-align: left;">NumberOfCountriesWhereMarketServedByTheEntity</td>
+<td style="text-align: left;">FY2023→FY2024</td>
+<td style="text-align: right;">88%</td>
+<td style="text-align: left;">increase</td>
+</tr>
+<tr>
+<td style="text-align: left;">jsw-steel</td>
+<td style="text-align: left;">WaterIntensityPerRupeeOfTurnover</td>
+<td style="text-align: left;">FY2023→FY2024</td>
+<td style="text-align: right;">100%</td>
+<td style="text-align: left;">decrease</td>
+</tr>
+<tr>
+<td style="text-align: left;">jsw-steel</td>
+<td style="text-align: left;">TotalScope3Emissions</td>
+<td style="text-align: left;">FY2023→FY2024</td>
+<td style="text-align: right;">444%</td>
+<td style="text-align: left;">increase</td>
+</tr>
+<tr>
+<td style="text-align: left;">jsw-steel</td>
+<td style="text-align: left;">PercentageOfSourcedDirectlyFromWithinTheDistrictAndNeighbouringDistricts</td>
+<td style="text-align: left;">FY2023→FY2024</td>
+<td style="text-align: right;">2221%</td>
+<td style="text-align: left;">increase</td>
+</tr>
+<tr>
+<td style="text-align: left;">jsw-steel</td>
+<td style="text-align: left;">TotalScope1AndScope2EmissionsIntensityPerRupeeOfTurnover</td>
+<td style="text-align: left;">FY2023→FY2024</td>
+<td style="text-align: right;">100%</td>
+<td style="text-align: left;">decrease</td>
+</tr>
+<tr>
+<td style="text-align: left;">jsw-steel</td>
+<td style="text-align: left;">PercentageOfChildLabourOfValueChainPartnersP5</td>
+<td style="text-align: left;">FY2024→FY2025</td>
+<td style="text-align: right;">65%</td>
+<td style="text-align: left;">decrease</td>
+</tr>
+<tr>
+<td style="text-align: left;">jsw-steel</td>
+<td style="text-align: left;">PlasticWaste</td>
+<td style="text-align: left;">FY2024→FY2025</td>
+<td style="text-align: right;">196%</td>
+<td style="text-align: left;">increase</td>
+</tr>
+<tr>
+<td style="text-align: left;">jsw-steel</td>
+<td style="text-align: left;">TotalElectricityConsumptionFromRenewableSources</td>
+<td style="text-align: left;">FY2024→FY2025</td>
+<td style="text-align: right;">66%</td>
+<td style="text-align: left;">increase</td>
+</tr>
+<tr>
+<td style="text-align: left;">jsw-steel</td>
+<td style="text-align: left;">PercentageOfComplaintsInRespectOfNumberOfEmployeesOrWorker</td>
+<td style="text-align: left;">FY2024→FY2025</td>
+<td style="text-align: right;">342%</td>
+<td style="text-align: left;">increase</td>
+</tr>
+<tr>
+<td style="text-align: left;">jsw-steel</td>
+<td style="text-align: left;">WaterWithdrawalByGroundwater</td>
+<td style="text-align: left;">FY2024→FY2025</td>
+<td style="text-align: right;">429%</td>
+<td style="text-align: left;">increase</td>
+</tr>
+<tr>
+<td style="text-align: left;"><em>... 271 more</em></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>YOUR COMMENT:</strong> <em>(type here — leave blank if no issues)</em></p>
+</blockquote>
+<hr />
+<h2>3. PDF Patches Applied</h2>
+<p>Values the parser stored from XBRL that were overridden by PDF-confirmed data.</p>
+<h3>Tata Steel</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Year</th>
+<th style="text-align: left;">Metric</th>
+<th style="text-align: left;">Patched value</th>
+<th style="text-align: left;">Raw PDF value</th>
+<th style="text-align: left;">Unit</th>
+<th style="text-align: left;">Note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">FY2023</td>
+<td style="text-align: left;">TotalScope1AndScope2EmissionsIntensityInTermOfPhysicalOutput</td>
+<td style="text-align: left;">2.21</td>
+<td style="text-align: left;">2.21</td>
+<td style="text-align: left;">tCO2e/tcs</td>
+<td style="text-align: left;">XBRL value of 61 was a filing error. PDF-confirmed: 2.21 tCO2e/tcs fro</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2023</td>
+<td style="text-align: left;">TrainingCoverage_Employees_HealthSafety</td>
+<td style="text-align: left;">100.0</td>
+<td style="text-align: left;">100</td>
+<td style="text-align: left;">%</td>
+<td style="text-align: left;">Not in XBRL. PDF-confirmed: 100% permanent employees trained on health</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2023</td>
+<td style="text-align: left;">TrainingCoverage_Employees_SkillUpgradation</td>
+<td style="text-align: left;">100.0</td>
+<td style="text-align: left;">100</td>
+<td style="text-align: left;">%</td>
+<td style="text-align: left;">Not in XBRL. PDF-confirmed: 100% permanent employees trained on skill</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2023</td>
+<td style="text-align: left;">TrainingCoverage_Workers_HealthSafety</td>
+<td style="text-align: left;">100.0</td>
+<td style="text-align: left;">100</td>
+<td style="text-align: left;">%</td>
+<td style="text-align: left;">Not in XBRL. PDF-confirmed: 100% permanent workers trained on health &amp;</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2023</td>
+<td style="text-align: left;">TrainingCoverage_Workers_SkillUpgradation</td>
+<td style="text-align: left;">100.0</td>
+<td style="text-align: left;">100</td>
+<td style="text-align: left;">%</td>
+<td style="text-align: left;">Not in XBRL. PDF-confirmed: 100% permanent workers trained on skill up</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">AmountOfTotalSales</td>
+<td style="text-align: left;">137284.33</td>
+<td style="text-align: left;">1372843287397.3</td>
+<td style="text-align: left;">INR (absolute rupees in XBRL)</td>
+<td style="text-align: left;">XBRL filed in absolute rupees. Converted: raw / 1e7 = 1,37,284 Crore.</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">TotalRevenueOfTheCompany</td>
+<td style="text-align: left;">140987.43</td>
+<td style="text-align: left;">1409874287723.51</td>
+<td style="text-align: left;">INR (absolute rupees in XBRL)</td>
+<td style="text-align: left;">XBRL filed in absolute rupees. PDF confirms 1,40,987.43 Crore (Page 4)</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">RevenueFromOperations</td>
+<td style="text-align: left;">140987.43</td>
+<td style="text-align: left;">1409874287725.64</td>
+<td style="text-align: left;">INR (absolute rupees in XBRL)</td>
+<td style="text-align: left;">XBRL filed in absolute rupees. PDF confirms 1,40,987.43 Crore (Page 4)</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">EnergyIntensityPerRupeeOfTurnover</td>
+<td style="text-align: left;">None</td>
+<td style="text-align: left;">0.0003872419</td>
+<td style="text-align: left;">GJ/Rs (inferred)</td>
+<td style="text-align: left;">PDF reports 0.0043 PJ/Rs Crore; our 0.000387 GJ/Rs = 0.00387 PJ/Crore</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">EnergyIntensityPerRupeeOfTurnoverAdjustingForPurchasingPowerParity</td>
+<td style="text-align: left;">None</td>
+<td style="text-align: left;">8860.87</td>
+<td style="text-align: left;">GJ/Million USD (inferred)</td>
+<td style="text-align: left;">PDF reports 0.0098 PJ/Million USD; our 8,860 GJ/Million USD = 0.00886</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">WasteIntensityPerRupeeOfTurnoverAdjustingForPurchasingPowerParity</td>
+<td style="text-align: left;">0.000273</td>
+<td style="text-align: left;">0.000273</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">XBRL stored 2.73e-5; PDF confirms 0.000273 (Page 65). 10x correction a</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">TotalScope3EmissionsPerRupeeOfTurnover</td>
+<td style="text-align: left;">0.0001</td>
+<td style="text-align: left;">0.0001</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">XBRL stored 1e-5; PDF confirms 0.0001 MnT/Cr (Page 69). 10x correction</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">Sox</td>
+<td style="text-align: left;">38.0</td>
+<td style="text-align: left;">38</td>
+<td style="text-align: left;">Kilotonnes/year</td>
+<td style="text-align: left;">Not in FY2024 XBRL; extracted from PDF (standalone)</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">Nox</td>
+<td style="text-align: left;">20.0</td>
+<td style="text-align: left;">20</td>
+<td style="text-align: left;">Kilotonnes/year</td>
+<td style="text-align: left;">Not in FY2024 XBRL; extracted from PDF (standalone)</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">TrainingCoverage_Employees_HealthSafety</td>
+<td style="text-align: left;">100.0</td>
+<td style="text-align: left;">100</td>
+<td style="text-align: left;">%</td>
+<td style="text-align: left;">Not in XBRL. PDF-confirmed: 100% permanent employees trained on health</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">TrainingCoverage_Employees_SkillUpgradation</td>
+<td style="text-align: left;">100.0</td>
+<td style="text-align: left;">100</td>
+<td style="text-align: left;">%</td>
+<td style="text-align: left;">Not in XBRL. PDF-confirmed: 100% permanent employees trained on skill</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">TrainingCoverage_Workers_HealthSafety</td>
+<td style="text-align: left;">100.0</td>
+<td style="text-align: left;">100</td>
+<td style="text-align: left;">%</td>
+<td style="text-align: left;">Not in XBRL. PDF-confirmed: 100% permanent workers trained on health &amp;</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">TrainingCoverage_Workers_SkillUpgradation</td>
+<td style="text-align: left;">100.0</td>
+<td style="text-align: left;">100</td>
+<td style="text-align: left;">%</td>
+<td style="text-align: left;">Not in XBRL. PDF-confirmed: 100% permanent workers trained on skill up</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2025</td>
+<td style="text-align: left;">NumberOfWorkersOrWhoseFamilyMembersRehabilitatedAndPlacedInSuitableEmployment</td>
+<td style="text-align: left;">24.0</td>
+<td style="text-align: left;">24</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">XBRL had 19 (consolidated figure). PDF standalone FY2024-25 = 24 (Prin</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2025</td>
+<td style="text-align: left;">EnergyIntensityPerRupeeOfTurnoverAdjustingForPurchasingPowerParity</td>
+<td style="text-align: left;">None</td>
+<td style="text-align: left;">9160.39</td>
+<td style="text-align: left;">GJ/Million USD (inferred)</td>
+<td style="text-align: left;">PDF reports 0.0092 PJ/Million USD; our 9,160 GJ/Million USD = 0.00916</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2025</td>
+<td style="text-align: left;">WaterDischargeToGroundwater</td>
+<td style="text-align: left;">3000.0</td>
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">Million Litres</td>
+<td style="text-align: left;">XBRL filed as 0; PDF reports 3 Million Litres = 3,000 kL (Principle 6,</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2025</td>
+<td style="text-align: left;">WaterDischargeToGroundwaterWithTreatment</td>
+<td style="text-align: left;">3000.0</td>
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">Million Litres</td>
+<td style="text-align: left;">XBRL filed as 0; PDF reports 3 Million Litres = 3,000 kL (Principle 6,</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2025</td>
+<td style="text-align: left;">NetWorth</td>
+<td style="text-align: left;">None</td>
+<td style="text-align: left;">1380415390970.18</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">XBRL FY2025 tag contains FY2024 comparative value (1,38,041.53 Crore).</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2025</td>
+<td style="text-align: left;">Sox</td>
+<td style="text-align: left;">46.0</td>
+<td style="text-align: left;">46</td>
+<td style="text-align: left;">Kilotonnes/year</td>
+<td style="text-align: left;">Not in FY2025 XBRL; extracted from PDF (standalone)</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2025</td>
+<td style="text-align: left;">Nox</td>
+<td style="text-align: left;">24.0</td>
+<td style="text-align: left;">24</td>
+<td style="text-align: left;">Kilotonnes/year</td>
+<td style="text-align: left;">Not in FY2025 XBRL; extracted from PDF (standalone)</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2025</td>
+<td style="text-align: left;">TrainingCoverage_Employees_HealthSafety</td>
+<td style="text-align: left;">100.0</td>
+<td style="text-align: left;">100</td>
+<td style="text-align: left;">%</td>
+<td style="text-align: left;">Not in XBRL. PDF-confirmed: 100% permanent employees trained on health</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2025</td>
+<td style="text-align: left;">TrainingCoverage_Employees_SkillUpgradation</td>
+<td style="text-align: left;">100.0</td>
+<td style="text-align: left;">100</td>
+<td style="text-align: left;">%</td>
+<td style="text-align: left;">Not in XBRL. PDF-confirmed: 100% permanent employees trained on skill</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2025</td>
+<td style="text-align: left;">TrainingCoverage_Workers_HealthSafety</td>
+<td style="text-align: left;">100.0</td>
+<td style="text-align: left;">100</td>
+<td style="text-align: left;">%</td>
+<td style="text-align: left;">Not in XBRL. PDF-confirmed: 100% permanent workers trained on health &amp;</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2025</td>
+<td style="text-align: left;">TrainingCoverage_Workers_SkillUpgradation</td>
+<td style="text-align: left;">100.0</td>
+<td style="text-align: left;">100</td>
+<td style="text-align: left;">%</td>
+<td style="text-align: left;">Not in XBRL. PDF-confirmed: 100% permanent workers trained on skill up</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>YOUR COMMENT:</strong> <em>(type here — leave blank if no issues)</em></p>
+</blockquote>
+<h3>JSW Steel</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Year</th>
+<th style="text-align: left;">Metric</th>
+<th style="text-align: left;">Patched value</th>
+<th style="text-align: left;">Raw PDF value</th>
+<th style="text-align: left;">Unit</th>
+<th style="text-align: left;">Note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">FY2023</td>
+<td style="text-align: left;">Turnover</td>
+<td style="text-align: left;">130039.0</td>
+<td style="text-align: left;">130039000000</td>
+<td style="text-align: left;">INR (absolute rupees in XBRL, 10x u</td>
+<td style="text-align: left;">XBRL filed raw 130039000000 — 10x lower than expected absolute INR. PD</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2023</td>
+<td style="text-align: left;">TrainingCoverage_Employees_HealthSafety</td>
+<td style="text-align: left;">100.0</td>
+<td style="text-align: left;">100</td>
+<td style="text-align: left;">%</td>
+<td style="text-align: left;">Not in XBRL. PDF-confirmed: 100% permanent employees trained on H&amp;S (P</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2023</td>
+<td style="text-align: left;">TrainingCoverage_Employees_SkillUpgradation</td>
+<td style="text-align: left;">100.0</td>
+<td style="text-align: left;">100</td>
+<td style="text-align: left;">%</td>
+<td style="text-align: left;">Not in XBRL. PDF-confirmed: 100% permanent employees trained on skill</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2023</td>
+<td style="text-align: left;">TrainingCoverage_Workers_HealthSafety</td>
+<td style="text-align: left;">100.0</td>
+<td style="text-align: left;">100</td>
+<td style="text-align: left;">%</td>
+<td style="text-align: left;">Not in XBRL. PDF-confirmed: 100% permanent workers trained on H&amp;S (Pri</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2023</td>
+<td style="text-align: left;">TrainingCoverage_Workers_SkillUpgradation</td>
+<td style="text-align: left;">100.0</td>
+<td style="text-align: left;">100</td>
+<td style="text-align: left;">%</td>
+<td style="text-align: left;">Not in XBRL. PDF-confirmed: 100% permanent workers trained on skill up</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">TotalRevenueOfTheCompany</td>
+<td style="text-align: left;">133609.0</td>
+<td style="text-align: left;">1336090000000</td>
+<td style="text-align: left;">INR (absolute rupees in XBRL)</td>
+<td style="text-align: left;">XBRL filed in absolute rupees. PDF Page 4 confirms 1,33,609 Crore. Con</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">PercentageOfCostIncurredOnWellBeingMeasuresWithRespectToTotalRevenueOfTheCompany</td>
+<td style="text-align: left;">0.035</td>
+<td style="text-align: left;">0.00035</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">XBRL rounded to 0.04%; PDF Page 14 explicitly states 0.035%. Corrected</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">RevenueFromOperations</td>
+<td style="text-align: left;">133609.0</td>
+<td style="text-align: left;">1336090000000</td>
+<td style="text-align: left;">INR (absolute rupees in XBRL)</td>
+<td style="text-align: left;">XBRL filed in absolute rupees. PDF Page 4 confirms 1,33,609 Crore. Con</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">WaterIntensityPerRupeeOfTurnover</td>
+<td style="text-align: left;">0.0389</td>
+<td style="text-align: left;">0.0389</td>
+<td style="text-align: left;">litres per rupee of turnover</td>
+<td style="text-align: left;">PDF Page 24 confirms 0.0389 L/₹. XBRL stored as kL/₹ (3.89951e-05); re</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">TotalScope3EmissionsPerRupeeOfTurnover</td>
+<td style="text-align: left;">5.21e-06</td>
+<td style="text-align: left;">0.00000521</td>
+<td style="text-align: left;">kgCO2/₹ (from PDF), stored as tCO2/</td>
+<td style="text-align: left;">PDF Page 28 reports 0.00521 kgCO2/₹ = 5.21e-06 tCO2/₹. Our stored valu</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">PercentageOfSourcedDirectlyFromWithinTheDistrictAndNeighbouringDistricts</td>
+<td style="text-align: left;">65.0</td>
+<td style="text-align: left;">0.65</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">PDF Page 31 confirms 65% but labels it as sourcing 'directly from with</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">Turnover</td>
+<td style="text-align: left;">133609.0</td>
+<td style="text-align: left;">1336090000000</td>
+<td style="text-align: left;">INR (absolute rupees in XBRL)</td>
+<td style="text-align: left;">XBRL filed in absolute rupees. PDF Page 4 confirms 1,33,609 Crore. Con</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">IsThereAMechanismAvailableToReceiveAndRedressGrievancesForPermanentWorkers</td>
+<td style="text-align: left;">True</td>
+<td style="text-align: left;">true</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">XBRL filed as 0/false (error). PDF Page 15 explicitly states 'Yes'. Co</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">IsThereAMechanismAvailableToReceiveAndRedressGrievancesForOtherThanPermanentEmployees</td>
+<td style="text-align: left;">True</td>
+<td style="text-align: left;">true</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">XBRL filed as 0/false (error). PDF Page 15 explicitly states 'Yes'. Co</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">Sox</td>
+<td style="text-align: left;">43.8738</td>
+<td style="text-align: left;">1.66</td>
+<td style="text-align: left;">kg/tcs</td>
+<td style="text-align: left;">Not in FY2024 XBRL; PDF: 1.66 kg/tcs × 26,430,000 t production = 43.87</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">Nox</td>
+<td style="text-align: left;">31.4517</td>
+<td style="text-align: left;">1.19</td>
+<td style="text-align: left;">kg/tcs</td>
+<td style="text-align: left;">Not in FY2024 XBRL; PDF: 1.19 kg/tcs × 26,430,000 t production = 31.45</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">TrainingCoverage_Employees_HealthSafety</td>
+<td style="text-align: left;">100.0</td>
+<td style="text-align: left;">100</td>
+<td style="text-align: left;">%</td>
+<td style="text-align: left;">Not in XBRL. PDF-confirmed: 100% permanent employees trained on H&amp;S (P</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">TrainingCoverage_Employees_SkillUpgradation</td>
+<td style="text-align: left;">100.0</td>
+<td style="text-align: left;">100</td>
+<td style="text-align: left;">%</td>
+<td style="text-align: left;">Not in XBRL. PDF-confirmed: 100% permanent employees trained on skill</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">TrainingCoverage_Workers_HealthSafety</td>
+<td style="text-align: left;">100.0</td>
+<td style="text-align: left;">100</td>
+<td style="text-align: left;">%</td>
+<td style="text-align: left;">Not in XBRL. PDF-confirmed: 100% permanent workers trained on H&amp;S (Pri</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">TrainingCoverage_Workers_SkillUpgradation</td>
+<td style="text-align: left;">100.0</td>
+<td style="text-align: left;">100</td>
+<td style="text-align: left;">%</td>
+<td style="text-align: left;">Not in XBRL. PDF-confirmed: 100% permanent workers trained on skill up</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2025</td>
+<td style="text-align: left;">TotalRevenueOfTheCompany</td>
+<td style="text-align: left;">125678.0</td>
+<td style="text-align: left;">1256780000000</td>
+<td style="text-align: left;">INR (absolute rupees in XBRL)</td>
+<td style="text-align: left;">XBRL filed in absolute rupees (same pattern as FY2024). raw / 1e7 = 12</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2025</td>
+<td style="text-align: left;">PercentageOfCostIncurredOnWellBeingMeasuresWithRespectToTotalRevenueOfTheCompany</td>
+<td style="text-align: left;">0.0253</td>
+<td style="text-align: left;">0.000253</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">XBRL rounded to 0.03%; PDF Page 9 explicitly states 0.0253%. Corrected</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2025</td>
+<td style="text-align: left;">RevenueFromOperations</td>
+<td style="text-align: left;">125678.0</td>
+<td style="text-align: left;">1256780000000</td>
+<td style="text-align: left;">INR (absolute rupees in XBRL)</td>
+<td style="text-align: left;">XBRL filed in absolute rupees (same pattern as FY2024). raw / 1e7 = 12</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2025</td>
+<td style="text-align: left;">WaterIntensityPerRupeeOfTurnover</td>
+<td style="text-align: left;">0.0424</td>
+<td style="text-align: left;">0.0423703</td>
+<td style="text-align: left;">litres per rupee of turnover</td>
+<td style="text-align: left;">XBRL stored as kL/₹ (4.23703e-05); converted to L/₹ = 0.0424 for consi</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2025</td>
+<td style="text-align: left;">Turnover</td>
+<td style="text-align: left;">125678.0</td>
+<td style="text-align: left;">1256780000000</td>
+<td style="text-align: left;">INR (absolute rupees in XBRL)</td>
+<td style="text-align: left;">XBRL filed in absolute rupees (same pattern as FY2024). raw / 1e7 = 12</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2025</td>
+<td style="text-align: left;">WhetherTheWasteCollectionPlanIsInLineWithTheExtendedProducerResponsibilityPlanSubmittedToPollutionControlBoards</td>
+<td style="text-align: left;">True</td>
+<td style="text-align: left;">true</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">XBRL filed as 0/false (error). PDF Page 8 confirms 'Yes' — waste colle</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2025</td>
+<td style="text-align: left;">Sox</td>
+<td style="text-align: left;">46.1314</td>
+<td style="text-align: left;">1.66</td>
+<td style="text-align: left;">kg/tcs</td>
+<td style="text-align: left;">Not in FY2025 XBRL; PDF: 1.66 kg/tcs × 27,790,000 t production = 46.13</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2025</td>
+<td style="text-align: left;">Nox</td>
+<td style="text-align: left;">31.9585</td>
+<td style="text-align: left;">1.15</td>
+<td style="text-align: left;">kg/tcs</td>
+<td style="text-align: left;">Not in FY2025 XBRL; PDF: 1.15 kg/tcs × 27,790,000 t production = 31.95</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2025</td>
+<td style="text-align: left;">TrainingCoverage_Employees_HealthSafety</td>
+<td style="text-align: left;">100.0</td>
+<td style="text-align: left;">100</td>
+<td style="text-align: left;">%</td>
+<td style="text-align: left;">Not in XBRL. PDF-confirmed: 100% permanent employees trained on H&amp;S (P</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2025</td>
+<td style="text-align: left;">TrainingCoverage_Employees_SkillUpgradation</td>
+<td style="text-align: left;">100.0</td>
+<td style="text-align: left;">100</td>
+<td style="text-align: left;">%</td>
+<td style="text-align: left;">Not in XBRL. PDF-confirmed: 100% permanent employees trained on skill</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2025</td>
+<td style="text-align: left;">TrainingCoverage_Workers_HealthSafety</td>
+<td style="text-align: left;">100.0</td>
+<td style="text-align: left;">100</td>
+<td style="text-align: left;">%</td>
+<td style="text-align: left;">Not in XBRL. PDF-confirmed: 100% permanent workers trained on H&amp;S (Pri</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2025</td>
+<td style="text-align: left;">TrainingCoverage_Workers_SkillUpgradation</td>
+<td style="text-align: left;">100.0</td>
+<td style="text-align: left;">100</td>
+<td style="text-align: left;">%</td>
+<td style="text-align: left;">Not in XBRL. PDF-confirmed: 100% permanent workers trained on skill up</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>YOUR COMMENT:</strong> <em>(type here — leave blank if no issues)</em></p>
+</blockquote>
+<h3>SAIL</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Year</th>
+<th style="text-align: left;">Metric</th>
+<th style="text-align: left;">Patched value</th>
+<th style="text-align: left;">Raw PDF value</th>
+<th style="text-align: left;">Unit</th>
+<th style="text-align: left;">Note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">FY2023</td>
+<td style="text-align: left;">WaterIntensityPerRupeeOfTurnover</td>
+<td style="text-align: left;">0.053</td>
+<td style="text-align: left;">0.053</td>
+<td style="text-align: left;">L/Rs</td>
+<td style="text-align: left;">PDF confirms 0.053 L/₹ (litres per rupee of turnover). XBRL stored 0.0</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2023</td>
+<td style="text-align: left;">ParticulateMatter</td>
+<td style="text-align: left;">10.4253</td>
+<td style="text-align: left;">0.57</td>
+<td style="text-align: left;">kg/tcs</td>
+<td style="text-align: left;">FY2023 XBRL reported as concentration range (31–99 mg/Nm³). FY2024 BRS</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2023</td>
+<td style="text-align: left;">TrainingCoverage_Employees_HealthSafety</td>
+<td style="text-align: left;">30.4</td>
+<td style="text-align: left;">30.4</td>
+<td style="text-align: left;">%</td>
+<td style="text-align: left;">Not in XBRL. PDF-confirmed: 30.4% permanent employees trained on H&amp;S (</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2023</td>
+<td style="text-align: left;">TrainingCoverage_Employees_SkillUpgradation</td>
+<td style="text-align: left;">32.6</td>
+<td style="text-align: left;">32.6</td>
+<td style="text-align: left;">%</td>
+<td style="text-align: left;">Not in XBRL. PDF-confirmed: 32.6% permanent employees trained on skill</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2023</td>
+<td style="text-align: left;">TrainingCoverage_Workers_HealthSafety</td>
+<td style="text-align: left;">100.0</td>
+<td style="text-align: left;">100</td>
+<td style="text-align: left;">%</td>
+<td style="text-align: left;">Not in XBRL. PDF-confirmed: 100% permanent workers trained on H&amp;S (Pri</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2023</td>
+<td style="text-align: left;">AverageTrainingHours_Employees</td>
+<td style="text-align: left;">4.88</td>
+<td style="text-align: left;">4.88</td>
+<td style="text-align: left;">hours</td>
+<td style="text-align: left;">Not in XBRL. PDF: avg training hours per employee = 4.88 (Principle 3,</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2023</td>
+<td style="text-align: left;">AverageTrainingHours_Workers</td>
+<td style="text-align: left;">9.18</td>
+<td style="text-align: left;">9.18</td>
+<td style="text-align: left;">hours</td>
+<td style="text-align: left;">Not in XBRL. PDF: avg training hours per worker = 9.18 (Principle 3, P</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2023</td>
+<td style="text-align: left;">TotalTrainingPersonHours</td>
+<td style="text-align: left;">894411</td>
+<td style="text-align: left;">894411</td>
+<td style="text-align: left;">person-hours</td>
+<td style="text-align: left;">Not in XBRL. PDF: 2,88,881 (employees) + 6,05,530 (workers) = 8,94,411</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">AmountOfAccountsPayableDuringTheYear</td>
+<td style="text-align: left;">None</td>
+<td style="text-align: left;">5429840.58</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">XBRL value 5.43e+06 INR Crore is a filing error (wrong unit). PDF only</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">AmountOfTotalSales</td>
+<td style="text-align: left;">104545.09</td>
+<td style="text-align: left;">104545.09</td>
+<td style="text-align: left;">INR Crore</td>
+<td style="text-align: left;">XBRL stored 1,725 Crore (partial/wrong). PDF Section A Q24 confirms 1,</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">TotalRevenueOfTheCompany</td>
+<td style="text-align: left;">104545.09</td>
+<td style="text-align: left;">104545.09</td>
+<td style="text-align: left;">INR Crore</td>
+<td style="text-align: left;">XBRL stored 1,05,375 Crore; PDF Section A Q24 confirms 1,04,545.09 Cro</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">RevenueFromOperations</td>
+<td style="text-align: left;">109672.5</td>
+<td style="text-align: left;">109672.5</td>
+<td style="text-align: left;">INR Crore</td>
+<td style="text-align: left;">XBRL stored 10x too high (1,096,725 vs 109,672.5 Crore). PDF Principle</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">TotalElectricityConsumptionFromNonRenewableSources</td>
+<td style="text-align: left;">613900000.0</td>
+<td style="text-align: left;">613900</td>
+<td style="text-align: left;">TJ</td>
+<td style="text-align: left;">XBRL stored 143,445 TJ (143,445,000 GJ). PDF Principle 6 Q1 Page 23 sh</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">WaterIntensityPerRupeeOfTurnover</td>
+<td style="text-align: left;">None</td>
+<td style="text-align: left;">52.33</td>
+<td style="text-align: left;">L/Rs (assumed)</td>
+<td style="text-align: left;">XBRL value 52.33 L/₹ is a filing error (1000× FY2023 value of 0.053).</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">ParticulateMatter</td>
+<td style="text-align: left;">11.1592</td>
+<td style="text-align: left;">0.58</td>
+<td style="text-align: left;">kg/tcs</td>
+<td style="text-align: left;">XBRL unit tag showed µg/m³ (incorrect); PDF confirms 0.58 kg/tcs. SAIL</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">TotalScope1AndScope2EmissionsIntensityPerRupeeOfTurnover</td>
+<td style="text-align: left;">502.0</td>
+<td style="text-align: left;">502</td>
+<td style="text-align: left;">tCO2e/INR Crore</td>
+<td style="text-align: left;">XBRL stored 50.21 (10x low). PDF Principle 6 Q7 confirms 502 tCO2e/INR</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">TotalScope1AndScope2EmissionsIntensityInTermOfPhysicalOutput</td>
+<td style="text-align: left;">2.8</td>
+<td style="text-align: left;">2.8</td>
+<td style="text-align: left;">tCO2e/tonne of crude steel</td>
+<td style="text-align: left;">XBRL filed as 0 (error); PDF confirms 2.8 tCO2e/tcs</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">WasteIntensityPerRupeeOfTurnover</td>
+<td style="text-align: left;">128.0</td>
+<td style="text-align: left;">128</td>
+<td style="text-align: left;">Tonnes/INR Crore</td>
+<td style="text-align: left;">XBRL stored 12.77 (10x low). PDF Principle 6 Q9 confirms 128 Tonnes/IN</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">Sox</td>
+<td style="text-align: left;">21.164</td>
+<td style="text-align: left;">1.10</td>
+<td style="text-align: left;">kg/tcs</td>
+<td style="text-align: left;">Not in FY2024 XBRL; PDF: 1.10 kg/tcs × 19,240,000 t = 21.164 kt. SAIL</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">Nox</td>
+<td style="text-align: left;">14.6224</td>
+<td style="text-align: left;">0.76</td>
+<td style="text-align: left;">kg/tcs</td>
+<td style="text-align: left;">Not in FY2024 XBRL; PDF: 0.76 kg/tcs × 19,240,000 t = 14.6224 kt</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">TrainingCoverage_Employees_HealthSafety</td>
+<td style="text-align: left;">40.6</td>
+<td style="text-align: left;">40.6</td>
+<td style="text-align: left;">%</td>
+<td style="text-align: left;">Not in XBRL. PDF: 40.6% permanent employees trained on H&amp;S (Principle</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">TrainingCoverage_Employees_SkillUpgradation</td>
+<td style="text-align: left;">34.7</td>
+<td style="text-align: left;">34.7</td>
+<td style="text-align: left;">%</td>
+<td style="text-align: left;">Not in XBRL. PDF: 34.7% permanent employees trained on skill upgradati</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">TrainingCoverage_Workers_HealthSafety</td>
+<td style="text-align: left;">100.0</td>
+<td style="text-align: left;">100</td>
+<td style="text-align: left;">%</td>
+<td style="text-align: left;">Not in XBRL. PDF: 100% permanent workers trained on H&amp;S (Principle 3,</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2025</td>
+<td style="text-align: left;">AmountOfAccountsPayableDuringTheYear</td>
+<td style="text-align: left;">None</td>
+<td style="text-align: left;">47141465500000</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">XBRL value 4.71e+13 INR Crore is a filing error (wrong unit). PDF only</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2025</td>
+<td style="text-align: left;">CostOfGoodsOrServicesProcuredDuringTheYear</td>
+<td style="text-align: left;">50394.9</td>
+<td style="text-align: left;">50394.9</td>
+<td style="text-align: left;">INR Crore</td>
+<td style="text-align: left;">XBRL filed in absolute INR (not Crore). PDF confirms: 50,394.9 Crore (</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2025</td>
+<td style="text-align: left;">AmountOfSalesToDealersOrDistributors</td>
+<td style="text-align: left;">16183.0</td>
+<td style="text-align: left;">16183.0</td>
+<td style="text-align: left;">INR Crore</td>
+<td style="text-align: left;">XBRL filed in absolute INR (not Crore). PDF confirms: 16,183 Crore (Pr</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2025</td>
+<td style="text-align: left;">AmountOfTotalSales</td>
+<td style="text-align: left;">101716.0</td>
+<td style="text-align: left;">101716.0</td>
+<td style="text-align: left;">INR Crore</td>
+<td style="text-align: left;">XBRL filed in absolute INR (not Crore). PDF confirms: 1,01,716 Crore (</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2025</td>
+<td style="text-align: left;">AmountOfSalesToTopTenDealersOrDistributors</td>
+<td style="text-align: left;">4284.7</td>
+<td style="text-align: left;">4284.7</td>
+<td style="text-align: left;">INR Crore</td>
+<td style="text-align: left;">XBRL filed in absolute INR (not Crore). PDF confirms: 4,284.7 Crore (P</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2025</td>
+<td style="text-align: left;">AmountOfTotalSalesToDealersOrDistributors</td>
+<td style="text-align: left;">16183.0</td>
+<td style="text-align: left;">16183.0</td>
+<td style="text-align: left;">INR Crore</td>
+<td style="text-align: left;">XBRL filed in absolute INR (not Crore). PDF confirms: 16,183 Crore (Pr</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2025</td>
+<td style="text-align: left;">AmountOfPurchasesFromRelatedParties</td>
+<td style="text-align: left;">4333.9</td>
+<td style="text-align: left;">4333.9</td>
+<td style="text-align: left;">INR Crore</td>
+<td style="text-align: left;">XBRL filed in absolute INR (not Crore). PDF confirms: 4,333.9 Crore (P</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2025</td>
+<td style="text-align: left;">AmountOfTotalPurchasesForShareOfRelatedPartyTransactions</td>
+<td style="text-align: left;">50394.9</td>
+<td style="text-align: left;">50394.9</td>
+<td style="text-align: left;">INR Crore</td>
+<td style="text-align: left;">XBRL filed in absolute INR (not Crore). PDF confirms: 50,394.9 Crore (</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2025</td>
+<td style="text-align: left;">AmountOfSalesToRelatedParties</td>
+<td style="text-align: left;">85.53</td>
+<td style="text-align: left;">85.53</td>
+<td style="text-align: left;">INR Crore</td>
+<td style="text-align: left;">XBRL filed in absolute INR (not Crore). PDF confirms: 85.53 Crore (Pri</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2025</td>
+<td style="text-align: left;">AmountOfTotalSalesForShareOfRelatedPartyTransactions</td>
+<td style="text-align: left;">101716.0</td>
+<td style="text-align: left;">101716.0</td>
+<td style="text-align: left;">INR Crore</td>
+<td style="text-align: left;">XBRL filed in absolute INR (not Crore). PDF confirms: 1,01,716 Crore (</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2025</td>
+<td style="text-align: left;">AmountOfLoansAndAdvancesGivenToRelatedParties</td>
+<td style="text-align: left;">44.8</td>
+<td style="text-align: left;">44.8</td>
+<td style="text-align: left;">INR Crore</td>
+<td style="text-align: left;">XBRL filed in absolute INR (not Crore). PDF confirms: 44.8 Crore (Prin</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2025</td>
+<td style="text-align: left;">AmountOfTotalLoansAndAdvances</td>
+<td style="text-align: left;">5583.78</td>
+<td style="text-align: left;">5583.78</td>
+<td style="text-align: left;">INR Crore</td>
+<td style="text-align: left;">XBRL filed in absolute INR (not Crore). PDF confirms: 5,583.78 Crore (</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2025</td>
+<td style="text-align: left;">AmountOfInvestmentsInRelatedParties</td>
+<td style="text-align: left;">1386.43</td>
+<td style="text-align: left;">1386.43</td>
+<td style="text-align: left;">INR Crore</td>
+<td style="text-align: left;">XBRL filed in absolute INR (not Crore). PDF confirms: 1,386.43 Crore (</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2025</td>
+<td style="text-align: left;">AmountOfTotalInvestments</td>
+<td style="text-align: left;">1758.93</td>
+<td style="text-align: left;">1758.93</td>
+<td style="text-align: left;">INR Crore</td>
+<td style="text-align: left;">XBRL filed in absolute INR (not Crore). PDF confirms: 1,758.93 Crore (</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2025</td>
+<td style="text-align: left;">AmountOfCostIncurredOnWellBeingMeasures</td>
+<td style="text-align: left;">1464.71</td>
+<td style="text-align: left;">1464.71</td>
+<td style="text-align: left;">INR Crore</td>
+<td style="text-align: left;">XBRL filed in absolute INR (not Crore). PDF confirms: 1,464.71 Crore (</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2025</td>
+<td style="text-align: left;">TotalRevenueOfTheCompany</td>
+<td style="text-align: left;">101716.0</td>
+<td style="text-align: left;">101716.0</td>
+<td style="text-align: left;">INR Crore</td>
+<td style="text-align: left;">XBRL filed in absolute INR (not Crore). PDF confirms: 1,01,716 Crore (</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2025</td>
+<td style="text-align: left;">GrossWagesPaidToFemale</td>
+<td style="text-align: left;">559.368</td>
+<td style="text-align: left;">559.368</td>
+<td style="text-align: left;">INR Crore</td>
+<td style="text-align: left;">XBRL filed in absolute INR (not Crore). PDF confirms: 559.368 Crore (P</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2025</td>
+<td style="text-align: left;">TotalWagesPaid</td>
+<td style="text-align: left;">9039.97</td>
+<td style="text-align: left;">9039.97</td>
+<td style="text-align: left;">INR Crore</td>
+<td style="text-align: left;">XBRL filed in absolute INR (not Crore). PDF confirms: 9,039.97 Crore (</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2025</td>
+<td style="text-align: left;">RevenueFromOperations</td>
+<td style="text-align: left;">101716.0</td>
+<td style="text-align: left;">101716</td>
+<td style="text-align: left;">INR Crore</td>
+<td style="text-align: left;">XBRL stored in absolute INR (filing error). PDF Section A Q24 confirms</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2025</td>
+<td style="text-align: left;">ParticulateMatter</td>
+<td style="text-align: left;">10.7352</td>
+<td style="text-align: left;">0.56</td>
+<td style="text-align: left;">kg/tcs</td>
+<td style="text-align: left;">XBRL unit tag showed µg/m³ (incorrect); PDF confirms kg/tcs.</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2025</td>
+<td style="text-align: left;">TotalScope1AndScope2EmissionsIntensityPerRupeeOfTurnover</td>
+<td style="text-align: left;">578.014</td>
+<td style="text-align: left;">578.014</td>
+<td style="text-align: left;">tCO2e/INR Crore</td>
+<td style="text-align: left;">XBRL stored as kg/Rs (0.0578014). Converted: 0.0578014 kg/Rs ÷ 1000 ×</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2025</td>
+<td style="text-align: left;">WasteIntensityPerRupeeOfTurnover</td>
+<td style="text-align: left;">143.5</td>
+<td style="text-align: left;">143.5</td>
+<td style="text-align: left;">Tonnes/INR Crore</td>
+<td style="text-align: left;">XBRL stored as kg/Rs (0.0143497). Converted: 0.0143497 kg/Rs ÷ 1000 ×</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2025</td>
+<td style="text-align: left;">Sox</td>
+<td style="text-align: left;">18.2115</td>
+<td style="text-align: left;">0.95</td>
+<td style="text-align: left;">kg/tcs</td>
+<td style="text-align: left;">Not in FY2025 XBRL; PDF: 0.95 kg/tcs × 19,170,000 t = 18.2115 kt</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2025</td>
+<td style="text-align: left;">Nox</td>
+<td style="text-align: left;">15.336</td>
+<td style="text-align: left;">0.80</td>
+<td style="text-align: left;">kg/tcs</td>
+<td style="text-align: left;">Not in FY2025 XBRL; PDF: 0.80 kg/tcs × 19,170,000 t = 15.336 kt</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2025</td>
+<td style="text-align: left;">TrainingCoverage_Employees_HealthSafety</td>
+<td style="text-align: left;">15.0</td>
+<td style="text-align: left;">15</td>
+<td style="text-align: left;">%</td>
+<td style="text-align: left;">Not in XBRL. PDF: 15% permanent employees trained on H&amp;S (Principle 3,</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2025</td>
+<td style="text-align: left;">TrainingCoverage_Employees_SkillUpgradation</td>
+<td style="text-align: left;">34.0</td>
+<td style="text-align: left;">34</td>
+<td style="text-align: left;">%</td>
+<td style="text-align: left;">Not in XBRL. PDF: 34% permanent employees trained on skill upgradation</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2025</td>
+<td style="text-align: left;">TrainingCoverage_Workers_HealthSafety</td>
+<td style="text-align: left;">100.0</td>
+<td style="text-align: left;">100</td>
+<td style="text-align: left;">%</td>
+<td style="text-align: left;">Not in XBRL. PDF: 100% permanent workers trained on H&amp;S (Principle 3,</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>YOUR COMMENT:</strong> <em>(type here — leave blank if no issues)</em></p>
+</blockquote>
+<h3>Jindal Stainless</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Year</th>
+<th style="text-align: left;">Metric</th>
+<th style="text-align: left;">Patched value</th>
+<th style="text-align: left;">Raw PDF value</th>
+<th style="text-align: left;">Unit</th>
+<th style="text-align: left;">Note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">FY2023</td>
+<td style="text-align: left;">WaterIntensityPerRupeeOfTurnover</td>
+<td style="text-align: left;">335.0</td>
+<td style="text-align: left;">335</td>
+<td style="text-align: left;">KL/Rs.Crore</td>
+<td style="text-align: left;">Unit is kL/Rs.Crore (PDF confirmed). L/₹ equivalent: 0.0335000 L/₹ (=</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2023</td>
+<td style="text-align: left;">WasteRecoveredThroughOtherRecoveryOperations</td>
+<td style="text-align: left;">201.0</td>
+<td style="text-align: left;">201</td>
+<td style="text-align: left;">MT</td>
+<td style="text-align: left;">XBRL stored 489.94 MT. PDF Page 29 sum of 'Other recovery operations'</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2023</td>
+<td style="text-align: left;">TrainingCoverage_Employees_HealthSafety</td>
+<td style="text-align: left;">100.0</td>
+<td style="text-align: left;">100</td>
+<td style="text-align: left;">%</td>
+<td style="text-align: left;">Not in XBRL. PDF-confirmed: 100% trained on H&amp;S (Pages 11, 18; combine</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2023</td>
+<td style="text-align: left;">TrainingCoverage_Employees_SkillUpgradation</td>
+<td style="text-align: left;">100.0</td>
+<td style="text-align: left;">100</td>
+<td style="text-align: left;">%</td>
+<td style="text-align: left;">Not in XBRL. PDF-confirmed: 100% trained on skill upgradation (Pages 1</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2023</td>
+<td style="text-align: left;">TrainingCoverage_Workers_HealthSafety</td>
+<td style="text-align: left;">100.0</td>
+<td style="text-align: left;">100</td>
+<td style="text-align: left;">%</td>
+<td style="text-align: left;">Not in XBRL. PDF-confirmed: 100% trained on H&amp;S (Pages 11, 18)</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2023</td>
+<td style="text-align: left;">TrainingCoverage_Workers_SkillUpgradation</td>
+<td style="text-align: left;">100.0</td>
+<td style="text-align: left;">100</td>
+<td style="text-align: left;">%</td>
+<td style="text-align: left;">Not in XBRL. PDF-confirmed: 100% trained on skill upgradation (Pages 1</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2023</td>
+<td style="text-align: left;">TotalTrainingPersonHours</td>
+<td style="text-align: left;">150000</td>
+<td style="text-align: left;">150000</td>
+<td style="text-align: left;">person-hours</td>
+<td style="text-align: left;">Not in XBRL. PDF: &gt;1,50,000 total training hours (Pages 11, 18). Store</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">TotalRevenueOfTheCompany</td>
+<td style="text-align: left;">38356.0</td>
+<td style="text-align: left;">38356</td>
+<td style="text-align: left;">INR Crore</td>
+<td style="text-align: left;">XBRL stored 1,000 Crore (filing error). PDF Section A Q24 confirms 38,</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">EnergyIntensityPerRupeeOfTurnover</td>
+<td style="text-align: left;">916.2506288456</td>
+<td style="text-align: left;">916.2506288456</td>
+<td style="text-align: left;">GJ/Crore INR</td>
+<td style="text-align: left;">PDF Principle 6, El-1 confirms 916.25 GJ/Crore INR. Jindal files inten</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">EnergyIntensityPerRupeeOfTurnoverAdjustingForPurchasingPowerParity</td>
+<td style="text-align: left;">20524.02</td>
+<td style="text-align: left;">20524.02</td>
+<td style="text-align: left;">GJ/Crore USD</td>
+<td style="text-align: left;">PDF Principle 6, El-1 confirms 20,524.02 GJ/Crore USD. (Phase 3c ITEM_</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">WaterIntensityPerRupeeOfTurnover</td>
+<td style="text-align: left;">333.0084732506</td>
+<td style="text-align: left;">333.0084732506</td>
+<td style="text-align: left;">KL/Rs.Crore</td>
+<td style="text-align: left;">Unit is kL/Rs.Crore (PDF confirmed). L/₹ equivalent: 0.0333000 L/₹ (=</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">WaterIntensityPerRupeeOfTurnoverAdjustingForPurchasingPowerParity</td>
+<td style="text-align: left;">7459.3908</td>
+<td style="text-align: left;">7459.3908</td>
+<td style="text-align: left;">kL/Crore USD</td>
+<td style="text-align: left;">PDF Principle 6, El-3 confirms 7,459.39 kL/Crore USD. Consistent with</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">TotalScope1AndScope2EmissionsIntensityPerRupeeOfTurnoverAdjustedForPurchasingPowerParity</td>
+<td style="text-align: left;">2207.2226</td>
+<td style="text-align: left;">2207.2226</td>
+<td style="text-align: left;">tCO2e/Crore USD</td>
+<td style="text-align: left;">PDF Principle 6, El-7 confirms 2,207.22 tCO2e/Crore USD. (Phase 3c ITE</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">WasteIntensityPerRupeeOfTurnover</td>
+<td style="text-align: left;">41.3134662113</td>
+<td style="text-align: left;">41.3134662113</td>
+<td style="text-align: left;">MT/Crore INR</td>
+<td style="text-align: left;">PDF Principle 6, El-9 confirms 41.31 MT/Crore INR. (Phase 3c ITEM_29)</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">WasteIntensityPerRupeeOfTurnoverAdjustingForPurchasingPowerParity</td>
+<td style="text-align: left;">925.4218</td>
+<td style="text-align: left;">925.4218</td>
+<td style="text-align: left;">MT/Crore USD</td>
+<td style="text-align: left;">PDF Principle 6, El-9 confirms 925.42 MT/Crore USD. (Phase 3c ITEM_28)</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">TotalScope3EmissionsPerRupeeOfTurnover</td>
+<td style="text-align: left;">87.22</td>
+<td style="text-align: left;">87.22</td>
+<td style="text-align: left;">tCO2e/Crore INR</td>
+<td style="text-align: left;">PDF Principle 6, LI-2 confirms 87.22 tCO2e/Crore INR. (Phase 3c ITEM_2</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">Sox</td>
+<td style="text-align: left;">3.072064</td>
+<td style="text-align: left;">3072.064</td>
+<td style="text-align: left;">MT</td>
+<td style="text-align: left;">Not in FY2024 XBRL; extracted from PDF: 3072.064 MT / 1000 = 3.072 kt</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">Nox</td>
+<td style="text-align: left;">1.78258</td>
+<td style="text-align: left;">1782.58</td>
+<td style="text-align: left;">MT</td>
+<td style="text-align: left;">Not in FY2024 XBRL; extracted from PDF: 1782.58 MT / 1000 = 1.783 kt</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">TrainingCoverage_Employees_HealthSafety</td>
+<td style="text-align: left;">50.04</td>
+<td style="text-align: left;">50.04</td>
+<td style="text-align: left;">%</td>
+<td style="text-align: left;">Not in XBRL. PDF Principle 3, El-8: 50.04% trained on H&amp;S (total headc</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">TrainingCoverage_Employees_SkillUpgradation</td>
+<td style="text-align: left;">32.21</td>
+<td style="text-align: left;">32.21</td>
+<td style="text-align: left;">%</td>
+<td style="text-align: left;">Not in XBRL. PDF Principle 3, El-8: 32.21% trained on skill upgradatio</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">TrainingCoverage_Workers_HealthSafety</td>
+<td style="text-align: left;">19.27</td>
+<td style="text-align: left;">19.27</td>
+<td style="text-align: left;">%</td>
+<td style="text-align: left;">Not in XBRL. PDF Principle 3, El-8: 19.27% workers trained on H&amp;S</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">TrainingCoverage_Workers_SkillUpgradation</td>
+<td style="text-align: left;">3.73</td>
+<td style="text-align: left;">3.73</td>
+<td style="text-align: left;">%</td>
+<td style="text-align: left;">Not in XBRL. PDF Principle 3, El-8: 3.73% workers trained on skill upg</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2024</td>
+<td style="text-align: left;">TotalTrainingPersonHours</td>
+<td style="text-align: left;">166000</td>
+<td style="text-align: left;">166000</td>
+<td style="text-align: left;">person-hours</td>
+<td style="text-align: left;">Not in XBRL. PDF Performance Section: &gt;1,66,000 total training hours.</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2025</td>
+<td style="text-align: left;">NumberOfDealersOrDistributorsToWhomSalesAreMade</td>
+<td style="text-align: left;">367.0</td>
+<td style="text-align: left;">367</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">XBRL stored 478 (which is the trading houses count). PDF Page 16 repor</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2025</td>
+<td style="text-align: left;">TotalRevenueOfTheCompany</td>
+<td style="text-align: left;">40181.68</td>
+<td style="text-align: left;">40181.68</td>
+<td style="text-align: left;">INR Crore</td>
+<td style="text-align: left;">XBRL stored Net Worth (16,197 Crore) instead of Turnover. PDF Page 4 c</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2025</td>
+<td style="text-align: left;">RevenueFromOperations</td>
+<td style="text-align: left;">40181.68</td>
+<td style="text-align: left;">401820000000</td>
+<td style="text-align: left;">INR (absolute rupees in XBRL)</td>
+<td style="text-align: left;">XBRL filed in absolute rupees. PDF Page 4 confirms 401,81,68,00,000 IN</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2025</td>
+<td style="text-align: left;">EnergyIntensityPerRupeeOfTurnover</td>
+<td style="text-align: left;">7.97546e-05</td>
+<td style="text-align: left;">0.0000797546</td>
+<td style="text-align: left;">GJ/Rs (stored); 797.55 GJ/Crore INR</td>
+<td style="text-align: left;">PDF Page 33 confirms 797.55 GJ/Crore INR. Our 7.97546e-05 GJ/Rs × 1e7</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2025</td>
+<td style="text-align: left;">EnergyIntensityPerRupeeOfTurnoverAdjustingForPurchasingPowerParity</td>
+<td style="text-align: left;">0.001647742</td>
+<td style="text-align: left;">0.001647742</td>
+<td style="text-align: left;">GJ/Rs (stored); 16,477.42 GJ/Crore</td>
+<td style="text-align: left;">PDF Page 33 confirms 16,477.42 GJ/Crore INR. Our 0.00164774 × 1e7 = 16</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2025</td>
+<td style="text-align: left;">WaterWithdrawalByGroundwater</td>
+<td style="text-align: left;">19102.0</td>
+<td style="text-align: left;">19102</td>
+<td style="text-align: left;">kL</td>
+<td style="text-align: left;">XBRL reversed FY2024 and FY2025 values. PDF Page 34 confirms 19,102 kL</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2025</td>
+<td style="text-align: left;">WaterIntensityPerRupeeOfTurnover</td>
+<td style="text-align: left;">358.67</td>
+<td style="text-align: left;">358.67</td>
+<td style="text-align: left;">KL/Rs.Crore</td>
+<td style="text-align: left;">Unit is kL/Rs.Crore (PDF confirmed). L/₹ equivalent: 0.0358670 L/₹ (=</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2025</td>
+<td style="text-align: left;">WaterIntensityPerRupeeOfTurnoverAdjustingForPurchasingPowerParity</td>
+<td style="text-align: left;">0.000741006</td>
+<td style="text-align: left;">0.000741006</td>
+<td style="text-align: left;">kL/Rs (stored); 7,410.06 kL/Crore U</td>
+<td style="text-align: left;">PDF Page 34 confirms 7,410.06 kL/Crore USD. Our 0.000741006 × 1e7 = 7,</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2025</td>
+<td style="text-align: left;">TotalScope1AndScope2EmissionsIntensityPerRupeeOfTurnover</td>
+<td style="text-align: left;">9.0048e-06</td>
+<td style="text-align: left;">0.0000090048</td>
+<td style="text-align: left;">tCO2e/Rs (stored); 90.05 tCO2e/Cror</td>
+<td style="text-align: left;">PDF Page 36 confirms 90.05 tCO2e/Crore INR. Our 9.0048e-06 × 1e7 = 90.</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2025</td>
+<td style="text-align: left;">TotalScope1AndScope2EmissionsIntensityPerRupeeOfTurnoverAdjustedForPurchasingPowerParity</td>
+<td style="text-align: left;">0.000186041</td>
+<td style="text-align: left;">0.000186041</td>
+<td style="text-align: left;">tCO2e/Rs (stored); 1,860.41 tCO2e/C</td>
+<td style="text-align: left;">PDF Page 36 confirms 1,860.41 tCO2e/Crore USD. Our 0.000186041 × 1e7 =</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2025</td>
+<td style="text-align: left;">WasteIntensityPerRupeeOfTurnover</td>
+<td style="text-align: left;">4.8416e-06</td>
+<td style="text-align: left;">0.0000048416</td>
+<td style="text-align: left;">MT/Rs (stored); 48.42 MT/Crore INR</td>
+<td style="text-align: left;">PDF Page 37 confirms 48.42 MT/Crore INR. Our 4.8416e-06 × 1e7 = 48.42</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2025</td>
+<td style="text-align: left;">WasteIntensityPerRupeeOfTurnoverAdjustingForPurchasingPowerParity</td>
+<td style="text-align: left;">960.87</td>
+<td style="text-align: left;">960.87</td>
+<td style="text-align: left;">MT/Crore USD</td>
+<td style="text-align: left;">PDF Page 37 confirms 960.87 MT/Crore USD. Value matches directly. (Pha</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2025</td>
+<td style="text-align: left;">TotalScope3EmissionsPerRupeeOfTurnover</td>
+<td style="text-align: left;">8.0051e-06</td>
+<td style="text-align: left;">0.0000080051</td>
+<td style="text-align: left;">tCO2e/Rs (stored); 80.05 tCO2e/Cror</td>
+<td style="text-align: left;">PDF Page 41 confirms 80.05 tCO2e/Crore INR. Our 8.0051e-06 × 1e7 = 80.</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2025</td>
+<td style="text-align: left;">Sox</td>
+<td style="text-align: left;">4.58069</td>
+<td style="text-align: left;">4580.69</td>
+<td style="text-align: left;">MT</td>
+<td style="text-align: left;">Not in FY2025 XBRL; extracted from PDF: 4580.69 MT / 1000 = 4.581 kt</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2025</td>
+<td style="text-align: left;">Nox</td>
+<td style="text-align: left;">2.52748</td>
+<td style="text-align: left;">2527.48</td>
+<td style="text-align: left;">MT</td>
+<td style="text-align: left;">Not in FY2025 XBRL; extracted from PDF: 2527.48 MT / 1000 = 2.527 kt</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2025</td>
+<td style="text-align: left;">TrainingCoverage_Employees_HealthSafety</td>
+<td style="text-align: left;">100.0</td>
+<td style="text-align: left;">100</td>
+<td style="text-align: left;">%</td>
+<td style="text-align: left;">Not in XBRL. PDF-confirmed: 100% employees trained on H&amp;S (Pages 12, 2</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2025</td>
+<td style="text-align: left;">TrainingCoverage_Employees_SkillUpgradation</td>
+<td style="text-align: left;">100.0</td>
+<td style="text-align: left;">100</td>
+<td style="text-align: left;">%</td>
+<td style="text-align: left;">Not in XBRL. PDF-confirmed: 100% employees trained on skill upgradatio</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2025</td>
+<td style="text-align: left;">TrainingCoverage_Workers_HealthSafety</td>
+<td style="text-align: left;">100.0</td>
+<td style="text-align: left;">100</td>
+<td style="text-align: left;">%</td>
+<td style="text-align: left;">Not in XBRL. PDF-confirmed: 100% workers trained on H&amp;S (Pages 12, 22)</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2025</td>
+<td style="text-align: left;">TrainingCoverage_Workers_SkillUpgradation</td>
+<td style="text-align: left;">100.0</td>
+<td style="text-align: left;">100</td>
+<td style="text-align: left;">%</td>
+<td style="text-align: left;">Not in XBRL. PDF-confirmed: 100% workers trained on skill upgradation</td>
+</tr>
+<tr>
+<td style="text-align: left;">FY2025</td>
+<td style="text-align: left;">TotalTrainingPersonHours</td>
+<td style="text-align: left;">166000</td>
+<td style="text-align: left;">166000</td>
+<td style="text-align: left;">person-hours</td>
+<td style="text-align: left;">Not in XBRL. PDF: 1,66,000 total training person-hours (Pages 12, 22).</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>YOUR COMMENT:</strong> <em>(type here — leave blank if no issues)</em></p>
+</blockquote>
+<hr />
+<h2>4. Key Metrics by Financial Year</h2>
+<p>One table per year. Each row = one metric. Last column lists concerns for specific companies.
+Add your comment in the <code>&gt; YOUR COMMENT</code> block after each table.</p>
+<h3>FY2023</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Metric</th>
+<th style="text-align: left;">Unit</th>
+<th style="text-align: right;">Tata Steel</th>
+<th style="text-align: right;">JSW Steel</th>
+<th style="text-align: right;">SAIL</th>
+<th style="text-align: right;">Jindal Stainless</th>
+<th style="text-align: left;">Concerns</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Scope 1 GHG</td>
+<td style="text-align: left;">tCO2e</td>
+<td style="text-align: right;">75,750,000</td>
+<td style="text-align: right;">46,941,683</td>
+<td style="text-align: right;">47,603,938</td>
+<td style="text-align: right;">2,584,460</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">Scope 2 GHG</td>
+<td style="text-align: left;">tCO2e</td>
+<td style="text-align: right;">5,200,000</td>
+<td style="text-align: right;">2,417,702</td>
+<td style="text-align: right;">3,020,822</td>
+<td style="text-align: right;">735,913.0</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">GHG Intensity</td>
+<td style="text-align: left;">tCO2e/tcs</td>
+<td style="text-align: right;">2.210 📄</td>
+<td style="text-align: right;">2.360</td>
+<td style="text-align: right;">2.800</td>
+<td style="text-align: right;">2.100</td>
+<td style="text-align: left;"><strong>Tata Steel:</strong> PDF-patched; XBRL value of 61 was a filing error. PDF-confirmed: 2.21 tCO2e/tcs from ESG factsheet in FY2022-23 Integrated Report (co</td>
+</tr>
+<tr>
+<td style="text-align: left;">Total Energy</td>
+<td style="text-align: left;">GJ</td>
+<td style="text-align: right;">857,000,000</td>
+<td style="text-align: right;">494,384,430</td>
+<td style="text-align: right;">591,044,300</td>
+<td style="text-align: right;">30,275,547</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">Renewable Energy</td>
+<td style="text-align: left;">GJ</td>
+<td style="text-align: right;">1,000,000</td>
+<td style="text-align: right;">1,427,160</td>
+<td style="text-align: right;">127,200.0</td>
+<td style="text-align: right;">12,743.0</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">SOx</td>
+<td style="text-align: left;">kilotonnes</td>
+<td style="text-align: right;">51.000</td>
+<td style="text-align: right;">40.813</td>
+<td style="text-align: right;">null ⚠️</td>
+<td style="text-align: right;">0.851890</td>
+<td style="text-align: left;"><strong>SAIL:</strong> value nulled; not normalized; SAIL FY2023 reports SOx and NOx as concentration ranges (mg/Nm³), not mass intensity. Cannot convert to kilotonnes witho</td>
+</tr>
+<tr>
+<td style="text-align: left;">NOx</td>
+<td style="text-align: left;">kilotonnes</td>
+<td style="text-align: right;">30.000</td>
+<td style="text-align: right;">28.738</td>
+<td style="text-align: right;">null ⚠️</td>
+<td style="text-align: right;">1.981</td>
+<td style="text-align: left;"><strong>SAIL:</strong> value nulled; not normalized; SAIL FY2023 reports SOx and NOx as concentration ranges (mg/Nm³), not mass intensity. Cannot convert to kilotonnes witho</td>
+</tr>
+<tr>
+<td style="text-align: left;">Particulate Matter</td>
+<td style="text-align: left;">kilotonnes</td>
+<td style="text-align: right;">11.000</td>
+<td style="text-align: right;">10.143</td>
+<td style="text-align: right;">10.425 📄</td>
+<td style="text-align: right;">2.084</td>
+<td style="text-align: left;"><strong>SAIL:</strong> PDF-patched; FY2023 XBRL reported as concentration range (31–99 mg/Nm³). FY2024 BRSR comparative column shows 0.57 kg/tcs — used as c</td>
+</tr>
+<tr>
+<td style="text-align: left;">Water Withdrawal</td>
+<td style="text-align: left;">kL</td>
+<td style="text-align: right;">201,372,353</td>
+<td style="text-align: right;">86,267,847</td>
+<td style="text-align: right;">55,285,451</td>
+<td style="text-align: right;">11,681,607</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">Water Consumption</td>
+<td style="text-align: left;">kL</td>
+<td style="text-align: right;">201,372,353</td>
+<td style="text-align: right;">51,053,889</td>
+<td style="text-align: right;">55,285,451</td>
+<td style="text-align: right;">11,681,607</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">Water Intensity</td>
+<td style="text-align: left;">L/₹ or kL/Cr — NOT uniform</td>
+<td style="text-align: right;">0.080000</td>
+<td style="text-align: right;">0.039300</td>
+<td style="text-align: right;">0.053000 📄</td>
+<td style="text-align: right;">335.000 ⚠️ 📄</td>
+<td style="text-align: left;"><strong>Tata Steel:</strong> Unit confirmed by PDF as litres/rupee. Not directly comparable to SAIL/Jindal which report kL/Crore.<br><strong>SAIL:</strong> PDF-patched; PDF confirms 0.053 L/₹ (litres per rupee of turnover). XBRL stored 0.05 — same unit, minor rounding. Consistent with Tat<br><strong>Jindal Stainless:</strong> not normalized; PDF-patched; Unit is kL/Rs.Crore (PDF confirmed). L/₹ equivalent: 0.0335000 L/₹ (= 335.0 ÷ 10,000,000). For reference: Tata Steel={'F</td>
+</tr>
+<tr>
+<td style="text-align: left;">Total Waste</td>
+<td style="text-align: left;">metric tonnes</td>
+<td style="text-align: right;">20,226,592</td>
+<td style="text-align: right;">14,414,261</td>
+<td style="text-align: right;">12,724,292</td>
+<td style="text-align: right;">1,628,584</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">Waste Recovered</td>
+<td style="text-align: left;">metric tonnes</td>
+<td style="text-align: right;">20,198,507</td>
+<td style="text-align: right;">14,381,621</td>
+<td style="text-align: right;">12,906,681</td>
+<td style="text-align: right;">862,283.9</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">Waste Disposed</td>
+<td style="text-align: left;">metric tonnes</td>
+<td style="text-align: right;">90,945.0</td>
+<td style="text-align: right;">186,788.0</td>
+<td style="text-align: right;">3,671.0</td>
+<td style="text-align: right;">766,299.7</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">LTIFR</td>
+<td style="text-align: left;">—</td>
+<td style="text-align: right;">1.000</td>
+<td style="text-align: right;">0.000000</td>
+<td style="text-align: right;">0.000000</td>
+<td style="text-align: right;">0.000000</td>
+<td style="text-align: left;"><strong>Tata Steel:</strong> Extracted from dimensional XBRL context D_Employees.<br><strong>JSW Steel:</strong> LTIFR=0 is implausible given 6 fatalities reported in same year. Likely a filing error or definitional exclusion.<br><strong>SAIL:</strong> LTIFR=0 is implausible given 11 fatalities. Likely a filing error or different denominator.<br><strong>Jindal Stainless:</strong> LTIFR=0 with 3 fatalities — likely filing error or definitional difference.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Fatalities</td>
+<td style="text-align: left;">—</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: left;"><strong>Tata Steel:</strong> Sum of NumberOfFatalities [D_Employees] + [D_Workers] from dimensional XBRL contexts.<br><strong>JSW Steel:</strong> Sum of NumberOfFatalities [D_Employees] + [D_Workers] from dimensional XBRL contexts.<br><strong>SAIL:</strong> Sum of NumberOfFatalities [D_Employees] + [D_Workers] from dimensional XBRL contexts.<br><strong>Jindal Stainless:</strong> Sum of NumberOfFatalities [D_Employees] + [D_Workers] from dimensional XBRL contexts.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Total Employees</td>
+<td style="text-align: left;">—</td>
+<td style="text-align: right;">67,784</td>
+<td style="text-align: right;">12,856</td>
+<td style="text-align: right;">59,186</td>
+<td style="text-align: right;">4,363</td>
+<td style="text-align: left;"><strong>Tata Steel:</strong> Extracted from multi-dimensional XBRL context D_Gender_Employees_TableA (permanent employees). Parser DCYMain-only extra<br><strong>JSW Steel:</strong> Extracted from multi-dimensional XBRL context D_Gender_Employees_TableA (permanent employees). Parser DCYMain-only extra<br><strong>SAIL:</strong> Extracted from multi-dimensional XBRL context D_Gender_Employees_TableA (permanent employees). Parser DCYMain-only extra<br><strong>Jindal Stainless:</strong> Extracted from multi-dimensional XBRL context D_Gender_Employees_TableA (permanent employees). Parser DCYMain-only extra</td>
+</tr>
+<tr>
+<td style="text-align: left;">Female Employees</td>
+<td style="text-align: left;">%</td>
+<td style="text-align: right;">8.430</td>
+<td style="text-align: right;">5.780</td>
+<td style="text-align: right;">6.110</td>
+<td style="text-align: right;">2.890</td>
+<td style="text-align: left;"><strong>Tata Steel:</strong> Calculated from female/total employee counts in dimensional XBRL contexts.<br><strong>JSW Steel:</strong> Calculated from female/total employee counts in dimensional XBRL contexts.<br><strong>SAIL:</strong> Calculated from female/total employee counts in dimensional XBRL contexts.<br><strong>Jindal Stainless:</strong> Calculated from female/total employee counts in dimensional XBRL contexts.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Training Coverage</td>
+<td style="text-align: left;">%</td>
+<td style="text-align: right;">null ⚠️</td>
+<td style="text-align: right;">null ⚠️</td>
+<td style="text-align: right;">null ⚠️</td>
+<td style="text-align: right;">null ⚠️</td>
+<td style="text-align: left;"><strong>Tata Steel:</strong> value nulled; not normalized; Training coverage % not found in XBRL for this company-year. To be extracted from PDF.<br><strong>JSW Steel:</strong> value nulled; not normalized; Training coverage % not found in XBRL for this company-year. To be extracted from PDF.<br><strong>SAIL:</strong> value nulled; not normalized; Training coverage % not found in XBRL for this company-year. To be extracted from PDF.<br><strong>Jindal Stainless:</strong> value nulled; not normalized; Training coverage % not found in XBRL for this company-year. To be extracted from PDF.</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>YOUR COMMENT:</strong> <em>(type here — leave blank if no issues)</em></p>
+</blockquote>
+<hr />
+<h3>FY2024</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Metric</th>
+<th style="text-align: left;">Unit</th>
+<th style="text-align: right;">Tata Steel</th>
+<th style="text-align: right;">JSW Steel</th>
+<th style="text-align: right;">SAIL</th>
+<th style="text-align: right;">Jindal Stainless</th>
+<th style="text-align: left;">Concerns</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Scope 1 GHG</td>
+<td style="text-align: left;">tCO2e</td>
+<td style="text-align: right;">56,000,000</td>
+<td style="text-align: right;">52,106,566</td>
+<td style="text-align: right;">52,622,079</td>
+<td style="text-align: right;">2,992,334</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">Scope 2 GHG</td>
+<td style="text-align: left;">tCO2e</td>
+<td style="text-align: right;">7,000,000</td>
+<td style="text-align: right;">1,061,079</td>
+<td style="text-align: right;">2,446,630</td>
+<td style="text-align: right;">787,140.2</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">GHG Intensity</td>
+<td style="text-align: left;">tCO2e/tcs</td>
+<td style="text-align: right;">3.100</td>
+<td style="text-align: right;">2.440</td>
+<td style="text-align: right;">2.800 📄</td>
+<td style="text-align: right;">2.150</td>
+<td style="text-align: left;"><strong>SAIL:</strong> PDF-patched; XBRL filed as 0 (error); PDF confirms 2.8 tCO2e/tcs</td>
+</tr>
+<tr>
+<td style="text-align: left;">Total Energy</td>
+<td style="text-align: left;">GJ</td>
+<td style="text-align: right;">545,962,401</td>
+<td style="text-align: right;">517,690,735</td>
+<td style="text-align: right;">614,166,500</td>
+<td style="text-align: right;">35,143,709</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">Renewable Energy</td>
+<td style="text-align: left;">GJ</td>
+<td style="text-align: right;">116,199.0</td>
+<td style="text-align: right;">1,981,229</td>
+<td style="text-align: right;">266,000.0</td>
+<td style="text-align: right;">200,194.0</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">SOx</td>
+<td style="text-align: left;">kilotonnes</td>
+<td style="text-align: right;">38.000 📄</td>
+<td style="text-align: right;">43.874 📄</td>
+<td style="text-align: right;">21.164 📄</td>
+<td style="text-align: right;">3.072 📄</td>
+<td style="text-align: left;"><strong>Tata Steel:</strong> PDF-patched; Not in FY2024 XBRL; extracted from PDF (standalone)<br><strong>JSW Steel:</strong> PDF-patched; Not in FY2024 XBRL; PDF: 1.66 kg/tcs × 26,430,000 t production = 43.8738 kt<br><strong>SAIL:</strong> PDF-patched; Not in FY2024 XBRL; PDF: 1.10 kg/tcs × 19,240,000 t = 21.164 kt. SAIL switched to mass intensity reporting in FY2024.<br><strong>Jindal Stainless:</strong> PDF-patched; Not in FY2024 XBRL; extracted from PDF: 3072.064 MT / 1000 = 3.072 kt</td>
+</tr>
+<tr>
+<td style="text-align: left;">NOx</td>
+<td style="text-align: left;">kilotonnes</td>
+<td style="text-align: right;">20.000 📄</td>
+<td style="text-align: right;">31.452 📄</td>
+<td style="text-align: right;">14.622 📄</td>
+<td style="text-align: right;">1.783 📄</td>
+<td style="text-align: left;"><strong>Tata Steel:</strong> PDF-patched; Not in FY2024 XBRL; extracted from PDF (standalone)<br><strong>JSW Steel:</strong> PDF-patched; Not in FY2024 XBRL; PDF: 1.19 kg/tcs × 26,430,000 t production = 31.4517 kt<br><strong>SAIL:</strong> PDF-patched; Not in FY2024 XBRL; PDF: 0.76 kg/tcs × 19,240,000 t = 14.6224 kt<br><strong>Jindal Stainless:</strong> PDF-patched; Not in FY2024 XBRL; extracted from PDF: 1782.58 MT / 1000 = 1.783 kt</td>
+</tr>
+<tr>
+<td style="text-align: left;">Particulate Matter</td>
+<td style="text-align: left;">kilotonnes</td>
+<td style="text-align: right;">9.000</td>
+<td style="text-align: right;">8.309</td>
+<td style="text-align: right;">11.159 📄</td>
+<td style="text-align: right;">1.313</td>
+<td style="text-align: left;"><strong>SAIL:</strong> PDF-patched; XBRL unit tag showed µg/m³ (incorrect); PDF confirms 0.58 kg/tcs. SAIL switched from concentration (mg/Nm³) in FY2023 to</td>
+</tr>
+<tr>
+<td style="text-align: left;">Water Withdrawal</td>
+<td style="text-align: left;">kL</td>
+<td style="text-align: right;">102,359,060</td>
+<td style="text-align: right;">89,191,228</td>
+<td style="text-align: right;">57,396,487</td>
+<td style="text-align: right;">13,320,439</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">Water Consumption</td>
+<td style="text-align: left;">kL</td>
+<td style="text-align: right;">88,350,241</td>
+<td style="text-align: right;">52,100,921</td>
+<td style="text-align: right;">57,396,487</td>
+<td style="text-align: right;">12,772,873</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">Water Intensity</td>
+<td style="text-align: left;">L/₹ or kL/Cr — NOT uniform</td>
+<td style="text-align: right;">0.000063</td>
+<td style="text-align: right;">0.038900 📄</td>
+<td style="text-align: right;">null ⚠️</td>
+<td style="text-align: right;">333.008 ⚠️ 📄</td>
+<td style="text-align: left;"><strong>Tata Steel:</strong> Unit confirmed by PDF as litres/rupee. Not directly comparable to SAIL/Jindal which report kL/Crore.<br><strong>JSW Steel:</strong> PDF-patched; PDF Page 24 confirms 0.0389 L/₹. XBRL stored as kL/₹ (3.89951e-05); reverted to L/₹ for consistency with Tata Steel and <br><strong>SAIL:</strong> value nulled; not normalized; PDF-patched; XBRL value 52.33 L/₹ is a filing error (1000× FY2023 value of 0.053). PDF cross-check did not confirm correct value. Nul<br><strong>Jindal Stainless:</strong> not normalized; PDF-patched; Unit is kL/Rs.Crore (PDF confirmed). L/₹ equivalent: 0.0333000 L/₹ (= 333.0 ÷ 10,000,000). For reference: Tata Steel={'F</td>
+</tr>
+<tr>
+<td style="text-align: left;">Total Waste</td>
+<td style="text-align: left;">metric tonnes</td>
+<td style="text-align: right;">16,833,524</td>
+<td style="text-align: right;">15,211,308</td>
+<td style="text-align: right;">14,005,029</td>
+<td style="text-align: right;">1,584,619</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">Waste Recovered</td>
+<td style="text-align: left;">metric tonnes</td>
+<td style="text-align: right;">18,884,589</td>
+<td style="text-align: right;">15,076,412</td>
+<td style="text-align: right;">14,370,239</td>
+<td style="text-align: right;">1,777,700</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">Waste Disposed</td>
+<td style="text-align: left;">metric tonnes</td>
+<td style="text-align: right;">307,577.0</td>
+<td style="text-align: right;">3,108.7</td>
+<td style="text-align: right;">2,358.0</td>
+<td style="text-align: right;">42,808.4</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">LTIFR</td>
+<td style="text-align: left;">—</td>
+<td style="text-align: right;">0.490000</td>
+<td style="text-align: right;">0.110000</td>
+<td style="text-align: right;">0.000000</td>
+<td style="text-align: right;">0.040000</td>
+<td style="text-align: left;"><strong>Tata Steel:</strong> Extracted from dimensional XBRL context D_Employees.<br><strong>JSW Steel:</strong> Extracted from dimensional XBRL context D_Employees.<br><strong>SAIL:</strong> SAIL FY2024 employee counts identical to FY2023 — XBRL likely used prior-year context. Verify against PDF. LTIFR=0 also <br><strong>Jindal Stainless:</strong> Extracted from dimensional XBRL context D_Employees.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Fatalities</td>
+<td style="text-align: left;">—</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: left;"><strong>Tata Steel:</strong> Sum of NumberOfFatalities [D_Employees] + [D_Workers] from dimensional XBRL contexts.<br><strong>JSW Steel:</strong> Sum of NumberOfFatalities [D_Employees] + [D_Workers] from dimensional XBRL contexts.<br><strong>SAIL:</strong> Sum of NumberOfFatalities [D_Employees] + [D_Workers] from dimensional XBRL contexts.<br><strong>Jindal Stainless:</strong> Sum of NumberOfFatalities [D_Employees] + [D_Workers] from dimensional XBRL contexts.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Total Employees</td>
+<td style="text-align: left;">—</td>
+<td style="text-align: right;">44,476</td>
+<td style="text-align: right;">13,301</td>
+<td style="text-align: right;">59,186</td>
+<td style="text-align: right;">5,737</td>
+<td style="text-align: left;"><strong>Tata Steel:</strong> Extracted from multi-dimensional XBRL context D_Gender_Employees_TableA (permanent employees). Parser DCYMain-only extra<br><strong>JSW Steel:</strong> Extracted from multi-dimensional XBRL context D_Gender_Employees_TableA (permanent employees). Parser DCYMain-only extra<br><strong>SAIL:</strong> Extracted from multi-dimensional XBRL context D_Gender_Employees_TableA (permanent employees). Parser DCYMain-only extra<br><strong>Jindal Stainless:</strong> Extracted from multi-dimensional XBRL context D_Gender_Employees_TableA (permanent employees). Parser DCYMain-only extra</td>
+</tr>
+<tr>
+<td style="text-align: left;">Female Employees</td>
+<td style="text-align: left;">%</td>
+<td style="text-align: right;">8.360</td>
+<td style="text-align: right;">6.450</td>
+<td style="text-align: right;">6.110</td>
+<td style="text-align: right;">3.540</td>
+<td style="text-align: left;"><strong>Tata Steel:</strong> Calculated from female/total employee counts in dimensional XBRL contexts.<br><strong>JSW Steel:</strong> Calculated from female/total employee counts in dimensional XBRL contexts.<br><strong>SAIL:</strong> Calculated from female/total employee counts in dimensional XBRL contexts.<br><strong>Jindal Stainless:</strong> Calculated from female/total employee counts in dimensional XBRL contexts.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Training Coverage</td>
+<td style="text-align: left;">%</td>
+<td style="text-align: right;">null ⚠️</td>
+<td style="text-align: right;">null ⚠️</td>
+<td style="text-align: right;">null ⚠️</td>
+<td style="text-align: right;">null ⚠️</td>
+<td style="text-align: left;"><strong>Tata Steel:</strong> value nulled; not normalized; Training coverage % not found in XBRL for this company-year. To be extracted from PDF.<br><strong>JSW Steel:</strong> value nulled; not normalized; Training coverage % not found in XBRL for this company-year. To be extracted from PDF.<br><strong>SAIL:</strong> value nulled; not normalized; Training coverage % not found in XBRL for this company-year. To be extracted from PDF.<br><strong>Jindal Stainless:</strong> value nulled; not normalized; Training coverage % not found in XBRL for this company-year. To be extracted from PDF.</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>YOUR COMMENT:</strong> <em>(type here — leave blank if no issues)</em></p>
+</blockquote>
+<hr />
+<h3>FY2025</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Metric</th>
+<th style="text-align: left;">Unit</th>
+<th style="text-align: right;">Tata Steel</th>
+<th style="text-align: right;">JSW Steel</th>
+<th style="text-align: right;">SAIL</th>
+<th style="text-align: right;">Jindal Stainless</th>
+<th style="text-align: left;">Concerns</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Scope 1 GHG</td>
+<td style="text-align: left;">tCO2e</td>
+<td style="text-align: right;">61,000,000</td>
+<td style="text-align: right;">53,100,752</td>
+<td style="text-align: right;">52,178,648</td>
+<td style="text-align: right;">2,995,798</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">Scope 2 GHG</td>
+<td style="text-align: left;">tCO2e</td>
+<td style="text-align: right;">5,000,000</td>
+<td style="text-align: right;">1,653,057</td>
+<td style="text-align: right;">4,796,073</td>
+<td style="text-align: right;">622,511.0</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">GHG Intensity</td>
+<td style="text-align: left;">tCO2e/tcs</td>
+<td style="text-align: right;">3.200</td>
+<td style="text-align: right;">2.436</td>
+<td style="text-align: right;">3.010</td>
+<td style="text-align: right;">1.850</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">Total Energy</td>
+<td style="text-align: left;">GJ</td>
+<td style="text-align: right;">587,567,890</td>
+<td style="text-align: right;">529,209,357</td>
+<td style="text-align: right;">519,431,000</td>
+<td style="text-align: right;">32,046,976</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">Renewable Energy</td>
+<td style="text-align: left;">GJ</td>
+<td style="text-align: right;">384,862.0</td>
+<td style="text-align: right;">3,227,578</td>
+<td style="text-align: right;">1,400,000</td>
+<td style="text-align: right;">1,307,231</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">SOx</td>
+<td style="text-align: left;">kilotonnes</td>
+<td style="text-align: right;">46.000 📄</td>
+<td style="text-align: right;">46.131 📄</td>
+<td style="text-align: right;">18.212 📄</td>
+<td style="text-align: right;">4.581 📄</td>
+<td style="text-align: left;"><strong>Tata Steel:</strong> PDF-patched; Not in FY2025 XBRL; extracted from PDF (standalone)<br><strong>JSW Steel:</strong> PDF-patched; Not in FY2025 XBRL; PDF: 1.66 kg/tcs × 27,790,000 t production = 46.1314 kt<br><strong>SAIL:</strong> PDF-patched; Not in FY2025 XBRL; PDF: 0.95 kg/tcs × 19,170,000 t = 18.2115 kt<br><strong>Jindal Stainless:</strong> PDF-patched; Not in FY2025 XBRL; extracted from PDF: 4580.69 MT / 1000 = 4.581 kt</td>
+</tr>
+<tr>
+<td style="text-align: left;">NOx</td>
+<td style="text-align: left;">kilotonnes</td>
+<td style="text-align: right;">24.000 📄</td>
+<td style="text-align: right;">31.959 📄</td>
+<td style="text-align: right;">15.336 📄</td>
+<td style="text-align: right;">2.527 📄</td>
+<td style="text-align: left;"><strong>Tata Steel:</strong> PDF-patched; Not in FY2025 XBRL; extracted from PDF (standalone)<br><strong>JSW Steel:</strong> PDF-patched; Not in FY2025 XBRL; PDF: 1.15 kg/tcs × 27,790,000 t production = 31.9585 kt<br><strong>SAIL:</strong> PDF-patched; Not in FY2025 XBRL; PDF: 0.80 kg/tcs × 19,170,000 t = 15.336 kt<br><strong>Jindal Stainless:</strong> PDF-patched; Not in FY2025 XBRL; extracted from PDF: 2527.48 MT / 1000 = 2.527 kt</td>
+</tr>
+<tr>
+<td style="text-align: left;">Particulate Matter</td>
+<td style="text-align: left;">kilotonnes</td>
+<td style="text-align: right;">8.000</td>
+<td style="text-align: right;">8.765</td>
+<td style="text-align: right;">10.735 📄</td>
+<td style="text-align: right;">1.601</td>
+<td style="text-align: left;"><strong>SAIL:</strong> PDF-patched; XBRL unit tag showed µg/m³ (incorrect); PDF confirms kg/tcs.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Water Withdrawal</td>
+<td style="text-align: left;">kL</td>
+<td style="text-align: right;">110,829,245</td>
+<td style="text-align: right;">95,735,451</td>
+<td style="text-align: right;">129,577,216</td>
+<td style="text-align: right;">15,077,894</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">Water Consumption</td>
+<td style="text-align: left;">kL</td>
+<td style="text-align: right;">98,609,097</td>
+<td style="text-align: right;">53,250,097</td>
+<td style="text-align: right;">87,768,084</td>
+<td style="text-align: right;">14,411,834</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">Water Intensity</td>
+<td style="text-align: left;">L/₹ or kL/Cr — NOT uniform</td>
+<td style="text-align: right;">0.000074</td>
+<td style="text-align: right;">0.042400 📄</td>
+<td style="text-align: right;">0.089042 ⚠️</td>
+<td style="text-align: right;">358.670 ⚠️ 📄</td>
+<td style="text-align: left;"><strong>Tata Steel:</strong> Unit confirmed by PDF as litres/rupee. Not directly comparable to SAIL/Jindal which report kL/Crore.<br><strong>JSW Steel:</strong> PDF-patched; XBRL stored as kL/₹ (4.23703e-05); converted to L/₹ = 0.0424 for consistency with Tata Steel and SAIL. Not independently<br><strong>SAIL:</strong> not normalized; Unit assumed L/₹ based on FY2023 PDF-confirmed value of 0.053 L/₹. FY2025 PDF not independently verified.<br><strong>Jindal Stainless:</strong> not normalized; PDF-patched; Unit is kL/Rs.Crore (PDF confirmed). L/₹ equivalent: 0.0358670 L/₹ (= 358.67 ÷ 10,000,000). For reference: Tata Steel={'</td>
+</tr>
+<tr>
+<td style="text-align: left;">Total Waste</td>
+<td style="text-align: left;">metric tonnes</td>
+<td style="text-align: right;">17,352,473</td>
+<td style="text-align: right;">19,109,339</td>
+<td style="text-align: right;">14,144,422</td>
+<td style="text-align: right;">1,945,438</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">Waste Recovered</td>
+<td style="text-align: left;">metric tonnes</td>
+<td style="text-align: right;">19,438,386</td>
+<td style="text-align: right;">16,546,750</td>
+<td style="text-align: right;">15,365,364</td>
+<td style="text-align: right;">2,018,038</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">Waste Disposed</td>
+<td style="text-align: left;">metric tonnes</td>
+<td style="text-align: right;">20,100.0</td>
+<td style="text-align: right;">3,375.9</td>
+<td style="text-align: right;">969,314.0</td>
+<td style="text-align: right;">42,852.3</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">LTIFR</td>
+<td style="text-align: left;">—</td>
+<td style="text-align: right;">0.390000</td>
+<td style="text-align: right;">0.250000</td>
+<td style="text-align: right;">0.230000</td>
+<td style="text-align: right;">0.000000</td>
+<td style="text-align: left;"><strong>Tata Steel:</strong> Extracted from dimensional XBRL context D_Employees.<br><strong>JSW Steel:</strong> Extracted from dimensional XBRL context D_Employees.<br><strong>SAIL:</strong> Extracted from dimensional XBRL context D_Employees.<br><strong>Jindal Stainless:</strong> Extracted from dimensional XBRL context D_Employees.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Fatalities</td>
+<td style="text-align: left;">—</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;"><strong>Tata Steel:</strong> Sum of NumberOfFatalities [D_Employees] + [D_Workers] from dimensional XBRL contexts.<br><strong>JSW Steel:</strong> Sum of NumberOfFatalities [D_Employees] + [D_Workers] from dimensional XBRL contexts.<br><strong>SAIL:</strong> Sum of NumberOfFatalities [D_Employees] + [D_Workers] from dimensional XBRL contexts.<br><strong>Jindal Stainless:</strong> Sum of NumberOfFatalities [D_Employees] + [D_Workers] from dimensional XBRL contexts.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Total Employees</td>
+<td style="text-align: left;">—</td>
+<td style="text-align: right;">43,467</td>
+<td style="text-align: right;">14,353</td>
+<td style="text-align: right;">53,159</td>
+<td style="text-align: right;">5,898</td>
+<td style="text-align: left;"><strong>Tata Steel:</strong> Extracted from multi-dimensional XBRL context D_Gender_Employees_TableA (permanent employees). Parser DCYMain-only extra<br><strong>JSW Steel:</strong> Extracted from multi-dimensional XBRL context D_Gender_Employees_TableA (permanent employees). Parser DCYMain-only extra<br><strong>SAIL:</strong> Extracted from multi-dimensional XBRL context D_Gender_Employees_TableA (permanent employees). Parser DCYMain-only extra<br><strong>Jindal Stainless:</strong> Extracted from multi-dimensional XBRL context D_Gender_Employees_TableA (permanent employees). Parser DCYMain-only extra</td>
+</tr>
+<tr>
+<td style="text-align: left;">Female Employees</td>
+<td style="text-align: left;">%</td>
+<td style="text-align: right;">9.120</td>
+<td style="text-align: right;">6.710</td>
+<td style="text-align: right;">6.280</td>
+<td style="text-align: right;">4.410</td>
+<td style="text-align: left;"><strong>Tata Steel:</strong> Calculated from female/total employee counts in dimensional XBRL contexts.<br><strong>JSW Steel:</strong> Calculated from female/total employee counts in dimensional XBRL contexts.<br><strong>SAIL:</strong> Calculated from female/total employee counts in dimensional XBRL contexts.<br><strong>Jindal Stainless:</strong> Calculated from female/total employee counts in dimensional XBRL contexts.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Training Coverage</td>
+<td style="text-align: left;">%</td>
+<td style="text-align: right;">null ⚠️</td>
+<td style="text-align: right;">null ⚠️</td>
+<td style="text-align: right;">null ⚠️</td>
+<td style="text-align: right;">null ⚠️</td>
+<td style="text-align: left;"><strong>Tata Steel:</strong> value nulled; not normalized; Training coverage % not found in XBRL for this company-year. To be extracted from PDF.<br><strong>JSW Steel:</strong> value nulled; not normalized; Training coverage % not found in XBRL for this company-year. To be extracted from PDF.<br><strong>SAIL:</strong> value nulled; not normalized; Training coverage % not found in XBRL for this company-year. To be extracted from PDF.<br><strong>Jindal Stainless:</strong> value nulled; not normalized; Training coverage % not found in XBRL for this company-year. To be extracted from PDF.</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>YOUR COMMENT:</strong> <em>(type here — leave blank if no issues)</em></p>
+</blockquote>
+<hr />
+<h2>5. PDF Enrichment Summaries</h2>
+<p>Targets, initiatives, and non-compliance extracted from company BRSR PDFs.</p>
+<h3>Tata Steel</h3>
+<h4>FY2023</h4>
+<p><strong>Targets (3)</strong>
+- Net Zero emissions for the Tata Steel Group  <em>2045</em>
+- Achieve specific dust emission intensity of 0.43 kg per tonne of crude steel in India  <em>2025</em>
+- Achieve specific freshwater consumption of 2.0 m³ per tonne of crude steel across all steelmaking sites in India  <em>2025</em></p>
+<p><strong>Initiatives (3)</strong>
+- [emissions] <strong>Zero Carbon Logistics programme</strong>: Savings of ~5% CO2 emissions; replacing road with rail reduced &gt;5,000 trucks/year.
+- [energy] <strong>Benchmarking Energy Efficiency IMPACT Centre</strong>: Savings of more than Rs. 750 crore since 2015.
+- [energy] <strong>Tata Power Renewable Energy Agreement</strong>: Will cater to 379 MW of power requirement and enable reduction of over 2 million tonnes CO2 per annu</p>
+<p><strong>Scope 3 total:</strong> 13.1 million tCO2e</p>
+<p><strong>Steel production:</strong> 28,180,000 metric tonnes  <em>Consolidated basis (as per plan config). PDF states capacity of 35 MTPA but production volume not explicitly stated in BRSR.</em></p>
+<blockquote>
+<p><strong>YOUR COMMENT:</strong> <em>(type here — leave blank if no issues)</em></p>
+</blockquote>
+<h4>FY2024</h4>
+<p><strong>Targets (3)</strong>
+- Net Zero emissions for the Tata Steel Group  <em>2045</em>
+- Achieve specific freshwater consumption of &lt;1.5 m³ per tonne of crude steel across all India sites  <em>2030</em>
+- Achieve 20% diversity in workforce for Tata Steel Limited  <em>2025</em></p>
+<p><strong>Initiatives (3)</strong>
+- [emissions] <strong>Zero Carbon Logistics programme</strong>: Optimum Voyage resulted in savings of ~5% CO2 emissions.
+- [energy] <strong>Captive Renewable Power Sourcing</strong>: Will reduce 50 million tonnes of carbon emissions over 25-year contract period.
+- [energy] <strong>Floating Solar Power Project</strong>: Brought total solar capacity to 20.34 MWp at Jamshedpur plant.</p>
+<p><strong>Scope 3 total:</strong> 15 million tCO2e (Standalone)</p>
+<p><strong>Steel production:</strong> 20,120,000 metric tonnes  <em>Standalone (India only). From plan config — not explicitly stated in BRSR text block.</em></p>
+<blockquote>
+<p><strong>YOUR COMMENT:</strong> <em>(type here — leave blank if no issues)</em></p>
+</blockquote>
+<h4>FY2025</h4>
+<p><strong>Targets (1)</strong>
+- Net Zero emissions for the Tata Steel Group  <em>2045</em></p>
+<p><strong>Initiatives (3)</strong>
+- [emissions] <strong>Green Mobility Fleet Expansion</strong>: Reduction of ~200 tonnes CO2 annually.
+- [emissions] <strong>B24 Biofuel Shipments</strong>: Executed 39 biofuel vessels and 5 LNG vessels — ~18% of imported shipments.
+- [energy] <strong>Rooftop Solar Panel at Jamshedpur Warehouse</strong>: Facility became energy-positive, generating 2,303 MWh against consumption of 1,582 MWh.</p>
+<p><strong>Scope 3 total:</strong> 23 million tCO2e (Standalone)</p>
+<p><strong>Non-compliance (1)</strong>
+- Collector of Stamps, Enforcement I and II imposed penalties of Rs 1,46,14,380 and Rs 1,28,07,700 towards belated filing </p>
+<p><strong>Steel production:</strong> 21,710,000 metric tonnes  <em>Standalone (India only). From plan config.</em></p>
+<blockquote>
+<p><strong>YOUR COMMENT:</strong> <em>(type here — leave blank if no issues)</em></p>
+</blockquote>
+<h3>JSW Steel</h3>
+<h4>FY2023</h4>
+<p><strong>Targets (2)</strong>
+- Reduce specific CO2 emissions intensity  <em>2030</em>
+- Achieve carbon neutrality  <em>2050</em></p>
+<p><strong>Initiatives (1)</strong>
+- [energy] <strong>Energy Efficiency Interventions</strong>: Capex investment of 3.13% of total capex for environmental sustainability.</p>
+<p><strong>Scope 3 total:</strong> 5,595,113 tCO2e</p>
+<p><strong>Steel production:</strong> 24,150,000 metric tonnes  <em>From plan config (annual report). Gemini derived ~20.9M t from BRSR emissions/intensity — difference may be due to saleable vs crude steel denominator.</em></p>
+<blockquote>
+<p><strong>YOUR COMMENT:</strong> <em>(type here — leave blank if no issues)</em></p>
+</blockquote>
+<h4>FY2024</h4>
+<p><strong>Targets (1)</strong>
+- Carbon emissions intensity reduction  <em>2030</em></p>
+<p><strong>Initiatives (1)</strong>
+- [energy] <strong>Clean Technology Investment (Best Available Technologies)</strong>: Capex investment of 4.01% of total capex.</p>
+<p><strong>Scope 3 total:</strong> 5,842,454 tCO2e</p>
+<p><strong>Steel production:</strong> 26,430,000 metric tonnes  <em>From plan config (annual report).</em></p>
+<blockquote>
+<p><strong>YOUR COMMENT:</strong> <em>(type here — leave blank if no issues)</em></p>
+</blockquote>
+<h4>FY2025</h4>
+<p><strong>Targets (1)</strong>
+- Climate change reduction target  <em>2030</em></p>
+<p><strong>Initiatives (2)</strong>
+- [governance] <strong>ResponsibleSteel Certification</strong>: Over 80% of primary steel production from certified sites.
+- [waste] <strong>Steel Scrap Recycling</strong>: Circularity enhancement in production.</p>
+<p><strong>Scope 3 total:</strong> 6,120,450 tCO2e</p>
+<p><strong>Non-compliance (2)</strong>
+- Penalty from Chhattisgarh Environment Conservation Board for emission of smoke and improper tarpaulin covering.
+- Penalty for belated remittance of Provident Fund (2016–2019).</p>
+<p><strong>Steel production:</strong> 27,790,000 metric tonnes  <em>From plan config (annual report).</em></p>
+<blockquote>
+<p><strong>YOUR COMMENT:</strong> <em>(type here — leave blank if no issues)</em></p>
+</blockquote>
+<h3>SAIL</h3>
+<h4>FY2023</h4>
+<p><strong>Targets (1)</strong>
+- Eco-restoration of mined-out areas and waste dumps at Meghahatuburu Iron Ore Mines  <em>2025–26</em></p>
+<p><strong>Initiatives (3)</strong>
+- [governance] <strong>SAIL Sarathi (AI Chatbot)</strong>: One of the most advanced customer-facing bots in the steel industry.
+- [water] <strong>Zero Liquid Discharge (ZLD)</strong>: Pioneering projects towards 100% water recycling.
+- [emissions] <strong>CO2 Capture &amp; Mineralisation (IIT Bombay)</strong>: Part of decarbonization effort.</p>
+<p><strong>Non-compliance (1)</strong>
+- Non-compliance of environmental standards at IISCO Steel Plant (ISP).</p>
+<p><strong>Steel production:</strong> 18,289,000 metric tonnes  <em>Reported as 18.289 MT crude steel production in BRSR PDF.</em></p>
+<blockquote>
+<p><strong>YOUR COMMENT:</strong> <em>(type here — leave blank if no issues)</em></p>
+</blockquote>
+<h4>FY2024</h4>
+<p><strong>Targets (1)</strong>
+- Achieve Zero Liquid Discharge across all SAIL plants  <em>Continuous</em></p>
+<p><strong>Initiatives (1)</strong>
+- [waste] <strong>SAIL Green Tiles Plant</strong>: Utilised 5.3 MT of slag.</p>
+<p><strong>Non-compliance (1)</strong>
+- Specific environmental non-compliances mentioned for integrated plants.</p>
+<p><strong>Steel production:</strong> 19,240,000 metric tonnes  <em>From plan config. Gemini derived ~19.67M t from emissions/intensity.</em></p>
+<blockquote>
+<p><strong>YOUR COMMENT:</strong> <em>(type here — leave blank if no issues)</em></p>
+</blockquote>
+<h4>FY2025</h4>
+<p><strong>Targets (1)</strong>
+- Reduction of Specific PM Emission Load  <em>FY2024–25 (achieved)</em></p>
+<p><strong>Initiatives (1)</strong>
+- [energy] <strong>Green Power Import from DVC</strong>: Significant increase in renewable energy from 266 TJ to 1,400 TJ.</p>
+<p><strong>Non-compliance (1)</strong>
+- Bhilai Steel Plant: Inefficient operation of Sewage Treatment Plant (STP) in violation of Water Act 1974.</p>
+<p><strong>Steel production:</strong> 19,170,000 metric tonnes  <em>From plan config. Gemini derived ~18.93M t from emissions/intensity.</em></p>
+<blockquote>
+<p><strong>YOUR COMMENT:</strong> <em>(type here — leave blank if no issues)</em></p>
+</blockquote>
+<h3>Jindal Stainless</h3>
+<h4>FY2023</h4>
+<p><strong>Targets (2)</strong>
+- Net Zero carbon emission target  <em>2050</em>
+- Reduce carbon emission intensity by 50%  <em>2035</em></p>
+<p><strong>Initiatives (3)</strong>
+- [energy] <strong>Oxygen Enrichment in Walking Beam Furnace</strong>: Fuel saving of 3%.
+- [water] <strong>Water Fixture Replacement</strong>: 2 m³/day fresh water saved.
+- [water] <strong>Floor Cleaning with Waste Water</strong>: 50 m³/day fresh water saved.</p>
+<p><strong>Scope 3 total:</strong> 2,781,561 tCO2e</p>
+<p><strong>Non-compliance (1)</strong>
+- No instances of regulatory penalties, environmental non-compliance, or fines reported.</p>
+<p><strong>Steel production:</strong> 1,710,000 metric tonnes  <em>From plan config. Gemini derived ~1.58M t from emissions/intensity — difference may reflect saleable vs crude denominator.</em></p>
+<blockquote>
+<p><strong>YOUR COMMENT:</strong> <em>(type here — leave blank if no issues)</em></p>
+</blockquote>
+<h4>FY2024</h4>
+<p><strong>Targets (2)</strong>
+- Achieve Net Zero emissions  <em>2050</em>
+- Reduce emission intensity by 50%  <em>Medium-term (implied ~2035)</em></p>
+<p><strong>Initiatives (3)</strong>
+- [energy] <strong>Floating &amp; Rooftop Solar</strong>: Generated 6,155,850 kWh from onsite solar generation.
+- [emissions] <strong>Chrome Palletisation Plant</strong>: Reduction in overall emissions.
+- [energy] <strong>Waste Heat Recovery Boiler (WHRB)</strong>: Abated 298.8 tonnes of propane equivalent.</p>
+<p><strong>Scope 3 total:</strong> 3,345,443 tCO2e</p>
+<p><strong>Non-compliance (1)</strong>
+- No fines, penalties, or non-compliances reported for the year.</p>
+<p><strong>Steel production:</strong> 2,080,000 metric tonnes  <em>From plan config. Gemini derived ~1.76M t from BRSR — difference may reflect saleable vs crude denominator.</em></p>
+<blockquote>
+<p><strong>YOUR COMMENT:</strong> <em>(type here — leave blank if no issues)</em></p>
+</blockquote>
+<h4>FY2025</h4>
+<p><strong>Targets (3)</strong>
+- Carbon emission intensity reduction by 50%  <em>2035</em>
+- Zero-Waste-to-Landfill certification  <em>2030</em>
+- Female workforce representation  <em>2030</em></p>
+<p><strong>Initiatives (3)</strong>
+- [energy] <strong>Smart cooling control (electrode temperature)</strong>: Saved 1.66 lakh units of electricity annually (INR 10.8 lakhs).
+- [water] <strong>Optimum use of chemicals/water/energy at CPP-DM plant</strong>: 12% reduction in HCl, 15% in NaOH; raw water reduced by 420 m3/year.
+- [water] <strong>Boiler waste water reuse</strong>: Saved 2,532 m3 of water annually.</p>
+<p><strong>Scope 3 total:</strong> 3,216,693 tCO2e</p>
+<p><strong>Steel production:</strong> 2,430,000 metric tonnes  <em>From plan config (2.43 MnT stainless steel).</em></p>
+<blockquote>
+<p><strong>YOUR COMMENT:</strong> <em>(type here — leave blank if no issues)</em></p>
+</blockquote>
+<hr />
+<p><em>End of review document.</em></p>
+</body></html>

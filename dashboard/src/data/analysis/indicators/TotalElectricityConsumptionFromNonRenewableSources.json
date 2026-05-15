@@ -1,0 +1,62 @@
+{
+  "tag": "TotalElectricityConsumptionFromNonRenewableSources",
+  "label": "Non Renewable Electricity Consumption Volume",
+  "principle": "P6",
+  "topic": "energy",
+  "direction": "lower_is_better",
+  "peerRank": {
+    "FY2023": {
+      "tata": 3,
+      "jsw": 2,
+      "sail": 4,
+      "jindal": 1
+    },
+    "FY2024": {
+      "tata": 3,
+      "jsw": 2,
+      "sail": 4,
+      "jindal": 1
+    },
+    "FY2025": {
+      "tata": 3,
+      "jsw": 2,
+      "sail": 4,
+      "jindal": 1
+    }
+  },
+  "trendDirection": {
+    "tata": {
+      "FY2023-24": "Improved",
+      "FY2024-25": "Worsened"
+    },
+    "jsw": {
+      "FY2023-24": "Improved",
+      "FY2024-25": "Worsened"
+    },
+    "sail": {
+      "FY2023-24": "Worsened",
+      "FY2024-25": "Improved"
+    },
+    "jindal": {
+      "FY2023-24": "Worsened",
+      "FY2024-25": "Improved"
+    }
+  },
+  "sections": {
+    "about": "This metric measures electricity consumed from non-renewable sources under BRSR Principle 6, Essential Indicator 1. It is relevant to Scope 2 exposure where grid power is fossil-heavy and to captive thermal power dependency. A lower value indicates better performance.",
+    "performanceAndDrivers": "Jindal Stainless leads every year, ending FY2025 at 3.06 million GJ, reflecting a much smaller electricity footprint and improved renewable substitution. JSW is second at 12.26 million GJ in FY2025. Tata remains third at 22.86 million GJ, up from 19.42 million GJ in FY2024 but below its FY2023 consolidated level of 24.96 million GJ. SAIL is last each year, with FY2024 showing 613.90 million GJ marked as standardised/corrected and FY2025 dropping to 30.47 million GJ. SAIL’s FY2025 BRSR cites efficiency measures including CDQ, TRT, CDI, WHR and walking beam furnaces, which are relevant to lowering fossil-electricity dependence.",
+    "tataPositioning": "In FY2025, Tata ranks 3rd, with non-renewable electricity 646% above Jindal Stainless, the best performer. Tata’s rank stayed stable at 3rd across all three years, despite improving in FY2024 and worsening in FY2025. The main gap is that Tata’s integrated operations retain larger electrical demand across mines, coke, sinter, pellet, ironmaking, steelmaking and rolling assets.",
+    "targets": "Tata’s renewable procurement and energy-efficiency programme are relevant to reducing non-renewable electricity. SAIL targets 384 MW renewable capacity by FY2028-29 and is implementing energy-efficiency technologies. Jindal Stainless discloses renewable power procurement, solar rooftop generation and electrical energy-saving initiatives.",
+    "comparabilityNotes": "SAIL FY2024 is marked standardised/corrected and is unusually high versus FY2023 and FY2025, so the FY2024-FY2025 movement should be interpreted with caution."
+  },
+  "flags": {
+    "directionUnclear": false,
+    "contextInsufficient": false,
+    "externalSourceUsed": false,
+    "trendAmbiguity": false,
+    "flagNote": null
+  },
+  "source": "CustomGPT",
+  "userCorrection": null,
+  "status": "pending_review"
+}

@@ -1,0 +1,62 @@
+{
+  "tag": "TrainingCoverage_Employees_SkillUpgradation",
+  "label": "TrainingCoverage_Employees_SkillUpgradation",
+  "principle": "",
+  "topic": "training-development",
+  "direction": "higher_is_better",
+  "peerRank": {
+    "FY2023": {
+      "tata": 1,
+      "jsw": 1,
+      "sail": 4,
+      "jindal": 1
+    },
+    "FY2024": {
+      "tata": 1,
+      "jsw": 1,
+      "sail": 3,
+      "jindal": 4
+    },
+    "FY2025": {
+      "tata": 1,
+      "jsw": 1,
+      "sail": 4,
+      "jindal": 1
+    }
+  },
+  "trendDirection": {
+    "tata": {
+      "FY2023-24": "Stable",
+      "FY2024-25": "Stable"
+    },
+    "jsw": {
+      "FY2023-24": "Stable",
+      "FY2024-25": "Stable"
+    },
+    "sail": {
+      "FY2023-24": "Improved",
+      "FY2024-25": "Worsened"
+    },
+    "jindal": {
+      "FY2023-24": "Worsened",
+      "FY2024-25": "Improved"
+    }
+  },
+  "sections": {
+    "about": "This metric measures the percentage of employees trained on skill upgradation under BRSR Principle 3, Essential Indicator 8. Skill-upgradation training can include internal training courses as well as funding support for external training or education. A higher value indicates better performance.",
+    "performanceAndDrivers": "Tata and JSW maintained 100% employee skill-upgradation training coverage across all three years. Jindal also reported 100% in FY2022-23 and FY2024-25, but dipped sharply to 32.21% in FY2023-24; SAIL improved from 32.6% in FY2022-23 to 50.04% in FY2023-24, then fell to 34% in FY2024-25. Tata’s result is backed by a multi-dimensional capability ecosystem covering core foundational knowledge, functional/technical skills, business and leadership skills, digital technology, sustainability and agility; it also uses frameworks such as functional competency development, Schools of Excellence, StepUP and worker-focused E4 training models. Jindal’s FY2024-25 rebound is consistent with its disclosed L&D architecture: 1,621 programmes for employees other than BoD/KMPs, workplace skills, POSH, ethics, time management, leadership development and ESG/industry knowledge. SAIL recognises training as an opportunity for operational efficiency and productivity but the reported employee skill coverage still trails private peers.",
+    "tataPositioning": "In FY2024-25, Tata Steel is Rank 1 at 100%, tied with JSW and Jindal. The gap from best performer is 0 percentage points; SAIL trails Tata by 66 percentage points. Tata has held Rank 1 across all three years, which is strategically important because employee skill development supports transition needs around BF-BOF process optimisation, digitalisation, safety risk reduction, maintenance reliability, and future low-carbon steelmaking capabilities.",
+    "targets": null,
+    "comparabilityNotes": "Tata Steel FY2022-23 is consolidated, while other company-years are standalone."
+  },
+  "flags": {
+    "directionUnclear": false,
+    "contextInsufficient": false,
+    "externalSourceUsed": false,
+    "trendAmbiguity": false,
+    "flagNote": null
+  },
+  "source": "CustomGPT",
+  "userCorrection": null,
+  "status": "pending_review"
+}

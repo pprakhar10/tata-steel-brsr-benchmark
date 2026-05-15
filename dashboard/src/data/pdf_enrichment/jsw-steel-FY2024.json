@@ -1,0 +1,60 @@
+{
+  "companyId": "jsw-steel",
+  "year": "FY2024",
+  "source": "PDF",
+  "enrichment": {
+    "targets": [
+      {
+        "description": "Carbon emissions intensity reduction",
+        "metric": "tCO2e/tcs",
+        "baseline": "2005",
+        "targetValue": "1.95 tCO2/tcs",
+        "timeline": "2030"
+      }
+    ],
+    "initiatives": [
+      {
+        "name": "Clean Technology Investment (Best Available Technologies)",
+        "area": "energy",
+        "description": "Investment in BATs contributing to environmental and social parameters.",
+        "outcome": "Capex investment of 4.01% of total capex."
+      }
+    ],
+    "scope3Breakdown": {
+      "totalScope3": "5,842,454 tCO2e",
+      "categories": [],
+      "note": "Total Scope 3 emissions reported."
+    },
+    "managementCommentary": "We have set a target of achieving 1.95 tCO2/tcs by 2030 and committed to be Net Neutral by 2050. Steel is a hard-to-abate sector, and we are proactively working on achieving set targets through clear decarbonisation actions.",
+    "awardsAndRatings": [
+      {
+        "name": "BSC 5 Star Rating",
+        "score": "5 Star",
+        "year": "2024"
+      },
+      {
+        "name": "DJSI Score",
+        "score": "High performer in steel industry",
+        "year": "2024"
+      }
+    ],
+    "nonCompliance": [],
+    "forwardLooking": [
+      {
+        "description": "Continuous focus on product diversification and sustainable practices",
+        "timeline": "1–3 years"
+      }
+    ],
+    "qualitativePolicies": {
+      "P1_ethics": "Whistle blower policy in place for employees, vendors, and channel partners.",
+      "P3_ohs": "Occupational health and safety management system (ISO 45001:2018) implemented across Integrated Steel Plants.",
+      "P6_environment": "Climate action agenda driven by the Climate Action Group."
+    },
+    "steelProduction": {
+      "value": 26430000,
+      "unit": "metric tonnes",
+      "note": "From plan config (annual report)."
+    },
+    "reportingBoundary": "Standalone basis."
+  }
+}

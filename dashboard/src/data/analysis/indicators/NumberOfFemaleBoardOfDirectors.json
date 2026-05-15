@@ -1,0 +1,62 @@
+{
+  "tag": "NumberOfFemaleBoardOfDirectors",
+  "label": "Number Of Female Directors",
+  "principle": "Section A",
+  "topic": "workforce-diversity",
+  "direction": "higher_is_better",
+  "peerRank": {
+    "FY2023": {
+      "tata": 4,
+      "jsw": 1,
+      "sail": 1,
+      "jindal": 1
+    },
+    "FY2024": {
+      "tata": 2,
+      "jsw": 2,
+      "sail": 2,
+      "jindal": 1
+    },
+    "FY2025": {
+      "tata": 3,
+      "jsw": 1,
+      "sail": 4,
+      "jindal": 1
+    }
+  },
+  "trendDirection": {
+    "tata": {
+      "FY2023-24": "Stable",
+      "FY2024-25": "Worsened"
+    },
+    "jsw": {
+      "FY2023-24": "Worsened",
+      "FY2024-25": "Improved"
+    },
+    "sail": {
+      "FY2023-24": "Worsened",
+      "FY2024-25": "Worsened"
+    },
+    "jindal": {
+      "FY2023-24": "Stable",
+      "FY2024-25": "Stable"
+    }
+  },
+  "sections": {
+    "about": "This metric measures the number of women directors on the Board. It falls under BRSR Section A — General Disclosures, Participation/Inclusion/Representation of women; it is not an Essential or Leadership Indicator. A higher value indicates better performance.",
+    "performanceAndDrivers": "Jindal Stainless is consistently strong on absolute women directors, with 3 in each year; JSW also ends FY2024-25 at 3 after dipping to 2 in FY2023-24. Tata had 2 women directors in FY2022-23 and FY2023-24, falling to 1 in FY2024-25. SAIL fell from 3 to 2 to 0, creating a significant governance-diversity gap in the latest year. Tata’s FY2024-25 BRSR explains that Ms. Farida Khambata ceased to be an Independent Director effective December 11, 2024 after completion of her term, which directly explains Tata’s reduction in women directors.",
+    "tataPositioning": "In FY2024-25, Tata ranks 3rd with 1 woman director, 66.7% below JSW and Jindal Stainless, both at 3. Tata improved in rank from 4th in FY2022-23 to tied 2nd in FY2023-24 because peers converged, but declined to rank 3 in FY2024-25 after the reduction from 2 to 1 female director. The driver is Board succession timing rather than operating performance; however, from a senior governance lens, it is a visible deterioration.",
+    "targets": "No targets identified for this metric.",
+    "comparabilityNotes": null
+  },
+  "flags": {
+    "directionUnclear": false,
+    "contextInsufficient": false,
+    "externalSourceUsed": false,
+    "trendAmbiguity": false,
+    "flagNote": null
+  },
+  "source": "CustomGPT",
+  "userCorrection": null,
+  "status": "pending_review"
+}

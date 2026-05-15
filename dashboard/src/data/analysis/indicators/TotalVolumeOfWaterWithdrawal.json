@@ -1,0 +1,62 @@
+{
+  "tag": "TotalVolumeOfWaterWithdrawal",
+  "label": "Total Water Withdrawal Volume",
+  "principle": "P6",
+  "topic": "water",
+  "direction": "lower_is_better",
+  "peerRank": {
+    "FY2023": {
+      "tata": 4,
+      "jsw": 3,
+      "sail": 2,
+      "jindal": 1
+    },
+    "FY2024": {
+      "tata": 4,
+      "jsw": 3,
+      "sail": 2,
+      "jindal": 1
+    },
+    "FY2025": {
+      "tata": 3,
+      "jsw": 2,
+      "sail": 4,
+      "jindal": 1
+    }
+  },
+  "trendDirection": {
+    "tata": {
+      "FY2023-24": "AMBIGUOUS: Tata FY2022-23 is flagged as consolidated while later comparison is not directly like-for-like",
+      "FY2024-25": "Worsened"
+    },
+    "jsw": {
+      "FY2023-24": "Worsened",
+      "FY2024-25": "Worsened"
+    },
+    "sail": {
+      "FY2023-24": "Worsened",
+      "FY2024-25": "Worsened"
+    },
+    "jindal": {
+      "FY2023-24": "Worsened",
+      "FY2024-25": "Worsened"
+    }
+  },
+  "sections": {
+    "about": "This metric measures total water withdrawal from all sources and is disclosed under BRSR Principle 6, Essential Indicator for water withdrawal, consumption and intensity. It captures water demand before recycling benefits are reflected in discharge and consumption. A lower value indicates better performance.",
+    "performanceAndDrivers": "Jindal Stainless is the lowest absolute withdrawer in all three years, rising from 11.68 million kL in FY2023 to 15.08 million kL in FY2025, reflecting smaller operating scale despite worsening trajectory. Tata rises from 102.36 million kL in FY2024 to 110.83 million kL in FY2025, while JSW rises to 95.74 million kL and SAIL spikes sharply to 129.58 million kL in FY2025. The large integrated BF-BOF footprint, captive utilities, coke ovens, gas cleaning, slag granulation, rolling mills and township/ancillary boundaries can materially influence gross withdrawal. Tata’s BRSR boundary has changed and FY2024-25 figures include restatement context for prior periods from April 1, 2023, so FY2024 to FY2025 is more reliable than FY2023 to FY2024 for Tata trend interpretation.",
+    "tataPositioning": "In FY2025, Tata ranks 3rd. The best performer is Jindal at 15.08 million kL, making Tata’s 110.83 million kL approximately 635% higher. Tata’s rank improves from 4th in FY2023/FY2024 to 3rd in FY2025 only because SAIL’s withdrawal rises sharply; Tata’s own absolute withdrawal worsens from FY2024 to FY2025.",
+    "targets": "Tata Steel states that it addresses water scarcity through a 4R framework — Reduce, Reuse, Recycle and Recover — including reducing freshwater withdrawal from rivers, maximising treated effluent recycling, using treated municipal wastewater, water harvesting, and aiming for ZED from Works premises in India. SAIL states a goal of Zero Liquid Discharge across its steel plants and reports treatment/recirculation of wastewater across ISPs.",
+    "comparabilityNotes": "Tata Steel FY2022-23 is flagged as consolidated. FY2024-25 Tata disclosures also note boundary changes and restatement of FY2023-24 to provide like-for-like comparison from April 1, 2023."
+  },
+  "flags": {
+    "directionUnclear": false,
+    "contextInsufficient": false,
+    "externalSourceUsed": false,
+    "trendAmbiguity": false,
+    "flagNote": null
+  },
+  "source": "CustomGPT",
+  "userCorrection": null,
+  "status": "pending_review"
+}

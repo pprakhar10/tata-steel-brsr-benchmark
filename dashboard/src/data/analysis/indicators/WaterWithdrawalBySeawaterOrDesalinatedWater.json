@@ -1,0 +1,62 @@
+{
+  "tag": "WaterWithdrawalBySeawaterOrDesalinatedWater",
+  "label": "Water Withdrawal Seawater Desalinated",
+  "principle": "P6",
+  "topic": "water",
+  "direction": "DIRECTION_UNCLEAR: Seawater or desalinated water can reduce freshwater stress, but desalination may carry energy and brine-disposal impacts; all companies report zero, so performance differentiation is not meaningful.",
+  "peerRank": {
+    "FY2023": {
+      "tata": 1,
+      "jsw": 1,
+      "sail": 1,
+      "jindal": 1
+    },
+    "FY2024": {
+      "tata": 1,
+      "jsw": 1,
+      "sail": 1,
+      "jindal": 1
+    },
+    "FY2025": {
+      "tata": 1,
+      "jsw": 1,
+      "sail": 1,
+      "jindal": 1
+    }
+  },
+  "trendDirection": {
+    "tata": {
+      "FY2023-24": "Stable",
+      "FY2024-25": "Stable"
+    },
+    "jsw": {
+      "FY2023-24": "Stable",
+      "FY2024-25": "Stable"
+    },
+    "sail": {
+      "FY2023-24": "Stable",
+      "FY2024-25": "Stable"
+    },
+    "jindal": {
+      "FY2023-24": "Stable",
+      "FY2024-25": "Stable"
+    }
+  },
+  "sections": {
+    "about": "This metric captures withdrawal from seawater or desalinated water under BRSR Principle 6 Essential Indicator water withdrawal by source. It is not inherently good or bad because it can substitute freshwater but may add energy intensity and brine impacts. Direction is unclear: all peers report zero across all years.",
+    "performanceAndDrivers": "All four companies report zero seawater/desalinated withdrawal in all three years. This is expected for inland integrated steel operations such as Jamshedpur, Kalinganagar, Bokaro, Bhilai, Rourkela, Jajpur and Vijayanagar-type operating contexts where freshwater, surface-water, recycled water and industrial effluent systems dominate. There is no basis to infer a competitive advantage from this metric in the current peer set.",
+    "tataPositioning": "Tata is tied 1st in FY2025 with all peers at zero. The closest peer is every company, with no gap. Tata’s rank has held steady because the metric has no variation.",
+    "targets": "No targets identified for this metric.",
+    "comparabilityNotes": "Because all values are zero, this metric does not distinguish water stewardship performance."
+  },
+  "flags": {
+    "directionUnclear": true,
+    "contextInsufficient": false,
+    "externalSourceUsed": false,
+    "trendAmbiguity": false,
+    "flagNote": "Direction is unclear because seawater/desalinated water has both substitution benefits and environmental/energy trade-offs."
+  },
+  "source": "CustomGPT",
+  "userCorrection": null,
+  "status": "pending_review"
+}

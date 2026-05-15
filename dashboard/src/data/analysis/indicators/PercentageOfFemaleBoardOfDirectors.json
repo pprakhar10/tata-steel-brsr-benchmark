@@ -1,0 +1,62 @@
+{
+  "tag": "PercentageOfFemaleBoardOfDirectors",
+  "label": "Percentage Female Board Directors",
+  "principle": "Section A",
+  "topic": "workforce-diversity",
+  "direction": "higher_is_better",
+  "peerRank": {
+    "FY2023": {
+      "tata": 3,
+      "jsw": 2,
+      "sail": 4,
+      "jindal": 1
+    },
+    "FY2024": {
+      "tata": 2,
+      "jsw": 2,
+      "sail": 4,
+      "jindal": 1
+    },
+    "FY2025": {
+      "tata": 3,
+      "jsw": 2,
+      "sail": 4,
+      "jindal": 1
+    }
+  },
+  "trendDirection": {
+    "tata": {
+      "FY2023-24": "Stable",
+      "FY2024-25": "Worsened"
+    },
+    "jsw": {
+      "FY2023-24": "Worsened",
+      "FY2024-25": "Improved"
+    },
+    "sail": {
+      "FY2023-24": "Worsened",
+      "FY2024-25": "Worsened"
+    },
+    "jindal": {
+      "FY2023-24": "Worsened",
+      "FY2024-25": "Improved"
+    }
+  },
+  "sections": {
+    "about": "This metric measures women directors as a percentage of total Board size. It falls under BRSR Section A — General Disclosures, Participation/Inclusion/Representation of women; it is not an Essential or Leadership Indicator. A higher value indicates better performance.",
+    "performanceAndDrivers": "Jindal Stainless leads across all three years: 30.00%, 25.00% and 27.28%. JSW remains structurally strong at 25.00%, 20.00% and 25.00%. Tata is stable at 20.00% in FY2022-23 and FY2023-24 but falls to 10.00% in FY2024-25, while SAIL deteriorates from 17.65% to 12.50% and then 0%. The denominator matters: Tata’s Board stayed at 10, so the fall is entirely numerator-driven; Jindal’s 3 women directors on an 11-member Board produces the best FY2024-25 percentage. Jindal’s FY2024-25 disclosure reports 11 directors, 3 of whom are female, and 6 KMPs with no women KMPs.",
+    "tataPositioning": "In FY2024-25, Tata ranks 3rd at 10.00%, 63.3% below Jindal Stainless at 27.28%. Tata’s ranking moved from 3rd in FY2022-23 to tied 2nd in FY2023-24, then back to 3rd in FY2024-25. The deterioration is explained by the reduction from 2 women directors to 1, not by board expansion.",
+    "targets": "No targets identified for this metric.",
+    "comparabilityNotes": null
+  },
+  "flags": {
+    "directionUnclear": false,
+    "contextInsufficient": false,
+    "externalSourceUsed": false,
+    "trendAmbiguity": false,
+    "flagNote": null
+  },
+  "source": "CustomGPT",
+  "userCorrection": null,
+  "status": "pending_review"
+}

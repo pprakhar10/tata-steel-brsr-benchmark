@@ -1,0 +1,62 @@
+{
+  "tag": "TotalScope3EmissionsPerRupeeOfTurnover",
+  "label": "Scope 3 Emissions Per Turnover",
+  "principle": "P6",
+  "topic": "ghg-scope3",
+  "direction": "lower_is_better",
+  "peerRank": {
+    "FY2023": {
+      "tata": 2,
+      "jsw": 1,
+      "sail": 3,
+      "jindal": 4
+    },
+    "FY2024": {
+      "tata": 4,
+      "jsw": 2,
+      "sail": 1,
+      "jindal": 3
+    },
+    "FY2025": {
+      "tata": 4,
+      "jsw": 2,
+      "sail": 1,
+      "jindal": 3
+    }
+  },
+  "trendDirection": {
+    "tata": {
+      "FY2023-24": "AMBIGUOUS: Tata FY2022-23 is consolidated while FY2023-24 is standalone",
+      "FY2024-25": "Worsened"
+    },
+    "jsw": {
+      "FY2023-24": "Worsened",
+      "FY2024-25": "Worsened"
+    },
+    "sail": {
+      "FY2023-24": "Improved",
+      "FY2024-25": "Worsened"
+    },
+    "jindal": {
+      "FY2023-24": "AMBIGUOUS: FY2022-23 not reported",
+      "FY2024-25": "Improved"
+    }
+  },
+  "sections": {
+    "about": "This metric measures reported Scope 3 value-chain emissions per rupee of turnover, linking supplier, logistics, investment and downstream emissions to revenue scale. It falls under BRSR Principle 6, Leadership Indicator, because Scope 3 reporting is part of the voluntary leadership disclosure set. A lower value indicates better performance.",
+    "performanceAndDrivers": "SAIL leads in FY2024 and FY2025, reaching 4.90e-06 tCO2e/₹ in FY2025 despite a slight deterioration from 4.83e-06 in FY2024. JSW ranks 2nd at 6.91e-06, while Jindal improves to 8.0051e-06 but ranks 3rd because its smaller turnover denominator and stainless value-chain inputs can make Scope 3 intensity appear higher than its absolute emissions. Tata is last at 2.00e-05 in FY2025, driven by the highest absolute Scope 3 total and a significant increase from FY2024. Tata’s FY2025 boundary/methodology notes state that GHG emissions follow the GHG Protocol Corporate and Scope 3 standards and include equity-consolidated JV emissions under Scope 3 category 15.",
+    "tataPositioning": "In FY2025, Tata ranks 4th, with Scope 3 turnover intensity 308% higher than the best performer, SAIL. Tata fell from 2nd in FY2023 to 4th in FY2024 and stayed 4th in FY2025; the FY2023 position is not fully comparable due to consolidated reporting. The FY2025 deterioration from 1.00e-05 to 2.00e-05 suggests a material expansion or increase in value-chain emissions relative to turnover.",
+    "targets": "Tata Steel discloses supply-chain sustainability actions focused on tracking and addressing Scope 1, 2 and 3 emissions, aligned with its Net Zero target. Jindal Stainless reports a 14% reduction in combined Scope 1+2 and Scope 3 emissions from FY2024 and targets Net Zero by 2050.",
+    "comparabilityNotes": "Scope 3 per rupee is doubly sensitive: first to Scope 3 methodology/category coverage, and second to turnover volatility. Jindal FY2022-23 is missing and Tata FY2022-23 is consolidated, making the first-year interval less directly comparable."
+  },
+  "flags": {
+    "directionUnclear": false,
+    "contextInsufficient": false,
+    "externalSourceUsed": false,
+    "trendAmbiguity": false,
+    "flagNote": null
+  },
+  "source": "CustomGPT",
+  "userCorrection": null,
+  "status": "pending_review"
+}

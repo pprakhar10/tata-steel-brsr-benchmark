@@ -1,0 +1,62 @@
+{
+  "tag": "TotalNumberOfAffectedEmployees",
+  "label": "Total Number Affected Employees",
+  "principle": "P3",
+  "topic": "health-safety",
+  "direction": "lower_is_better",
+  "peerRank": {
+    "FY2023": {
+      "tata": 4,
+      "jsw": 1,
+      "sail": 1,
+      "jindal": 1
+    },
+    "FY2024": {
+      "tata": 4,
+      "jsw": 1,
+      "sail": 1,
+      "jindal": 1
+    },
+    "FY2025": {
+      "tata": 4,
+      "jsw": 2,
+      "sail": 2,
+      "jindal": 1
+    }
+  },
+  "trendDirection": {
+    "tata": {
+      "FY2023-24": "Improved",
+      "FY2024-25": "Worsened"
+    },
+    "jsw": {
+      "FY2023-24": "Stable",
+      "FY2024-25": "Worsened"
+    },
+    "sail": {
+      "FY2023-24": "Stable",
+      "FY2024-25": "Worsened"
+    },
+    "jindal": {
+      "FY2023-24": "Stable",
+      "FY2024-25": "Stable"
+    }
+  },
+  "sections": {
+    "about": "This metric reports total affected employees from high-consequence work-related injury, ill-health or fatalities used in the associated rehabilitation disclosure. The underlying safety incident definitions sit within BRSR Principle 3, with high-consequence injury defined as an injury from which the person cannot or is not expected to recover fully to previous health status. A lower value indicates better performance.",
+    "performanceAndDrivers": "Tata improved from 11 affected employees in FY23 to 4 in FY24, then worsened to 8 in FY25. Jindal reported 0 in all three years, while JSW and SAIL were 0 in FY23-FY24 and 1 each in FY25. The metric is severe-outcome focused, so small absolute changes are significant. Tata’s FY25 high-consequence employee injuries and fatality profile show that while LTIFR improved, severe employee outcomes did not move in the same direction. Tata’s incident investigation and EnsafeNxt platform support corrective action, but the FY25 increase indicates the need for sharper verification of critical controls for employee-performed high-risk tasks.",
+    "tataPositioning": "In FY2024-25, Tata ranked 4th with 8 affected employees. Jindal led with 0, making percentage gap not meaningful; the absolute gap is 8. Tata remained last across all years, improving in FY24 but losing ground again in FY25.",
+    "targets": "Tata states zero harm as the safety ambition. Jindal states Zero Harm and continuous improvement in safety indicators. No metric-specific target for affected employees was identified.",
+    "comparabilityNotes": "Tata FY2022-23 is consolidated."
+  },
+  "flags": {
+    "directionUnclear": false,
+    "contextInsufficient": false,
+    "externalSourceUsed": false,
+    "trendAmbiguity": false,
+    "flagNote": null
+  },
+  "source": "CustomGPT",
+  "userCorrection": null,
+  "status": "pending_review"
+}
