@@ -44,7 +44,7 @@
   },
   "sections": {
     "about": "This metric measures total renewable energy consumption, including renewable electricity, renewable fuels and renewable energy through other sources under BRSR Principle 6, Essential Indicator 1. It indicates the extent to which energy demand is being met through lower-carbon sources. A higher value indicates better performance.",
-    "performanceAndDrivers": "JSW leads in every year, increasing renewable energy from 1.43 million GJ in FY2023 to 3.23 million GJ in FY2025. SAIL moved from 127,200 GJ to 1.40 million GJ, and Jindal Stainless rose sharply from 121,060 GJ to 1.31 million GJ, helped by renewable electricity procurement, rooftop solar and biofuel substitution initiatives disclosed in FY2025. Tata improved from 120,000 GJ in FY2024 to 380,000 GJ in FY2025, but remains well behind JSW, SAIL and Jindal in renewable energy volume. Tata’s 379 MW captive renewable power agreement and floating solar projects should structurally improve future performance if they flow through BRSR energy consumption.",
+    "performanceAndDrivers": "JSW leads in every year, increasing renewable energy from 1.43 million GJ in FY2023 to 3.23 million GJ in FY2025. SAIL moved from 127,200 GJ to 1.40 million GJ, and Jindal Stainless rose sharply from 12,743 GJ to 1.31 million GJ, helped by renewable electricity procurement, rooftop solar and biofuel substitution initiatives disclosed in FY2025. Tata reported 1,000,000 GJ in FY2023, dropped sharply to 120,000 GJ in FY2024, and partially recovered to 380,000 GJ in FY2025; despite the partial recovery, Tata remains well behind JSW, SAIL and Jindal in renewable energy volume. Tata’s 379 MW captive renewable power agreement and floating solar projects should structurally improve future performance if they flow through BRSR energy consumption.",
     "tataPositioning": "In FY2025, Tata ranks 4th and is 88.2% below the best performer, JSW. Tata’s rank fell from 2nd in FY2023 to 4th in FY2024 and stayed 4th in FY2025, despite a threefold increase from FY2024 to FY2025. The issue is pace: Tata improved, but peers scaled renewable procurement or generation faster.",
     "targets": "Tata has a 379 MW captive renewable power agreement and solar projects at Jamshedpur and Kalinganagar. SAIL targets 384 MW renewable capacity by FY2028-29. Jindal Stainless is pursuing greater renewable energy use as part of net zero by 2050 and 50% emissions reduction before FY2035.",
     "comparabilityNotes": "This is an absolute renewable energy metric; higher values may reflect larger operations as well as stronger renewable penetration."
@@ -58,5 +58,5 @@
   },
   "source": "CustomGPT",
   "userCorrection": null,
-  "status": "pending_review"
+  "status": "reviewed"
 }

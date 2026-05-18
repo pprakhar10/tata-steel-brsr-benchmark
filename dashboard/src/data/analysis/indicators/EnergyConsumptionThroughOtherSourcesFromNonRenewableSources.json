@@ -44,10 +44,10 @@
   },
   "sections": {
     "about": "This metric captures non-renewable energy consumed through sources other than electricity and fuel under BRSR Principle 6, Essential Indicator 1. It is a residual category and should ideally remain low or zero. A lower value indicates better performance.",
-    "performanceAndDrivers": "Tata reported 170,000 GJ in FY2023 consolidated, then zero in FY2024 and FY2025. JSW and Jindal reported zero in all years. SAIL reported zero in FY2023, then 678,500 GJ in FY2024 and 2.76 million GJ in FY2025, making it the only FY2025 laggard in this category. Because this is a residual category, SAIL’s increase may reflect category classification rather than a new major process-energy stream, but numerically it is adverse.",
+    "performanceAndDrivers": "Tata reported 28 million GJ in FY2023 on a consolidated boundary, then zero in FY2024 and FY2025. JSW and Jindal reported zero in all years. SAIL reported zero in FY2023, then 678,500 GJ in FY2024 and 2.76 million GJ in FY2025, making it the only FY2025 laggard in this category. Because this is a residual category, SAIL’s increase may reflect category classification rather than a new major process-energy stream, but numerically it is adverse.",
     "tataPositioning": "In FY2025, Tata ranks 1st, tied with JSW and Jindal at zero. Tata improved materially from rank 4 in FY2023 to rank 1 in FY2024 and held that position in FY2025. The improvement reflects elimination or reclassification of non-renewable “other source” energy.",
-    "targets": "No targets identified for this specific metric. Related energy-reduction and decarbonisation targets are disclosed by Tata, SAIL and Jindal at broader energy/climate level.",
-    "comparabilityNotes": "Residual categories are sensitive to company classification practices. Interpretation should focus on whether material energy is being shifted out of electricity/fuel categories."
+    "targets": "Related energy-reduction and decarbonisation targets are disclosed by Tata, SAIL and Jindal at broader energy/climate level.",
+    "comparabilityNotes": "Residual categories are sensitive to company classification practices. Interpretation should focus on whether material energy is being shifted out of electricity/fuel categories. Tata FY2022-23 (28 million GJ) is on a consolidated boundary."
   },
   "flags": {
     "directionUnclear": false,
@@ -58,5 +58,5 @@
   },
   "source": "CustomGPT",
   "userCorrection": null,
-  "status": "pending_review"
+  "status": "reviewed"
 }

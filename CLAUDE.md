@@ -172,14 +172,16 @@ dashboard/                   # React app (to be built)
 | Dashboard UI — Sub-components in Search + Benchmark (auto-dropdown nav) | ✅ Done |
 | Dashboard UI — Phase 5-J: Polish + Build | ⬜ Pending |
 | Direction audit — all 98 indicators checked; 5 fixed (3→neutral, 2→lower_is_better); ranks.ts isAllSameRank patched | ✅ Done |
+| Health & Safety reorder — indicators grouped by type (TRIFR/LTIFR/Fatalities/Injuries/Rehab pairs); TRIFR/LTIFR/Fatalities labels renamed with Employee/Worker prefix | ✅ Done |
 | AI Analysis Cleanup — Phase A: DataTable (C)/(P) suffix removal | ✅ Done |
 | AI Analysis Cleanup — Phase B: Global JSON cleanup (41 files) | ✅ Done |
+| AI Analysis Cleanup — Phase F: Targets section cleanup (19 files — null or sentence removed) | ✅ Done |
 | Manual review — Batch E-1: Energy (11) + Air Emissions (3) | ⬜ Next |
 | Manual review — Batch E-2: Water (15) + Waste (19) | ⬜ Pending |
 | Manual review — Batch S: Social (26) | ⬜ Pending |
 | Manual review — Batch G: Governance (18) | ⬜ Pending |
 
-**Next action:** User provides corrections for Batch E-1 (Energy + Air Emissions indicators). Phase 5-J (npm run build) can run anytime. Phase 4-D/E after all batches reviewed. Open data issue: Turnover unit mismatch (JSW FY2023/24 in Crore vs others in absolute Rupees; Jindal FY2025 in absolute Rupees vs others in Crore) — stored ranks correct but chart values are not comparable.
+**Next action:** User provides corrections for Batch E-1 (Energy + Air Emissions indicators) via chat (one indicator at a time, per Chat-Based Correction Protocol in plan file). Phase 5-J (npm run build) can run anytime. Phase 4-D/E after all batches reviewed. Open data issue: Turnover unit mismatch (JSW FY2023/24 in Crore vs others in absolute Rupees; Jindal FY2025 in absolute Rupees vs others in Crore) — stored ranks correct but chart values are not comparable.
 
 **TAG_GROUPS changes applied 2026-04-27 (cumulative):**
 - Removed: GHG/Energy/Water/Waste Intensity PPP, Scope 3 entity metric, Waste Intensity entity metric, Total Wages Paid, Gross Wages Paid to Female, Avg Training Hours (Employees + Workers)

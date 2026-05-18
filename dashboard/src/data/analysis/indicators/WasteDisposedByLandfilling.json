@@ -46,7 +46,7 @@
     "about": "This metric measures waste sent to landfill under BRSR Principle 6, Essential Indicator on disposal route. SEBI defines landfilling as depositing waste in sanitary landfills and excludes uncontrolled dumping or open burning. A lower value indicates better performance.",
     "performanceAndDrivers": "Tata reduced landfill disposal sharply from 303,496 MT in FY2024 to 15,987 MT in FY2025, improving to rank 2. JSW led FY2025 with 3,221.8 MT, while SAIL deteriorated materially to 969,314 MT due to old-stock disposal and Jindal remained at 42,852 MT. JSL’s Zero-Waste-to-Landfill ambition is directionally important, but its FY2025 landfill remained higher than Tata and JSW.",
     "tataPositioning": "Tata ranked 2nd in FY2025 and landfilled about 396% more waste than JSW. Tata’s ranking improved from 4th in FY2024 to 2nd in FY2025, driven by a step-change reduction in landfill volumes.",
-    "targets": "JSL is working toward Zero-Waste-to-Landfill certification by 2030. SAIL targets 100% solid waste utilisation, while Tata has not disclosed a landfill-specific target in the retrieved extracts.",
+    "targets": "JSL is working toward Zero-Waste-to-Landfill certification by 2030. SAIL targets 100% solid waste utilisation, while Tata has not disclosed a landfill-specific target.",
     "comparabilityNotes": "SAIL FY2025 landfill includes old-stock disposal; Tata FY2023 is consolidated."
   },
   "flags": {

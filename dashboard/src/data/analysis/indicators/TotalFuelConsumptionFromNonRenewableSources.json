@@ -44,7 +44,7 @@
   },
   "sections": {
     "about": "This metric measures fossil fuel and other non-renewable fuel consumption under BRSR Principle 6, Essential Indicator 1. For integrated steelmakers, this is dominated by metallurgical coal, coke, injected coal, furnace oil/gas and process gases used for heat and power. A lower value indicates better performance.",
-    "performanceAndDrivers": "Jindal Stainless leads consistently, at 27.68 million GJ in FY2025. SAIL is second but worsened from 449.76 million GJ in FY2023 to 484.80 million GJ in FY2025. JSW also worsened from 481.73 million GJ to 513.72 million GJ. Tata is highest in all three years: 708.20 million GJ in FY2023 consolidated, 549.79 million GJ in FY2024 and 564.32 million GJ in FY2025. This is the most route-sensitive metric: Tata’s BF-BOF system remains heavily fuel-led, while Jindal’s EAF/stainless operations and high scrap/revert use create a structurally smaller fossil fuel base. Jindal reports 72.11% recycled material use in FY2025 and several energy-saving initiatives.",
+    "performanceAndDrivers": "Jindal Stainless leads consistently, at 27.68 million GJ in FY2025. SAIL is second but worsened from 449.76 million GJ in FY2023 to 484.80 million GJ in FY2025. JSW also worsened from 481.73 million GJ to 513.72 million GJ. Tata is highest in all three years: 762 million GJ in FY2023, 517 million GJ in FY2024 and 564.32 million GJ in FY2025. This is the most route-sensitive metric: Tata’s BF-BOF system remains heavily fuel-led, while Jindal’s EAF/stainless operations and high scrap/revert use create a structurally smaller fossil fuel base. Jindal reports 72.11% recycled material use in FY2025 and several energy-saving initiatives.",
     "tataPositioning": "In FY2025, Tata ranks 4th, with non-renewable fuel consumption 1,939% above Jindal Stainless. Tata’s rank stayed 4th across all three years despite an FY2024 reduction. The gap is structural: BF-BOF crude steel requires high-carbon reductants and thermal fuel streams, while renewable electricity alone cannot materially reduce coke and coal demand.",
     "targets": "Tata’s relevant BRSR actions include energy efficiency, alternative fuels and collaboration with BEE. SAIL is implementing CDQ, TRT, CDI, WHR and green hydrogen pilots. Jindal Stainless targets 50% emissions reduction before FY2035 and net zero by 2050, supported by biofuel substitution and thermal energy-saving initiatives.",
     "comparabilityNotes": "Fuel consumption is strongly affected by production route. BF-BOF peers are not directly comparable with stainless EAF operations on an absolute GJ basis."
@@ -58,5 +58,5 @@
   },
   "source": "CustomGPT",
   "userCorrection": null,
-  "status": "pending_review"
+  "status": "reviewed"
 }

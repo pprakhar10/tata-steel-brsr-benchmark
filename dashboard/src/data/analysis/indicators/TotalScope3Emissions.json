@@ -26,7 +26,7 @@
   },
   "trendDirection": {
     "tata": {
-      "FY2023-24": "AMBIGUOUS: Tata FY2022-23 is consolidated while FY2023-24 is standalone",
+      "FY2023-24": "Worsened",
       "FY2024-25": "Worsened"
     },
     "jsw": {
@@ -45,9 +45,9 @@
   "sections": {
     "about": "This metric captures value-chain GHG emissions outside Scope 1 and Scope 2, such as purchased goods, logistics, use-phase categories where relevant, investments and other upstream/downstream categories. It falls under BRSR Principle 6, Leadership Indicator; Leadership Indicators are voluntary disclosures. A lower value indicates better performance.",
     "performanceAndDrivers": "In FY2025, Jindal Stainless leads at 3.22 MtCO2e, improving from 3.35 MtCO2e in FY2024; SAIL also improves steadily from 5.62 MtCO2e in FY2023 to 4.84 MtCO2e in FY2025. JSW worsens materially from 1.28 MtCO2e in FY2023 to 8.69 MtCO2e in FY2025, likely reflecting either expanded value-chain coverage or higher upstream activity, but the retrieved corpus does not contain JSW methodology detail. Tata rises from 15.00 MtCO2e in FY2024 to 23.00 MtCO2e in FY2025 and remains highest; Tata’s FY2025 BRSR states that GHG emissions are reported using the GHG Protocol Corporate and Scope 3 standards, with equity-consolidated JV emissions included under Scope 3 category 15 investments.",
-    "tataPositioning": "In FY2025, Tata ranks 4th, with Scope 3 emissions 615% higher than Jindal Stainless. Tata moved from rank 3 in FY2023 to rank 4 in FY2024 and FY2025, although the FY2023 value is not fully comparable because it is consolidated. The deterioration is driven by Tata’s higher reported Scope 3 base and FY2025 increase to 23.00 MtCO2e, which may reflect a combination of value-chain scale, category coverage and investment-related accounting rather than only operational inefficiency.",
+    "tataPositioning": "In FY2025, Tata ranks 4th, with Scope 3 emissions 615% higher than Jindal Stainless. Tata moved from rank 3 in FY2023 to rank 4 in FY2024 and FY2025. The deterioration is driven by Tata’s higher reported Scope 3 base and FY2025 increase to 23.00 MtCO2e, which may reflect a combination of value-chain scale, category coverage and investment-related accounting rather than only operational inefficiency.",
     "targets": "Tata Steel’s FY2025 BRSR states it is tracking and addressing Scope 1, 2 and 3 emissions in its supply chain and procurement operations, aligned with its Net Zero 2045 target. Jindal Stainless targets Net Zero by 2050 and reports a 14% reduction in Scope 1+2 and Scope 3 emissions from FY2024 in FY2025.",
-    "comparabilityNotes": "Scope 3 comparability is inherently weaker than Scope 1 and Scope 2 because category coverage, spend-based versus activity-based factors, logistics assumptions and investment accounting can materially change totals. Jindal did not report FY2022-23 Scope 3, and Tata FY2022-23 is consolidated."
+    "comparabilityNotes": "Scope 3 comparability is inherently weaker than Scope 1 and Scope 2 because category coverage, spend-based versus activity-based factors, logistics assumptions and investment accounting can materially change totals. Jindal did not report FY2022-23 Scope 3."
   },
   "flags": {
     "directionUnclear": false,
@@ -58,5 +58,5 @@
   },
   "source": "CustomGPT",
   "userCorrection": null,
-  "status": "pending_review"
+  "status": "reviewed"
 }

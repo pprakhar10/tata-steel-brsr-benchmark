@@ -206,15 +206,15 @@
         "patchSource": null
       },
       "EnergyIntensityPerRupeeOfTurnover": {
-        "value": 869.0,
+        "value": 0.0000869,
         "rawValue": "869",
-        "rawUnit": null,
-        "standardUnit": null,
+        "rawUnit": "GJ/Crore INR",
+        "standardUnit": "GJ/rupee",
         "normalized": true,
-        "unitWarning": "869 GJ/Crore INR; reported incorrectly in FY23 — corrected in later reporting years.",
+        "unitWarning": "Reported as 869 GJ/Crore INR. Converted: 869 / 1e7 = 0.0000869 GJ/₹.",
         "dataType": "intensity",
-        "valueStatus": "value",
-        "patchSource": "ManualReview"
+        "valueStatus": "reported",
+        "patchSource": "user_correction"
       },
       "EnergyIntensityTheRelevantMetricMayBeSelectedByTheEntity": {
         "value": 19.15,
@@ -625,15 +625,15 @@
         "patchSource": null
       },
       "TotalElectricityConsumptionFromRenewableSources": {
-        "value": 121060.0,
-        "rawValue": "121060",
+        "value": 12743,
+        "rawValue": "12743",
         "rawUnit": "GJ",
         "standardUnit": "GJ",
         "normalized": true,
-        "unitWarning": "FY23 BRSR originally reported 12,743 GJ; corrected to 121,060 GJ (confirmed by later reporting years).",
+        "unitWarning": "Reverted to BRSR-reported 12,743 GJ per user correction.",
         "dataType": "numeric",
         "valueStatus": "reported",
-        "patchSource": "ManualReview"
+        "patchSource": "user_correction"
       },
       "TotalFuelConsumptionFromRenewableSources": {
         "value": 0.0,
@@ -658,15 +658,15 @@
         "patchSource": null
       },
       "TotalEnergyConsumedFromRenewableSources": {
-        "value": 121060.0,
-        "rawValue": "121060",
+        "value": 12743,
+        "rawValue": "12743",
         "rawUnit": "GJ",
         "standardUnit": "GJ",
         "normalized": true,
-        "unitWarning": "FY23 BRSR originally reported 12,743 GJ; corrected to 121,060 GJ (confirmed by later reporting years).",
+        "unitWarning": "Reverted to BRSR-reported 12,743 GJ per user correction.",
         "dataType": "numeric",
         "valueStatus": "reported",
-        "patchSource": "ManualReview"
+        "patchSource": "user_correction"
       },
       "TotalElectricityConsumptionFromNonRenewableSources": {
         "value": 3558416.0,
@@ -922,15 +922,15 @@
         "patchSource": null
       },
       "Turnover": {
-        "value": 348490000000.0,
-        "rawValue": "348490000000",
-        "rawUnit": null,
-        "standardUnit": null,
+        "value": 34849,
+        "rawValue": "34849",
+        "rawUnit": "INR Crore",
+        "standardUnit": "INR Crore",
         "normalized": true,
-        "unitWarning": null,
+        "unitWarning": "XBRL filed in absolute rupees. Corrected to INR Crore per user-provided annual report value.",
         "dataType": "numeric",
-        "valueStatus": "value",
-        "patchSource": null
+        "valueStatus": "reported",
+        "patchSource": "user_correction"
       },
       "NetWorth": {
         "value": 11351.0,
@@ -25619,15 +25619,15 @@
         "patchSource": null
       },
       "Turnover": {
-        "value": 383560000000.0,
-        "rawValue": "383560000000",
-        "rawUnit": null,
-        "standardUnit": null,
+        "value": 38356,
+        "rawValue": "38356",
+        "rawUnit": "INR Crore",
+        "standardUnit": "INR Crore",
         "normalized": true,
-        "unitWarning": null,
+        "unitWarning": "XBRL filed in absolute rupees. Corrected to INR Crore per user-provided annual report value.",
         "dataType": "numeric",
-        "valueStatus": "value",
-        "patchSource": null
+        "valueStatus": "reported",
+        "patchSource": "user_correction"
       },
       "NetWorth": {
         "value": 13699.99,
@@ -50451,15 +50451,15 @@
         "patchSource": null
       },
       "Turnover": {
-        "value": 408168800000.0,
-        "rawValue": "408168800000",
-        "rawUnit": null,
-        "standardUnit": null,
+        "value": 40182,
+        "rawValue": "40182",
+        "rawUnit": "INR Crore",
+        "standardUnit": "INR Crore",
         "normalized": true,
-        "unitWarning": null,
+        "unitWarning": "XBRL filed in absolute rupees. Corrected to INR Crore per user-provided annual report value.",
         "dataType": "numeric",
-        "valueStatus": "value",
-        "patchSource": null
+        "valueStatus": "reported",
+        "patchSource": "user_correction"
       },
       "NetWorth": {
         "value": 16196.88,

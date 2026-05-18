@@ -46,7 +46,7 @@
     "about": "This metric measures the total number of directors on the Board. It falls under BRSR Section A — General Disclosures, Participation/Inclusion/Representation of women; it is not an Essential or Leadership Indicator. Board size is a governance design choice and no direction is assigned: effectiveness depends on independence, skills, diversity, committee structure and oversight quality, not simply size.",
     "performanceAndDrivers": "SAIL had the largest Board in FY2022-23 and FY2023-24 at 17 and 16 directors respectively, before reducing to 10 in FY2024-25. JSW moved 12 → 10 → 12, Jindal moved 10 → 12 → 11, and Tata remained stable at 10 across all three years. For a steel major, board size can reflect government ownership structure, independent director appointments, promoter representation, executive director mix and committee load; it is not tied to production route or BF-BOF/EAF configuration. SEBI's BRSR format asks companies to disclose Board and KMP totals with female counts under Section A, which supports transparency but does not define an optimal board size.",
     "tataPositioning": "In FY2024-25, Tata has 10 directors, the same as SAIL. JSW has 12 and Jindal has 11. Tata's board size has held steady in absolute terms at 10 directors, with peer variation driven by appointment and retirement cycles. For Tata management, the more material governance signal is the composition — independence, diversity, and committee coverage — not the total count.",
-    "targets": "No targets identified for this metric.",
+    "targets": null,
     "comparabilityNotes": null
   },
   "flags": {

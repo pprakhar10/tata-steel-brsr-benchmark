@@ -206,15 +206,15 @@
         "patchSource": null
       },
       "EnergyIntensityPerRupeeOfTurnover": {
-        "value": 5.7,
-        "rawValue": "5.7",
-        "rawUnit": null,
-        "standardUnit": null,
+        "value": 0.00057,
+        "rawValue": "0.00057",
+        "rawUnit": "GJ/rupee",
+        "standardUnit": "GJ/rupee",
         "normalized": true,
-        "unitWarning": null,
+        "unitWarning": "Corrected per user correction. Original stored value (5.7) was wrong.",
         "dataType": "intensity",
-        "valueStatus": "value",
-        "patchSource": null
+        "valueStatus": "reported",
+        "patchSource": "user_correction"
       },
       "EnergyIntensityTheRelevantMetricMayBeSelectedByTheEntity": {
         "value": 0.0,
@@ -1075,15 +1075,15 @@
         "patchSource": null
       },
       "Turnover": {
-        "value": 1044473600000.0,
-        "rawValue": "1044473600000",
-        "rawUnit": null,
-        "standardUnit": null,
+        "value": 104447.36,
+        "rawValue": "104447.36",
+        "rawUnit": "INR Crore",
+        "standardUnit": "INR Crore",
         "normalized": true,
-        "unitWarning": null,
+        "unitWarning": "XBRL filed in absolute rupees. Corrected to INR Crore per user-provided annual report value.",
         "dataType": "numeric",
-        "valueStatus": "value",
-        "patchSource": null
+        "valueStatus": "reported",
+        "patchSource": "user_correction"
       },
       "NetWorth": {
         "value": 52435.0,
@@ -21316,15 +21316,15 @@
         "patchSource": null
       },
       "TotalElectricityConsumptionFromNonRenewableSources": {
-        "value": 613900000.0,
-        "rawValue": "613900",
+        "value": 143445000,
+        "rawValue": "143445",
         "rawUnit": "TJ",
         "standardUnit": "GJ",
         "normalized": true,
-        "unitWarning": "XBRL stored 143,445 TJ (143,445,000 GJ). PDF Principle 6 Q1 Page 23 shows 6,13,900 TJ = 613,900,000 GJ. Corrected. (Phase 3c ITEM_22)",
+        "unitWarning": "Derived from FY25 BRSR comparative previous year column; FY24 report did not break down non-renewable total into electricity vs. fuel. 143,445 TJ = 143,445,000 GJ.",
         "dataType": "numeric",
         "valueStatus": "reported",
-        "patchSource": "PDF"
+        "patchSource": "user_correction"
       },
       "TotalFuelConsumptionFromNonRenewableSources": {
         "value": 469777000.0,
@@ -21371,15 +21371,15 @@
         "patchSource": null
       },
       "EnergyIntensityPerRupeeOfTurnover": {
-        "value": 0.560003009,
-        "rawValue": "0.560003009",
-        "rawUnit": null,
-        "standardUnit": null,
+        "value": 0.00057,
+        "rawValue": "0.00057",
+        "rawUnit": "GJ/rupee",
+        "standardUnit": "GJ/rupee",
         "normalized": true,
-        "unitWarning": null,
+        "unitWarning": "Originally reported as 0.560003009 — appears to be a reporting error (~1000x higher than adjacent years). Corrected to 0.00057 per user correction.",
         "dataType": "intensity",
-        "valueStatus": "value",
-        "patchSource": null
+        "valueStatus": "reported",
+        "patchSource": "user_correction"
       },
       "EnergyIntensityPerRupeeOfTurnoverAdjustingForPurchasingPowerParity": {
         "value": 11.323,
@@ -25782,15 +25782,15 @@
         "patchSource": null
       },
       "Turnover": {
-        "value": 1045450900000.0,
-        "rawValue": "1045450900000",
-        "rawUnit": null,
-        "standardUnit": null,
+        "value": 104545.09,
+        "rawValue": "104545.09",
+        "rawUnit": "INR Crore",
+        "standardUnit": "INR Crore",
         "normalized": true,
-        "unitWarning": null,
+        "unitWarning": "XBRL filed in absolute rupees. Corrected to INR Crore per user-provided annual report value.",
         "dataType": "numeric",
-        "valueStatus": "value",
-        "patchSource": null
+        "valueStatus": "reported",
+        "patchSource": "user_correction"
       },
       "NetWorth": {
         "value": 54130.54,

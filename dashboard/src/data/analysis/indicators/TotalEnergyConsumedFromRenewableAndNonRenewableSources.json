@@ -44,10 +44,10 @@
   },
   "sections": {
     "about": "This metric captures total energy consumed from renewable and non-renewable sources under BRSR Principle 6, Essential Indicator 1. It is an absolute energy-load metric, so it is heavily influenced by scale, crude steel volume, route mix, captive utilities and boundary. A lower value indicates better performance.",
-    "performanceAndDrivers": "Jindal Stainless is the lowest absolute consumer across all three years: 30.28 million GJ in FY2023, 35.14 million GJ in FY2024 and 32.05 million GJ in FY2025, reflecting its smaller stainless-steel operating boundary and comparatively lower total production scale. Tata remains among the highest absolute consumers: 733.55 million GJ in FY2023 on a consolidated basis, 569.33 million GJ in FY2024 and 587.56 million GJ in FY2025; the FY2025 increase suggests higher activity or boundary/standardisation effects rather than a pure efficiency signal. JSW rose steadily from 494.38 million GJ to 529.21 million GJ, while SAIL reduced sharply from 614.17 million GJ in FY2024 to 519.43 million GJ in FY2025. Tata’s BRSR context points to energy efficiency work with BEE, waste heat recovery, renewable energy and alternative fuels, while SAIL cites CDQ, TRT, CDI, waste heat recovery, walking beam reheating furnaces and PAT participation as key energy-efficiency levers.",
+    "performanceAndDrivers": "Jindal Stainless is the lowest absolute consumer across all three years: 30.28 million GJ in FY2023, 35.14 million GJ in FY2024 and 32.05 million GJ in FY2025, reflecting its smaller stainless-steel operating boundary and comparatively lower total production scale. Tata remains among the highest absolute consumers: 857 million GJ in FY2023, 545.96 million GJ in FY2024 and 587.56 million GJ in FY2025; the FY2025 increase suggests higher activity or boundary/standardisation effects rather than a pure efficiency signal. JSW rose steadily from 494.38 million GJ to 529.21 million GJ, while SAIL reduced sharply from 614.17 million GJ in FY2024 to 519.43 million GJ in FY2025. Tata’s BRSR context points to energy efficiency work with BEE, waste heat recovery, renewable energy and alternative fuels, while SAIL cites CDQ, TRT, CDI, waste heat recovery, walking beam reheating furnaces and PAT participation as key energy-efficiency levers.",
     "tataPositioning": "In FY2025, Tata ranks 4th, with total energy consumption 1,733% above the best performer, Jindal Stainless. Tata’s ranking improved from 4th in FY2023 to 3rd in FY2024, then slipped back to 4th in FY2025 as SAIL’s total energy reduced and Tata’s increased. The key issue is that this is an absolute metric: Tata’s BF-BOF integrated route, captive power/process-gas system and broader operating boundary structurally create a larger energy base than Jindal’s stainless steel footprint.",
     "targets": "Tata Steel has committed to energy-efficiency initiatives and a 379 MW captive renewable power agreement with Tata Power, expected to reduce 50 million tonnes of carbon emissions over 25 years. SAIL aims to scale renewable capacity to 384 MW by FY2028-29 and is aligned with a phased decarbonisation roadmap. Jindal Stainless targets net zero by 2050 and a 50% reduction in emissions before FY2035.",
-    "comparabilityNotes": "Absolute consumption is not normalised for steel output. Tata FY2023 is consolidated, while most other company-years are standalone; FY2025 Tata is marked standardised/corrected."
+    "comparabilityNotes": "Absolute consumption is not normalised for steel output."
   },
   "flags": {
     "directionUnclear": false,
@@ -58,5 +58,5 @@
   },
   "source": "CustomGPT",
   "userCorrection": null,
-  "status": "pending_review"
+  "status": "reviewed"
 }

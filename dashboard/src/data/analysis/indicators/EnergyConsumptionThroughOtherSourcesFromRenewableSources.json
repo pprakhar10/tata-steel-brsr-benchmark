@@ -7,9 +7,9 @@
   "peerRank": {
     "FY2023": {
       "tata": 1,
-      "jsw": 2,
-      "sail": 2,
-      "jindal": 2
+      "jsw": 1,
+      "sail": 1,
+      "jindal": 1
     },
     "FY2024": {
       "tata": 1,
@@ -26,7 +26,7 @@
   },
   "trendDirection": {
     "tata": {
-      "FY2023-24": "Worsened",
+      "FY2023-24": "Stable",
       "FY2024-25": "Stable"
     },
     "jsw": {
@@ -44,9 +44,9 @@
   },
   "sections": {
     "about": "This metric captures renewable energy consumed through sources other than electricity and fuel under BRSR Principle 6, Essential Indicator 1. It is usually a residual category and is often zero where renewable energy is fully classified as electricity or fuel. A higher value indicates better performance.",
-    "performanceAndDrivers": "Only Tata reported a non-zero value in FY2023 at 20,000 GJ on a consolidated basis; all peers reported zero. In FY2024 and FY2025, all four companies reported zero, meaning renewable energy was captured under electricity or fuel rather than other-source categories. The category does not appear to be a strategic differentiator for any company in FY2025.",
-    "tataPositioning": "In FY2025, Tata ranks 1st, tied with JSW, SAIL and Jindal at zero. There is no percentage gap because all companies reported the same value. Tata’s ranking remains rank 1 due to ties, but its absolute value worsened from 20,000 GJ in FY2023 to zero in FY2024 and stayed zero in FY2025.",
-    "targets": "No targets identified for this specific metric. Broader renewable energy targets exist for Tata, SAIL and Jindal, but none are stated for “other renewable sources” specifically.",
+    "performanceAndDrivers": "All four companies reported zero across all three years, meaning renewable energy is fully classified under electricity or fuel categories rather than other-source categories. This category is not a strategic differentiator for any company.",
+    "tataPositioning": "In FY2025, Tata ranks 1st, tied with all peers at zero across all three years. There is no performance gap as all companies report the same value.",
+    "targets": "Broader renewable energy targets exist for Tata, SAIL and Jindal, but none are stated specifically for this sub-category of energy sources.",
     "comparabilityNotes": "This category is residual. A zero value is not necessarily poor performance if renewable energy is reported under electricity or fuel."
   },
   "flags": {
@@ -58,5 +58,5 @@
   },
   "source": "CustomGPT",
   "userCorrection": null,
-  "status": "pending_review"
+  "status": "reviewed"
 }

@@ -46,7 +46,7 @@
     "about": "This metric measures the total number of Key Management Personnel disclosed in BRSR. It falls under BRSR Section A — General Disclosures, Participation/Inclusion/Representation of women; it is not an Essential or Leadership Indicator. No direction is assigned: KMP count is driven by Companies Act classification, executive structure and disclosure practice.",
     "performanceAndDrivers": "SAIL discloses the largest KMP base, reducing from 20 to 14 to 11 over the three years. Tata remains constant at 3, while JSW moves 5 → 5 → 6 and Jindal Stainless moves 5 → 6 → 6. Jindal's FY2024-25 BRSR clarifies that KMP includes Chairman & Managing Director, Managing Director, CEO & Wholetime Director, Wholetime Director & COO, Executive Director & Group CFO, and Head Legal/Company Secretary, showing how company-specific designation drives this metric.",
     "tataPositioning": "In FY2024-25, Tata discloses 3 KMPs, the lowest in the peer set. This does not indicate weaker governance by itself; the disclosed KMP structure reflects Tata's classification choices. The more material governance diversity issue is that Tata reports no women KMPs.",
-    "targets": "No targets identified for this metric.",
+    "targets": null,
     "comparabilityNotes": null
   },
   "flags": {
