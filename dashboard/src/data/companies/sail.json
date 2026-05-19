@@ -326,7 +326,7 @@
         "valueStatus": "value",
         "patchSource": null
       },
-      "Nox": {
+      "NOx": {
         "value": null,
         "rawValue": "3 to 87",
         "rawUnit": "mg/Nm3",
@@ -337,7 +337,7 @@
         "valueStatus": "not_normalizable",
         "patchSource": "ManualReview"
       },
-      "Sox": {
+      "SOx": {
         "value": null,
         "rawValue": "3 to 76",
         "rawUnit": "mg/Nm3",
@@ -46160,26 +46160,26 @@
         "patchSource": null
       },
       "NOx": {
-        "value": 0.8,
-        "rawValue": "0.8",
-        "rawUnit": "µg/m3",
-        "standardUnit": null,
-        "normalized": false,
-        "unitWarning": "Concentration unit (µg/m3) cannot be converted to mass. Excluded from cross-company air emission comparisons.",
+        "value": 15.336,
+        "rawValue": "0.80",
+        "rawUnit": "kg/tcs",
+        "standardUnit": "kilotonnes",
+        "normalized": true,
+        "unitWarning": "Derived: 0.80 kg/tcs x 19,170,000 t crude steel = 15,336,000 kg = 15.336 kt",
         "dataType": "numeric",
         "valueStatus": "value",
-        "patchSource": null
+        "patchSource": "user_correction"
       },
       "SOx": {
-        "value": 0.95,
+        "value": 18.2115,
         "rawValue": "0.95",
-        "rawUnit": "µg/m3",
-        "standardUnit": null,
-        "normalized": false,
-        "unitWarning": "Concentration unit (µg/m3) cannot be converted to mass. Excluded from cross-company air emission comparisons.",
+        "rawUnit": "kg/tcs",
+        "standardUnit": "kilotonnes",
+        "normalized": true,
+        "unitWarning": "Derived: 0.95 kg/tcs x 19,170,000 t crude steel = 18,211.5 t = 18.2115 kt",
         "dataType": "numeric",
         "valueStatus": "value",
-        "patchSource": null
+        "patchSource": "user_correction"
       },
       "ParticulateMatter": {
         "value": 10.7352,

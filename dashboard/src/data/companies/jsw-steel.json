@@ -326,7 +326,7 @@
         "valueStatus": "value",
         "patchSource": null
       },
-      "Nox": {
+      "NOx": {
         "value": 28.7385,
         "rawValue": "1.19",
         "rawUnit": "kg/tcs",
@@ -337,16 +337,16 @@
         "valueStatus": "value",
         "patchSource": null
       },
-      "Sox": {
-        "value": 40.8135,
+      "SOx": {
+        "value": 35.2693,
         "rawValue": "1.69",
         "rawUnit": "kg/tcs",
         "standardUnit": "kilotonnes",
         "normalized": true,
-        "unitWarning": null,
+        "unitWarning": "Derived: 1.69 kg/tcs x 20,870,000 t crude steel = 35,269.3 t = 35.2693 kt",
         "dataType": "numeric",
         "valueStatus": "value",
-        "patchSource": null
+        "patchSource": "user_correction"
       },
       "ParticulateMatter": {
         "value": 10.143,
@@ -53011,15 +53011,15 @@
         "patchSource": null
       },
       "SOx": {
-        "value": 46.1314,
-        "rawValue": "46131400",
-        "rawUnit": "kg",
+        "value": 34.6442,
+        "rawValue": "34.6442",
+        "rawUnit": "kilotonnes",
         "standardUnit": "kilotonnes",
         "normalized": true,
         "unitWarning": null,
         "dataType": "numeric",
         "valueStatus": "value",
-        "patchSource": "JSW BRSR FY2024-25 PDF: SOx = 1.66 Kg/tcs × 27,790,000 t production"
+        "patchSource": "user_correction"
       },
       "ParticulateMatter": {
         "value": 10.84,

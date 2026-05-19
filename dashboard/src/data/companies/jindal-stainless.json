@@ -327,7 +327,7 @@
         "valueStatus": "value",
         "patchSource": null
       },
-      "Nox": {
+      "NOx": {
         "value": 1.98068,
         "rawValue": "1980.68",
         "rawUnit": "MT",
@@ -338,7 +338,7 @@
         "valueStatus": "value",
         "patchSource": null
       },
-      "Sox": {
+      "SOx": {
         "value": 0.85189,
         "rawValue": "851.89",
         "rawUnit": "MT",
