@@ -21734,15 +21734,15 @@
         "patchSource": "ManualReview"
       },
       "ParticulateMatter": {
-        "value": 11.62,
-        "rawValue": "0.604",
+        "value": 11.1592,
+        "rawValue": "0.58",
         "rawUnit": "kg/tcs",
         "standardUnit": "kilotonnes",
         "normalized": true,
-        "unitWarning": "PDF: 11.62 kt (user-verified)",
+        "unitWarning": "Derived: 0.58 kg/tcs x 19,240,000 t crude steel = 11,159.2 t = 11.1592 kt",
         "dataType": "numeric",
         "valueStatus": "reported",
-        "patchSource": "ManualReview"
+        "patchSource": "user_correction"
       },
       "PersistentOrganicPollutants": {
         "value": 0.0,

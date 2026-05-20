@@ -6,8 +6,8 @@
   "direction": "lower_is_better",
   "peerRank": {
     "FY2023": {
-      "tata": 4,
-      "jsw": 3,
+      "tata": 3,
+      "jsw": 4,
       "sail": 1,
       "jindal": 2
     },
@@ -44,10 +44,10 @@
   },
   "sections": {
     "about": "This metric measures withdrawal from rivers, reservoirs and other surface-water bodies under BRSR Principle 6 Essential Indicator water withdrawal by source. Surface water is typically the main freshwater source for integrated steel plants and is exposed to climate variability and water allocation constraints. A lower value indicates better performance.",
-    "performanceAndDrivers": "Jindal remains the best performer in FY2024 and FY2025, although its surface-water withdrawal rises from 13.27 million kL to 15.08 million kL. Tata is 2nd in FY2025 at 69.35 million kL, below JSW’s 95.37 million kL and SAIL’s 129.58 million kL. SAIL’s shift from zero surface-water disclosure in FY2023 to 57.40 million kL in FY2024 and 129.58 million kL in FY2025 suggests either major reclassification from “other sources” or a boundary/reporting change in source categorisation, not simply operational deterioration.",
-    "tataPositioning": "In FY2025, Tata ranks 2nd. Jindal is best at 15.08 million kL, and Tata is approximately 360% higher. Tata’s rank improves from 4th in FY2023 to 3rd in FY2024 and 2nd in FY2025, but this ranking improvement is partly a peer effect driven by SAIL’s reclassification/spike and JSW’s higher dependence, while Tata’s own FY2024-25 surface withdrawal increases.",
+    "performanceAndDrivers": "Jindal remains the best performer in FY2024 and FY2025, although its surface-water withdrawal rises from 13.27 million kL to 15.08 million kL. Tata is 2nd in FY2025 at 69.35 million kL, below JSW's 95.37 million kL and SAIL's 129.58 million kL. SAIL's shift from zero surface-water disclosure in FY2023 to 57.40 million kL in FY2024 and 129.58 million kL in FY2025 suggests either major reclassification from other sources or a boundary/reporting change in source categorisation, not simply operational deterioration.",
+    "tataPositioning": "In FY2025, Tata ranks 2nd. Jindal is best at 15.08 million kL, and Tata is approximately 360% higher. Tata holds 3rd in FY2023 and FY2024, improving to 2nd in FY2025; this improvement is partly a peer effect driven by SAIL's reclassification/spike and JSW's higher dependence, while Tata's own FY2024-25 surface withdrawal increases.",
     "targets": "Tata specifically states it seeks to reduce freshwater withdrawal from rivers by maximising recycling of treated waste effluents and using water-efficient infrastructure. SAIL states ZLD is a goal for steel plants, with all upcoming units envisaged on the ZLD concept.",
-    "comparabilityNotes": "SAIL’s FY2023 “other sources” and FY2024/FY2025 surface-water reporting require caution. Tata FY2023 is consolidated."
+    "comparabilityNotes": "Tata Steel FY2022-23 surface water withdrawal is reported for Tata Steel India and its Indian subsidiaries, not on a purely standalone basis. SAIL's FY2023 surface-water figure is zero because SAIL did not provide a source-wise breakup that year; all withdrawal was reported under Other Sources."
   },
   "flags": {
     "directionUnclear": false,

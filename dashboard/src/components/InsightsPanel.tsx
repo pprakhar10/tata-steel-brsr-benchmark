@@ -29,7 +29,6 @@ const FLAG_LABELS: Record<string, string> = {
   directionUnclear: 'Direction Unclear',
   contextInsufficient: 'Context Insufficient',
   externalSourceUsed: 'External Source Used',
-  trendAmbiguity: 'Trend Ambiguity',
 }
 
 const SECTION_LABELS: Record<string, string> = {
@@ -46,7 +45,7 @@ export default function InsightsPanel({ tag }: Props) {
   if (!analysis) return null
 
   const activeFlags = Object.entries(analysis.flags)
-    .filter(([k, v]) => k !== 'flagNote' && v === true)
+    .filter(([k, v]) => k !== 'flagNote' && k !== 'trendAmbiguity' && v === true)
     .map(([k]) => k)
 
   return (

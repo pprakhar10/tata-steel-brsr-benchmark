@@ -27,7 +27,7 @@ export default function SearchPanel({ onNavigate }: Props) {
 
   const results = selectedFY
     ? SEARCHABLE_TAGS.filter(tag =>
-        (ESG_MAP[tag]?.label ?? '').toLowerCase().includes(query.toLowerCase())
+        (ESG_MAP[tag]?.label ?? '').toLowerCase().includes(query.trim().toLowerCase())
       )
     : []
 

@@ -61,7 +61,12 @@ export default function IndicatorCard({ tag, highlight, activeSubTag }: Props) {
       <div className="px-5 pt-4 pb-3 border-b border-gray-100">
         <div className="flex items-start justify-between gap-4">
           <div>
-            <h3 className="font-semibold text-gray-900">{entry.label}</h3>
+            <h3 className="font-semibold text-gray-900">
+              {entry.label}
+              {isStacked && selectedView !== 'stacked' && selectedView !== 'total' && (
+                <span className="text-gray-400 font-normal"> — {ESG_MAP[selectedView]?.label ?? selectedView}</span>
+              )}
+            </h3>
             {entry.unit && <span className="text-xs text-gray-400">{formatUnitFull(entry.unit)}</span>}
           </div>
           {isStacked && (

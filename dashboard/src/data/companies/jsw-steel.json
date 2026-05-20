@@ -349,15 +349,15 @@
         "patchSource": "user_correction"
       },
       "ParticulateMatter": {
-        "value": 10.143,
+        "value": 8.7654,
         "rawValue": "0.42",
         "rawUnit": "kg/tcs",
         "standardUnit": "kilotonnes",
         "normalized": true,
-        "unitWarning": null,
+        "unitWarning": "Derived: 0.42 kg/tcs x 20,870,000 t crude steel = 8,765.4 t = 8.7654 kt",
         "dataType": "numeric",
         "valueStatus": "value",
-        "patchSource": null
+        "patchSource": "user_correction"
       },
       "PersistentOrganicPollutants": {
         "value": null,
@@ -25035,15 +25035,15 @@
         "patchSource": "ManualReview"
       },
       "ParticulateMatter": {
-        "value": 8.62,
-        "rawValue": "8.62",
-        "rawUnit": "kilotonnes",
+        "value": 8.4588,
+        "rawValue": "0.38",
+        "rawUnit": "kg/tcs",
         "standardUnit": "kilotonnes",
         "normalized": true,
-        "unitWarning": "PDF: 8.62 kt",
+        "unitWarning": "Derived: 0.38 kg/tcs x 22,260,000 t crude steel = 8,458.8 t = 8.4588 kt",
         "dataType": "numeric",
         "valueStatus": "reported",
-        "patchSource": "ManualReview"
+        "patchSource": "user_correction"
       },
       "PersistentOrganicPollutants": {
         "value": 0.0,
@@ -53022,15 +53022,15 @@
         "patchSource": "user_correction"
       },
       "ParticulateMatter": {
-        "value": 10.84,
-        "rawValue": "10.84",
-        "rawUnit": "kg",
+        "value": 8.7594,
+        "rawValue": "0.39",
+        "rawUnit": "kg/tcs",
         "standardUnit": "kilotonnes",
         "normalized": true,
-        "unitWarning": "PDF-confirmed: 10.84 kt. (Excel review 2026-04-27)",
+        "unitWarning": "Derived: 0.39 kg/tcs x 22,460,000 t crude steel = 8,759.4 t = 8.7594 kt",
         "dataType": "numeric",
         "valueStatus": "reported",
-        "patchSource": "Excel"
+        "patchSource": "user_correction"
       },
       "PersistentOrganicPollutants": {
         "value": 0.0,
