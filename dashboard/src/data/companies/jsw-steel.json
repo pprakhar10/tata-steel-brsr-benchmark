@@ -294,15 +294,15 @@
         "patchSource": null
       },
       "TotalVolumeOfWaterConsumption": {
-        "value": 51053889.0,
-        "rawValue": "51053889",
+        "value": 51054289,
+        "rawValue": "51054289",
         "rawUnit": "kilolitres",
         "standardUnit": "kL",
         "normalized": true,
         "unitWarning": null,
         "dataType": "numeric",
-        "valueStatus": "value",
-        "patchSource": null
+        "valueStatus": "reported",
+        "patchSource": "user_correction"
       },
       "WaterIntensityPerRupeeOfTurnover": {
         "value": 0.0396,
