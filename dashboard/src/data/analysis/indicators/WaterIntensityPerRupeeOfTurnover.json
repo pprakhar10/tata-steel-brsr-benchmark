@@ -6,9 +6,9 @@
   "direction": "lower_is_better",
   "peerRank": {
     "FY2023": {
-      "tata": 3,
+      "tata": 4,
       "jsw": 2,
-      "sail": 4,
+      "sail": 3,
       "jindal": 1
     },
     "FY2024": {
@@ -26,7 +26,7 @@
   },
   "trendDirection": {
     "tata": {
-      "FY2023-24": "AMBIGUOUS: Tata FY2022-23 is consolidated",
+      "FY2023-24": "Improved",
       "FY2024-25": "Worsened"
     },
     "jsw": {
@@ -44,10 +44,10 @@
   },
   "sections": {
     "about": "This metric measures water consumption per rupee of revenue from operations under BRSR Principle 6 Essential Indicator water intensity per rupee of turnover. It is useful for capital-market comparability but can be distorted by steel price cycles, product mix, alloy/stainless value addition and revenue recognition. A lower value indicates better performance.",
-    "performanceAndDrivers": "Jindal leads in all three years, at 0.03587 L/₹ in FY2025. JSW ranks 2nd at 0.0424 L/₹. Tata worsens from 0.063 in FY2024 to 0.074 in FY2025, but ranks ahead of SAIL, which deteriorates to 0.089. Jindal’s BRSR reports water intensity per turnover as 358.67 KL/Crore INR for FY2025, equivalent to the standardised 0.03587 L/₹, and notes PPP-adjusted disclosure based on IMF conversion factors.",
-    "tataPositioning": "In FY2025, Tata ranks 3rd. Jindal is best at 0.03587 L/₹, making Tata’s 0.074 L/₹ approximately 106% higher. Tata moves from 4th in FY2024 to 3rd in FY2025 because SAIL deteriorates more sharply, but Tata’s own performance worsens.",
+    "performanceAndDrivers": "Jindal leads in all three years, at 0.03587 L/₹ in FY2025. JSW ranks 2nd consistently. Tata ranks 4th in FY2023 at 0.07 L/₹, improving to 0.063 L/₹ in FY2024 before worsening to 0.074 L/₹ in FY2025. SAIL deteriorates from 0.0529 L/₹ in FY2023 to 0.089 L/₹ in FY2025. Jindal's BRSR reports water intensity per turnover as 358.67 KL/Crore INR for FY2025, equivalent to the standardised 0.03587 L/₹, and notes PPP-adjusted disclosure based on IMF conversion factors.",
+    "tataPositioning": "In FY2025, Tata ranks 3rd. Jindal is best at 0.03587 L/₹, making Tata's 0.074 L/₹ approximately 106% higher. Tata ranks 4th in FY2023 and FY2024, improving to 3rd in FY2025 as SAIL deteriorates more sharply, though Tata's own performance worsens from 0.063 L/₹ in FY2024 to 0.074 L/₹ in FY2025.",
     "targets": "No turnover-intensity-specific targets identified. Tata’s water reduction and recycling framework is relevant but operational rather than revenue-normalised.",
-    "comparabilityNotes": "Revenue-normalised intensity is sensitive to steel prices, product mix, stainless versus carbon steel value, and rupee turnover effects. Physical-output intensity is more reliable for operational benchmarking."
+    "comparabilityNotes": "Revenue-normalised intensity is sensitive to steel prices, product mix, stainless versus carbon steel value, and rupee turnover effects. Physical-output intensity is more reliable for operational benchmarking. Tata Steel FY2022-23 water intensity per rupee of turnover is reported for Tata Steel India and its Indian subsidiaries, not on a purely standalone basis."
   },
   "flags": {
     "directionUnclear": false,

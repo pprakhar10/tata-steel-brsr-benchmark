@@ -6,10 +6,10 @@
   "direction": "lower_is_better",
   "peerRank": {
     "FY2023": {
-      "tata": 3,
+      "tata": 1,
       "jsw": 1,
       "sail": 1,
-      "jindal": 4
+      "jindal": 1
     },
     "FY2024": {
       "tata": 1,
@@ -26,7 +26,7 @@
   },
   "trendDirection": {
     "tata": {
-      "FY2023-24": "AMBIGUOUS: FY2023 is consolidated and includes overseas/coastal operations",
+      "FY2023-24": "Stable",
       "FY2024-25": "Stable"
     },
     "jsw": {
@@ -38,16 +38,16 @@
       "FY2024-25": "Stable"
     },
     "jindal": {
-      "FY2023-24": "Improved",
+      "FY2023-24": "Stable",
       "FY2024-25": "Stable"
     }
   },
   "sections": {
     "about": "This metric measures discharge to seawater under BRSR Principle 6 Essential Indicator water discharge by destination. For inland Indian steel operations it is generally expected to be zero; for coastal or overseas sites it can be material. A lower value indicates better performance.",
-    "performanceAndDrivers": "Tata’s FY2023 consolidated disclosure shows 243.23 million kL discharge to seawater, which drives the FY2023 outlier. FY2024 and FY2025 are zero for all companies. This supports the conclusion that the FY2023 Tata figure is boundary/site-mix driven rather than comparable to Indian standalone operations.",
-    "tataPositioning": "In FY2025, Tata is tied 1st with all peers at zero. The gap is zero. Tata’s ranking improves from FY2023 to FY2024, but this should not be read as operational improvement without boundary context.",
-    "targets": "No seawater-discharge-specific targets identified. Tata’s broader ZED and recycling strategy remains directionally relevant.",
-    "comparabilityNotes": "FY2023 Tata is consolidated and includes international operations; FY2024/FY2025 are the meaningful comparison period for Indian peer benchmarking. Tata Steel FY2022-23 water discharge metrics were not explicitly reported on a purely standalone basis but rather collectively for Tata Steel India and its Indian subsidiaries."
+    "performanceAndDrivers": "All four companies report zero discharge to seawater across all three years. No seawater discharge is expected for landlocked integrated steel operations in India; this metric is relevant primarily for coastal or desalination contexts.",
+    "tataPositioning": "In FY2025, Tata is tied 1st with all peers at zero. Tata is tied 1st across all three years.",
+    "targets": "Tata’s broader ZED and recycling strategy remains directionally relevant.",
+    "comparabilityNotes": "Tata Steel FY2022-23 water discharge metrics were not explicitly reported on a purely standalone basis but rather collectively for Tata Steel India and its Indian subsidiaries."
   },
   "flags": {
     "directionUnclear": false,

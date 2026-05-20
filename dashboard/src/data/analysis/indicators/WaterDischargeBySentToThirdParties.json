@@ -6,10 +6,10 @@
   "direction": "lower_is_better",
   "peerRank": {
     "FY2023": {
-      "tata": 3,
+      "tata": 1,
       "jsw": 1,
       "sail": 1,
-      "jindal": 4
+      "jindal": 1
     },
     "FY2024": {
       "tata": 4,
@@ -26,7 +26,7 @@
   },
   "trendDirection": {
     "tata": {
-      "FY2023-24": "AMBIGUOUS: Tata FY2022-23 is consolidated",
+      "FY2023-24": "Worsened",
       "FY2024-25": "Worsened"
     },
     "jsw": {
@@ -38,16 +38,16 @@
       "FY2024-25": "Stable"
     },
     "jindal": {
-      "FY2023-24": "Improved",
+      "FY2023-24": "Stable",
       "FY2024-25": "Stable"
     }
   },
   "sections": {
     "about": "This metric captures water discharged to third parties under BRSR Principle 6 Essential Indicator water discharge by destination. Lower values usually indicate stronger internal treatment/reuse and lower dependence on external treatment/disposal systems. A lower value indicates better performance.",
-    "performanceAndDrivers": "Tata is the only company reporting third-party discharge in FY2024 and FY2025, increasing from 154,972 kL to 220,129 kL. JSW, SAIL and Jindal report zero in FY2025. The increase is small compared with Tata’s total water flows but still indicates that some wastewater streams leave the operational boundary rather than being fully reused internally.",
-    "tataPositioning": "In FY2025, Tata ranks 4th. The best performers are JSW, SAIL and Jindal at zero; percentage gap is not meaningful, and Tata’s absolute gap is 220,129 kL. Tata worsens from FY2024 to FY2025 and remains behind peers.",
+    "performanceAndDrivers": "JSW, SAIL and Jindal report zero third-party discharge across all three years. Tata also reports zero in FY2023 but worsens to 155,000 kL in FY2024 and 220,000 kL in FY2025, indicating that some wastewater streams leave the operational boundary rather than being fully reused internally.",
+    "tataPositioning": "In FY2025, Tata ranks 4th. The best performers are JSW, SAIL and Jindal at zero; percentage gap is not meaningful, and Tata's absolute gap is 220,000 kL. Tata ranks tied 1st in FY2023 and 4th in FY2024/FY2025, worsening from zero in FY2023 to 155,000 kL in FY2024 and 220,000 kL in FY2025.",
     "targets": "Tata’s ZED objective and 4R framework are relevant; no third-party-discharge-specific quantitative target was identified.",
-    "comparabilityNotes": "Third-party discharge could include legally treated water sent for external handling; environmental impact depends on treatment level and recipient. Tata Steel FY2022-23 water discharge metrics were not explicitly reported on a purely standalone basis but rather collectively for Tata Steel India and its Indian subsidiaries."
+    "comparabilityNotes": "Third-party discharge could include legally treated water sent for external handling; environmental impact depends on treatment level and recipient. Jindal FY2022-23 discharge sent to third parties was not explicitly reported and is treated as zero for this indicator. Tata Steel FY2022-23 water discharge metrics were not explicitly reported on a purely standalone basis but rather collectively for Tata Steel India and its Indian subsidiaries."
   },
   "flags": {
     "directionUnclear": false,

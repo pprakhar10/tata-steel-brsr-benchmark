@@ -6,10 +6,10 @@
   "direction": "lower_is_better",
   "peerRank": {
     "FY2023": {
-      "tata": 2,
+      "tata": 1,
       "jsw": 1,
-      "sail": 3,
-      "jindal": 4
+      "sail": 1,
+      "jindal": 1
     },
     "FY2024": {
       "tata": 4,
@@ -26,7 +26,7 @@
   },
   "trendDirection": {
     "tata": {
-      "FY2023-24": "AMBIGUOUS: Tata FY2022-23 is consolidated",
+      "FY2023-24": "Worsened",
       "FY2024-25": "Improved"
     },
     "jsw": {
@@ -34,20 +34,20 @@
       "FY2024-25": "Stable"
     },
     "sail": {
-      "FY2023-24": "Improved",
+      "FY2023-24": "Stable",
       "FY2024-25": "Stable"
     },
     "jindal": {
-      "FY2023-24": "Improved",
+      "FY2023-24": "Stable",
       "FY2024-25": "Stable"
     }
   },
   "sections": {
     "about": "This metric measures discharge to groundwater under BRSR Principle 6 Essential Indicator water discharge by destination. Discharge to groundwater is environmentally sensitive because of aquifer contamination and regulatory risk. A lower value indicates better performance.",
-    "performanceAndDrivers": "By FY2025, all four peers report zero discharge to groundwater. Tata improves from 3,220 kL in FY2024 to zero in FY2025. SAIL reports 22.36 million kL in FY2023 and zero thereafter, suggesting a major treatment/discharge-routing or reporting reclassification. Jindal’s FY2022-23 was not reported and then reported zero in FY2024/FY2025.",
-    "tataPositioning": "In FY2025, Tata is tied 1st with all peers at zero. The gap is zero. Tata’s ranking moves from 4th in FY2024 to tied 1st in FY2025, reflecting elimination of reported groundwater discharge.",
+    "performanceAndDrivers": "All four peers report zero discharge to groundwater in FY2023 and FY2025. JSW, SAIL, and Jindal report zero across all three years. Tata also reports zero in FY2023 and FY2025 but worsens to 3.00 million kL in FY2024 before returning to zero.",
+    "tataPositioning": "In FY2025, Tata is tied 1st with all peers at zero. The gap is zero. Tata ranks tied 1st in FY2023 and FY2025 but drops to 4th in FY2024 with 3.00 million kL discharged to groundwater before returning to zero in FY2025.",
     "targets": "Tata’s ZED objective and internal reuse of treated effluents directly support reduction of discharge to groundwater. SAIL’s ZLD goal also supports this metric.",
-    "comparabilityNotes": "Jindal FY2022-23 was not reported. SAIL’s FY2022-23 to FY2023-24 movement may include reclassification. Tata Steel FY2022-23 water discharge metrics were not explicitly reported on a purely standalone basis but rather collectively for Tata Steel India and its Indian subsidiaries."
+    "comparabilityNotes": "Jindal FY2022-23 discharge to groundwater was not explicitly reported and is treated as zero for this indicator. Tata Steel FY2022-23 water discharge metrics were not explicitly reported on a purely standalone basis but rather collectively for Tata Steel India and its Indian subsidiaries."
   },
   "flags": {
     "directionUnclear": false,
