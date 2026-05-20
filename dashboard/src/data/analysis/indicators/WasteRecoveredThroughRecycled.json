@@ -44,10 +44,10 @@
   },
   "sections": {
     "about": "This metric measures waste recovered specifically through recycling under BRSR Principle 6, Essential Indicator on waste recovered by recovery route. Recycling refers to reprocessing waste into new materials. A higher value indicates better performance.",
-    "performanceAndDrivers": "JSW led in FY2025 with 16,546,750 MT recycled, only marginally ahead of Tata at 16,479,338 MT. Tata’s recycled waste increased strongly from 11,440,417 MT in FY2024 to 16,479,338 MT in FY2025, indicating a shift toward recycling rather than re-use. Jindal rose to 2,000,025 MT, consistent with stainless scrap circularity, while SAIL fell to 1,870,588 MT because a much larger share of its recovery was reported under “other recovery operations.”",
+    "performanceAndDrivers": "JSW led in FY2025 with 16,546,750 MT recycled, only marginally ahead of Tata at 16,479,338 MT. Tata's recycled waste increased strongly from 11,440,417 MT in FY2024 to 16,479,338 MT in FY2025, indicating a shift toward recycling rather than re-use. Jindal rose to 2,000,025 MT, consistent with stainless scrap circularity, while SAIL fell to 1,870,588 MT because a much larger share of its recovery was reported under other recovery operations.",
     "tataPositioning": "Tata ranked 2nd in FY2025 and was only about 0.4% behind JSW. Tata held rank 2 across all three years, but the absolute gap to the leader narrowed significantly in FY2025 due to a strong increase in recycled volumes.",
-    "targets": "No recycling-route-specific target was identified for Tata Steel in the retrieved BRSR extracts. JSL’s closed-loop recycling and Zero-Waste-to-Landfill ambition, and SAIL’s 100% utilisation aspiration, are relevant broader circularity targets.",
-    "comparabilityNotes": "Classification between recycled, re-used and other recovery can differ by company practice; SAIL’s recovery is heavily classified under “other recovery operations.”"
+    "targets": "No recycling-route-specific target was identified for Tata Steel in the retrieved BRSR extracts. JSL's closed-loop recycling and Zero-Waste-to-Landfill ambition, and SAIL's 100% utilisation aspiration, are relevant broader circularity targets.",
+    "comparabilityNotes": "Classification between recycled, re-used and other recovery can differ by company practice; SAIL's recovery is heavily classified under other recovery operations. Tata Steel FY2022-23 data was not reported on a purely standalone basis but rather collectively for Tata Steel India and its Indian subsidiaries."
   },
   "flags": {
     "directionUnclear": false,
