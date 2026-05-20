@@ -45,8 +45,13 @@ function buildGroupedData(tag: string) {
   })
 }
 
+const indianFormat = new Intl.NumberFormat('en-IN')
+
 function tooltipFormatter(unit: string) {
-  return (value: number | string, name: string) => [`${value} ${unit}`, name]
+  return (value: number | string, name: string) => [
+    `${typeof value === 'number' ? indianFormat.format(value) : value} ${unit}`,
+    name,
+  ]
 }
 
 function buildStackedData(parentTag: string, selectedFY: FY) {
