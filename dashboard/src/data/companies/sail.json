@@ -1240,15 +1240,15 @@
         "patchSource": null
       },
       "PercentageOfInputsWereSourcedSustainably": {
-        "value": 100,
-        "rawValue": "1",
-        "rawUnit": null,
+        "value": null,
+        "rawValue": null,
+        "rawUnit": "%",
         "standardUnit": "%",
         "normalized": true,
-        "unitWarning": null,
+        "unitWarning": "SAIL sustainably sourced inputs not separately reported.",
         "dataType": "percentage",
-        "valueStatus": "value",
-        "patchSource": null
+        "valueStatus": "not_reported",
+        "patchSource": "user_correction"
       },
       "DescribeTheProcessesInPlaceToSafelyReclaimYourProductsForReusingRecyclingAndDisposingAtTheEndOfLifeForPlasticsIncludingPackagingExplanatoryTextBlock": {
         "value": "Packaging Waste: Usually packaging material is dispatched along with consignment to customers; the loose/left \nover packaging after dispatching of products are disposed-off sustainably from warehouses at regular intervals\nVarious R&D initiatives either through in-house research wing or in association with other research centres or academies \nof national repute are being undertaken to improve upon the BOF slag utilization. Some notable amongst the R&D \ninitiatives are given below: \na. Utilization of steel slag in construction of rural roads under the Pradhan Mantri Gram Sadak Yojana (PMGSY) \nb. Development of steel slag based cost effective eco-friendly fertilizers for sustainable agriculture and inclusive \ngrowth in association ICAR-Indian Agricultural Research Institute (IARI) \nc. Study on use of composite slag (mix of BF slag and BOF slag) for making of Portland Slag Cement (PSC)",
@@ -25936,15 +25936,15 @@
         "patchSource": null
       },
       "PercentageOfInputsWereSourcedSustainably": {
-        "value": 100,
-        "rawValue": "1",
-        "rawUnit": null,
+        "value": null,
+        "rawValue": null,
+        "rawUnit": "%",
         "standardUnit": "%",
         "normalized": true,
-        "unitWarning": null,
+        "unitWarning": "SAIL sustainably sourced inputs not separately reported.",
         "dataType": "percentage",
-        "valueStatus": "value",
-        "patchSource": null
+        "valueStatus": "not_reported",
+        "patchSource": "user_correction"
       },
       "DescribeTheProcessesInPlaceToSafelyReclaimYourProductsForReusingRecyclingAndDisposingAtTheEndOfLifeForPlasticsIncludingPackagingExplanatoryTextBlock": {
         "value": false,
@@ -49064,15 +49064,15 @@
         "patchSource": null
       },
       "PercentageOfInputsWereSourcedSustainably": {
-        "value": 0,
-        "rawValue": "0",
-        "rawUnit": null,
+        "value": null,
+        "rawValue": null,
+        "rawUnit": "%",
         "standardUnit": "%",
         "normalized": true,
-        "unitWarning": null,
+        "unitWarning": "SAIL sustainably sourced inputs not separately reported.",
         "dataType": "percentage",
-        "valueStatus": "zero",
-        "patchSource": null
+        "valueStatus": "not_reported",
+        "patchSource": "user_correction"
       },
       "DescribeTheProcessesInPlaceToSafelyReclaimYourProductsForReusingRecyclingAndDisposingAtTheEndOfLifeForPlasticsIncludingPackagingExplanatoryTextBlock": {
         "value": "Not applicable.\nSteel is highly recyclable and considered the world's most recycled metal. Its durability and versatility allow widespread reuse and life extension. Its magnetic properties make it easy to separate from other materials for its recycling. It is genuinely cradle-to-cradle material, with end-of-life steel seen as an input rather than waste. Steel recycling is environmentally beneficial, conserving vital natural resources and reducing landfill waste. Recycling of steel is a sustainable practice that offers significant environmental and economic benefits, contributing to a more circular and resource-efficient economy. In FY 2024–25, over 1.41 million tonnes of scrap were effectively reused in the production cycle at SAIL Plants.",

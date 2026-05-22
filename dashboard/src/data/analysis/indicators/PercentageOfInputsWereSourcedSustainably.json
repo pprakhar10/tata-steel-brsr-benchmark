@@ -1,6 +1,6 @@
 {
   "tag": "PercentageOfInputsWereSourcedSustainably",
-  "label": "Sustainably Sourced Inputs Percentage",
+  "label": "Inputs Sourced Sustainably (%)",
   "principle": "P2",
   "topic": "stakeholder-human-rights",
   "direction": "higher_is_better",
@@ -8,14 +8,14 @@
     "FY2023": {
       "tata": 1,
       "jsw": 1,
-      "sail": 1,
-      "jindal": 4
+      "sail": 4,
+      "jindal": 3
     },
     "FY2024": {
       "tata": 1,
       "jsw": 1,
-      "sail": 1,
-      "jindal": 4
+      "sail": 4,
+      "jindal": 3
     },
     "FY2025": {
       "tata": 1,
@@ -35,7 +35,7 @@
     },
     "sail": {
       "FY2023-24": "Stable",
-      "FY2024-25": "Worsened"
+      "FY2024-25": "Stable"
     },
     "jindal": {
       "FY2023-24": "Stable",
@@ -44,10 +44,10 @@
   },
   "sections": {
     "about": "This metric measures the percentage of inputs sourced through sustainable sourcing procedures and is a BRSR Principle 2 Essential Indicator. It reflects whether procurement is governed by defined supplier codes, ESG criteria, responsible sourcing policies and assurance mechanisms. A higher value indicates better performance.",
-    "performanceAndDrivers": "Tata, JSW and SAIL all reported 100% in FY2023 and FY2024, while Jindal Stainless reported 90% in both years. In FY2025, Tata, JSW and Jindal reported 100%, while SAIL dropped to 0% in the standardized dataset. Tata’s 100% is supported by supplier sign-off to the Business Associate Code of Conduct and a Responsible Supply Chain Policy covering applicable laws, anti-bribery, health and safety, human rights, environmental protection, asset safeguarding and conflict-of-interest avoidance; Tata further disclosed that 100% of suppliers in India commit to sustainable sourcing.\n\nThe metric is sensitive to definition. For integrated BF-BOF companies, “sustainable sourcing” can be reported as policy coverage across supplier onboarding rather than physical low-carbon or certified-green inputs. This explains why companies with very different steel routes and raw-material footprints can all report 100%. SAIL’s FY2025 narrative states that it incorporates ESG principles into sourcing, uses IMS-certified captive mines and imports coal from jurisdictions with stringent ESG standards, but the standardized value is 0%, indicating a possible conversion, response-field or quantification issue rather than a simple absence of procedures.",
-    "tataPositioning": "In FY2024-25, Tata ranked joint 1st at 100%, tied with JSW and Jindal Stainless; SAIL was the only laggard at 0%. Tata’s rank has effectively held steady across all three years, although the FY2023 basis is consolidated. The main management implication is that Tata is already at ceiling level on policy-coverage reporting; future differentiation will need to come from deeper proof points such as high-risk category coverage, supplier maturity bands, third-party audits, ResponsibleSteel-equivalent certifications, Scope 3 supplier decarbonisation engagement and contract-level ESG incentives.",
+    "performanceAndDrivers": "Tata and JSW reported 100% across all three years, while Jindal Stainless reported 90% in FY2023 and FY2024 before rising to 100% in FY2025; SAIL did not separately report this metric for any of the three years. Tata's 100% is supported by supplier sign-off to the Business Associate Code of Conduct and a Responsible Supply Chain Policy covering applicable laws, anti-bribery, health and safety, human rights, environmental protection, asset safeguarding and conflict-of-interest avoidance; Tata further disclosed that 100% of suppliers in India commit to sustainable sourcing. The metric is sensitive to definition: for integrated BF-BOF companies, sustainable sourcing can be reported as policy coverage across supplier onboarding rather than physical low-carbon or certified-green inputs, which explains why companies with very different steel routes and raw-material footprints can all report 100%.",
+    "tataPositioning": "In FY2024-25, Tata ranked joint 1st at 100%, tied with JSW and Jindal Stainless; SAIL did not report this metric. Tata's rank has effectively held steady across all three years, although the FY2023 basis is consolidated. The main management implication is that Tata is already at ceiling level on policy-coverage reporting; future differentiation will need to come from deeper proof points such as high-risk category coverage, supplier maturity bands, third-party audits, ResponsibleSteel-equivalent certifications, Scope 3 supplier decarbonisation engagement and contract-level ESG incentives.",
     "targets": null,
-    "comparabilityNotes": "The 100% values should not be read as equivalent supply-chain maturity across peers. In several BRSR disclosures, the metric appears to capture supplier-policy commitment rather than independently verified sustainable material content."
+    "comparabilityNotes": "The 100% values should not be read as equivalent supply-chain maturity across peers. In several BRSR disclosures, the metric appears to capture supplier-policy commitment rather than independently verified sustainable material content. SAIL did not separately report this metric for any of the three years."
   },
   "flags": {
     "directionUnclear": false,
