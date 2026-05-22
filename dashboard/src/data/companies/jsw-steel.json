@@ -80917,15 +80917,15 @@
         "patchSource": "Excel"
       },
       "Fatalities_Workers": {
-        "value": 3,
-        "rawValue": "3",
+        "value": 5,
+        "rawValue": "5",
         "rawUnit": "number",
         "standardUnit": "number",
         "normalized": true,
-        "unitWarning": "Fatalities among permanent workers FY2025. (Excel review 2026-04-27)",
+        "unitWarning": "Corrected from Excel 3 to 5 per user review.",
         "dataType": "numeric",
         "valueStatus": "reported",
-        "patchSource": "Excel"
+        "patchSource": "user_correction"
       },
       "LTIFR_Employees": {
         "value": 0.25,
