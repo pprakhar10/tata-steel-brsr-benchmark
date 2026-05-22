@@ -1,15 +1,15 @@
 {
   "tag": "PercentageOfSalesToRelatedPartiesInTotalSalesForShareOfRelatedPartyTransactions",
-  "label": "Related Party Sales Percentage",
+  "label": "RPT Sales (%)",
   "principle": "BRSR Core",
   "topic": "governance-related-party",
   "direction": "lower_is_better",
   "peerRank": {
     "FY2023": {
-      "tata": 4,
+      "tata": 2,
       "jsw": 4,
-      "sail": 4,
-      "jindal": 4
+      "sail": 1,
+      "jindal": 3
     },
     "FY2024": {
       "tata": 2,
@@ -18,45 +18,45 @@
       "jindal": 3
     },
     "FY2025": {
-      "tata": 1,
+      "tata": 2,
       "jsw": 4,
-      "sail": 2,
-      "jindal": 2
+      "sail": 1,
+      "jindal": 3
     }
   },
   "trendDirection": {
     "tata": {
-      "FY2023-24": "Improved",
+      "FY2023-24": "Worsened",
       "FY2024-25": "Worsened"
     },
     "jsw": {
       "FY2023-24": "Improved",
-      "FY2024-25": "Stable"
+      "FY2024-25": "Worsened"
     },
     "sail": {
-      "FY2023-24": "Improved",
+      "FY2023-24": "Worsened",
       "FY2024-25": "Worsened"
     },
     "jindal": {
       "FY2023-24": "Improved",
-      "FY2024-25": "Stable"
+      "FY2024-25": "Improved"
     }
   },
   "sections": {
-    "about": "This metric measures sales to related parties as a percentage of total sales. It is a Section A “Openness of Business” related-party disclosure, linked to Principle 1 transparency, fair dealing, and conflict-of-interest management. A lower value indicates better performance.",
-    "performanceAndDrivers": "Tata becomes the FY2025 leader at 13.04%, ahead of SAIL and Jindal at 17% each and JSW at 30.7%. In FY2024, SAIL was the clear leader at only 0.06%, while Tata was 12%, Jindal 17%, and JSW 30.7%. The FY2025 shift is driven mainly by SAIL’s standardised move to 17%, while Tata’s sales-to-related-parties increased modestly from 12% to 13.04%. Sales-side RPT concentration can arise from downstream distribution companies, service centres, group trading arms, project entities, exports through group companies, or captive consumption entities. For Tata, the relatively moderate ratio suggests the majority of sales remain external despite group complexity.",
-    "tataPositioning": "In FY2025, Tata ranks 1st at 13.04%. The closest peers are SAIL and Jindal at 17%, meaning they are 3.96 percentage points behind Tata on this lower-is-better metric. Tata’s ranking improved from missing disclosure in FY2023 to 2nd in FY2024 and 1st in FY2025, even though Tata’s own ratio worsened slightly year-on-year. The ranking improvement was therefore peer-driven as much as Tata-driven. Management should position this as a relative strength but continue monitoring downstream related-party sales channels for pricing, credit, and transfer-pricing defensibility.",
+    "about": "This metric measures sales to related parties as a percentage of total sales. It is a Section A 'Openness of Business' related-party disclosure, linked to Principle 1 transparency, fair dealing, and conflict-of-interest management. A lower value indicates better performance because it suggests a smaller proportion of revenue is concentrated within the related-party ecosystem.",
+    "performanceAndDrivers": "In FY2022-23, SAIL led with the lowest share at 0.04%, followed by Tata at 11%, Jindal at 20%, and JSW at 34.1%. In FY2023-24, SAIL remained the leader at 0.06%, Tata held at 12%, Jindal improved to 17%, and JSW improved to 30.7%. In FY2024-25, SAIL continued to lead at 0.08%, Tata was at 13.04%, Jindal improved further to 15.91%, and JSW worsened to 34.76%. SAIL's minimal related-party sales ratio reflects its PSU structure where the majority of steel products are sold to external government and commercial buyers, with very limited routing through group entities. Jindal's improving trend across three years reflects a shift toward more direct external sales. JSW and Tata's higher ratios reflect group distribution, service centre, and trading entity structures where related-party channels form a material portion of the sales mix. Sales-side RPT concentration can arise from downstream distribution companies, service centres, group trading arms, or captive consumption entities.",
+    "tataPositioning": "In FY2024-25, Tata ranks 2nd at 13.04%, behind SAIL at 0.08% and ahead of Jindal at 15.91% and JSW at 34.76%. Tata's ratio has risen modestly from 11% in FY2022-23 to 12% in FY2023-24 and 13.04% in FY2024-25, indicating a slight increase in related-party sales concentration. Despite this, Tata holds a consistent 2nd-place rank across all three years. Management should position this as a relative strength versus JSW and ensure downstream related-party sales channels are priced at arm's length and periodically benchmarked.",
     "targets": null,
-    "comparabilityNotes": "FY2025 SAIL and Jindal values are standardised. Related-party sales are sensitive to whether downstream distribution, service centres, trading arms, and export entities are consolidated within the listed entity or treated as related parties outside the reporting boundary."
+    "comparabilityNotes": "FY2022-23 values for all four companies are prior-year comparatives reported in their respective FY2023-24 BRSRs. Related-party sales are sensitive to whether downstream distribution, service centres, trading arms, and export entities are consolidated within the listed entity or treated as related parties outside the reporting boundary."
   },
   "flags": {
     "directionUnclear": false,
     "contextInsufficient": false,
     "externalSourceUsed": false,
-    "trendAmbiguity": true,
-    "flagNote": "FY2023 values are missing, and FY2025 peer movement is affected by standardised values."
+    "trendAmbiguity": false,
+    "flagNote": null
   },
   "source": "CustomGPT",
   "userCorrection": null,
-  "status": "pending_review"
+  "status": "reviewed"
 }

@@ -20802,6 +20802,17 @@
         "dataType": "percentage",
         "valueStatus": "reported",
         "patchSource": "user_correction"
+      },
+      "PercentageOfSalesToRelatedPartiesInTotalSalesForShareOfRelatedPartyTransactions": {
+        "value": 0.04,
+        "rawValue": "0.04",
+        "rawUnit": "%",
+        "standardUnit": "%",
+        "normalized": true,
+        "unitWarning": "FY2022-23 prior-year comparative reported in SAIL's FY2023-24 BRSR.",
+        "dataType": "percentage",
+        "valueStatus": "reported",
+        "patchSource": "user_correction"
       }
     },
     "FY2024": {
@@ -45544,15 +45555,15 @@
         "patchSource": "PDF"
       },
       "PercentageOfSalesToRelatedPartiesInTotalSalesForShareOfRelatedPartyTransactions": {
-        "value": 17,
-        "rawValue": "17.0",
-        "rawUnit": null,
+        "value": 0.08,
+        "rawValue": "0.08",
+        "rawUnit": "%",
         "standardUnit": "%",
         "normalized": true,
-        "unitWarning": "PDF-confirmed: 17%. (Excel review 2026-04-27)",
+        "unitWarning": null,
         "dataType": "percentage",
         "valueStatus": "reported",
-        "patchSource": "Excel"
+        "patchSource": "user_correction"
       },
       "AmountOfLoansAndAdvancesGivenToRelatedParties": {
         "value": 44.8,

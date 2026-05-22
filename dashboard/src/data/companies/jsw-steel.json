@@ -24103,6 +24103,17 @@
         "dataType": "percentage",
         "valueStatus": "reported",
         "patchSource": "user_correction"
+      },
+      "PercentageOfSalesToRelatedPartiesInTotalSalesForShareOfRelatedPartyTransactions": {
+        "value": 34.1,
+        "rawValue": "34.1",
+        "rawUnit": "%",
+        "standardUnit": "%",
+        "normalized": true,
+        "unitWarning": "FY2022-23 prior-year comparative reported in JSW Steel's FY2023-24 BRSR.",
+        "dataType": "percentage",
+        "valueStatus": "reported",
+        "patchSource": "user_correction"
       }
     },
     "FY2024": {
@@ -52384,15 +52395,15 @@
         "patchSource": null
       },
       "PercentageOfSalesToRelatedPartiesInTotalSalesForShareOfRelatedPartyTransactions": {
-        "value": 30.7,
-        "rawValue": "30.7",
-        "rawUnit": null,
+        "value": 34.76,
+        "rawValue": "34.76",
+        "rawUnit": "%",
         "standardUnit": "%",
         "normalized": true,
-        "unitWarning": "PDF-confirmed: 30.7%. (Excel review 2026-04-27)",
+        "unitWarning": null,
         "dataType": "percentage",
         "valueStatus": "reported",
-        "patchSource": "Excel"
+        "patchSource": "user_correction"
       },
       "AmountOfLoansAndAdvancesGivenToRelatedParties": {
         "value": 97096400000,
