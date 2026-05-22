@@ -2263,15 +2263,15 @@
         "patchSource": null
       },
       "RecyclingAndOrSafeDisposalAsAPercentageToTotalTurnover": {
-        "value": 100,
-        "rawValue": "1",
+        "value": 0,
+        "rawValue": "0",
         "rawUnit": null,
         "standardUnit": "%",
         "normalized": true,
-        "unitWarning": "The Company provides all the necessary information for all the products as Safe and responsible usage required under the applicable statute.",
+        "unitWarning": "SAIL provides no quantified percentage; BRSR states only that prescribed information is provided as required under applicable statute.",
         "dataType": "percentage",
-        "valueStatus": "value",
-        "patchSource": "ManualReview"
+        "valueStatus": "zero",
+        "patchSource": "user_correction"
       },
       "NumberOfVoluntaryRecalls": {
         "value": 0,
@@ -26948,15 +26948,15 @@
         "patchSource": null
       },
       "RecyclingAndOrSafeDisposalAsAPercentageToTotalTurnover": {
-        "value": 100,
-        "rawValue": "1",
+        "value": 0,
+        "rawValue": "0",
         "rawUnit": null,
         "standardUnit": "%",
         "normalized": true,
-        "unitWarning": null,
+        "unitWarning": "SAIL provides no quantified percentage; BRSR states only that prescribed information is provided as required under applicable statute.",
         "dataType": "percentage",
-        "valueStatus": "value",
-        "patchSource": null
+        "valueStatus": "zero",
+        "patchSource": "user_correction"
       },
       "NumberOfVoluntaryRecalls": {
         "value": 0,
@@ -50136,10 +50136,10 @@
         "rawUnit": null,
         "standardUnit": "%",
         "normalized": true,
-        "unitWarning": null,
+        "unitWarning": "SAIL provides no quantified percentage; BRSR states only that prescribed information is provided as required under applicable statute.",
         "dataType": "percentage",
         "valueStatus": "zero",
-        "patchSource": null
+        "patchSource": "user_correction"
       },
       "NumberOfVoluntaryRecalls": {
         "value": 0,

@@ -1,20 +1,20 @@
 {
   "tag": "RecyclingAndOrSafeDisposalAsAPercentageToTotalTurnover",
-  "label": "Recycling Cost To Turnover",
+  "label": "Products with recycling/safe disposal info (% turnover)",
   "principle": "P6",
   "topic": "csr-products-consumer",
   "direction": "higher_is_better",
   "peerRank": {
     "FY2023": {
-      "tata": 3,
+      "tata": 2,
       "jsw": 1,
-      "sail": 1,
-      "jindal": 4
+      "sail": 4,
+      "jindal": 3
     },
     "FY2024": {
-      "tata": 4,
+      "tata": 3,
       "jsw": 1,
-      "sail": 1,
+      "sail": 4,
       "jindal": 1
     },
     "FY2025": {
@@ -35,7 +35,7 @@
     },
     "sail": {
       "FY2023-24": "Stable",
-      "FY2024-25": "Worsened"
+      "FY2024-25": "Stable"
     },
     "jindal": {
       "FY2023-24": "Improved",
@@ -44,10 +44,10 @@
   },
   "sections": {
     "about": "This metric measures the share of turnover from products/services that carry information on recycling and/or safe disposal. It is a BRSR Principle 9 Essential Indicator because it relates to consumer information on reuse, recycling, and safe end-of-life handling. A higher value indicates better performance.",
-    "performanceAndDrivers": "JSW reported full 100% coverage in all three years, while SAIL reported 100% in FY2023 and FY2024 before dropping to 0% in FY2025. Jindal Stainless improved sharply from 4.1% in FY2023 to 100% in FY2024 and FY2025, supported by stainless steel’s circularity proposition: JSL states that end-of-life stainless steel scrap is not treated as waste but as a valuable input for remelting, while safe disposal is managed through authorised recyclers. Tata Steel reported 19% in FY2023, 16% in FY2024, and 17% in FY2025, despite strong underlying circularity actions: in FY2024-25 Tata recycled about 4.2 million tonnes of scrap, including approximately 1.7 million tonnes internal and 2.5 million tonnes external scrap.",
-    "tataPositioning": "In FY2024-25, Tata ranks 3rd at 17%, behind JSW and Jindal at 100%; the gap to the best performer is 83 percentage points, or 83% below the 100% benchmark. Tata’s trajectory is mixed: it worsened from 19% to 16% in FY2024, then improved marginally to 17% in FY2025, but did not close the structural gap to full-coverage reporters. This is an important positioning issue because Tata has substantive circular-economy capability through scrap use, IBMD by-product valorisation, and Steel Recycling Business, but the consumer-facing turnover coverage on recycling/safe-disposal information remains low relative to peers.",
-    "targets": "Related targets include Tata Steel Nederland’s aim to increase scrap usage from 17% in 2019 to 30% by 2030 and Tata Steel UK’s EAF transition, expected to increase scrap usage from 17% to over 70%; Jindal Stainless is working toward Zero-Waste-to-Landfill certification by 2030 and promotes a closed-loop recycling system.",
-    "comparabilityNotes": "This indicator measures information coverage as a percentage of turnover, not actual recycling rate, scrap charge, by-product utilisation, or waste diversion. Tata’s low value therefore should not be read as low circularity performance; it reflects that only 17% of FY2024-25 turnover carried the relevant recycling/safe-disposal information."
+    "performanceAndDrivers": "JSW reported full 100% coverage in all three years, while Jindal Stainless improved sharply from 4.1% in FY2022-23 to 100% in FY2023-24 and FY2024-25. SAIL reported 0% across all three years; its BRSR discloses only a qualitative statement that it provides prescribed information for all products as required under applicable statute, without quantifying the percentage. Tata Steel reported 19% in FY2022-23, 16% in FY2023-24 and 17% in FY2024-25, despite strong underlying circularity actions: in FY2024-25 Tata recycled about 4.2 million tonnes of scrap, including approximately 1.7 million tonnes internal and 2.5 million tonnes external scrap. Jindal's position is supported by stainless steel's circularity proposition: JSL states that end-of-life stainless steel scrap is not treated as waste but as a valuable input for remelting, while safe disposal is managed through authorised recyclers.",
+    "tataPositioning": "In FY2024-25, Tata ranks 3rd at 17%, behind JSW and Jindal at 100%; the gap to the best performer is 83 percentage points. Tata ranked 2nd in FY2022-23 at 19% with only JSW ahead; it slipped to 3rd in FY2023-24 as Jindal jumped to 100%, and remained 3rd in FY2024-25 at 17%. This is an important positioning issue because Tata has substantive circular-economy capability through scrap use, IBMD by-product valorisation, and Steel Recycling Business, but the consumer-facing turnover coverage on recycling/safe-disposal information remains low relative to peers.",
+    "targets": "Related targets include Tata Steel Nederland's aim to increase scrap usage from 17% in 2019 to 30% by 2030 and Tata Steel UK's EAF transition, expected to increase scrap usage from 17% to over 70%; Jindal Stainless is working toward Zero-Waste-to-Landfill certification by 2030 and promotes a closed-loop recycling system.",
+    "comparabilityNotes": "This indicator measures information coverage as a percentage of turnover, not actual recycling rate, scrap charge, by-product utilisation, or waste diversion. Tata's low value therefore should not be read as low circularity performance; it reflects that only 17% of FY2024-25 turnover carried the relevant recycling/safe-disposal information. SAIL does not provide a quantified percentage for this metric across any of the three years; its BRSR states only that it provides prescribed information as required under applicable statute, and all three values are treated as 0%."
   },
   "flags": {
     "directionUnclear": false,
@@ -58,5 +58,5 @@
   },
   "source": "CustomGPT",
   "userCorrection": null,
-  "status": "pending_review"
+  "status": "reviewed"
 }
