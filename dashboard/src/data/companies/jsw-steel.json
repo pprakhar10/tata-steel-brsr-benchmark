@@ -24048,6 +24048,17 @@
         "dataType": "percentage",
         "valueStatus": "not_reported",
         "patchSource": "user_correction"
+      },
+      "NumberOfTradingHousesWherePurchasesAreMade": {
+        "value": 25,
+        "rawValue": "25",
+        "rawUnit": null,
+        "standardUnit": null,
+        "normalized": true,
+        "unitWarning": "FY2022-23 prior-year comparative reported in JSW Steel's FY2023-24 BRSR.",
+        "dataType": "numeric",
+        "valueStatus": "reported",
+        "patchSource": "user_correction"
       }
     },
     "FY2024": {

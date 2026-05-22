@@ -20747,6 +20747,17 @@
         "dataType": "percentage",
         "valueStatus": "reported",
         "patchSource": "user_correction"
+      },
+      "NumberOfTradingHousesWherePurchasesAreMade": {
+        "value": null,
+        "rawValue": null,
+        "rawUnit": null,
+        "standardUnit": null,
+        "normalized": true,
+        "unitWarning": "SAIL FY2022-23: not explicitly reported / not applicable.",
+        "dataType": "numeric",
+        "valueStatus": "not_reported",
+        "patchSource": "user_correction"
       }
     },
     "FY2024": {
@@ -20898,15 +20909,15 @@
         "patchSource": null
       },
       "NumberOfTradingHousesWherePurchasesAreMade": {
-        "value": 0,
-        "rawValue": "0",
+        "value": null,
+        "rawValue": null,
         "rawUnit": null,
         "standardUnit": null,
         "normalized": true,
-        "unitWarning": null,
+        "unitWarning": "SAIL: not applicable.",
         "dataType": "numeric",
-        "valueStatus": "zero",
-        "patchSource": null
+        "valueStatus": "not_reported",
+        "patchSource": "user_correction"
       },
       "AmountOfPurchasesFromTopTenTradingHouses": {
         "value": 0,
@@ -45324,15 +45335,15 @@
         "patchSource": null
       },
       "NumberOfTradingHousesWherePurchasesAreMade": {
-        "value": 0,
-        "rawValue": "0",
+        "value": null,
+        "rawValue": null,
         "rawUnit": null,
         "standardUnit": null,
         "normalized": true,
-        "unitWarning": null,
+        "unitWarning": "SAIL: not applicable.",
         "dataType": "numeric",
-        "valueStatus": "zero",
-        "patchSource": null
+        "valueStatus": "not_reported",
+        "patchSource": "user_correction"
       },
       "AmountOfPurchasesFromTopTenTradingHouses": {
         "value": 0,

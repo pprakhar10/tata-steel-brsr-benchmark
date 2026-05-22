@@ -1,40 +1,40 @@
 {
   "tag": "NumberOfTradingHousesWherePurchasesAreMade",
-  "label": "Number Of Trading Houses",
+  "label": "Number of Trading Houses",
   "principle": "Section A",
   "topic": "csr-products-consumer",
   "direction": "lower_is_better",
   "peerRank": {
     "FY2023": {
-      "tata": 4,
-      "jsw": 4,
+      "tata": 1,
+      "jsw": 2,
       "sail": 4,
-      "jindal": 4
+      "jindal": 3
     },
     "FY2024": {
       "tata": 1,
       "jsw": 3,
-      "sail": 1,
+      "sail": 4,
       "jindal": 4
     },
     "FY2025": {
       "tata": 1,
       "jsw": 3,
-      "sail": 1,
+      "sail": 4,
       "jindal": 4
     }
   },
   "trendDirection": {
     "tata": {
-      "FY2023-24": "Improved",
+      "FY2023-24": "Stable",
       "FY2024-25": "Stable"
     },
     "jsw": {
-      "FY2023-24": "Improved",
+      "FY2023-24": "Worsened",
       "FY2024-25": "Improved"
     },
     "sail": {
-      "FY2023-24": "Improved",
+      "FY2023-24": "Stable",
       "FY2024-25": "Stable"
     },
     "jindal": {
@@ -44,10 +44,10 @@
   },
   "sections": {
     "about": "This metric measures the number of trading houses from which purchases are made under the BRSR 'Open-ness of business' disclosure on concentration of purchases. It is a transparency and procurement-concentration indicator, not a Principle 9 consumer Essential Indicator. A lower value indicates better performance because fewer or zero trading-house purchases generally implies more direct procurement and lower intermediary dependence, when read alongside purchases-from-trading-houses percentage.",
-    "performanceAndDrivers": "All companies had missing FY2023 values and therefore rank last for that year. In FY2024 and FY2025, Tata and SAIL rank best with zero trading houses, while JSW reduced from 33 to 26 and Jindal reduced from 500 to 478. Tata's FY2025 BRSR explicitly reports 0% purchases from trading houses, zero trading houses, and zero top-10 trading-house concentration, noting that this follows the SEBI industry-standard definition based on available company data. SAIL similarly reports Nil purchases from trading houses and Not Applicable for number and top-10 share. Jindal's high count is structurally linked to its stainless value chain: FY2025 purchases from trading houses were 80% of total purchases, from 478 trading houses, with top-10 trading houses accounting for 62% of purchases from trading houses.",
-    "tataPositioning": "In FY2024-25, Tata is tied rank 1 with SAIL at zero trading houses. Because the best value is zero, a percentage gap is not mathematically meaningful; on an absolute basis, Tata is 26 trading houses better than JSW and 478 better than Jindal. Tata's trajectory moved from missing in FY2023 to best-in-class in FY2024 and remained stable in FY2025. The key positioning message is procurement-route clarity: Tata's openness disclosure indicates no trading-house dependence under the SEBI industry-standard definition, while Jindal's stainless-steel and scrap/alloy-linked sourcing model creates much higher trading-house exposure.",
+    "performanceAndDrivers": "In FY2022-23, Tata reported 0 trading houses, JSW reported 25, Jindal reported 636, and SAIL did not report this figure. In FY2023-24, Tata remained at 0, JSW rose to 33, and Jindal reduced to 500; SAIL reported not applicable. In FY2024-25, Tata stayed at 0, JSW reduced to 26, and Jindal further reduced to 478; SAIL remained not applicable. Tata's FY2025 BRSR explicitly reports 0% purchases from trading houses, zero trading houses, and zero top-10 trading-house concentration. SAIL reports Nil purchases from trading houses and Not Applicable for the number of trading houses. Jindal's high count is structurally linked to its stainless value chain: FY2025 purchases from trading houses were 80% of total purchases, from 478 trading houses, with top-10 trading houses accounting for 62% of purchases from trading houses.",
+    "tataPositioning": "In FY2024-25, Tata is ranked 1st at zero trading houses. Because the best value is zero, a percentage gap is not mathematically meaningful; on an absolute basis, Tata is 26 trading houses better than JSW and 478 better than Jindal. Tata reported zero trading houses in FY2022-23 and has maintained best-in-class performance in FY2023-24 and FY2024-25. The key positioning message is procurement-route clarity: Tata's openness disclosure indicates no trading-house dependence under the SEBI industry-standard definition, while Jindal's stainless-steel and scrap/alloy-linked sourcing model creates much higher trading-house exposure.",
     "targets": "Tata's Responsible Supply Chain Policy and Sustainable Procurement Framework represent relevant procurement commitments. Jindal targets 100% ESG assessment of suppliers.",
-    "comparabilityNotes": "This count must be read with 'purchases from trading houses as % of total purchases.' A company could have many trading houses but low purchase concentration, or few trading houses but high dependence; in this dataset, Jindal has both a high number and high purchase share from trading houses. FY2022-23 data is not available for any company and does not support substantive peer comparison."
+    "comparabilityNotes": "FY2022-23 values for Tata (0), JSW (25) and Jindal (636) are prior-year comparatives reported in their respective FY2023-24 BRSRs; SAIL did not report this figure for FY2022-23. SAIL reports not applicable for all years on the number of trading houses. This count must be read with purchases from trading houses as a percentage of total purchases: Jindal has both a high number and high purchase share from trading houses."
   },
   "flags": {
     "directionUnclear": false,
@@ -58,5 +58,5 @@
   },
   "source": "CustomGPT",
   "userCorrection": null,
-  "status": "pending_review"
+  "status": "reviewed"
 }
