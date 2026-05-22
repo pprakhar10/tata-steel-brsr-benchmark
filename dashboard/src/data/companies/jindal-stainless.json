@@ -877,17 +877,6 @@
         "valueStatus": "value",
         "patchSource": null
       },
-      "NumberOfFemaleBoardOfDirectors": {
-        "value": 3,
-        "rawValue": "3",
-        "rawUnit": null,
-        "standardUnit": null,
-        "normalized": true,
-        "unitWarning": null,
-        "dataType": "numeric",
-        "valueStatus": "value",
-        "patchSource": null
-      },
       "PercentageOfFemaleBoardOfDirectors": {
         "value": 30,
         "rawValue": "0.3",
@@ -908,17 +897,6 @@
         "unitWarning": null,
         "dataType": "numeric",
         "valueStatus": "value",
-        "patchSource": null
-      },
-      "NumberOfFemaleKeyManagementPersonnel": {
-        "value": 0,
-        "rawValue": "0",
-        "rawUnit": null,
-        "standardUnit": null,
-        "normalized": true,
-        "unitWarning": null,
-        "dataType": "numeric",
-        "valueStatus": "zero",
         "patchSource": null
       },
       "PercentageOfFemaleKeyManagementPersonnel": {
@@ -25629,17 +25607,6 @@
         "valueStatus": "value",
         "patchSource": null
       },
-      "NumberOfFemaleBoardOfDirectors": {
-        "value": 3,
-        "rawValue": "3",
-        "rawUnit": null,
-        "standardUnit": null,
-        "normalized": true,
-        "unitWarning": null,
-        "dataType": "numeric",
-        "valueStatus": "value",
-        "patchSource": null
-      },
       "PercentageOfFemaleBoardOfDirectors": {
         "value": 25,
         "rawValue": "0.25",
@@ -25660,17 +25627,6 @@
         "unitWarning": null,
         "dataType": "numeric",
         "valueStatus": "value",
-        "patchSource": null
-      },
-      "NumberOfFemaleKeyManagementPersonnel": {
-        "value": 0,
-        "rawValue": "0",
-        "rawUnit": null,
-        "standardUnit": null,
-        "normalized": true,
-        "unitWarning": null,
-        "dataType": "numeric",
-        "valueStatus": "zero",
         "patchSource": null
       },
       "PercentageOfFemaleKeyManagementPersonnel": {
@@ -50461,17 +50417,6 @@
         "valueStatus": "value",
         "patchSource": null
       },
-      "NumberOfFemaleBoardOfDirectors": {
-        "value": 3,
-        "rawValue": "3",
-        "rawUnit": null,
-        "standardUnit": null,
-        "normalized": true,
-        "unitWarning": null,
-        "dataType": "numeric",
-        "valueStatus": "value",
-        "patchSource": null
-      },
       "PercentageOfFemaleBoardOfDirectors": {
         "value": 27.28,
         "rawValue": "0.2728",
@@ -50492,17 +50437,6 @@
         "unitWarning": null,
         "dataType": "numeric",
         "valueStatus": "value",
-        "patchSource": null
-      },
-      "NumberOfFemaleKeyManagementPersonnel": {
-        "value": 0,
-        "rawValue": "0",
-        "rawUnit": null,
-        "standardUnit": null,
-        "normalized": true,
-        "unitWarning": null,
-        "dataType": "numeric",
-        "valueStatus": "zero",
         "patchSource": null
       },
       "PercentageOfFemaleKeyManagementPersonnel": {
