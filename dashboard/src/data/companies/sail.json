@@ -107,15 +107,15 @@
         "patchSource": null
       },
       "PercentageOfCapex": {
-        "value": 0,
-        "rawValue": "0",
-        "rawUnit": null,
+        "value": null,
+        "rawValue": null,
+        "rawUnit": "%",
         "standardUnit": "%",
         "normalized": true,
-        "unitWarning": null,
+        "unitWarning": "SAIL FY2022-23 sustainability capex not separately reported.",
         "dataType": "percentage",
-        "valueStatus": "zero",
-        "patchSource": null
+        "valueStatus": "not_reported",
+        "patchSource": "user_correction"
       },
       "TotalNumberOfAffectedEmployees": {
         "value": 0,
@@ -21151,15 +21151,15 @@
         "patchSource": null
       },
       "PercentageOfCapex": {
-        "value": 0,
-        "rawValue": "0",
-        "rawUnit": null,
+        "value": null,
+        "rawValue": null,
+        "rawUnit": "%",
         "standardUnit": "%",
         "normalized": true,
-        "unitWarning": null,
+        "unitWarning": "SAIL FY2023-24 sustainability capex not separately reported.",
         "dataType": "percentage",
-        "valueStatus": "zero",
-        "patchSource": null
+        "valueStatus": "not_reported",
+        "patchSource": "user_correction"
       },
       "AmountOfCostIncurredOnWellBeingMeasures": {
         "value": 1534.47,
