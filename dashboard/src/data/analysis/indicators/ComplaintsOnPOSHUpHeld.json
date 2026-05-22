@@ -1,6 +1,6 @@
 {
   "tag": "ComplaintsOnPOSHUpHeld",
-  "label": "Complaints on POSH Upheld",
+  "label": "POSH Complaints (upheld)",
   "principle": "P3",
   "topic": "ethics-compliance",
   "direction": "lower_is_better",
