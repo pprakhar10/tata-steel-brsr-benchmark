@@ -47,7 +47,7 @@
     "performanceAndDrivers": "Tata reported the highest rehabilitation count in all three years: 2 in FY23, 2 in FY24 and 6 in FY25. SAIL moved from 0 to 0 to 1, while JSW and Jindal reported 0 across the period. This indicates stronger remedial placement coverage by Tata, but the same data also reflects Tata’s higher affected employee base. Tata’s FY24 disclosure states that the company extends life insurance/compensatory packages and has institutionalised schemes such as Family Support Scheme, Family Benefit Scheme and employment/pension-linked support mechanisms. Jindal’s FY25 affected employees and rehabilitated employees were both 0.",
     "tataPositioning": "In FY2024-25, Tata ranked 1st with 6 rehabilitated employees/family members. The closest peer was SAIL at 1, which was 83.3% behind Tata. Tata held rank 1 across all three years, but this should not be read as pure safety outperformance because the need for rehabilitation is driven by severe incidents.",
     "targets": null,
-    "comparabilityNotes": "This is an absolute remedial-action count, not a rehabilitation rate. A company with zero affected employees may correctly report zero rehabilitations; therefore, this metric should be interpreted with TotalNumberOfAffectedEmployees."
+    "comparabilityNotes": "This is an absolute remedial-action count, not a rehabilitation rate. A company with zero affected employees may correctly report zero rehabilitations; therefore, this metric should be interpreted with Total Number of Affected Employees."
   },
   "flags": {
     "directionUnclear": false,
