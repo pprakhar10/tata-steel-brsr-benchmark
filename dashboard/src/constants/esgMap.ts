@@ -115,11 +115,11 @@ export const ESG_MAP: Record<string, ESGMapEntry> = {
   NumberOfWorkersOrWhoseFamilyMembersRehabilitatedAndPlacedInSuitableEmployment: { esg: 'S', topic: 'Health & Safety', subtopic: 'Rehabilitation', label: 'Workers Rehabilitated', unit: 'no.', chartPattern: 'bar' },
 
   // ── S: Workforce & Diversity — Headcount ─────────────────────────────────
-  TotalNumberOfEmployees: { esg: 'S', topic: 'Workforce & Diversity', subtopic: 'Headcount', label: 'Total Employees', unit: 'no.', chartPattern: 'bar' },
-  PercentageOfFemaleEmployees: { esg: 'S', topic: 'Workforce & Diversity', subtopic: 'Headcount', label: 'Female Employees (%)', unit: '%', chartPattern: 'bar-pct' },
-  TotalNumberOfWorkers: { esg: 'S', topic: 'Workforce & Diversity', subtopic: 'Headcount', label: 'Total Workers', unit: 'no.', chartPattern: 'bar' },
-  PercentageOfFemaleWorkers: { esg: 'S', topic: 'Workforce & Diversity', subtopic: 'Headcount', label: 'Female Workers (%)', unit: '%', chartPattern: 'bar-pct' },
-  PercentageOfGrossWagesPaidToFemaleToTotalWagesPaid: { esg: 'S', topic: 'Workforce & Diversity', subtopic: 'Headcount', label: 'Female Wage %', unit: '%', chartPattern: 'bar-pct' },
+  TotalNumberOfEmployees: { esg: 'S', topic: 'Workforce & Diversity', subtopic: 'Employees and workers', label: 'Total Employees', unit: 'no.', chartPattern: 'bar' },
+  PercentageOfFemaleEmployees: { esg: 'S', topic: 'Workforce & Diversity', subtopic: 'Employees and workers', label: 'Female Employees (%)', unit: '%', chartPattern: 'bar-pct' },
+  TotalNumberOfWorkers: { esg: 'S', topic: 'Workforce & Diversity', subtopic: 'Employees and workers', label: 'Total Workers', unit: 'no.', chartPattern: 'bar' },
+  PercentageOfFemaleWorkers: { esg: 'S', topic: 'Workforce & Diversity', subtopic: 'Employees and workers', label: 'Female Workers (%)', unit: '%', chartPattern: 'bar-pct' },
+  PercentageOfGrossWagesPaidToFemaleToTotalWagesPaid: { esg: 'S', topic: 'Workforce & Diversity', subtopic: 'Employees and workers', label: 'Female Wage %', unit: '%', chartPattern: 'bar-pct' },
 
   // ── S: Workforce & Diversity — Board ─────────────────────────────────────
   TotalNumberOfBoardOfDirectors: { esg: 'S', topic: 'Workforce & Diversity', subtopic: 'Board', label: 'Board of Directors (total)', unit: 'no.', chartPattern: 'bar' },
