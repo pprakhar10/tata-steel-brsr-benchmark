@@ -1,6 +1,7 @@
 import { useState, useCallback } from 'react'
 import { ESG_MAP, SUB_COMPONENT_TAGS, SUB_COMPONENT_PARENT } from './constants/esgMap'
 import Sidebar from './components/Sidebar'
+import BottomNav from './components/BottomNav'
 import ESGView from './components/ESGView'
 import SearchPanel from './components/SearchPanel'
 import BenchmarkPanel from './components/BenchmarkPanel'
@@ -38,7 +39,7 @@ export default function App() {
       />
 
       <main className="flex-1 overflow-y-auto">
-        <div className="max-w-5xl mx-auto py-8 px-6">
+        <div className="max-w-5xl mx-auto py-8 px-6 pb-24 lg:pb-8">
           {activeView === 'E' || activeView === 'S' || activeView === 'G' ? (
             <ESGView bucket={activeView} highlightedTag={highlightedTag} activateSubTag={activateSubTag} />
           ) : activeView === 'search' ? (
@@ -50,6 +51,8 @@ export default function App() {
           )}
         </div>
       </main>
+
+      <BottomNav activeView={activeView} onNavigate={setActiveView} />
     </div>
   )
 }
