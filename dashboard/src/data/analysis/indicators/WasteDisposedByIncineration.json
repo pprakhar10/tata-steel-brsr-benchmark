@@ -46,7 +46,7 @@
     "about": "This metric measures waste disposed by incineration under BRSR Principle 6, Essential Indicator on disposal method. SEBI describes incineration as controlled burning of waste at high temperatures. A lower value indicates better performance.",
     "performanceAndDrivers": "Tata reported the highest FY2025 incineration volume at 4,113 MT, compared with JSW at 154.02 MT, Jindal at 0.35 MT and SAIL at zero. Tata’s FY2025 increase from 1,777 MT in FY2024 indicates a deterioration in disposal route mix, even though total disposal improved sharply. Jindal and SAIL show minimal or nil incineration, suggesting stronger routing to recycling, authorised recyclers or other non-incineration disposal channels.",
     "tataPositioning": "Tata ranked 4th in FY2025. Because the best performer, SAIL, reported zero incineration, a percentage gap is not meaningful; the absolute gap is 4,113 MT. Tata’s ranking remained weak across all three years.",
-    "targets": "No incineration-specific target was identified for Tata Steel. JSL’s Zero-Waste-to-Landfill target is not directly an incineration target, but its broader zero-waste programme may reduce residual disposal streams.",
+    "targets": "JSL’s Zero-Waste-to-Landfill target is not directly an incineration target, but its broader zero-waste programme may reduce residual disposal streams.",
     "comparabilityNotes": "Incineration volumes may include specialised waste streams and are not intensity-normalised. Tata Steel FY2022-23 data is reported on a consolidated basis rather than standalone."
   },
   "flags": {
