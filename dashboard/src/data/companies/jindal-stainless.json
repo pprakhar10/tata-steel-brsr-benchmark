@@ -96,15 +96,15 @@
         "patchSource": null
       },
       "PercentageOfRAndD": {
-        "value": 0.02,
-        "rawValue": "0.0002",
-        "rawUnit": null,
+        "value": 47.78,
+        "rawValue": "47.78",
+        "rawUnit": "%",
         "standardUnit": "%",
         "normalized": true,
         "unitWarning": null,
         "dataType": "percentage",
-        "valueStatus": "value",
-        "patchSource": null
+        "valueStatus": "reported",
+        "patchSource": "user_correction"
       },
       "PercentageOfCapex": {
         "value": 0.02,
