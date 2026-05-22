@@ -45065,15 +45065,15 @@
         "patchSource": "user_correction"
       },
       "TrainingCoverage_Employees_SkillUpgradation": {
-        "value": 50.04,
-        "rawValue": "50.04",
+        "value": 34.7,
+        "rawValue": "34.7",
         "rawUnit": "%",
         "standardUnit": "%",
         "normalized": true,
-        "unitWarning": "PDF-confirmed: 50.04% (ManualReview FY2024). Previous Phase 3c value of 34.7% was incorrect.",
+        "unitWarning": null,
         "dataType": "numeric",
         "valueStatus": "reported",
-        "patchSource": "ManualReview"
+        "patchSource": "user_correction"
       },
       "TrainingCoverage_Workers_HealthSafety": {
         "value": 100,

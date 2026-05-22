@@ -45274,15 +45274,15 @@
         "patchSource": "user_correction"
       },
       "TrainingCoverage_Employees_SkillUpgradation": {
-        "value": 32.21,
-        "rawValue": "32.21",
+        "value": 50.04,
+        "rawValue": "50.04",
         "rawUnit": "%",
         "standardUnit": "%",
         "normalized": true,
-        "unitWarning": "Not in XBRL. PDF Principle 3, El-8: 32.21% trained on skill upgradation",
+        "unitWarning": null,
         "dataType": "numeric",
         "valueStatus": "reported",
-        "patchSource": "PDF"
+        "patchSource": "user_correction"
       },
       "TrainingCoverage_Workers_HealthSafety": {
         "value": 19.27,

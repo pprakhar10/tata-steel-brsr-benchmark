@@ -2,7 +2,7 @@ import { COMPANY_DATA } from '../data/loader'
 import { INDICATOR_ANALYSIS } from '../data/loader'
 import { COMPANY_KEYS, COMPANY_LABELS, COMPANY_IDS, FY_LABELS, FY_DISPLAY, type CompanyYearData, type ValueObject } from '../types/data'
 import { formatValue } from '../utils/format'
-import { detectTies, isAllSameRank } from '../utils/ranks'
+import { detectTies } from '../utils/ranks'
 import { ESG_MAP } from '../constants/esgMap'
 import RankBadge from './RankBadge'
 
@@ -55,7 +55,6 @@ export default function DataTable({ tag }: Props) {
                   const vObj = yearData ? getValueObj(yearData, tag) : null
                   const rank = analysis?.peerRank[fy][key] ?? null
                   const tied = analysis ? detectTies(analysis.peerRank[fy]) : new Set()
-                  const allSame = analysis ? isAllSameRank(analysis.peerRank[fy]) : false
 
                   return (
                     <td key={fy} className="py-2 px-3 text-right">
@@ -64,7 +63,7 @@ export default function DataTable({ tag }: Props) {
                           <span className="text-gray-900">
                             {formatValue(vObj)}{isPct ? '%' : ''}
                           </span>
-                          {rank != null && !allSame && (
+                          {rank != null && (
                             <RankBadge
                               rank={rank}
                               isTied={tied.has(key)}
