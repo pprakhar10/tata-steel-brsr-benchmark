@@ -1,6 +1,6 @@
 {
   "tag": "PercentageOfCostIncurredOnWellBeingMeasuresWithRespectToTotalRevenueOfTheCompany",
-  "label": "Wellbeing Cost To Revenue",
+  "label": "Wellbeing Cost (% revenue)",
   "principle": "P3",
   "topic": "workforce-diversity",
   "direction": "higher_is_better",
