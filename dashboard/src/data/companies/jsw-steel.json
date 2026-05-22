@@ -23818,6 +23818,17 @@
         "valueStatus": "reported",
         "patchSource": "XBRL-dimensional"
       },
+      "TotalNumberOfWorkers": {
+        "value": 17981,
+        "rawValue": "17981",
+        "rawUnit": "count",
+        "standardUnit": "count",
+        "normalized": true,
+        "unitWarning": null,
+        "dataType": "numeric",
+        "valueStatus": "reported",
+        "patchSource": "user_correction"
+      },
       "PercentageOfFemaleEmployees": {
         "value": 5.78,
         "rawValue": "5.78",
@@ -51771,6 +51782,17 @@
         "dataType": "numeric",
         "valueStatus": "reported",
         "patchSource": "XBRL-dimensional"
+      },
+      "TotalNumberOfWorkers": {
+        "value": 25145,
+        "rawValue": "25145",
+        "rawUnit": "count",
+        "standardUnit": "count",
+        "normalized": true,
+        "unitWarning": null,
+        "dataType": "numeric",
+        "valueStatus": "reported",
+        "patchSource": "user_correction"
       },
       "PercentageOfFemaleEmployees": {
         "value": 6.45,
@@ -80629,6 +80651,17 @@
         "dataType": "numeric",
         "valueStatus": "reported",
         "patchSource": "XBRL-dimensional"
+      },
+      "TotalNumberOfWorkers": {
+        "value": 25047,
+        "rawValue": "25047",
+        "rawUnit": "count",
+        "standardUnit": "count",
+        "normalized": true,
+        "unitWarning": null,
+        "dataType": "numeric",
+        "valueStatus": "reported",
+        "patchSource": "user_correction"
       },
       "PercentageOfFemaleEmployees": {
         "value": 6.71,

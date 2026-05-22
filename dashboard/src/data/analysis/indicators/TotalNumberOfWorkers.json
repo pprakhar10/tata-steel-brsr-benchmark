@@ -1,0 +1,62 @@
+{
+  "tag": "TotalNumberOfWorkers",
+  "label": "Total Number of Workers",
+  "principle": "",
+  "topic": "workforce-diversity",
+  "direction": "neutral",
+  "peerRank": {
+    "FY2023": {
+      "tata": null,
+      "jsw": null,
+      "sail": null,
+      "jindal": null
+    },
+    "FY2024": {
+      "tata": null,
+      "jsw": null,
+      "sail": null,
+      "jindal": null
+    },
+    "FY2025": {
+      "tata": null,
+      "jsw": null,
+      "sail": null,
+      "jindal": null
+    }
+  },
+  "trendDirection": {
+    "tata": {
+      "FY2023-24": "Stable",
+      "FY2024-25": "Stable"
+    },
+    "jsw": {
+      "FY2023-24": "Stable",
+      "FY2024-25": "Stable"
+    },
+    "sail": {
+      "FY2023-24": "Stable",
+      "FY2024-25": "Stable"
+    },
+    "jindal": {
+      "FY2023-24": "Stable",
+      "FY2024-25": "Stable"
+    }
+  },
+  "sections": {
+    "about": "This metric measures the total number of workers disclosed at financial year-end, including permanent workers and contract or third-party workers engaged in the entity's operations. It falls under BRSR Section A — General Disclosures and is distinct from the employee headcount; together they reflect the full direct and contracted workforce. No direction is assigned: scale, insourcing strategy and contractor intensity all influence the count.",
+    "performanceAndDrivers": "Tata Steel reports the largest worker base in FY2024-25 at 1,97,585 on a consolidated basis, reflecting its integrated mining, steelmaking and downstream operations across multiple locations and its extensive use of contract workers in production and maintenance activities. SAIL reported 73,819 workers in FY2024-25, consistent with its large public-sector integrated operations spanning five integrated steel plants and operating mines. JSW reported 25,047 and Jindal 13,529 in FY2024-25. All four companies showed growth in worker numbers over the three-year period: Tata grew from 1,66,324 in FY2022-23 to 1,97,585 in FY2024-25, SAIL from 65,938 to 73,819, JSW from 17,981 to 25,047 and Jindal from 10,577 to 13,529.",
+    "tataPositioning": "In FY2024-25, Tata discloses 1,97,585 workers on a consolidated basis — the largest in the peer set by a wide margin, ahead of SAIL at 73,819. The high count reflects both the consolidated reporting boundary and Tata's extensive contractor workforce across mining, blast furnace operations, coke ovens and downstream finishing facilities.",
+    "targets": null,
+    "comparabilityNotes": "Tata Steel data is reported on a consolidated basis across all years (FY2022-23, FY2023-24 and FY2024-25), while all peers report on a standalone basis. Direct worker count comparisons between Tata and peers therefore reflect both operational scale and reporting boundary differences and should not be read as a like-for-like comparison."
+  },
+  "flags": {
+    "directionUnclear": false,
+    "contextInsufficient": false,
+    "externalSourceUsed": false,
+    "trendAmbiguity": false,
+    "flagNote": null
+  },
+  "source": "user_provided",
+  "userCorrection": null,
+  "status": "reviewed"
+}
