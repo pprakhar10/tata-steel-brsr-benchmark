@@ -559,15 +559,15 @@
         "patchSource": null
       },
       "WasteRecoveredThroughOtherRecoveryOperations": {
-        "value": 201,
-        "rawValue": "201",
-        "rawUnit": "MT",
+        "value": 489.94,
+        "rawValue": "489.94",
+        "rawUnit": "metric tonnes",
         "standardUnit": "metric tonnes",
         "normalized": true,
-        "unitWarning": "XBRL stored 489.94 MT. PDF Page 29 sum of 'Other recovery operations' across all waste categories = 201 MT. Corrected. (Phase 3c ITEM_12)",
+        "unitWarning": null,
         "dataType": "percentage",
         "valueStatus": "reported",
-        "patchSource": "PDF"
+        "patchSource": "user_correction"
       },
       "TotalWasteRecovered": {
         "value": 862283.94,
