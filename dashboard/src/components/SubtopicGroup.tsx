@@ -31,7 +31,7 @@ export default function SubtopicGroup({ subtopic, tags, highlightedTag, activate
     <div>
       <button
         onClick={() => setOpen(o => !o)}
-        className="flex items-center gap-2 mb-4 text-left"
+        className="w-full flex items-center justify-between mb-4 text-left"
       >
         <span className="text-xs font-bold text-indigo-600 uppercase tracking-widest">{subtopic}</span>
         <span className="text-gray-400 text-xs">{open ? '▲' : '▼'}</span>
