@@ -1,6 +1,6 @@
 {
   "tag": "TotalComplaintsReportedUnderSexualHarassmentOfWomenAtWorkplace",
-  "label": "Total Workplace Sexual Harassment Complaints",
+  "label": "POSH Complaints (total)",
   "principle": "P3",
   "topic": "ethics-compliance",
   "direction": "lower_is_better",
