@@ -535,6 +535,17 @@
         "valueStatus": "value",
         "patchSource": null
       },
+      "WasteIntensityInTermOfPhysicalOutput": {
+        "value": 0.74,
+        "rawValue": "0.74",
+        "rawUnit": "MT/tcs",
+        "standardUnit": "MT/tcs",
+        "normalized": true,
+        "unitWarning": "Restated from FY2023-24 BRSR; not reported in original FY2022-23 BRSR.",
+        "dataType": "intensity",
+        "valueStatus": "reported",
+        "patchSource": "user_correction"
+      },
       "WasteRecoveredThroughRecycled": {
         "value": 3140793,
         "rawValue": "3140793",
