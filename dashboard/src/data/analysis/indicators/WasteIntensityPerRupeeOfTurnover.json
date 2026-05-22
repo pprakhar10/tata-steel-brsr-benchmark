@@ -6,10 +6,10 @@
   "direction": "lower_is_better",
   "peerRank": {
     "FY2023": {
-      "tata": 4,
-      "jsw": 4,
+      "tata": 3,
+      "jsw": 2,
       "sail": 4,
-      "jindal": 4
+      "jindal": 1
     },
     "FY2024": {
       "tata": 3,
@@ -26,37 +26,37 @@
   },
   "trendDirection": {
     "tata": {
-      "FY2023-24": "AMBIGUOUS: FY2023 value not reported",
+      "FY2023-24": "Improved",
       "FY2024-25": "Worsened"
     },
     "jsw": {
-      "FY2023-24": "AMBIGUOUS: FY2023 value not reported",
+      "FY2023-24": "Worsened",
       "FY2024-25": "Worsened"
     },
     "sail": {
-      "FY2023-24": "AMBIGUOUS: FY2023 value not reported",
+      "FY2023-24": "Worsened",
       "FY2024-25": "Worsened"
     },
     "jindal": {
-      "FY2023-24": "AMBIGUOUS: FY2023 value not reported",
+      "FY2023-24": "Worsened",
       "FY2024-25": "Worsened"
     }
   },
   "sections": {
     "about": "This metric measures total waste generated per rupee of turnover under BRSR Principle 6, Essential Indicator on waste intensity. It links waste generation to revenue scale and is sensitive to steel prices, product mix and value-added share. A lower value indicates better performance.",
-    "performanceAndDrivers": "Jindal led in FY2025 at 48.42 MT/Crore, followed by Tata at 130.95 MT/Crore, SAIL at 143.5 MT/Crore and JSW at 152.05 MT/Crore. Tata worsened from 119.40 MT/Crore in FY2024 but improved rank from 3rd to 2nd because JSW and SAIL worsened more. Jindal’s advantage reflects lower absolute waste relative to revenue, likely supported by stainless value mix and smaller waste footprint.",
-    "tataPositioning": "Tata ranked 2nd in FY2025 and was about 170.5% higher than Jindal, the best performer. Tata’s rank improved from 3rd to 2nd, but its own intensity worsened year-on-year.",
+    "performanceAndDrivers": "In FY2023, Jindal led at 35.01 MT/Crore, followed by JSW at 110.8 MT/Crore, Tata at 120 MT/Crore and SAIL at 122 MT/Crore. By FY2025, Jindal retained top position at 48.42 MT/Crore while Tata moved to 2nd at 130.95 MT/Crore, ahead of SAIL at 143.5 MT/Crore and JSW at 152.05 MT/Crore. Tata was the only company to improve between FY2023 and FY2024, dropping marginally from 120 to 119.40 before worsening to 130.95 in FY2025. JSW and SAIL worsened across both periods, which accounts for Tata’s rank improvement from 3rd to 2nd despite its own absolute increase. Jindal’s sustained advantage reflects lower waste relative to revenue from its stainless steel product mix and smaller absolute waste footprint.",
+    "tataPositioning": "Tata ranked 3rd in FY2023 at 120 MT/Crore, remained 3rd in FY2024 at 119.40 MT/Crore with a marginal improvement, then worsened to 130.95 MT/Crore in FY2025 while rising to 2nd as peers deteriorated more. The rank improvement in FY2025 is driven by JSW and SAIL worsening, not by Tata’s own efficiency gain.",
     "targets": null,
-    "comparabilityNotes": "FY2023 values are missing for all companies; FY2025 SAIL and Jindal values are standardised. This metric is sensitive to steel price cycle and product mix, not only operational waste efficiency."
+    "comparabilityNotes": "FY2022-23 values for all companies are restated from FY2023-24 BRSR reports and were not reported in the original FY2022-23 BRSR disclosures. Tata Steel FY2022-23 data is reported on a consolidated basis rather than standalone. This metric is sensitive to steel price cycle and product mix, not only operational waste efficiency."
   },
   "flags": {
     "directionUnclear": false,
     "contextInsufficient": false,
     "externalSourceUsed": false,
-    "trendAmbiguity": true,
-    "flagNote": "FY2023 values are missing for all companies; turnover intensity is price- and mix-sensitive."
+    "trendAmbiguity": false,
+    "flagNote": null
   },
   "source": "CustomGPT",
   "userCorrection": null,
-  "status": "pending_review"
+  "status": "reviewed"
 }

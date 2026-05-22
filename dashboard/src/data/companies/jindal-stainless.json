@@ -547,6 +547,17 @@
         "valueStatus": "reported",
         "patchSource": "user_correction"
       },
+      "WasteIntensityPerRupeeOfTurnover": {
+        "value": 35.0119,
+        "rawValue": "35.0119",
+        "rawUnit": "MT/Crore",
+        "standardUnit": "MT/Crore",
+        "normalized": true,
+        "unitWarning": "Restated from FY2023-24 BRSR; not reported in original FY2022-23 BRSR.",
+        "dataType": "intensity",
+        "valueStatus": "reported",
+        "patchSource": "user_correction"
+      },
       "WasteRecoveredThroughRecycled": {
         "value": 773043,
         "rawValue": "773043",
