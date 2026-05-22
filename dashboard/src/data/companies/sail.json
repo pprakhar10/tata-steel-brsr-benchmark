@@ -45054,15 +45054,15 @@
         "patchSource": "XBRL-dimensional"
       },
       "TrainingCoverage_Employees_HealthSafety": {
-        "value": 32.21,
-        "rawValue": "32.21",
+        "value": 40.6,
+        "rawValue": "40.6",
         "rawUnit": "%",
         "standardUnit": "%",
         "normalized": true,
-        "unitWarning": "PDF-confirmed: 32.21% (ManualReview FY2024). Previous Phase 3c value of 40.6% was incorrect.",
+        "unitWarning": null,
         "dataType": "numeric",
         "valueStatus": "reported",
-        "patchSource": "ManualReview"
+        "patchSource": "user_correction"
       },
       "TrainingCoverage_Employees_SkillUpgradation": {
         "value": 50.04,
