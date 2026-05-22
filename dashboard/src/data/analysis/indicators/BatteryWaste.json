@@ -26,7 +26,7 @@
   },
   "trendDirection": {
     "tata": {
-      "FY2023-24": "AMBIGUOUS: FY2023 is consolidated while FY2024 is standalone",
+      "FY2023-24": "Improved",
       "FY2024-25": "Worsened"
     },
     "jsw": {
@@ -45,18 +45,18 @@
   "sections": {
     "about": "This metric measures battery waste generated under BRSR Principle 6, Essential Indicator on category-wise waste generation. Battery waste is a regulated waste stream and is relevant to EPR and authorised recycling/disposal systems. A lower value indicates better performance.",
     "performanceAndDrivers": "Tata reported the highest FY2025 battery waste at 687 MT, compared with SAIL at 512 MT, JSW at 158.57 MT and Jindal at 11.34 MT. Tata notes that e-waste, plastic waste and battery waste are accounted for at the time of disposal, so annual values can reflect disposal timing rather than only current generation. Tata also reports Battery Waste EPR registration for Jamshedpur under Battery Waste Management Rules, 2022.",
-    "tataPositioning": "Tata ranked 4th in FY2025 and reported about 5,958% more battery waste than Jindal, the best performer. Tata’s rank improved to 3rd in FY2024 but fell back to 4th in FY2025 due to a large increase from 264 MT to 687 MT.",
+    "tataPositioning": "Tata ranked 4th in FY2025 and reported about 5,958% more battery waste than Jindal, the best performer. Tata was also 4th in FY2023 at 435 MT, improved to 3rd in FY2024 at 264 MT, then worsened back to 4th in FY2025 due to an increase to 687 MT.",
     "targets": "No battery-waste-specific reduction target was identified. Tata has disclosed Battery Waste EPR registration for Jamshedpur, which is a compliance mechanism rather than a reduction target.",
-    "comparabilityNotes": "Tata accounts for battery waste at the time of disposal, which can create year-to-year timing effects. Tata Steel FY2022-23 data was not reported on a purely standalone basis but rather collectively for Tata Steel India and its Indian subsidiaries."
+    "comparabilityNotes": "Tata accounts for battery waste at the time of disposal, which can create year-to-year timing effects. Tata Steel FY2022-23 data was not reported on a purely standalone basis."
   },
   "flags": {
     "directionUnclear": false,
     "contextInsufficient": false,
     "externalSourceUsed": false,
-    "trendAmbiguity": true,
-    "flagNote": "Tata FY2023-to-FY2024 trend is ambiguous; battery waste is affected by disposal timing."
+    "trendAmbiguity": false,
+    "flagNote": null
   },
   "source": "CustomGPT",
   "userCorrection": null,
-  "status": "pending_review"
+  "status": "reviewed"
 }
