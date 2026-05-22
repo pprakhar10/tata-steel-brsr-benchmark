@@ -24059,6 +24059,17 @@
         "dataType": "numeric",
         "valueStatus": "reported",
         "patchSource": "user_correction"
+      },
+      "NumberOfDealersOrDistributorsToWhomSalesAreMade": {
+        "value": 293,
+        "rawValue": "293",
+        "rawUnit": null,
+        "standardUnit": null,
+        "normalized": true,
+        "unitWarning": "FY2022-23 prior-year comparative reported in JSW Steel's FY2023-24 BRSR.",
+        "dataType": "numeric",
+        "valueStatus": "reported",
+        "patchSource": "user_correction"
       }
     },
     "FY2024": {

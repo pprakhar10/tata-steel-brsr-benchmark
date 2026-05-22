@@ -20758,6 +20758,17 @@
         "dataType": "numeric",
         "valueStatus": "not_reported",
         "patchSource": "user_correction"
+      },
+      "NumberOfDealersOrDistributorsToWhomSalesAreMade": {
+        "value": 201,
+        "rawValue": "201",
+        "rawUnit": null,
+        "standardUnit": null,
+        "normalized": true,
+        "unitWarning": "FY2022-23 prior-year comparative reported in SAIL's FY2023-24 BRSR 'Open-ness of business' table.",
+        "dataType": "numeric",
+        "valueStatus": "reported",
+        "patchSource": "user_correction"
       }
     },
     "FY2024": {
