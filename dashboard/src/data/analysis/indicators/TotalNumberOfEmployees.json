@@ -44,10 +44,10 @@
   },
   "sections": {
     "about": "This metric measures the total number of employees disclosed at financial year-end. It falls under BRSR Section A — General Disclosures, Employees; it is not an Essential or Leadership Indicator under the principle-wise section. No direction is assigned: a larger employee base can reflect scale, legacy manpower, insourcing, or lower automation, while a smaller base can reflect productivity or outsourcing.",
-    "performanceAndDrivers": "SAIL has the largest reported employee base in FY2024-25 at 53,159, ahead of Tata Steel at 43,089, JSW at 14,353 and Jindal Stainless at 5,898. This is structurally consistent with SAIL's large public-sector integrated footprint covering integrated steel plants, special steel plants, units and operating mines on a standalone basis, while Jindal Stainless is a smaller stainless steel producer and JSW's employee base is materially lower despite large steel capacity. Tata's FY2022-23 value of 67,784 is not comparable with FY2023-24 and FY2024-25 because the table flags it as consolidated, while Tata's FY2024-25 BRSR also notes boundary changes and restatement of previous-period BRSR KPIs after mergers and revised reporting methodology.",
-    "tataPositioning": "In FY2024-25, Tata discloses 43,089 employees — second largest in the peer set, behind SAIL at 53,159. Tata moved from rank 1 in FY2022-23 to a lower disclosed count in later years, driven mainly by boundary comparability (FY2022-23 was consolidated). For management interpretation, this metric is best read alongside crude steel output, tonnes per employee, contractor intensity and automation across BF-BOF, mining, downstream and shared services.",
+    "performanceAndDrivers": "SAIL has the largest reported employee base in FY2024-25 at 53,159, ahead of Tata Steel at 43,089, JSW at 14,353 and Jindal Stainless at 5,898. This is structurally consistent with SAIL's large public-sector integrated footprint covering integrated steel plants, special steel plants, units and operating mines on a standalone basis, while Jindal Stainless is a smaller stainless steel producer and JSW's employee base is materially lower despite large steel capacity. Tata's data across all three years is reported on a consolidated basis, while all peers report standalone; cross-company comparisons therefore reflect both operational scale and reporting boundary differences. Tata's FY2024-25 BRSR also notes boundary changes and restatement of previous-period BRSR KPIs after mergers and revised reporting methodology.",
+    "tataPositioning": "In FY2024-25, Tata discloses 43,089 employees on a consolidated basis — second largest in the peer set, behind SAIL at 53,159. For management interpretation, this metric is best read alongside crude steel output, tonnes per employee, contractor intensity and automation across BF-BOF, mining, downstream and shared services.",
     "targets": null,
-    "comparabilityNotes": "Tata Steel FY2022-23 is flagged as consolidated; all other company-years in the table are standalone. Tata's FY2024-25 BRSR also notes merger-related boundary changes and restatement of BRSR KPIs, so movement from FY2022-23 to FY2023-24 should not be read as a simple workforce reduction."
+    "comparabilityNotes": "Tata Steel data is reported on a consolidated basis across all years (FY2022-23, FY2023-24 and FY2024-25), while all peers report on a standalone basis. Direct headcount comparisons between Tata and peers therefore reflect both operational scale and reporting boundary differences. Tata's FY2024-25 BRSR also notes merger-related boundary changes and restatement of BRSR KPIs."
   },
   "flags": {
     "directionUnclear": false,
@@ -58,5 +58,5 @@
   },
   "source": "CustomGPT",
   "userCorrection": null,
-  "status": "pending_review"
+  "status": "reviewed"
 }
