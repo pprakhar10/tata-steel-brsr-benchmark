@@ -46,7 +46,7 @@
     "about": "This metric captures affected workers from high-consequence injury, ill-health or fatalities. It is linked to BRSR Principle 3 safety and rehabilitation disclosures. A lower value indicates better performance.",
     "performanceAndDrivers": "Tata worsened continuously from 15 in FY23 to 20 in FY24 and 24 in FY25, making this the clearest deterioration in the dataset. Jindal improved from 3 in FY23 to 0 in FY24 and FY25. SAIL moved from 0 to 0 to 7, and JSW from 6 to 2 to 14. Tata’s worsening affected-worker count, despite falling worker fatalities, suggests non-fatal high-consequence outcomes remain elevated. This points to contractor-task controls, isolation/LOTO, height work, mobile equipment interaction, rail/road movement and shutdown risk as priority intervention zones. Tata’s FY25 six-pronged programme addresses these risk areas, but the outcome trend has not yet turned.",
     "tataPositioning": "In FY2024-25, Tata ranked 4th with 24 affected workers. Jindal led with 0; percentage gap is not meaningful and the absolute gap is 24. Tata’s rank stayed last and the trend worsened year-on-year, making this one of the most urgent worker-safety indicators for management review.",
-    "targets": "Tata states zero harm as the safety ambition. Jindal states Zero Harm and Zero LTI orientation. No metric-specific target for affected workers was identified.",
+    "targets": "Tata states zero harm as the safety ambition. Jindal states Zero Harm and Zero LTI orientation.",
     "comparabilityNotes": "Tata FY2022-23 is consolidated."
   },
   "flags": {
@@ -58,5 +58,5 @@
   },
   "source": "CustomGPT",
   "userCorrection": null,
-  "status": "pending_review"
+  "status": "reviewed"
 }
