@@ -24070,6 +24070,17 @@
         "dataType": "numeric",
         "valueStatus": "reported",
         "patchSource": "user_correction"
+      },
+      "PercentageOfInvestmentsInRelatedPartiesInTotalInvestments": {
+        "value": 99.9,
+        "rawValue": "99.9",
+        "rawUnit": "%",
+        "standardUnit": "%",
+        "normalized": true,
+        "unitWarning": "FY2022-23 prior-year comparative reported in JSW Steel's FY2023-24 BRSR.",
+        "dataType": "percentage",
+        "valueStatus": "reported",
+        "patchSource": "user_correction"
       }
     },
     "FY2024": {

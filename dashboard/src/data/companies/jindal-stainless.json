@@ -20660,6 +20660,17 @@
         "dataType": "numeric",
         "valueStatus": "reported",
         "patchSource": "user_correction"
+      },
+      "PercentageOfInvestmentsInRelatedPartiesInTotalInvestments": {
+        "value": 74,
+        "rawValue": "74",
+        "rawUnit": "%",
+        "standardUnit": "%",
+        "normalized": true,
+        "unitWarning": "FY2022-23 prior-year comparative reported in Jindal Stainless's FY2023-24 BRSR.",
+        "dataType": "percentage",
+        "valueStatus": "reported",
+        "patchSource": "user_correction"
       }
     },
     "FY2024": {
@@ -45830,15 +45841,15 @@
         "patchSource": null
       },
       "PercentageOfInvestmentsInRelatedPartiesInTotalInvestments": {
-        "value": 89,
-        "rawValue": "89.0",
-        "rawUnit": null,
+        "value": 93.04,
+        "rawValue": "93.04",
+        "rawUnit": "%",
         "standardUnit": "%",
         "normalized": true,
-        "unitWarning": "PDF-confirmed: 89%. (Excel review 2026-04-27)",
+        "unitWarning": null,
         "dataType": "percentage",
         "valueStatus": "reported",
-        "patchSource": "Excel"
+        "patchSource": "user_correction"
       },
       "PercentageOfRAndD": {
         "value": 51.98,
