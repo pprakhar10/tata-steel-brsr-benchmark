@@ -7,9 +7,9 @@
   "peerRank": {
     "FY2023": {
       "tata": 4,
-      "jsw": 4,
-      "sail": 4,
-      "jindal": 4
+      "jsw": 1,
+      "sail": 3,
+      "jindal": 1
     },
     "FY2024": {
       "tata": 4,
@@ -26,37 +26,37 @@
   },
   "trendDirection": {
     "tata": {
-      "FY2023-24": "AMBIGUOUS: FY2022-23 value not reported",
+      "FY2023-24": "Improved",
       "FY2024-25": "Worsened"
     },
     "jsw": {
-      "FY2023-24": "AMBIGUOUS: FY2022-23 value not reported",
+      "FY2023-24": "Worsened",
       "FY2024-25": "Worsened"
     },
     "sail": {
-      "FY2023-24": "AMBIGUOUS: FY2022-23 value not reported",
+      "FY2023-24": "Improved",
       "FY2024-25": "Worsened"
     },
     "jindal": {
-      "FY2023-24": "AMBIGUOUS: FY2022-23 value not reported",
+      "FY2023-24": "Stable",
       "FY2024-25": "Worsened"
     }
   },
   "sections": {
     "about": "This metric captures the number of POSH complaints upheld after inquiry, i.e., complaints where the internal process substantiated the complaint. In the BRSR framework, it is part of Principle 5, Essential Indicator 7, alongside total POSH complaints and complaints as a percentage of female employees/workers. A lower value indicates better performance.",
-    "performanceAndDrivers": "FY2022-23 upheld data is not available for any of the four companies. In FY2024, Tata reported 8 upheld complaints, JSW 1, SAIL 0 and Jindal 0; in FY2025, Tata rose to 18, JSW to 6, SAIL to 2 and Jindal to 4. The FY2025 picture therefore shows a sector-wide worsening in upheld cases, but Tata has the highest absolute number. Tata’s FY2025 BRSR confirms 18 standalone POSH complaints upheld and describes non-retaliation protections, escalation routes and SA8000-linked human rights expectations for vendors; it also states 100% of Tata Steel plants and offices in India are assessed on key human-rights issues including sexual harassment. Jindal Stainless’ FY2025 BRSR confirms 4 upheld complaints out of 5 reported POSH complaints, indicating a high substantiation ratio, and notes that three complaints were disposed of during the year while two were subsequently resolved. SAIL’s FY2024 BRSR shows 0 upheld complaints in FY2024 against 3 reported POSH complaints, after 3 upheld in FY2023 against 7 reported.",
-    "tataPositioning": "In FY2025, Tata ranks 4th with 18 POSH complaints upheld; SAIL leads with 2, so Tata is 800% higher than the best performer on raw count. Tata’s ranking did not improve across the comparable period: FY2023 is not comparable because upheld values were not reported, while Tata ranked 4th in both FY2024 and FY2025. The deterioration from 8 to 18 upheld cases is material because upheld cases indicate substantiated misconduct, not merely reporting volume. The management focus should therefore move beyond awareness and reporting access to prevention: site-level risk mapping, supervisor conduct training, IC root-cause reviews, contractor-interface controls, hotspot analysis across mines/steelworks/downstream units, and closure-quality assurance.",
+    "performanceAndDrivers": "In FY2022-23, Tata Steel reported 19 upheld complaints, SAIL reported 3, and both JSW and Jindal reported 0 (JSW had nil total POSH complaints filed that year). In FY2023-24, Tata improved to 8 upheld and SAIL dropped to 0, while JSW rose to 1 and Jindal remained at 0. In FY2024-25, Tata rose sharply to 18, JSW to 6, SAIL to 2 and Jindal to 4, indicating a sector-wide worsening in substantiated cases. Tata has the highest absolute upheld count in all three years. Tata's FY2025 BRSR confirms 18 standalone POSH complaints upheld and describes non-retaliation protections, escalation routes and SA8000-linked human rights expectations for vendors; it also states 100% of Tata Steel plants and offices in India are assessed on key human-rights issues including sexual harassment. Jindal Stainless' FY2025 BRSR confirms 4 upheld complaints out of 5 reported POSH complaints, indicating a high substantiation ratio, and notes that three complaints were disposed of during the year while two were subsequently resolved.",
+    "tataPositioning": "In FY2025, Tata ranks 4th with 18 POSH complaints upheld; SAIL leads with 2, so Tata is 800% above the best performer on raw count. Tata ranked 4th in all three years: 19 in FY2022-23, 8 in FY2023-24 (an improvement) and 18 in FY2024-25 (a sharp deterioration). The FY2023-24 improvement was meaningful, but FY2024-25 has erased it. Upheld cases indicate substantiated misconduct rather than reporting volume alone, making this deterioration material. The management focus should move beyond awareness and reporting access to prevention: site-level risk mapping, supervisor conduct training, IC root-cause reviews, contractor-interface controls, hotspot analysis across mines/steelworks/downstream units, and closure-quality assurance.",
     "targets": null,
-    "comparabilityNotes": "FY2022-23 upheld values are not available for any company, so trend analysis from FY2023 to FY2024 is ambiguous. The count is not normalised by female workforce size or complaint volume; for example, Jindal’s FY2025 upheld count of 4 out of 5 reported complaints implies a very different substantiation profile from Tata’s 18 out of 43."
+    "comparabilityNotes": "All values are on a standalone basis. Tata Steel and SAIL FY2022-23 values are prior-year comparatives reported in their respective FY2023-24 BRSRs. JSW FY2022-23 had nil total POSH complaints filed, hence zero upheld; Jindal also reported zero. The count is not normalised by female workforce size or complaint volume; for example, Jindal's FY2025 upheld count of 4 out of 5 reported complaints implies a very different substantiation profile from Tata's 18 out of 43."
   },
   "flags": {
     "directionUnclear": false,
     "contextInsufficient": false,
     "externalSourceUsed": false,
-    "trendAmbiguity": true,
-    "flagNote": "FY2022-23 upheld values are not reported for all peers, so FY2023-24 trend cannot be assessed on a like-for-like basis."
+    "trendAmbiguity": false,
+    "flagNote": null
   },
   "source": "CustomGPT",
   "userCorrection": null,
-  "status": "pending_review"
+  "status": "reviewed"
 }
