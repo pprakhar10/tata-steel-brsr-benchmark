@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import IndicatorCard from './IndicatorCard'
 
 interface Props {
@@ -9,7 +9,13 @@ interface Props {
 }
 
 export default function SubtopicGroup({ subtopic, tags, highlightedTag, activateSubTag }: Props) {
-  const [open, setOpen] = useState(true)
+  const [open, setOpen] = useState(false)
+
+  useEffect(() => {
+    if (highlightedTag !== null && tags.includes(highlightedTag)) {
+      setOpen(true)
+    }
+  }, [highlightedTag, tags])
 
   if (!subtopic) {
     return (

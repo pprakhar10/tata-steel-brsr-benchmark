@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react'
+import { useState, useMemo, useEffect } from 'react'
 import SubtopicGroup from './SubtopicGroup'
 
 interface Props {
@@ -11,6 +11,12 @@ interface Props {
 export default function TopicGroup({ topic, entries, highlightedTag, activateSubTag }: Props) {
   const hasSubtopics = entries.some(e => e.subtopic !== null)
   const [open, setOpen] = useState(hasSubtopics)
+
+  useEffect(() => {
+    if (highlightedTag !== null && entries.some(e => e.tag === highlightedTag)) {
+      setOpen(true)
+    }
+  }, [highlightedTag, entries])
 
   const subtopicGroups = useMemo(() => {
     const map = new Map<string, string[]>()
