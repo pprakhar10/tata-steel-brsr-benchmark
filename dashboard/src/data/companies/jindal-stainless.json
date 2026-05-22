@@ -20364,6 +20364,17 @@
         "valueStatus": "reported",
         "patchSource": "user_correction"
       },
+      "PercentageOfFemaleWorkers": {
+        "value": 3.20,
+        "rawValue": "3.20",
+        "rawUnit": "%",
+        "standardUnit": "%",
+        "normalized": true,
+        "unitWarning": null,
+        "dataType": "numeric",
+        "valueStatus": "reported",
+        "patchSource": "user_correction"
+      },
       "PercentageOfFemaleEmployees": {
         "value": 2.89,
         "rawValue": "2.89",
@@ -45190,6 +45201,17 @@
         "rawValue": "10721",
         "rawUnit": "count",
         "standardUnit": "count",
+        "normalized": true,
+        "unitWarning": null,
+        "dataType": "numeric",
+        "valueStatus": "reported",
+        "patchSource": "user_correction"
+      },
+      "PercentageOfFemaleWorkers": {
+        "value": 3.56,
+        "rawValue": "3.56",
+        "rawUnit": "%",
+        "standardUnit": "%",
         "normalized": true,
         "unitWarning": null,
         "dataType": "numeric",
@@ -71021,6 +71043,17 @@
         "rawValue": "13529",
         "rawUnit": "count",
         "standardUnit": "count",
+        "normalized": true,
+        "unitWarning": null,
+        "dataType": "numeric",
+        "valueStatus": "reported",
+        "patchSource": "user_correction"
+      },
+      "PercentageOfFemaleWorkers": {
+        "value": 4.48,
+        "rawValue": "4.48",
+        "rawUnit": "%",
+        "standardUnit": "%",
         "normalized": true,
         "unitWarning": null,
         "dataType": "numeric",

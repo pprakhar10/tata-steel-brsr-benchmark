@@ -117,16 +117,16 @@ export const ESG_MAP: Record<string, ESGMapEntry> = {
   // ── S: Workforce & Diversity — Headcount ─────────────────────────────────
   TotalNumberOfEmployees: { esg: 'S', topic: 'Workforce & Diversity', subtopic: 'Headcount', label: 'Total Employees', unit: 'no.', chartPattern: 'bar' },
   PercentageOfFemaleEmployees: { esg: 'S', topic: 'Workforce & Diversity', subtopic: 'Headcount', label: 'Female Employees (%)', unit: '%', chartPattern: 'bar-pct' },
+  TotalNumberOfWorkers: { esg: 'S', topic: 'Workforce & Diversity', subtopic: 'Headcount', label: 'Total Workers', unit: 'no.', chartPattern: 'bar' },
+  PercentageOfFemaleWorkers: { esg: 'S', topic: 'Workforce & Diversity', subtopic: 'Headcount', label: 'Female Workers (%)', unit: '%', chartPattern: 'bar-pct' },
   PercentageOfGrossWagesPaidToFemaleToTotalWagesPaid: { esg: 'S', topic: 'Workforce & Diversity', subtopic: 'Headcount', label: 'Female Wage %', unit: '%', chartPattern: 'bar-pct' },
 
   // ── S: Workforce & Diversity — Board ─────────────────────────────────────
   TotalNumberOfBoardOfDirectors: { esg: 'S', topic: 'Workforce & Diversity', subtopic: 'Board', label: 'Board of Directors (total)', unit: 'no.', chartPattern: 'bar' },
-  NumberOfFemaleBoardOfDirectors: { esg: 'S', topic: 'Workforce & Diversity', subtopic: 'Board', label: 'Board of Directors (female)', unit: 'no.', chartPattern: 'bar' },
   PercentageOfFemaleBoardOfDirectors: { esg: 'S', topic: 'Workforce & Diversity', subtopic: 'Board', label: 'Board of Directors (female %)', unit: '%', chartPattern: 'bar-pct' },
 
   // ── S: Workforce & Diversity — Leadership ────────────────────────────────
   TotalNumberOfKeyManagementPersonnel: { esg: 'S', topic: 'Workforce & Diversity', subtopic: 'Leadership', label: 'KMPs (total)', unit: 'no.', chartPattern: 'bar' },
-  NumberOfFemaleKeyManagementPersonnel: { esg: 'S', topic: 'Workforce & Diversity', subtopic: 'Leadership', label: 'KMPs (female)', unit: 'no.', chartPattern: 'bar' },
   PercentageOfFemaleKeyManagementPersonnel: { esg: 'S', topic: 'Workforce & Diversity', subtopic: 'Leadership', label: 'KMPs (female %)', unit: '%', chartPattern: 'bar-pct' },
 
   // ── S: Training ───────────────────────────────────────────────────────────
@@ -225,12 +225,12 @@ export const ORDERED_TAGS: string[] = [
   'NumberOfWorkersOrWhoseFamilyMembersRehabilitatedAndPlacedInSuitableEmployment',
   // S — Workforce & Diversity — Headcount
   'TotalNumberOfEmployees', 'PercentageOfFemaleEmployees',
+  'TotalNumberOfWorkers', 'PercentageOfFemaleWorkers',
   'PercentageOfGrossWagesPaidToFemaleToTotalWagesPaid',
   // S — Workforce & Diversity — Board
-  'TotalNumberOfBoardOfDirectors', 'NumberOfFemaleBoardOfDirectors', 'PercentageOfFemaleBoardOfDirectors',
+  'TotalNumberOfBoardOfDirectors', 'PercentageOfFemaleBoardOfDirectors',
   // S — Workforce & Diversity — Leadership
-  'TotalNumberOfKeyManagementPersonnel', 'NumberOfFemaleKeyManagementPersonnel',
-  'PercentageOfFemaleKeyManagementPersonnel',
+  'TotalNumberOfKeyManagementPersonnel', 'PercentageOfFemaleKeyManagementPersonnel',
   // S — Training
   'TrainingCoverage_Employees_HealthSafety', 'TrainingCoverage_Employees_SkillUpgradation',
   'TrainingCoverage_Workers_HealthSafety', 'TrainingCoverage_Workers_SkillUpgradation',

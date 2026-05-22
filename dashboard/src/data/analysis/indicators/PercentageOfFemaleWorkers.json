@@ -1,0 +1,62 @@
+{
+  "tag": "PercentageOfFemaleWorkers",
+  "label": "Percentage Female Workers",
+  "principle": "",
+  "topic": "workforce-diversity",
+  "direction": "higher_is_better",
+  "peerRank": {
+    "FY2023": {
+      "tata": 1,
+      "jsw": 4,
+      "sail": 2,
+      "jindal": 3
+    },
+    "FY2024": {
+      "tata": 2,
+      "jsw": 4,
+      "sail": 1,
+      "jindal": 3
+    },
+    "FY2025": {
+      "tata": 1,
+      "jsw": 4,
+      "sail": 2,
+      "jindal": 3
+    }
+  },
+  "trendDirection": {
+    "tata": {
+      "FY2023-24": "Improved",
+      "FY2024-25": "Improved"
+    },
+    "jsw": {
+      "FY2023-24": "Improved",
+      "FY2024-25": "Worsened"
+    },
+    "sail": {
+      "FY2023-24": "Improved",
+      "FY2024-25": "Stable"
+    },
+    "jindal": {
+      "FY2023-24": "Improved",
+      "FY2024-25": "Improved"
+    }
+  },
+  "sections": {
+    "about": "This metric measures women permanent workers as a percentage of total permanent workers. It falls under BRSR Section A — General Disclosures, Workers; it is distinct from the female employee percentage, which covers managerial and professional staff. Workers typically comprise frontline, shop-floor and operational roles. A higher value indicates broader gender inclusion across the operational workforce.",
+    "performanceAndDrivers": "Tata Steel (India entities) leads the peer set in FY2024-25 at 7.58%, with consistent improvement from 5.92% in FY2022-23 and 6.84% in FY2023-24. SAIL ranks second in FY2024-25 at 7%, and its female worker share held steady from FY2023-24 (7%) after improving from 5% in FY2022-23. Jindal Stainless shows steady improvement across all three years: 3.20% → 3.56% → 4.48%. JSW Steel stands apart with significantly lower female worker participation: 1.02% in FY2022-23, a notable rise to 2.08% in FY2023-24, but then a drop to 1.44% in FY2024-25. The structural constraint is higher for worker-grade roles than for employees — blast furnaces, coke ovens, sinter plants and heavy maintenance have historically low female participation across the industry.",
+    "tataPositioning": "In FY2024-25, Tata (India entities) ranks 1st at 7.58% — above SAIL (7.00%), Jindal (4.48%) and JSW (1.44%). Tata's female worker share has improved each year from 5.92% in FY2022-23 to 7.58% in FY2024-25, suggesting diversity programmes are reaching operational and shop-floor roles and not only corporate or managerial positions. In FY2023-24, SAIL displaced Tata for the top rank at 7.00% versus Tata's 6.84%; Tata reclaimed the lead in FY2024-25.",
+    "targets": null,
+    "comparabilityNotes": "Tata Steel data is based on Tata Steel entities in India (India operations) across all years. Female worker percentage is calculated as female permanent workers divided by total permanent workers for India entities. Peers report on a standalone basis. SAIL's figures are rounded to the nearest percentage point as disclosed."
+  },
+  "flags": {
+    "directionUnclear": false,
+    "contextInsufficient": false,
+    "externalSourceUsed": false,
+    "trendAmbiguity": false,
+    "flagNote": null
+  },
+  "source": "user_provided",
+  "userCorrection": null,
+  "status": "reviewed"
+}
