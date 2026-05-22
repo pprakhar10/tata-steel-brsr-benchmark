@@ -9,7 +9,8 @@ interface Props {
 }
 
 export default function TopicGroup({ topic, entries, highlightedTag, activateSubTag }: Props) {
-  const [open, setOpen] = useState(true)
+  const hasSubtopics = entries.some(e => e.subtopic !== null)
+  const [open, setOpen] = useState(hasSubtopics)
 
   const subtopicGroups = useMemo(() => {
     const map = new Map<string, string[]>()
