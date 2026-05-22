@@ -6,10 +6,10 @@
   "direction": "higher_is_better",
   "peerRank": {
     "FY2023": {
-      "tata": 4,
+      "tata": 3,
       "jsw": 4,
-      "sail": 4,
-      "jindal": 4
+      "sail": 1,
+      "jindal": 2
     },
     "FY2024": {
       "tata": 3,
@@ -30,24 +30,24 @@
       "FY2024-25": "Improved"
     },
     "jsw": {
-      "FY2023-24": "Improved",
+      "FY2023-24": "Stable",
       "FY2024-25": "Worsened"
     },
     "sail": {
-      "FY2023-24": "Improved",
+      "FY2023-24": "Worsened",
       "FY2024-25": "Worsened"
     },
     "jindal": {
-      "FY2023-24": "Improved",
+      "FY2023-24": "Worsened",
       "FY2024-25": "AMBIGUOUS: Jindal FY2024-25 BRSR states FY2023-24 actual was 0.03%, while prior data shows 0.30%"
     }
   },
   "sections": {
     "about": "This metric measures spending on employee and worker wellbeing measures as a percentage of total revenue. It falls under BRSR Principle 3 — Employee Well-being, Essential Indicators. A higher value indicates better performance.",
-    "performanceAndDrivers": "FY2022-23 is not available for any company. SAIL dominates the reported period at 1.46% in FY2023-24 and 1.44% in FY2024-25, far above Tata at 0.12% → 0.17%, JSW at 0.035% → 0.0253%, and Jindal at 0.30% → 0.05%. SAIL’s higher spend intensity likely reflects a large legacy workforce, township/medical ecosystem and public-sector welfare model, whereas private-sector peers may classify or centralise wellbeing costs differently. Jindal’s FY2024-25 BRSR states that the FY2023-24 value was updated because 0.03% was the actual number and 0.3% was a typo, so the Jindal trend is not clean if the prior-year value remains at 0.30%.",
-    "tataPositioning": "In FY2024-25, Tata ranks 2nd at 0.17%, but remains 88.2% below SAIL’s 1.44%. Tata improved from non-reporting in FY2022-23 to 0.12% in FY2023-24 and 0.17% in FY2024-25, lifting its rank from 4th to 3rd to 2nd. The improvement is positive, but the absolute gap to SAIL is large and may reflect both genuine welfare model differences and classification differences in what is counted as wellbeing spend.",
+    "performanceAndDrivers": "In FY2022-23, SAIL led at 1.49%, followed by Jindal at 0.20% and Tata at 0.11%; JSW did not disclose FY2022-23 data. SAIL continues to dominate in FY2023-24 at 1.44% and FY2024-25 at 1.44%, far above Tata at 0.17%, JSW at 0.035% → 0.0253%, and Jindal at 0.30% → 0.05%. SAIL’s higher spend intensity likely reflects a large legacy workforce, township/medical ecosystem and public-sector welfare model, whereas private-sector peers may classify or centralise wellbeing costs differently. Jindal’s FY2024-25 BRSR states that the FY2023-24 value was updated because 0.03% was the actual number and 0.3% was a typo, so the Jindal trend is not clean if the prior-year value remains at 0.30%.",
+    "tataPositioning": "In FY2024-25, Tata ranks 2nd at 0.17%, but remains well below SAIL’s 1.44%. Tata reported 0.11% in FY2022-23, rising to 0.17% by FY2024-25, lifting its rank from 3rd in FY2022-23 to 3rd in FY2023-24 to 2nd in FY2024-25. The improvement is positive, but the absolute gap to SAIL is large and may reflect both genuine welfare model differences and classification differences in what is counted as wellbeing spend.",
     "targets": null,
-    "comparabilityNotes": "Jindal Stainless FY2024-25 BRSR states that its FY2023-24 wellbeing-cost number was corrected to 0.03% because 0.3% was a typo; the prior data shows 0.30%, so Jindal’s FY2023-24 rank and FY2024-25 trend should be read with caution."
+    "comparabilityNotes": "FY2022-23 values for Tata (0.11%), SAIL (1.49%) and Jindal (0.2%) are prior-year comparatives reported in their respective FY2023-24 BRSRs. JSW did not disclose FY2022-23 data. Jindal Stainless FY2024-25 BRSR states that its FY2023-24 wellbeing-cost number was corrected to 0.03% because 0.3% was a typo; the prior data shows 0.30%, so Jindal’s FY2023-24 rank and FY2024-25 trend should be read with caution."
   },
   "flags": {
     "directionUnclear": false,

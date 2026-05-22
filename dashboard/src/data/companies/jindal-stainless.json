@@ -21075,15 +21075,15 @@
         "patchSource": "PDF"
       },
       "PercentageOfCostIncurredOnWellBeingMeasuresWithRespectToTotalRevenueOfTheCompany": {
-        "value": 0.3,
-        "rawValue": "0.003",
-        "rawUnit": null,
+        "value": 0.2,
+        "rawValue": "0.2",
+        "rawUnit": "%",
         "standardUnit": "%",
         "normalized": true,
-        "unitWarning": null,
+        "unitWarning": "FY2022-23 comparative reported in FY2023-24 BRSR.",
         "dataType": "percentage",
-        "valueStatus": "value",
-        "patchSource": null
+        "valueStatus": "reported",
+        "patchSource": "user_correction"
       },
       "TotalNumberOfAffectedEmployees": {
         "value": 0,

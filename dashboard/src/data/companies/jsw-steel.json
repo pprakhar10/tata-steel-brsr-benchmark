@@ -24485,15 +24485,15 @@
         "patchSource": "PDF"
       },
       "PercentageOfCostIncurredOnWellBeingMeasuresWithRespectToTotalRevenueOfTheCompany": {
-        "value": 0.035,
-        "rawValue": "0.00035",
-        "rawUnit": null,
+        "value": null,
+        "rawValue": null,
+        "rawUnit": "%",
         "standardUnit": "%",
         "normalized": true,
-        "unitWarning": "XBRL rounded to 0.04%; PDF Page 14 explicitly states 0.035%. Corrected. (Phase 3c ITEM_42)",
+        "unitWarning": "FY2022-23 not disclosed in BRSR filing.",
         "dataType": "percentage",
-        "valueStatus": "value",
-        "patchSource": "PDF"
+        "valueStatus": "not_reported",
+        "patchSource": "user_correction"
       },
       "TotalNumberOfAffectedEmployees": {
         "value": 0,
