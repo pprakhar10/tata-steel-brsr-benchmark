@@ -20682,6 +20682,17 @@
         "dataType": "percentage",
         "valueStatus": "reported",
         "patchSource": "user_correction"
+      },
+      "PercentageOfPurchasesFromRelatedPartiesInTotalPurchasesForShareOfRelatedPartyTransactions": {
+        "value": 8,
+        "rawValue": "8",
+        "rawUnit": "%",
+        "standardUnit": "%",
+        "normalized": true,
+        "unitWarning": "FY2022-23 prior-year comparative reported in Jindal Stainless's FY2023-24 BRSR.",
+        "dataType": "percentage",
+        "valueStatus": "reported",
+        "patchSource": "user_correction"
       }
     },
     "FY2024": {
@@ -45753,15 +45764,15 @@
         "patchSource": null
       },
       "PercentageOfPurchasesFromRelatedPartiesInTotalPurchasesForShareOfRelatedPartyTransactions": {
-        "value": 7,
-        "rawValue": "7.0",
-        "rawUnit": null,
+        "value": 5.11,
+        "rawValue": "5.11",
+        "rawUnit": "%",
         "standardUnit": "%",
         "normalized": true,
-        "unitWarning": "PDF-confirmed: 7%. (Excel review 2026-04-27)",
+        "unitWarning": null,
         "dataType": "percentage",
         "valueStatus": "reported",
-        "patchSource": "Excel"
+        "patchSource": "user_correction"
       },
       "AmountOfSalesToRelatedParties": {
         "value": 6391.39,

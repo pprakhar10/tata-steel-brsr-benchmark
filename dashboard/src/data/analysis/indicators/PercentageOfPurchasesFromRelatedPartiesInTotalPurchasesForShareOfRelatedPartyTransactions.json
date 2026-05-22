@@ -1,15 +1,15 @@
 {
   "tag": "PercentageOfPurchasesFromRelatedPartiesInTotalPurchasesForShareOfRelatedPartyTransactions",
-  "label": "Related Party Purchases Percentage",
+  "label": "RPT Purchases (%)",
   "principle": "BRSR Core",
   "topic": "governance-related-party",
   "direction": "lower_is_better",
   "peerRank": {
     "FY2023": {
       "tata": 4,
-      "jsw": 4,
-      "sail": 4,
-      "jindal": 4
+      "jsw": 3,
+      "sail": 1,
+      "jindal": 2
     },
     "FY2024": {
       "tata": 4,
@@ -20,43 +20,43 @@
     "FY2025": {
       "tata": 4,
       "jsw": 3,
-      "sail": 1,
-      "jindal": 2
+      "sail": 2,
+      "jindal": 1
     }
   },
   "trendDirection": {
     "tata": {
-      "FY2023-24": "Improved",
+      "FY2023-24": "Stable",
       "FY2024-25": "Improved"
     },
     "jsw": {
       "FY2023-24": "Improved",
-      "FY2024-25": "Stable"
+      "FY2024-25": "Improved"
     },
     "sail": {
       "FY2023-24": "Improved",
-      "FY2024-25": "Improved"
+      "FY2024-25": "Worsened"
     },
     "jindal": {
       "FY2023-24": "Improved",
-      "FY2024-25": "Stable"
+      "FY2024-25": "Improved"
     }
   },
   "sections": {
-    "about": "This metric measures purchases from related parties as a share of total purchases. It is a Section A “Openness of Business” related-party transaction disclosure, connected to Principle 1 governance, procurement integrity, and conflict-of-interest controls. A lower value indicates better performance.",
-    "performanceAndDrivers": "SAIL leads with the lowest RPT purchase share, moving from 6.66% in FY2024 to 6.6% in FY2025. Jindal is close at 7% in both FY2024 and FY2025, while JSW remains materially higher at 34%, and Tata is highest among peers at 40% in FY2024 and 37.78% in FY2025. Tata’s higher related-party purchase ratio likely reflects integrated group procurement linkages, captive/associated entities, utilities, shared services, raw material logistics, and downstream/upstream group arrangements. In contrast, SAIL’s standalone PSU structure, captive mines within the reporting boundary, and broader public procurement framework reduce related-party purchase concentration. SAIL’s FY2024 BRSR discloses 6.66% purchases from related parties and 0.06% sales to related parties, giving direct evidence of its low RPT operating concentration.",
-    "tataPositioning": "In FY2025, Tata ranks 4th at 37.78%, 31.18 percentage points higher than SAIL’s best-in-peer 6.6%. Tata improved from 40% in FY2024 to 37.78% in FY2025, but the gap remains significant. For internal management, the key issue is not merely reducing the ratio but demonstrating that related-party procurement is competitively priced, strategically justified, and periodically benchmarked. Tata’s ranking moved from missing disclosure in FY2023 to 4th in FY2024 and remained 4th in FY2025 despite numeric improvement.",
+    "about": "This metric measures purchases from related parties as a share of total purchases. It is a Section A 'Openness of Business' related-party transaction disclosure, connected to Principle 1 governance, procurement integrity, and conflict-of-interest controls. A lower value indicates better performance because it suggests a smaller proportion of procurement is sourced from related entities.",
+    "performanceAndDrivers": "In FY2022-23, SAIL led with the lowest share at 6.87%, followed by Jindal at 8%, JSW at 37.5%, and Tata at 40%. In FY2023-24, SAIL remained the leader at 6.66%, Jindal held at 7%, JSW improved to 34%, and Tata was stable at 40%. In FY2024-25, Jindal improved to rank 1st at 5.11%, SAIL moved to 2nd at 8.60%, JSW improved further to 30.03%, and Tata improved to 37.78%. Tata's consistently high related-party purchase ratio reflects integrated group procurement linkages, captive and associated entities, utilities, shared services, raw material logistics, and downstream or upstream group arrangements. In contrast, SAIL's standalone PSU structure, captive mines within the reporting boundary, and broader public procurement framework reduce related-party purchase concentration. Jindal's improvement in FY2025 to 5.11% is notable, placing it ahead of SAIL in the latest year.",
+    "tataPositioning": "In FY2024-25, Tata ranks 4th at 37.78%, behind Jindal at 5.11%, SAIL at 8.60%, and JSW at 30.03%. Tata has improved marginally from 40% in FY2022-23 and FY2023-24 to 37.78% in FY2024-25, but the gap to peers remains significant. For internal management, the key issue is demonstrating that related-party procurement is competitively priced, strategically justified, and periodically benchmarked against third-party alternatives. Tata's rank has been consistently 4th across all three years despite numeric improvement.",
     "targets": null,
-    "comparabilityNotes": "FY2024 and FY2025 include standardised values for some peers. Purchase concentration is structurally affected by whether captive power, logistics, raw-material handling, utilities, shared services, or group procurement entities sit inside or outside the listed entity."
+    "comparabilityNotes": "FY2022-23 values for all four companies are prior-year comparatives reported in their respective FY2023-24 BRSRs. Purchase concentration is structurally affected by whether captive power, logistics, raw-material handling, utilities, shared services, or group procurement entities sit inside or outside the listed entity's standalone reporting boundary."
   },
   "flags": {
     "directionUnclear": false,
     "contextInsufficient": false,
     "externalSourceUsed": false,
-    "trendAmbiguity": true,
-    "flagNote": "FY2023 values are missing for all companies; FY2024-to-FY2025 is the more reliable trend window."
+    "trendAmbiguity": false,
+    "flagNote": null
   },
   "source": "CustomGPT",
   "userCorrection": null,
-  "status": "pending_review"
+  "status": "reviewed"
 }

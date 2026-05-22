@@ -24092,6 +24092,17 @@
         "dataType": "percentage",
         "valueStatus": "reported",
         "patchSource": "user_correction"
+      },
+      "PercentageOfPurchasesFromRelatedPartiesInTotalPurchasesForShareOfRelatedPartyTransactions": {
+        "value": 37.5,
+        "rawValue": "37.5",
+        "rawUnit": "%",
+        "standardUnit": "%",
+        "normalized": true,
+        "unitWarning": "FY2022-23 prior-year comparative reported in JSW Steel's FY2023-24 BRSR.",
+        "dataType": "percentage",
+        "valueStatus": "reported",
+        "patchSource": "user_correction"
       }
     },
     "FY2024": {
@@ -52340,15 +52351,15 @@
         "patchSource": null
       },
       "PercentageOfPurchasesFromRelatedPartiesInTotalPurchasesForShareOfRelatedPartyTransactions": {
-        "value": 34,
-        "rawValue": "34.0",
-        "rawUnit": null,
+        "value": 30.03,
+        "rawValue": "30.03",
+        "rawUnit": "%",
         "standardUnit": "%",
         "normalized": true,
-        "unitWarning": "PDF-confirmed: 34%. (Excel review 2026-04-27)",
+        "unitWarning": null,
         "dataType": "percentage",
         "valueStatus": "reported",
-        "patchSource": "Excel"
+        "patchSource": "user_correction"
       },
       "AmountOfSalesToRelatedParties": {
         "value": 436862100000,

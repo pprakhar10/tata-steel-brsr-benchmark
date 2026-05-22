@@ -20791,6 +20791,17 @@
         "dataType": "percentage",
         "valueStatus": "reported",
         "patchSource": "user_correction"
+      },
+      "PercentageOfPurchasesFromRelatedPartiesInTotalPurchasesForShareOfRelatedPartyTransactions": {
+        "value": 6.87,
+        "rawValue": "6.87",
+        "rawUnit": "%",
+        "standardUnit": "%",
+        "normalized": true,
+        "unitWarning": "FY2022-23 prior-year comparative reported in SAIL's FY2023-24 BRSR.",
+        "dataType": "percentage",
+        "valueStatus": "reported",
+        "patchSource": "user_correction"
       }
     },
     "FY2024": {
@@ -45500,15 +45511,15 @@
         "patchSource": "PDF"
       },
       "PercentageOfPurchasesFromRelatedPartiesInTotalPurchasesForShareOfRelatedPartyTransactions": {
-        "value": 6.6,
-        "rawValue": "6.6",
-        "rawUnit": null,
+        "value": 8.6,
+        "rawValue": "8.60",
+        "rawUnit": "%",
         "standardUnit": "%",
         "normalized": true,
-        "unitWarning": "PDF-confirmed: 6.6%. (Excel review 2026-04-27)",
+        "unitWarning": null,
         "dataType": "percentage",
         "valueStatus": "reported",
-        "patchSource": "Excel"
+        "patchSource": "user_correction"
       },
       "AmountOfSalesToRelatedParties": {
         "value": 85.53,
