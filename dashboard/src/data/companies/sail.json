@@ -45131,15 +45131,15 @@
         "patchSource": "PDF"
       },
       "LTIFR_Employees": {
-        "value": 0,
-        "rawValue": "0.0",
+        "value": 0.02,
+        "rawValue": "0.02",
         "rawUnit": "per million person-hours",
         "standardUnit": "per million person-hours",
         "normalized": true,
-        "unitWarning": "LTIFR for permanent employees FY2024 (from D_Employees XBRL context). (Excel review 2026-04-27)",
+        "unitWarning": "Corrected from XBRL 0.0 to 0.02 per user review.",
         "dataType": "numeric",
-        "valueStatus": "zero",
-        "patchSource": "XBRL-dimensional"
+        "valueStatus": "reported",
+        "patchSource": "user_correction"
       },
       "LTIFR_Workers": {
         "value": 0.12,
