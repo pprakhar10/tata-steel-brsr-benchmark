@@ -136,9 +136,9 @@ export const ESG_MAP: Record<string, ESGMapEntry> = {
   TrainingCoverage_Workers_SkillUpgradation: { esg: 'S', topic: 'Training', subtopic: null, label: 'Worker Skill Training Coverage', unit: '%', chartPattern: 'bar-pct' },
 
   // ── S: Labour Practices ───────────────────────────────────────────────────
-  PercentageOfCostIncurredOnWellBeingMeasuresWithRespectToTotalRevenueOfTheCompany: { esg: 'S', topic: 'Labour Practices', subtopic: null, label: 'Wellbeing Cost (% revenue)', unit: '%', chartPattern: 'bar-pct' },
-  TotalComplaintsReportedUnderSexualHarassmentOfWomenAtWorkplace: { esg: 'S', topic: 'Labour Practices', subtopic: null, label: 'POSH Complaints (total)', unit: 'no.', chartPattern: 'bar' },
-  ComplaintsOnPOSHUpHeld: { esg: 'S', topic: 'Labour Practices', subtopic: null, label: 'POSH Complaints (upheld)', unit: 'no.', chartPattern: 'bar' },
+  PercentageOfCostIncurredOnWellBeingMeasuresWithRespectToTotalRevenueOfTheCompany: { esg: 'S', topic: 'Employee Well-being & Workplace Conduct', subtopic: null, label: 'Wellbeing Cost (% revenue)', unit: '%', chartPattern: 'bar-pct' },
+  TotalComplaintsReportedUnderSexualHarassmentOfWomenAtWorkplace: { esg: 'S', topic: 'Employee Well-being & Workplace Conduct', subtopic: null, label: 'POSH Complaints (total)', unit: 'no.', chartPattern: 'bar' },
+  ComplaintsOnPOSHUpHeld: { esg: 'S', topic: 'Employee Well-being & Workplace Conduct', subtopic: null, label: 'POSH Complaints (upheld)', unit: 'no.', chartPattern: 'bar' },
 
   // ── G: Financial Profile ──────────────────────────────────────────────────
   Turnover: { esg: 'G', topic: 'Financial Profile', subtopic: null, label: 'Turnover', unit: '₹ Cr', chartPattern: 'bar' },
