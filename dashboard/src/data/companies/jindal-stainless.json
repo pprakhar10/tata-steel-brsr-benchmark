@@ -21294,17 +21294,6 @@
         "valueStatus": "reported",
         "patchSource": "ManualReview"
       },
-      "EnergyIntensityPerRupeeOfTurnoverAdjustingForPurchasingPowerParity": {
-        "value": 20524.02,
-        "rawValue": "20524.02",
-        "rawUnit": "GJ/Crore USD",
-        "standardUnit": "GJ/Crore USD",
-        "normalized": true,
-        "unitWarning": "PDF Principle 6, El-1 confirms 20,524.02 GJ/Crore USD. (Phase 3c ITEM_21)",
-        "dataType": "intensity",
-        "valueStatus": "value",
-        "patchSource": "PDF"
-      },
       "EnergyIntensityInTermOfPhysicalOutput": {
         "value": 19.97,
         "rawValue": "19.97",
@@ -21404,17 +21393,6 @@
         "valueStatus": "reported",
         "patchSource": "ManualReview",
         "lrsEquivalent": 0.0333
-      },
-      "WaterIntensityPerRupeeOfTurnoverAdjustingForPurchasingPowerParity": {
-        "value": 7459.3908,
-        "rawValue": "7459.3908",
-        "rawUnit": "kL/Crore USD",
-        "standardUnit": "kL/Crore USD",
-        "normalized": true,
-        "unitWarning": "PDF Principle 6, El-3 confirms 7,459.39 kL/Crore USD. Consistent with Jindal's per-Crore reporting pattern. (Phase 3c ITEM_32)",
-        "dataType": "intensity",
-        "valueStatus": "value",
-        "patchSource": "PDF"
       },
       "WaterIntensityInTermOfPhysicalOutput": {
         "value": 7.2592,
@@ -21702,17 +21680,6 @@
         "valueStatus": "reported",
         "patchSource": "ManualReview"
       },
-      "TotalScope1AndScope2EmissionsIntensityPerRupeeOfTurnoverAdjustedForPurchasingPowerParity": {
-        "value": 2207.2226,
-        "rawValue": "2207.2226",
-        "rawUnit": "tCO2e/Crore USD",
-        "standardUnit": "tCO2e/Crore USD",
-        "normalized": true,
-        "unitWarning": "PDF Principle 6, El-7 confirms 2,207.22 tCO2e/Crore USD. (Phase 3c ITEM_23)",
-        "dataType": "intensity",
-        "valueStatus": "value",
-        "patchSource": "PDF"
-      },
       "TotalScope1AndScope2EmissionsIntensityInTermOfPhysicalOutput": {
         "value": 2.15,
         "rawValue": "2.15",
@@ -21833,17 +21800,6 @@
         "dataType": "intensity",
         "valueStatus": "reported",
         "patchSource": "ManualReview"
-      },
-      "WasteIntensityPerRupeeOfTurnoverAdjustingForPurchasingPowerParity": {
-        "value": 925.4218,
-        "rawValue": "925.4218",
-        "rawUnit": "MT/Crore USD",
-        "standardUnit": "MT/Crore USD",
-        "normalized": true,
-        "unitWarning": "PDF Principle 6, El-9 confirms 925.42 MT/Crore USD. (Phase 3c ITEM_28)",
-        "dataType": "intensity",
-        "valueStatus": "value",
-        "patchSource": "PDF"
       },
       "WasteIntensityInTermOfPhysicalOutput": {
         "value": 0.9006,
@@ -46082,17 +46038,6 @@
         "valueStatus": "value",
         "patchSource": "PDF"
       },
-      "EnergyIntensityPerRupeeOfTurnoverAdjustingForPurchasingPowerParity": {
-        "value": 0.001647742,
-        "rawValue": "0.001647742",
-        "rawUnit": "GJ/Rs (stored); 16,477.42 GJ/Crore INR",
-        "standardUnit": "GJ/Rs (stored); 16,477.42 GJ/Crore INR",
-        "normalized": true,
-        "unitWarning": "PDF Page 33 confirms 16,477.42 GJ/Crore INR. Our 0.00164774 × 1e7 = 16,477.4 ✓. (Phase 3c ITEM_20)",
-        "dataType": "intensity",
-        "valueStatus": "value",
-        "patchSource": "PDF"
-      },
       "EnergyIntensityInTermOfPhysicalOutput": {
         "value": 16.36,
         "rawValue": "16.36",
@@ -46192,17 +46137,6 @@
         "valueStatus": "reported",
         "patchSource": "Excel",
         "lrsEquivalent": 0.035867
-      },
-      "WaterIntensityPerRupeeOfTurnoverAdjustingForPurchasingPowerParity": {
-        "value": 0.000741006,
-        "rawValue": "0.000741006",
-        "rawUnit": "kL/Rs (stored); 7,410.06 kL/Crore USD",
-        "standardUnit": "kL/Rs (stored); 7,410.06 kL/Crore USD",
-        "normalized": true,
-        "unitWarning": "PDF Page 34 confirms 7,410.06 kL/Crore USD. Our 0.000741006 × 1e7 = 7,410.06 ✓. (Phase 3c ITEM_43)",
-        "dataType": "intensity",
-        "valueStatus": "value",
-        "patchSource": "PDF"
       },
       "WaterIntensityInTermOfPhysicalOutput": {
         "value": 7.36,
@@ -46490,17 +46424,6 @@
         "valueStatus": "value",
         "patchSource": "PDF"
       },
-      "TotalScope1AndScope2EmissionsIntensityPerRupeeOfTurnoverAdjustedForPurchasingPowerParity": {
-        "value": 0.000186041,
-        "rawValue": "0.000186041",
-        "rawUnit": "tCO2e/Rs (stored); 1,860.41 tCO2e/Crore USD",
-        "standardUnit": "tCO2e/Rs (stored); 1,860.41 tCO2e/Crore USD",
-        "normalized": true,
-        "unitWarning": "PDF Page 36 confirms 1,860.41 tCO2e/Crore USD. Our 0.000186041 × 1e7 = 1,860.41 ✓. (Phase 3c ITEM_22)",
-        "dataType": "intensity",
-        "valueStatus": "value",
-        "patchSource": "PDF"
-      },
       "TotalScope1AndScope2EmissionsIntensityInTermOfPhysicalOutput": {
         "value": 1.85,
         "rawValue": "1.85",
@@ -46618,17 +46541,6 @@
         "standardUnit": "MT/Crore",
         "normalized": true,
         "unitWarning": "PDF Page 37 confirms 48.42 MT/Crore INR. (Phase 3c ITEM_42)",
-        "dataType": "intensity",
-        "valueStatus": "value",
-        "patchSource": "PDF"
-      },
-      "WasteIntensityPerRupeeOfTurnoverAdjustingForPurchasingPowerParity": {
-        "value": 960.87,
-        "rawValue": "960.87",
-        "rawUnit": "MT/Crore USD",
-        "standardUnit": "MT/Crore USD",
-        "normalized": true,
-        "unitWarning": "PDF Page 37 confirms 960.87 MT/Crore USD. Value matches directly. (Phase 3c ITEM_26)",
         "dataType": "intensity",
         "valueStatus": "value",
         "patchSource": "PDF"

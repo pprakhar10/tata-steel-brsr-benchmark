@@ -24715,17 +24715,6 @@
         "valueStatus": "value",
         "patchSource": null
       },
-      "EnergyIntensityPerRupeeOfTurnoverAdjustingForPurchasingPowerParity": {
-        "value": 0.008679,
-        "rawValue": "0.008679",
-        "rawUnit": null,
-        "standardUnit": null,
-        "normalized": true,
-        "unitWarning": null,
-        "dataType": "intensity",
-        "valueStatus": "value",
-        "patchSource": null
-      },
       "EnergyIntensityInTermOfPhysicalOutput": {
         "value": 23.79,
         "rawValue": "23.79",
@@ -24824,17 +24813,6 @@
         "dataType": "intensity",
         "valueStatus": "value",
         "patchSource": "PDF"
-      },
-      "WaterIntensityPerRupeeOfTurnoverAdjustingForPurchasingPowerParity": {
-        "value": 0.8734,
-        "rawValue": "0.8734",
-        "rawUnit": null,
-        "standardUnit": null,
-        "normalized": true,
-        "unitWarning": null,
-        "dataType": "intensity",
-        "valueStatus": "value",
-        "patchSource": null
       },
       "WaterIntensityInTermOfPhysicalOutput": {
         "value": 2.39,
@@ -25122,17 +25100,6 @@
         "valueStatus": "value",
         "patchSource": null
       },
-      "TotalScope1AndScope2EmissionsIntensityPerRupeeOfTurnoverAdjustedForPurchasingPowerParity": {
-        "value": 0.000891,
-        "rawValue": "0.000891",
-        "rawUnit": null,
-        "standardUnit": null,
-        "normalized": true,
-        "unitWarning": null,
-        "dataType": "intensity",
-        "valueStatus": "value",
-        "patchSource": null
-      },
       "TotalScope1AndScope2EmissionsIntensityInTermOfPhysicalOutput": {
         "value": 2.44,
         "rawValue": "2.44",
@@ -25253,17 +25220,6 @@
         "dataType": "intensity",
         "valueStatus": "value",
         "patchSource": "user_correction"
-      },
-      "WasteIntensityPerRupeeOfTurnoverAdjustingForPurchasingPowerParity": {
-        "value": 0.000255,
-        "rawValue": "0.000255",
-        "rawUnit": null,
-        "standardUnit": null,
-        "normalized": true,
-        "unitWarning": null,
-        "dataType": "intensity",
-        "valueStatus": "value",
-        "patchSource": null
       },
       "WasteIntensityInTermOfPhysicalOutput": {
         "value": 0.7,
@@ -52680,17 +52636,6 @@
         "valueStatus": "value",
         "patchSource": null
       },
-      "EnergyIntensityPerRupeeOfTurnoverAdjustingForPurchasingPowerParity": {
-        "value": 0.008699,
-        "rawValue": "0.008699",
-        "rawUnit": null,
-        "standardUnit": null,
-        "normalized": true,
-        "unitWarning": null,
-        "dataType": "intensity",
-        "valueStatus": "value",
-        "patchSource": null
-      },
       "EnergyIntensityInTermOfPhysicalOutput": {
         "value": 23.547,
         "rawValue": "23.547",
@@ -52789,17 +52734,6 @@
         "dataType": "intensity",
         "valueStatus": "reported",
         "patchSource": "Excel"
-      },
-      "WaterIntensityPerRupeeOfTurnoverAdjustingForPurchasingPowerParity": {
-        "value": 0.0008753,
-        "rawValue": "0.0008753",
-        "rawUnit": null,
-        "standardUnit": null,
-        "normalized": true,
-        "unitWarning": null,
-        "dataType": "intensity",
-        "valueStatus": "value",
-        "patchSource": null
       },
       "WaterIntensityInTermOfPhysicalOutput": {
         "value": 2.369,
@@ -53087,17 +53021,6 @@
         "valueStatus": "value",
         "patchSource": null
       },
-      "TotalScope1AndScope2EmissionsIntensityPerRupeeOfTurnoverAdjustedForPurchasingPowerParity": {
-        "value": 0.00090008,
-        "rawValue": "0.00090008",
-        "rawUnit": null,
-        "standardUnit": null,
-        "normalized": true,
-        "unitWarning": null,
-        "dataType": "intensity",
-        "valueStatus": "value",
-        "patchSource": null
-      },
       "TotalScope1AndScope2EmissionsIntensityInTermOfPhysicalOutput": {
         "value": 2.436,
         "rawValue": "2.436",
@@ -53218,17 +53141,6 @@
         "dataType": "intensity",
         "valueStatus": "value",
         "patchSource": "user_correction"
-      },
-      "WasteIntensityPerRupeeOfTurnoverAdjustingForPurchasingPowerParity": {
-        "value": 0.000314,
-        "rawValue": "0.000314",
-        "rawUnit": null,
-        "standardUnit": null,
-        "normalized": true,
-        "unitWarning": null,
-        "dataType": "intensity",
-        "valueStatus": "value",
-        "patchSource": null
       },
       "WasteIntensityInTermOfPhysicalOutput": {
         "value": 0.85,
