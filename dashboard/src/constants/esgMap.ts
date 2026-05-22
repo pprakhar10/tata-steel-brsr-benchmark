@@ -11,12 +11,12 @@ export interface ESGMapEntry {
 
 export const ESG_MAP: Record<string, ESGMapEntry> = {
   // ── E: GHG Emissions ──────────────────────────────────────────────────────
-  TotalScope1Emissions: { esg: 'E', topic: 'GHG Emissions', subtopic: null, label: 'Scope 1 GHG', unit: 'tCO2e', chartPattern: 'bar' },
-  TotalScope2Emissions: { esg: 'E', topic: 'GHG Emissions', subtopic: null, label: 'Scope 2 GHG', unit: 'tCO2e', chartPattern: 'bar' },
-  TotalScope3Emissions: { esg: 'E', topic: 'GHG Emissions', subtopic: null, label: 'Scope 3 GHG', unit: 'tCO2e', chartPattern: 'bar' },
-  TotalScope1AndScope2EmissionsIntensityInTermOfPhysicalOutput: { esg: 'E', topic: 'GHG Emissions', subtopic: null, label: 'GHG Intensity (physical)', unit: 'tCO2e/tcs', chartPattern: 'line' },
-  TotalScope1AndScope2EmissionsIntensityPerRupeeOfTurnover: { esg: 'E', topic: 'GHG Emissions', subtopic: null, label: 'GHG Intensity (per ₹)', unit: 'tCO2e/₹', chartPattern: 'line' },
-  TotalScope3EmissionsPerRupeeOfTurnover: { esg: 'E', topic: 'GHG Emissions', subtopic: null, label: 'Scope 3 Intensity (per ₹)', unit: 'tCO2e/₹', chartPattern: 'line' },
+  TotalScope1Emissions: { esg: 'E', topic: 'GHG Emissions', subtopic: 'Absolute Emissions', label: 'Scope 1 GHG', unit: 'tCO2e', chartPattern: 'bar' },
+  TotalScope2Emissions: { esg: 'E', topic: 'GHG Emissions', subtopic: 'Absolute Emissions', label: 'Scope 2 GHG', unit: 'tCO2e', chartPattern: 'bar' },
+  TotalScope3Emissions: { esg: 'E', topic: 'GHG Emissions', subtopic: 'Absolute Emissions', label: 'Scope 3 GHG', unit: 'tCO2e', chartPattern: 'bar' },
+  TotalScope1AndScope2EmissionsIntensityInTermOfPhysicalOutput: { esg: 'E', topic: 'GHG Emissions', subtopic: 'Emissions Intensity', label: 'GHG Intensity (physical)', unit: 'tCO2e/tcs', chartPattern: 'line' },
+  TotalScope1AndScope2EmissionsIntensityPerRupeeOfTurnover: { esg: 'E', topic: 'GHG Emissions', subtopic: 'Emissions Intensity', label: 'GHG Intensity (per ₹)', unit: 'tCO2e/₹', chartPattern: 'line' },
+  TotalScope3EmissionsPerRupeeOfTurnover: { esg: 'E', topic: 'GHG Emissions', subtopic: 'Emissions Intensity', label: 'Scope 3 Intensity (per ₹)', unit: 'tCO2e/₹', chartPattern: 'line' },
 
   // ── E: Energy — Energy Mix ────────────────────────────────────────────────
   TotalEnergyConsumedFromRenewableAndNonRenewableSources: { esg: 'E', topic: 'Energy', subtopic: 'Energy Mix', label: 'Total Energy', unit: 'GJ', chartPattern: 'stacked' },
@@ -130,15 +130,15 @@ export const ESG_MAP: Record<string, ESGMapEntry> = {
   PercentageOfFemaleKeyManagementPersonnel: { esg: 'S', topic: 'Workforce & Diversity', subtopic: 'Leadership', label: 'KMPs (female %)', unit: '%', chartPattern: 'bar-pct' },
 
   // ── S: Training ───────────────────────────────────────────────────────────
-  TrainingCoverage_Employees_HealthSafety: { esg: 'S', topic: 'Training', subtopic: null, label: 'Employee H&S Training Coverage', unit: '%', chartPattern: 'bar-pct' },
-  TrainingCoverage_Employees_SkillUpgradation: { esg: 'S', topic: 'Training', subtopic: null, label: 'Employee Skill Training Coverage', unit: '%', chartPattern: 'bar-pct' },
-  TrainingCoverage_Workers_HealthSafety: { esg: 'S', topic: 'Training', subtopic: null, label: 'Worker H&S Training Coverage', unit: '%', chartPattern: 'bar-pct' },
-  TrainingCoverage_Workers_SkillUpgradation: { esg: 'S', topic: 'Training', subtopic: null, label: 'Worker Skill Training Coverage', unit: '%', chartPattern: 'bar-pct' },
+  TrainingCoverage_Employees_HealthSafety: { esg: 'S', topic: 'Training', subtopic: 'Health & Safety Training', label: 'Employee H&S Training Coverage', unit: '%', chartPattern: 'bar-pct' },
+  TrainingCoverage_Workers_HealthSafety: { esg: 'S', topic: 'Training', subtopic: 'Health & Safety Training', label: 'Worker H&S Training Coverage', unit: '%', chartPattern: 'bar-pct' },
+  TrainingCoverage_Employees_SkillUpgradation: { esg: 'S', topic: 'Training', subtopic: 'Skill Upgradation', label: 'Employee Skill Training Coverage', unit: '%', chartPattern: 'bar-pct' },
+  TrainingCoverage_Workers_SkillUpgradation: { esg: 'S', topic: 'Training', subtopic: 'Skill Upgradation', label: 'Worker Skill Training Coverage', unit: '%', chartPattern: 'bar-pct' },
 
   // ── S: Labour Practices ───────────────────────────────────────────────────
-  PercentageOfCostIncurredOnWellBeingMeasuresWithRespectToTotalRevenueOfTheCompany: { esg: 'S', topic: 'Employee Well-being & Workplace Conduct', subtopic: null, label: 'Wellbeing Cost (% revenue)', unit: '%', chartPattern: 'bar-pct' },
-  TotalComplaintsReportedUnderSexualHarassmentOfWomenAtWorkplace: { esg: 'S', topic: 'Employee Well-being & Workplace Conduct', subtopic: null, label: 'POSH Complaints (total)', unit: 'no.', chartPattern: 'bar' },
-  ComplaintsOnPOSHUpHeld: { esg: 'S', topic: 'Employee Well-being & Workplace Conduct', subtopic: null, label: 'POSH Complaints (upheld)', unit: 'no.', chartPattern: 'bar' },
+  PercentageOfCostIncurredOnWellBeingMeasuresWithRespectToTotalRevenueOfTheCompany: { esg: 'S', topic: 'Employee Well-being & Workplace Conduct', subtopic: 'Wellbeing Investment', label: 'Wellbeing Cost (% revenue)', unit: '%', chartPattern: 'bar-pct' },
+  TotalComplaintsReportedUnderSexualHarassmentOfWomenAtWorkplace: { esg: 'S', topic: 'Employee Well-being & Workplace Conduct', subtopic: 'POSH', label: 'POSH Complaints (total)', unit: 'no.', chartPattern: 'bar' },
+  ComplaintsOnPOSHUpHeld: { esg: 'S', topic: 'Employee Well-being & Workplace Conduct', subtopic: 'POSH', label: 'POSH Complaints (upheld)', unit: 'no.', chartPattern: 'bar' },
 
   // ── G: Financial Profile ──────────────────────────────────────────────────
   Turnover: { esg: 'G', topic: 'Financial Profile', subtopic: null, label: 'Turnover', unit: '₹ Cr', chartPattern: 'bar' },
@@ -150,22 +150,22 @@ export const ESG_MAP: Record<string, ESGMapEntry> = {
   PercentageOfRAndD: { esg: 'G', topic: 'Sustainability Investment', subtopic: null, label: 'R&D & Capex in Env/Social Technologies (%)', unit: '%', chartPattern: 'bar-pct' },
 
   // ── G: Supply Chain ───────────────────────────────────────────────────────
-  PercentageOfDirectlySourcedFromMSMEsOrSmallProducers: { esg: 'G', topic: 'Supply Chain', subtopic: null, label: 'Sourced from MSMEs (%)', unit: '%', chartPattern: 'bar-pct' },
-  PercentageOfInputsWereSourcedSustainably: { esg: 'G', topic: 'Supply Chain', subtopic: null, label: 'Inputs Sourced Sustainably (%)', unit: '%', chartPattern: 'bar-pct' },
-  PercentageOfSourcedDirectlyFromWithinTheDistrictAndNeighbouringDistricts: { esg: 'G', topic: 'Supply Chain', subtopic: null, label: 'Local Sourcing (%)', unit: '%', chartPattern: 'bar-pct' },
-  PercentageOfValueChainPartnersByValueOfBusinessDoneWithSuchPartnersThatWereAssessedForEnvironmentalImpacts: { esg: 'G', topic: 'Supply Chain', subtopic: null, label: 'Value Chain Partners — Env Assessment (%)', unit: '%', chartPattern: 'bar-pct' },
-  NumberOfTradingHousesWherePurchasesAreMade: { esg: 'G', topic: 'Supply Chain', subtopic: null, label: 'Number of Trading Houses', unit: 'no.', chartPattern: 'bar' },
+  PercentageOfDirectlySourcedFromMSMEsOrSmallProducers: { esg: 'G', topic: 'Supply Chain', subtopic: 'Sourcing', label: 'Sourced from MSMEs (%)', unit: '%', chartPattern: 'bar-pct' },
+  PercentageOfInputsWereSourcedSustainably: { esg: 'G', topic: 'Supply Chain', subtopic: 'Sourcing', label: 'Inputs Sourced Sustainably (%)', unit: '%', chartPattern: 'bar-pct' },
+  PercentageOfSourcedDirectlyFromWithinTheDistrictAndNeighbouringDistricts: { esg: 'G', topic: 'Supply Chain', subtopic: 'Sourcing', label: 'Local Sourcing (%)', unit: '%', chartPattern: 'bar-pct' },
+  PercentageOfValueChainPartnersByValueOfBusinessDoneWithSuchPartnersThatWereAssessedForEnvironmentalImpacts: { esg: 'G', topic: 'Supply Chain', subtopic: 'Assessment & Reach', label: 'Value Chain Partners — Env Assessment (%)', unit: '%', chartPattern: 'bar-pct' },
+  NumberOfTradingHousesWherePurchasesAreMade: { esg: 'G', topic: 'Supply Chain', subtopic: 'Assessment & Reach', label: 'Number of Trading Houses', unit: 'no.', chartPattern: 'bar' },
 
   // ── G: Consumer Responsibility ────────────────────────────────────────────
-  EnvironmentalAndSocialParametersRelevantToTheProductAsAPercentageToTotalTurnover: { esg: 'G', topic: 'Consumer Responsibility', subtopic: null, label: 'Products with env/social info (% turnover)', unit: '%', chartPattern: 'bar-pct' },
-  RecyclingAndOrSafeDisposalAsAPercentageToTotalTurnover: { esg: 'G', topic: 'Consumer Responsibility', subtopic: null, label: 'Products with recycling/safe disposal info (% turnover)', unit: '%', chartPattern: 'bar-pct' },
-  NumberOfDealersOrDistributorsToWhomSalesAreMade: { esg: 'G', topic: 'Consumer Responsibility', subtopic: null, label: 'Number of Dealers/Distributors', unit: 'no.', chartPattern: 'bar' },
+  EnvironmentalAndSocialParametersRelevantToTheProductAsAPercentageToTotalTurnover: { esg: 'G', topic: 'Consumer Responsibility', subtopic: 'Product Disclosure', label: 'Products with env/social info (% turnover)', unit: '%', chartPattern: 'bar-pct' },
+  RecyclingAndOrSafeDisposalAsAPercentageToTotalTurnover: { esg: 'G', topic: 'Consumer Responsibility', subtopic: 'Product Disclosure', label: 'Products with recycling/safe disposal info (% turnover)', unit: '%', chartPattern: 'bar-pct' },
+  NumberOfDealersOrDistributorsToWhomSalesAreMade: { esg: 'G', topic: 'Consumer Responsibility', subtopic: 'Distribution', label: 'Number of Dealers/Distributors', unit: 'no.', chartPattern: 'bar' },
 
   // ── G: Related Party Transactions ─────────────────────────────────────────
-  PercentageOfInvestmentsInRelatedPartiesInTotalInvestments: { esg: 'G', topic: 'Related Party Transactions', subtopic: null, label: 'RPT Investments (%)', unit: '%', chartPattern: 'bar-pct' },
-  PercentageOfLoansAndAdvancesGivenToRelatedPartiesInTotalLoansAndAdvances: { esg: 'G', topic: 'Related Party Transactions', subtopic: null, label: 'RPT Loans & Advances (%)', unit: '%', chartPattern: 'bar-pct' },
-  PercentageOfPurchasesFromRelatedPartiesInTotalPurchasesForShareOfRelatedPartyTransactions: { esg: 'G', topic: 'Related Party Transactions', subtopic: null, label: 'RPT Purchases (%)', unit: '%', chartPattern: 'bar-pct' },
-  PercentageOfSalesToRelatedPartiesInTotalSalesForShareOfRelatedPartyTransactions: { esg: 'G', topic: 'Related Party Transactions', subtopic: null, label: 'RPT Sales (%)', unit: '%', chartPattern: 'bar-pct' },
+  PercentageOfInvestmentsInRelatedPartiesInTotalInvestments: { esg: 'G', topic: 'Related Party Transactions', subtopic: 'Balance Sheet', label: 'RPT Investments (%)', unit: '%', chartPattern: 'bar-pct' },
+  PercentageOfLoansAndAdvancesGivenToRelatedPartiesInTotalLoansAndAdvances: { esg: 'G', topic: 'Related Party Transactions', subtopic: 'Balance Sheet', label: 'RPT Loans & Advances (%)', unit: '%', chartPattern: 'bar-pct' },
+  PercentageOfPurchasesFromRelatedPartiesInTotalPurchasesForShareOfRelatedPartyTransactions: { esg: 'G', topic: 'Related Party Transactions', subtopic: 'Trading', label: 'RPT Purchases (%)', unit: '%', chartPattern: 'bar-pct' },
+  PercentageOfSalesToRelatedPartiesInTotalSalesForShareOfRelatedPartyTransactions: { esg: 'G', topic: 'Related Party Transactions', subtopic: 'Trading', label: 'RPT Sales (%)', unit: '%', chartPattern: 'bar-pct' },
 
   // ── G: ESG Credits ────────────────────────────────────────────────────────
   NumberOfGreenCreditsHaveBeenGeneratedOrProcuredByTheListedEntity: { esg: 'G', topic: 'ESG Credits', subtopic: null, label: 'Green Credits Generated/Procured', unit: 'no.', chartPattern: 'bar' },
@@ -232,8 +232,8 @@ export const ORDERED_TAGS: string[] = [
   // S — Workforce & Diversity — Leadership
   'TotalNumberOfKeyManagementPersonnel', 'PercentageOfFemaleKeyManagementPersonnel',
   // S — Training
-  'TrainingCoverage_Employees_HealthSafety', 'TrainingCoverage_Employees_SkillUpgradation',
-  'TrainingCoverage_Workers_HealthSafety', 'TrainingCoverage_Workers_SkillUpgradation',
+  'TrainingCoverage_Employees_HealthSafety', 'TrainingCoverage_Workers_HealthSafety',
+  'TrainingCoverage_Employees_SkillUpgradation', 'TrainingCoverage_Workers_SkillUpgradation',
   // S — Labour Practices
   'PercentageOfCostIncurredOnWellBeingMeasuresWithRespectToTotalRevenueOfTheCompany',
   'TotalComplaintsReportedUnderSexualHarassmentOfWomenAtWorkplace', 'ComplaintsOnPOSHUpHeld',
