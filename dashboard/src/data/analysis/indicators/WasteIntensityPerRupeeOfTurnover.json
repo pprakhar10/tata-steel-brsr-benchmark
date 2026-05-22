@@ -44,9 +44,9 @@
   },
   "sections": {
     "about": "This metric measures total waste generated per rupee of turnover under BRSR Principle 6, Essential Indicator on waste intensity. It links waste generation to revenue scale and is sensitive to steel prices, product mix and value-added share. A lower value indicates better performance.",
-    "performanceAndDrivers": "Jindal led in FY2025 at 4.8416e-06 MT/₹, followed by Tata at 1.30946e-05, SAIL at 1.435e-05 and JSW at 1.5205e-05. Tata worsened from 1.19397e-05 in FY2024 but improved rank from 3rd to 2nd because JSW and SAIL worsened more. Jindal’s advantage reflects lower absolute waste relative to revenue, likely supported by stainless value mix and smaller waste footprint.",
+    "performanceAndDrivers": "Jindal led in FY2025 at 48.42 MT/Crore, followed by Tata at 130.95 MT/Crore, SAIL at 143.5 MT/Crore and JSW at 152.05 MT/Crore. Tata worsened from 119.40 MT/Crore in FY2024 but improved rank from 3rd to 2nd because JSW and SAIL worsened more. Jindal’s advantage reflects lower absolute waste relative to revenue, likely supported by stainless value mix and smaller waste footprint.",
     "tataPositioning": "Tata ranked 2nd in FY2025 and was about 170.5% higher than Jindal, the best performer. Tata’s rank improved from 3rd to 2nd, but its own intensity worsened year-on-year.",
-    "targets": "No turnover-intensity-specific target was identified. Tata, SAIL and JSL disclose broader waste-management or utilisation initiatives, but not a ₹ turnover intensity target in the retrieved extracts.",
+    "targets": null,
     "comparabilityNotes": "FY2023 values are missing for all companies; FY2025 SAIL and Jindal values are standardised. This metric is sensitive to steel price cycle and product mix, not only operational waste efficiency."
   },
   "flags": {

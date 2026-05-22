@@ -25255,15 +25255,15 @@
         "patchSource": null
       },
       "WasteIntensityPerRupeeOfTurnover": {
-        "value": 0.0000113849,
-        "rawValue": "0.0000113849",
-        "rawUnit": null,
-        "standardUnit": null,
+        "value": 113.849,
+        "rawValue": "113.849",
+        "rawUnit": "MT/Crore",
+        "standardUnit": "MT/Crore",
         "normalized": true,
         "unitWarning": null,
         "dataType": "intensity",
         "valueStatus": "value",
-        "patchSource": null
+        "patchSource": "user_correction"
       },
       "WasteIntensityPerRupeeOfTurnoverAdjustingForPurchasingPowerParity": {
         "value": 0.000255,
@@ -53242,15 +53242,15 @@
         "patchSource": null
       },
       "WasteIntensityPerRupeeOfTurnover": {
-        "value": 0.000015205,
-        "rawValue": "0.000015205",
-        "rawUnit": null,
-        "standardUnit": null,
+        "value": 152.05,
+        "rawValue": "152.05",
+        "rawUnit": "MT/Crore",
+        "standardUnit": "MT/Crore",
         "normalized": true,
         "unitWarning": null,
         "dataType": "intensity",
         "valueStatus": "value",
-        "patchSource": null
+        "patchSource": "user_correction"
       },
       "WasteIntensityPerRupeeOfTurnoverAdjustingForPurchasingPowerParity": {
         "value": 0.000314,

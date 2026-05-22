@@ -21835,12 +21835,12 @@
         "patchSource": null
       },
       "WasteIntensityPerRupeeOfTurnover": {
-        "value": 0.000004131,
+        "value": 41.3135,
         "rawValue": "41.3135",
-        "rawUnit": "MT/Crore (XBRL)",
-        "standardUnit": "MT/rupee",
+        "rawUnit": "MT/Crore",
+        "standardUnit": "MT/Crore",
         "normalized": true,
-        "unitWarning": "XBRL stored 41.3135 MT/Crore. Converted: 41.3135 / 1e7 = 4.131e-6 MT/₹.",
+        "unitWarning": "XBRL reported 41.3135 MT/Crore. Value stored as MT/Crore.",
         "dataType": "intensity",
         "valueStatus": "reported",
         "patchSource": "ManualReview"
@@ -46645,12 +46645,12 @@
         "patchSource": null
       },
       "WasteIntensityPerRupeeOfTurnover": {
-        "value": 0.0000048416,
-        "rawValue": "0.0000048416",
-        "rawUnit": "MT/Rs (stored); 48.42 MT/Crore INR",
-        "standardUnit": "MT/Rs (stored); 48.42 MT/Crore INR",
+        "value": 48.42,
+        "rawValue": "48.42",
+        "rawUnit": "MT/Crore",
+        "standardUnit": "MT/Crore",
         "normalized": true,
-        "unitWarning": "PDF Page 37 confirms 48.42 MT/Crore INR. Our 4.8416e-06 × 1e7 = 48.42 ✓. (Phase 3c ITEM_42)",
+        "unitWarning": "PDF Page 37 confirms 48.42 MT/Crore INR. (Phase 3c ITEM_42)",
         "dataType": "intensity",
         "valueStatus": "value",
         "patchSource": "PDF"
