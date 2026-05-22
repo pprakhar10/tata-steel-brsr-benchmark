@@ -26,7 +26,7 @@
   },
   "trendDirection": {
     "tata": {
-      "FY2023-24": "AMBIGUOUS: FY2022-23 is consolidated while FY2023-24 is not like-for-like",
+      "FY2023-24": "Improved",
       "FY2024-25": "Improved"
     },
     "jsw": {
@@ -44,10 +44,10 @@
   },
   "sections": {
     "about": "This metric measures women employees as a percentage of total employees. It falls under BRSR Section A — General Disclosures, Employees; it is not an Essential or Leadership Indicator under the principle-wise section. A higher value indicates better performance.",
-    "performanceAndDrivers": "Tata leads throughout the three-year period: 8.43% in FY2022-23, 8.36% in FY2023-24 and 8.90% in FY2024-25. JSW improves steadily from 5.78% to 6.71%, SAIL is broadly flat at 6.11% → 6.29% → 6.28%, and Jindal Stainless improves from a low base of 2.89% to 4.41%. The structural constraint across the peer set is the heavy-industry operating model: mining, coke ovens, sinter, blast furnaces, BOF shops, slab casters, hot strip mills and maintenance shops historically have lower female participation than corporate, R&D, digital, procurement and commercial roles. Jindal’s FY2024-25 BRSR separately reports Board/KMP women representation and its employee diversity improvement, reinforcing that the company is improving from a low base.",
-    "tataPositioning": "In FY2024-25, Tata ranks 1st at 8.90%; JSW is closest at 6.71%, which is 24.6% behind Tata. Tata’s rank has held steady at rank 1 across all three years, though FY2022-23 is consolidated and should not be treated as fully comparable. The FY2024-25 improvement is directionally positive and suggests Tata’s inclusion pipeline is stronger than peers, but absolute female participation remains low for a senior management lens.",
+    "performanceAndDrivers": "Tata leads throughout the three-year period: 6.97% in FY2022-23, 7.32% in FY2023-24 and 8.04% in FY2024-25, with a consistent improvement trend. JSW improves steadily from 5.78% to 6.71%, SAIL is broadly flat at 6.11% → 6.29% → 6.28%, and Jindal Stainless improves from a low base of 2.89% to 4.41%. The structural constraint across the peer set is the heavy-industry operating model: mining, coke ovens, sinter, blast furnaces, BOF shops, slab casters, hot strip mills and maintenance shops historically have lower female participation than corporate, R&D, digital, procurement and commercial roles. Jindal’s FY2024-25 BRSR separately reports Board/KMP women representation and its employee diversity improvement, reinforcing that the company is improving from a low base.",
+    "tataPositioning": "In FY2024-25, Tata ranks 1st at 8.04%; JSW is closest at 6.71%, which is 16.5% behind Tata. Tata’s rank has held steady at rank 1 across all three years with a consistent improvement from 6.97% in FY2022-23 to 8.04% in FY2024-25. The improvement is directionally positive and suggests Tata’s inclusion pipeline is stronger than peers, but absolute female participation remains low for a senior management lens.",
     "targets": null,
-    "comparabilityNotes": "Tata FY2022-23 is consolidated; the later Tata values are not directly comparable with that year."
+    "comparabilityNotes": "Tata Steel data is based on Tata Steel entities in India (India operations) across all years. The female employee percentage is calculated as female permanent employees divided by total permanent employees for India entities. Peers report on a standalone basis."
   },
   "flags": {
     "directionUnclear": false,
@@ -58,5 +58,5 @@
   },
   "source": "CustomGPT",
   "userCorrection": null,
-  "status": "pending_review"
+  "status": "reviewed"
 }
