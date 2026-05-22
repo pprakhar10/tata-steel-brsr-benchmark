@@ -1,14 +1,14 @@
 {
   "tag": "PercentageOfLoansAndAdvancesGivenToRelatedPartiesInTotalLoansAndAdvances",
-  "label": "Related Party Loans Percentage",
+  "label": "RPT Loans & Advances (%)",
   "principle": "BRSR Core",
   "topic": "governance-related-party",
   "direction": "lower_is_better",
   "peerRank": {
     "FY2023": {
-      "tata": 4,
-      "jsw": 4,
-      "sail": 4,
+      "tata": 2,
+      "jsw": 3,
+      "sail": 1,
       "jindal": 4
     },
     "FY2024": {
@@ -30,33 +30,33 @@
       "FY2024-25": "Improved"
     },
     "jsw": {
-      "FY2023-24": "Improved",
+      "FY2023-24": "Worsened",
       "FY2024-25": "Worsened"
     },
     "sail": {
       "FY2023-24": "Improved",
-      "FY2024-25": "Stable"
+      "FY2024-25": "Improved"
     },
     "jindal": {
-      "FY2023-24": "Improved",
+      "FY2023-24": "Stable",
       "FY2024-25": "Stable"
     }
   },
   "sections": {
-    "about": "This metric measures loans and advances given to related parties as a percentage of total loans and advances. It is a Section A “Openness of Business” / related-party governance disclosure, linked to Principle 1 governance controls and conflict-of-interest management. A lower value indicates better performance.",
-    "performanceAndDrivers": "SAIL is the clear leader in FY2024 and FY2025 at 1.15%, indicating minimal concentration of loans and advances to related parties. Tata improves materially from 62% in FY2024 to 43.62% in FY2025, while JSW and Jindal remain effectively fully related-party concentrated at 100% in FY2025. This metric is strongly driven by treasury structure: integrated steel groups often provide inter-corporate deposits, advances, guarantees, and project funding to group entities, captive power entities, mining entities, or downstream subsidiaries. SAIL’s low ratio is consistent with a more PSU-style operating model where the listed entity’s core plants, mines, and units are housed within the standalone entity, reducing the need for intercompany advances. SAIL’s BRSR also states that its related-party transaction policy governs transparency of approval and disclosures to manage conflicts of interest.",
-    "tataPositioning": "In FY2025, Tata ranks 2nd at 43.62%, but remains 42.47 percentage points behind SAIL’s 1.15%. Tata’s improvement from 62% to 43.62% is directionally positive and suggests lower concentration of loans and advances in related parties. However, the ratio is still high relative to SAIL, so Tata’s governance story should be positioned around controls: Board/Audit Committee oversight, arm’s-length terms, business rationale for group funding, and clear RPT approval trails. Tata’s ranking improved from last-ranked missing data in FY2023 to 2nd in FY2024 and held 2nd in FY2025.",
+    "about": "This metric measures loans and advances given to related parties as a percentage of total loans and advances. It is a Section A 'Openness of Business' / related-party governance disclosure, linked to Principle 1 governance controls and conflict-of-interest management. A lower value indicates better performance because it suggests a smaller proportion of the company's lending activity is concentrated within the related-party ecosystem.",
+    "performanceAndDrivers": "In FY2022-23, SAIL had the lowest share at 1.81%, followed by Tata at 80%, JSW at 99.9%, and Jindal at 100%. In FY2023-24, SAIL remained the leader at 1.15%, Tata improved to 62%, JSW held at 99.94%, and Jindal remained at 100%. In FY2024-25, SAIL improved further to 0.8%, Tata continued improving to 43.62%, while JSW and Jindal both remained at 100%. SAIL's consistently low ratio reflects a PSU-style operating model where the listed entity's core plants, mines, and units are housed within the standalone boundary, reducing the need for intercompany advances. JSW and Jindal's persistent 100% concentration reflects group treasury structures where all advances flow to related entities. Tata's declining ratio across all three years indicates an ongoing reduction in related-party loan concentration. SAIL's BRSR also states that its related-party transaction policy governs transparency of approval and disclosures to manage conflicts of interest.",
+    "tataPositioning": "In FY2024-25, Tata ranks 2nd at 43.62%, behind SAIL at 0.8%. Tata has improved consistently across all three years: 80% in FY2022-23, 62% in FY2023-24, and 43.62% in FY2024-25, reflecting a directional reduction in related-party loan concentration. Despite the improvement, Tata remains well behind SAIL. The governance positioning for Tata should highlight controls — Board/Audit Committee oversight, arm's-length terms, business rationale for group funding, and clear RPT approval trails — rather than the ratio level alone.",
     "targets": null,
-    "comparabilityNotes": "FY2023 values are missing for all companies. The denominator can vary sharply depending on whether a company has large third-party advances, project advances, employee loans, supplier advances, or intercompany loans in the reporting period."
+    "comparabilityNotes": "FY2022-23 values for all four companies are prior-year comparatives reported in their respective FY2023-24 BRSRs. The denominator can vary sharply depending on whether a company has large third-party advances, project advances, employee loans, supplier advances, or intercompany loans in the reporting period."
   },
   "flags": {
     "directionUnclear": false,
     "contextInsufficient": false,
     "externalSourceUsed": false,
-    "trendAmbiguity": true,
-    "flagNote": "FY2023-to-FY2024 movement is partly due to missing-to-reported disclosure; interpretation should focus mainly on FY2024-to-FY2025."
+    "trendAmbiguity": false,
+    "flagNote": null
   },
   "source": "CustomGPT",
   "userCorrection": null,
-  "status": "pending_review"
+  "status": "reviewed"
 }
