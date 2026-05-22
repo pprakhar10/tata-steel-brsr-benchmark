@@ -31,7 +31,10 @@ export function formatValue(vObj: ValueObject | null | undefined): string {
   if (v === 0) return '0'
   const abs = Math.abs(v)
   if (abs >= 1_000_000) return (v / 1_000_000).toFixed(1) + 'M'
-  if (abs >= 1_000) return v.toLocaleString('en-IN', { minimumFractionDigits: 1, maximumFractionDigits: 1 })
+  if (abs >= 1_000) {
+    const hasDecimal = v !== Math.floor(v)
+    return v.toLocaleString('en-IN', { minimumFractionDigits: hasDecimal ? 1 : 0, maximumFractionDigits: 1 })
+  }
   if (abs >= 0.01) return parseFloat(v.toPrecision(3)).toString()
   // Small numbers: fixed notation, 3 sig figs, no scientific notation
   const decimals = Math.min(Math.abs(Math.floor(Math.log10(abs))) + 2, 8)
