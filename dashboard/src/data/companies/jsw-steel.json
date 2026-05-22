@@ -24037,6 +24037,17 @@
         "dataType": "numeric",
         "valueStatus": "reported",
         "patchSource": "user_correction"
+      },
+      "PercentageOfCostIncurredOnWellBeingMeasuresWithRespectToTotalRevenueOfTheCompany": {
+        "value": null,
+        "rawValue": null,
+        "rawUnit": "%",
+        "standardUnit": "%",
+        "normalized": true,
+        "unitWarning": "JSW FY2022-23 wellbeing cost not disclosed.",
+        "dataType": "percentage",
+        "valueStatus": "not_reported",
+        "patchSource": "user_correction"
       }
     },
     "FY2024": {
@@ -24496,14 +24507,14 @@
         "patchSource": "PDF"
       },
       "PercentageOfCostIncurredOnWellBeingMeasuresWithRespectToTotalRevenueOfTheCompany": {
-        "value": null,
-        "rawValue": null,
+        "value": 0.035,
+        "rawValue": "0.035",
         "rawUnit": "%",
         "standardUnit": "%",
         "normalized": true,
-        "unitWarning": "FY2022-23 not disclosed in BRSR filing.",
+        "unitWarning": null,
         "dataType": "percentage",
-        "valueStatus": "not_reported",
+        "valueStatus": "reported",
         "patchSource": "user_correction"
       },
       "TotalNumberOfAffectedEmployees": {

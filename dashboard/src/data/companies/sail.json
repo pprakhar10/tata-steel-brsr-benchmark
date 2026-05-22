@@ -20736,6 +20736,17 @@
         "dataType": "numeric",
         "valueStatus": "reported",
         "patchSource": "user_correction"
+      },
+      "PercentageOfCostIncurredOnWellBeingMeasuresWithRespectToTotalRevenueOfTheCompany": {
+        "value": 1.49,
+        "rawValue": "1.49",
+        "rawUnit": "%",
+        "standardUnit": "%",
+        "normalized": true,
+        "unitWarning": "FY2022-23 prior-year comparative reported in SAIL's FY2023-24 BRSR.",
+        "dataType": "percentage",
+        "valueStatus": "reported",
+        "patchSource": "user_correction"
       }
     },
     "FY2024": {
@@ -21173,12 +21184,12 @@
         "patchSource": "PDF"
       },
       "PercentageOfCostIncurredOnWellBeingMeasuresWithRespectToTotalRevenueOfTheCompany": {
-        "value": 1.49,
-        "rawValue": "1.49",
+        "value": 1.46,
+        "rawValue": "1.46",
         "rawUnit": "%",
         "standardUnit": "%",
         "normalized": true,
-        "unitWarning": "FY2022-23 comparative reported in FY2023-24 BRSR.",
+        "unitWarning": null,
         "dataType": "percentage",
         "valueStatus": "reported",
         "patchSource": "user_correction"

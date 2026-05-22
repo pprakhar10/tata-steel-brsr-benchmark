@@ -20627,6 +20627,17 @@
         "dataType": "numeric",
         "valueStatus": "reported",
         "patchSource": "user_correction"
+      },
+      "PercentageOfCostIncurredOnWellBeingMeasuresWithRespectToTotalRevenueOfTheCompany": {
+        "value": 0.2,
+        "rawValue": "0.2",
+        "rawUnit": "%",
+        "standardUnit": "%",
+        "normalized": true,
+        "unitWarning": "FY2022-23 prior-year comparative reported in Jindal Stainless's FY2023-24 BRSR.",
+        "dataType": "percentage",
+        "valueStatus": "reported",
+        "patchSource": "user_correction"
       }
     },
     "FY2024": {
@@ -21086,12 +21097,12 @@
         "patchSource": "PDF"
       },
       "PercentageOfCostIncurredOnWellBeingMeasuresWithRespectToTotalRevenueOfTheCompany": {
-        "value": 0.2,
-        "rawValue": "0.2",
+        "value": 0.03,
+        "rawValue": "0.03",
         "rawUnit": "%",
         "standardUnit": "%",
         "normalized": true,
-        "unitWarning": "FY2022-23 comparative reported in FY2023-24 BRSR.",
+        "unitWarning": "Originally reported as 0.3% in FY2023-24 BRSR; corrected to 0.03% per FY2024-25 BRSR restatement.",
         "dataType": "percentage",
         "valueStatus": "reported",
         "patchSource": "user_correction"
