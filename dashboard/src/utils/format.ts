@@ -25,12 +25,19 @@ export function formatUnitFull(unit: string): string {
   return full ? `${full} (${unit})` : unit
 }
 
-export function formatValue(vObj: ValueObject | null | undefined): string {
+export function formatValue(vObj: ValueObject | null | undefined, forceMillions = false): string {
   if (!vObj || vObj.value == null) return '—'
   const v = vObj.value
   if (v === 0) return '0'
   const abs = Math.abs(v)
-  if (abs >= 1_000_000) return (v / 1_000_000).toFixed(1) + 'M'
+  if (abs >= 1_000_000 || forceMillions) {
+    const inM = v / 1_000_000
+    const absM = Math.abs(inM)
+    if (absM >= 10) return inM.toFixed(1) + 'M'
+    if (absM >= 1)  return inM.toFixed(2) + 'M'
+    // Small fractions of a million (e.g. 0.05M)
+    return parseFloat(inM.toPrecision(3)).toString() + 'M'
+  }
   if (abs >= 1_000) {
     const hasDecimal = v !== Math.floor(v)
     return v.toLocaleString('en-IN', { minimumFractionDigits: hasDecimal ? 1 : 0, maximumFractionDigits: 1 })

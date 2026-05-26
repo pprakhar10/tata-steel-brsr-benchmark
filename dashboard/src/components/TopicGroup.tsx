@@ -1,4 +1,4 @@
-import { useState, useMemo, useEffect } from 'react'
+import { useState, useMemo } from 'react'
 import SubtopicGroup from './SubtopicGroup'
 
 interface Props {
@@ -9,14 +9,14 @@ interface Props {
 }
 
 export default function TopicGroup({ topic, entries, highlightedTag, activateSubTag }: Props) {
-  const hasSubtopics = entries.some(e => e.subtopic !== null)
-  const [open, setOpen] = useState(hasSubtopics)
+  const [allExpanded, setAllExpanded] = useState(false)
+  const [bulkVersion, setBulkVersion] = useState(0)
 
-  useEffect(() => {
-    if (highlightedTag !== null && entries.some(e => e.tag === highlightedTag)) {
-      setOpen(true)
-    }
-  }, [highlightedTag, entries])
+  function handleBulkToggle() {
+    const next = !allExpanded
+    setAllExpanded(next)
+    setBulkVersion(v => v + 1)
+  }
 
   const subtopicGroups = useMemo(() => {
     const map = new Map<string, string[]>()
@@ -33,26 +33,28 @@ export default function TopicGroup({ topic, entries, highlightedTag, activateSub
 
   return (
     <div className="bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden">
-      <button
-        onClick={() => setOpen(o => !o)}
-        className="w-full flex items-center justify-between px-6 py-4 text-left hover:bg-gray-50 transition-colors"
-      >
+      <div className="flex items-center justify-between px-6 py-4 border-b border-gray-100">
         <h2 className="font-semibold text-gray-900 text-base">{topic}</h2>
-        <span className="text-gray-400 text-sm">{open ? '▲' : '▼'}</span>
-      </button>
-      {open && (
-        <div className="border-t border-gray-100 px-6 py-5 flex flex-col gap-8">
-          {subtopicGroups.map(({ subtopic, tags }) => (
-            <SubtopicGroup
-              key={subtopic ?? '__null__'}
-              subtopic={subtopic}
-              tags={tags}
-              highlightedTag={highlightedTag}
-              activateSubTag={activateSubTag}
-            />
-          ))}
-        </div>
-      )}
+        <button
+          onClick={handleBulkToggle}
+          className="text-xs font-medium text-indigo-600 border border-indigo-200 rounded-md px-3 py-1.5 bg-indigo-50 hover:bg-indigo-100 transition-colors shrink-0"
+        >
+          {allExpanded ? 'Minimize All' : 'Expand All'}
+        </button>
+      </div>
+      <div className="px-6 py-5 flex flex-col gap-8">
+        {subtopicGroups.map(({ subtopic, tags }) => (
+          <SubtopicGroup
+            key={subtopic ?? '__null__'}
+            subtopic={subtopic}
+            tags={tags}
+            highlightedTag={highlightedTag}
+            activateSubTag={activateSubTag}
+            allExpanded={allExpanded}
+            bulkVersion={bulkVersion}
+          />
+        ))}
+      </div>
     </div>
   )
 }

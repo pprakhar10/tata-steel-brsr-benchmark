@@ -61,7 +61,7 @@ export default function DataTable({ tag }: Props) {
                       {vObj && vObj.value != null ? (
                         <div className="flex flex-row items-center justify-end gap-2">
                           <span className="text-gray-900">
-                            {formatValue(vObj)}{isPct ? '%' : ''}
+                            {formatValue(vObj, hasMillions)}{isPct ? '%' : ''}
                           </span>
                           {rank != null && (
                             <RankBadge
@@ -82,9 +82,9 @@ export default function DataTable({ tag }: Props) {
           })}
         </tbody>
       </table>
-      {hasMillions && (
-        <p className="mt-1.5 text-xs text-gray-400">M = million</p>
-      )}
+      <p className="mt-1.5 text-xs text-gray-400">
+        {hasMillions && 'M = million  ·  '}#1–#4 = peer rank (1 = best)
+      </p>
     </div>
   )
 }

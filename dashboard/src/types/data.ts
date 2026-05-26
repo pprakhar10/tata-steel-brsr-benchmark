@@ -101,7 +101,7 @@ export type CompanyKey = 'tata' | 'jsw' | 'sail' | 'jindal'
 export const COMPANY_KEYS: CompanyKey[] = ['tata', 'jsw', 'sail', 'jindal']
 
 export const COMPANY_LABELS: Record<CompanyKey, string> = {
-  tata: 'Tata',
+  tata: 'Tata Steel',
   jsw: 'JSW',
   sail: 'SAIL',
   jindal: 'Jindal Stainless',
