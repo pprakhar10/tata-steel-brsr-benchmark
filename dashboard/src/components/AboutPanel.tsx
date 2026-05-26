@@ -94,6 +94,30 @@ export default function AboutPanel() {
       <div className="bg-white rounded-xl border border-gray-200 shadow-sm p-6 flex flex-col gap-8">
         <h3 className="font-semibold text-gray-900 text-base">How to Use</h3>
 
+        {/* 0 — Navigating the Dashboard ───────────────────────── */}
+        <div className="flex flex-col gap-4">
+          <p className="text-xs font-bold text-indigo-600 uppercase tracking-widest">Navigating the Dashboard</p>
+          <p className="text-sm text-gray-700 leading-relaxed">
+            The sidebar on the left (or the bottom bar on mobile) is how you move between sections.
+            It is divided into two parts:
+          </p>
+          <ul className="flex flex-col gap-1 text-sm text-gray-700 list-disc list-inside leading-relaxed">
+            <li><strong>E / S / G</strong> — the three ESG pillars. Each opens a full list of indicators grouped by topic and sub-topic.</li>
+            <li><strong>Search</strong> — find any indicator by name and jump to it directly.</li>
+            <li><strong>Benchmark</strong> — see where Tata Steel ranks across all 98 indicators for a selected year.</li>
+            <li><strong>How to use &amp; Help</strong> — this page.</li>
+          </ul>
+          <div className="w-40">
+            <AnnotatedImage
+              src="/screenshots/ss-sidebar.png"
+              alt="Sidebar showing E, S, G navigation and Tools section"
+              boxes={[]}
+            />
+          </div>
+        </div>
+
+        <SectionDivider />
+
         {/* A — View Insights ───────────────────────────────────── */}
         <div className="flex flex-col gap-4">
           <p className="text-xs font-bold text-indigo-600 uppercase tracking-widest">Viewing Insights</p>
@@ -114,16 +138,13 @@ export default function AboutPanel() {
               src="/screenshots/ss-insights-closed.png"
               alt="Indicator card showing the View Insights button at the bottom"
               caption='"View insights for…" button at the bottom of any indicator card'
-              boxes={[{ top: '89%', left: '1%', width: '97%', height: '8%' }]}
+              boxes={[]}
             />
             <AnnotatedImage
               src="/screenshots/ss-insights-open.png"
               alt="Insights panel open — Hide insights button at top, Comparability Notes at bottom"
               caption="The open insights panel — Comparability Notes is at the bottom"
-              boxes={[
-                { top: '0.5%', left: '0.5%', width: '98%', height: '8.5%' },
-                { top: '92%',  left: '0.5%', width: '98%', height: '7%'   },
-              ]}
+              boxes={[]}
             />
           </div>
         </div>
@@ -148,13 +169,13 @@ export default function AboutPanel() {
               src="/screenshots/ss-stacked-closed.png"
               alt="Waste indicator card in default stacked view with Breakdown dropdown visible"
               caption="The Breakdown dropdown and FY selector in the top-right corner of the card"
-              boxes={[{ top: '16%', left: '55%', width: '41%', height: '6%' }]}
+              boxes={[]}
             />
             <AnnotatedImage
               src="/screenshots/ss-stacked-open.png"
               alt="Breakdown dropdown open showing list of sub-components"
               caption="Click the dropdown to select a specific sub-component to drill into"
-              boxes={[{ top: '13%', left: '63%', width: '30%', height: '38%' }]}
+              boxes={[]}
             />
           </div>
         </div>
@@ -177,15 +198,38 @@ export default function AboutPanel() {
               src="/screenshots/ss-insights-closed.png"
               alt="Chart without tooltip — hover or tap the bar area to see values"
               caption="Hover (desktop) or tap (iPad) anywhere in the bar chart area"
-              boxes={[{ top: '18%', left: '5%', width: '89%', height: '31%' }]}
+              boxes={[]}
             />
             <AnnotatedImage
               src="/screenshots/ss-tooltip.png"
               alt="Chart with tooltip showing all four company values for FY2022-23"
               caption="Tooltip showing exact values for all four companies in that year"
-              boxes={[{ top: '22%', left: '14%', width: '50%', height: '28%' }]}
+              boxes={[]}
             />
           </div>
+        </div>
+
+        <SectionDivider />
+
+        {/* E — Search ─────────────────────────────────────────── */}
+        <div className="flex flex-col gap-4">
+          <p className="text-xs font-bold text-indigo-600 uppercase tracking-widest">Search</p>
+          <p className="text-sm text-gray-700 leading-relaxed">
+            The <strong>Search</strong> page lets you find any of the 98 indicators by name and jump
+            directly to its card in the ESG view.
+          </p>
+          <ul className="flex flex-col gap-1 text-sm text-gray-700 list-disc list-inside leading-relaxed">
+            <li>Select a <strong>financial year</strong> at the top — results will show peer ranks for that year.</li>
+            <li>Type any part of an indicator name in the search box — results update as you type.</li>
+            <li>Each result card shows the indicator name, its topic path, and the rank each company holds for the selected year.</li>
+            <li>Click any result card to jump directly to that indicator in the ESG view.</li>
+          </ul>
+          <AnnotatedImage
+            src="/screenshots/ss-search.png"
+            alt="Search page showing financial year selector at top and indicator search box below"
+            caption="Select a year, then type to filter — click any result to navigate to it"
+            boxes={[]}
+          />
         </div>
 
         <SectionDivider />
@@ -207,10 +251,7 @@ export default function AboutPanel() {
             src="/screenshots/ss-benchmark.png"
             alt="Benchmark tool showing financial year selector and rank selector"
             caption="Select a year (top) and a rank (below) to filter all 98 indicators"
-            boxes={[
-              { top: '17%', left: '32%', width: '62%', height: '12%' },
-              { top: '34%', left: '32%', width: '62%', height: '14%' },
-            ]}
+            boxes={[]}
           />
         </div>
       </div>

@@ -10,7 +10,7 @@ import AboutPanel from './components/AboutPanel'
 type ActiveView = 'E' | 'S' | 'G' | 'search' | 'benchmark' | 'about'
 
 export default function App() {
-  const [activeView, setActiveView] = useState<ActiveView>('E')
+  const [activeView, setActiveView] = useState<ActiveView>('about')
   const [highlightedTag, setHighlightedTag] = useState<string | null>(null)
   const [activateSubTag, setActivateSubTag] = useState<string | null>(null)
   const navigateToIndicator = useCallback((tag: string) => {

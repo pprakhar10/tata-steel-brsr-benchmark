@@ -14,7 +14,7 @@ const ESG_ITEMS: { view: ActiveView; label: string; desc: string }[] = [
 const TOOL_ITEMS: { view: ActiveView; label: string }[] = [
   { view: 'search', label: 'Search' },
   { view: 'benchmark', label: 'Benchmark' },
-  { view: 'about', label: 'About & Help' },
+  { view: 'about', label: 'How to use & Help' },
 ]
 
 export default function Sidebar({ activeView, onNavigate }: Props) {
