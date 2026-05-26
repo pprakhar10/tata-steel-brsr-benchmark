@@ -31,19 +31,20 @@ export default function Sidebar({ activeView, onNavigate }: Props) {
     <>
       {/* Hamburger / close button — visible only below lg */}
       <button
-        className="lg:hidden fixed top-3 left-3 z-50 w-9 h-9 flex items-center justify-center rounded-lg bg-gray-900 text-white shadow-md"
+        className="lg:hidden fixed top-3 left-3 z-50 h-9 flex items-center gap-2 px-3 rounded-lg bg-gray-900 text-white shadow-md"
         onClick={() => setOpen(o => !o)}
         aria-label={open ? 'Close navigation' : 'Open navigation'}
       >
         {open ? (
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-5 h-5">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-5 h-5 shrink-0">
             <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
           </svg>
         ) : (
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-5 h-5">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-5 h-5 shrink-0">
             <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
           </svg>
         )}
+        <span className="text-sm font-medium">Navigation</span>
       </button>
 
       {/* Backdrop — tap to close, shown when open on mobile/tablet */}
