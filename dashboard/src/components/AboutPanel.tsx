@@ -98,8 +98,7 @@ export default function AboutPanel() {
         <div className="flex flex-col gap-4">
           <p className="text-xs font-bold text-indigo-600 uppercase tracking-widest">Navigating the Dashboard</p>
           <p className="text-sm text-gray-700 leading-relaxed">
-            The sidebar on the left (or the bottom bar on mobile) is how you move between sections.
-            It is divided into two parts:
+            The sidebar is how you move between sections. It is divided into two parts:
           </p>
           <ul className="flex flex-col gap-1 text-sm text-gray-700 list-disc list-inside leading-relaxed">
             <li><strong>E / S / G</strong> — the three ESG pillars. Each opens a full list of indicators grouped by topic and sub-topic.</li>
@@ -113,6 +112,16 @@ export default function AboutPanel() {
               alt="Sidebar showing E, S, G navigation and Tools section"
               boxes={[]}
             />
+          </div>
+          <div className="p-3 rounded-lg bg-blue-50 border border-blue-100 flex items-start gap-2">
+            <span className="text-blue-500 mt-0.5 shrink-0">
+              <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M13 16h-1v-4h-1m1-4h.01M12 2a10 10 0 100 20A10 10 0 0012 2z" />
+              </svg>
+            </span>
+            <p className="text-xs text-blue-700 leading-relaxed">
+              <strong>On tablet or mobile (portrait):</strong> tap the <strong>Navigation</strong> button at the top-left of the screen to open the sidebar. Tap any section to navigate — the sidebar closes automatically. Tap the dark backdrop to dismiss without navigating.
+            </p>
           </div>
         </div>
 
