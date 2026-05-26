@@ -115,12 +115,19 @@ export default function AboutPanel() {
                     <path strokeLinecap="round" strokeLinejoin="round" d="M13 16h-1v-4h-1m1-4h.01M12 2a10 10 0 100 20A10 10 0 0012 2z" />
                   </svg>
                 </span>
-                <p className="text-xs text-blue-700 leading-relaxed">
-                  <strong>On tablet or mobile (portrait):</strong> tap the <strong>Navigation</strong> button at the top-left of the screen to open the sidebar. Tap any section to navigate — the sidebar closes automatically. Tap the dark backdrop to dismiss without navigating.
-                </p>
+                <div className="flex flex-col gap-2">
+                  <p className="text-xs text-blue-700 leading-relaxed">
+                    <strong>On tablet or mobile (portrait):</strong> tap the <strong>Navigation</strong> button at the top-left of the screen to open the sidebar. Tap any section to navigate — the sidebar closes automatically. Tap the dark backdrop to dismiss without navigating.
+                  </p>
+                  <AnnotatedImage
+                    src="/screenshots/ss-mobile-nav.jpg"
+                    alt="Navigation button and open sidebar on a tablet in portrait mode"
+                    boxes={[]}
+                  />
+                </div>
               </div>
             </div>
-            {/* Right: screenshot */}
+            {/* Right: desktop sidebar screenshot */}
             <div className="w-36 shrink-0">
               <AnnotatedImage
                 src="/screenshots/ss-sidebar.png"
